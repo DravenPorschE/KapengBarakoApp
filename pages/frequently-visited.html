@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/frequently-visited.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <main>
+            <div id="web-header">
+                <h2>Frequently Visited Services</h2>
+                <button id="back-button">
+                    <img src="/assets/foreground/arrow_back.svg">
+                    <h3>Back to Home</h3>
+                </button>
+            </div>
+            <div id="filter-options">
+                <!-- <label for="filter-select">Filter by:</label>
+                <select id="filter-select">
+                    <option value="day" default>Day</option>
+                    <option value="month">Month</option>
+                    <option value="year">Year</option>
+                </select> -->
+
+                <input type="radio" name="display_options" value="show_number" checked>
+                <label for="show_number">Show Total Number</label><br>
+                <input type="radio" name="display_options" value="show_percentage">
+                <label for="show_percentage">Show Total Percentage</label>
+            </div>
+            <ul class="data-table">
+                <li class="data-row">
+                    <div class="table-left">City Accounting Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="accounting-external-bar"></div>
+                        <p class="number-result" id="accounting-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Accounting Office Internal Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="accounting-internal-bar"></div>
+                        <p class="number-result" id="accounting-internal-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Administrator's External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="admin-external-bar"></div>
+                        <p class="number-result" id="admin-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Agriculture Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="agriculture-external-bar"></div>
+                        <p class="number-result" id="agriculture-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Assessor's Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="assessor-external-bar"></div>
+                        <p class="number-result" id="assessor-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Budget Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="budget-external-bar"></div>
+                        <p class="number-result" id="budget-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Civil Registrar's Office</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="civil-registrar-bar"></div>
+                        <p class="number-result" id="civil-registrar-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Community Affairs Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="community-affairs-external-bar"></div>
+                        <p class="number-result" id="community-affairs-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Cooperatives Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="cooperatives-external-bar"></div>
+                        <p class="number-result" id="cooperatives-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Engineering Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="engineering-external-bar"></div>
+                        <p class="number-result" id="engineering-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Environment and Natural Resources Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="environment-external-bar"></div>
+                        <p class="number-result" id="environment-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City General Services Office Internal Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="general-services-internal-bar"></div>
+                        <p class="number-result" id="general-services-internal-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Health Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="health-external-bar"></div>
+                        <p class="number-result" id="health-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Legal Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="legal-external-bar"></div>
+                        <p class="number-result" id="legal-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Legal Office Internal Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="legal-internal-bar"></div>
+                        <p class="number-result" id="legal-internal-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Mayor's Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="mayor-external-bar"></div>
+                        <p class="number-result" id="mayor-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Mayor's Office Internal Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="mayor-internal-bar"></div>
+                        <p class="number-result" id="mayor-internal-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Permits and Licensing Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="permits-external-bar"></div>
+                        <p class="number-result" id="permits-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Personnel Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="personnel-external-bar"></div>
+                        <p class="number-result" id="personnel-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Planning and Development Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="planning-external-bar"></div>
+                        <p class="number-result" id="planning-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Public Order and Safety Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="public-safety-external-bar"></div>
+                        <p class="number-result" id="public-safety-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Social Welfare and Development Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="social-welfare-external-bar"></div>
+                        <p class="number-result" id="social-welfare-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Treasurer's Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="treasurer-external-bar"></div>
+                        <p class="number-result" id="treasurer-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Treasurer's Office Internal Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="treasurer-internal-bar"></div>
+                        <p class="number-result" id="treasurer-internal-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Veterinary Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="veterinary-external-bar"></div>
+                        <p class="number-result" id="veterinary-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">Kolehiyo ng Lungsod ng Lipa External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="kll-external-bar"></div>
+                        <p class="number-result" id="kll-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">Ospital ng Lipa External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="hospital-external-bar"></div>
+                        <p class="number-result" id="hospital-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">Ospital ng Lipa Internal Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="hospital-internal-bar"></div>
+                        <p class="number-result" id="hospital-internal-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">Office of the Sangguniang Panlungsod External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="sangguniang-external-bar"></div>
+                        <p class="number-result" id="sangguniang-external-number">0</p>
+                    </div>
+                </li>
+
+                <li class="data-row">
+                    <div class="table-left">City Vice Mayor's Office External Services</div>
+                    <div class="table-right">
+                        <div class="bar-result" id="vice-mayor-external-bar"></div>
+                        <p class="number-result" id="vice-mayor-external-number">0</p>
+                    </div>
+                </li>
+
+            </ul>
+        </main>
+
+        <script src="/js/frequently-visited.js" defer></script>   
+    </body>
+</html>

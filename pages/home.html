@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kapeng Barako</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div class="bg-grid"></div>
+    <div class="bg-overlay"></div>
+
+    <img src="/assets/foreground/menu_icon.svg" id="burger"/>
+
+    <div id="home-content">
+        <div id="avatar-container">
+            <img src="/assets/foreground/avatar.png" id="avatar"/>
+        </div>
+
+        <div id="right-panel">
+            <div id="tagline-container">
+                <span class="tagline-eyebrow">Lipa City Hall</span>
+                <h1 id="tagline">You Need Any Help?</h1>
+                <div class="tagline-line"></div>
+            </div>
+
+            <div id="search-container">
+                <div id="searchbox">
+                    <input type="text" id="search-input" autocomplete="off"/>
+                    <button id="clear-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                        </svg>
+                    </button>
+                    <img src="/assets/icons/search_icon.svg" id="search-icon-left"/>
+                    <ul id="autocomplete-list"></ul>
+                </div>
+            </div>
+
+            <div id="action-container">
+                <button id="browse-all-departments">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+                        <rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
+                    </svg>
+                    View All Services
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sidebar-container">
+        <button id="close-button">&rsaquo;&rsaquo;</button>
+        <div id="sidebar">
+            <div id="sidebar-header">
+                <img src="/assets/icons/cityhall_logo.png" id="logo"/>
+                <div id="location">
+                    <h2>Lipa City Hall</h2>
+                    <h3>Marawoy, Lipa City</h3>
+                </div>
+            </div>
+            <div class="sidebar-action"><button class="sidebar-btn" onclick='window.location.href="/pages/frequently-visited.html"'>Frequently Visited</button></div>
+            <div class="sidebar-action"><button class="sidebar-btn" onclick='window.location.href="/pages/achievements.html"'>Achievements</button></div>
+            <div class="sidebar-action"><button class="sidebar-btn" onclick='window.location.href="/pages/contacts.html"'>Contacts</button></div>
+            <p class="sidebar-footer">All Rights Reserved 2026</p>
+        </div>
+    </div>
+
+    <script src="/js/home.js" defer></script>
+</body>
+</html>

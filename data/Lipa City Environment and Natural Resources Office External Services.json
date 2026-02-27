@@ -1,0 +1,272 @@
+{
+  "department": "Lipa City Environment and Natural Resources Office",
+  "external_services": [
+    {
+      "id": 1,
+      "service_name": "Addressing Complaints pertaining to Garbage Collection",
+      "image": "/assets/document_background/Addressing Complaints pertaining to Garbage Collection",
+      "office": "Lipa City Environment and Natural Resources Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All concerned citizens",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of complaint – 1 original copy or phone call/ text message",
+          "source": "Requesting party/ applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the letter of complaint/ make phone call/ send text message to Lipa City ENRO",
+          "agency_action": "1.1. Receive the letter of complaint",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Public Services Officer III / Public Services Officer IV"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.2. Verify the veracity of the complaint",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Public Services Officer III / Public Services Officer IV"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.3. Set schedule of garbage collection",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Public Services Officer III / Public Services Officer IV"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "20 minutes"
+      }
+    },
+    {
+      "id": 2,
+      "service_name": "CENRO Clearance for New and Renewal of Business Permit at BOSS",
+      "image": "/assets/document_background/CENRO Clearance for New and Renewal of Business Permit at BOSS",
+      "office": "Lipa City Environment and Natural Resources Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Business",
+      "who_may_avail": "All establishments applying for business permit to operate",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Properly filled-up business permit application form",
+          "source": "Requesting party/ applicant"
+        },
+        {
+          "requirement": "Environmental Compliance Certificate, Wastewater Discharge Permit, Permit to Operate",
+          "source": "DENR-Environmental Management Bureau"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the properly filled-up business application form",
+          "agency_action": "1.1. Receive and record business permit application",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.2. Assess fees and input in the business application form",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Public Services Officer II / III / IV"
+        },
+        {
+          "client_step": "2. Claim the signed business permit application form",
+          "agency_action": "2. Release the business permit application form",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Public Services Officer II"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "9 minutes"
+      }
+    },
+    {
+      "id": 3,
+      "service_name": "Filing of Other Environmental Complaints",
+      "image": "/assets/document_background/Filing of Other Environmental Complaints",
+      "office": "Lipa City Environment and Natural Resources Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All concerned citizens",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of complaint or 888 Report",
+          "source": "Requesting party/ applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements and wait for advice",
+          "agency_action": "1.1. Receive, record and forward",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.2. Assign personnel for verification",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City ENR Officer / Asst. City ENRO"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.3. Conduct on-site inspection",
+          "fees": "None",
+          "processing_time": "45 minutes",
+          "person_responsible": "Public Services Officer IV / III / Supervising EMS"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.4. Approve and sign the notice of violation",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "City ENR Officer"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.5. Deliver notice of violation",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Public Services Officer IV / III / Supervising EMS"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "56 minutes"
+      }
+    },
+    {
+      "id": 4,
+      "service_name": "Request for Dismissal of Anti-Littering Case",
+      "image": "/assets/document_background/Request for Dismissal of Anti-Littering Case",
+      "office": "Lipa City Environment and Natural Resources Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All Special Ordinance No. 2 violators",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Subpoena/ NBI Case Number",
+          "source": "Requesting party / Trial court"
+        },
+        {
+          "requirement": "Official Receipt",
+          "source": "Lipa City Treasurer’s Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit complete requirements",
+          "agency_action": "1.1. Receive and record Official Receipt No.",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.2. Prepare Affidavit of Desistance",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Administrative Aide IV"
+        },
+        {
+          "client_step": "2. Claim the documents",
+          "agency_action": "2. Sign and release document",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Supervising Admin Officer / Public Services Officer"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "10 minutes"
+      }
+    },
+    {
+      "id": 5,
+      "service_name": "Request for Endorsement for Cutting of Trees",
+      "image": "/assets/document_background/Request for Endorsement for Cutting of Trees",
+      "office": "Lipa City Environment and Natural Resources Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B, G2G",
+      "who_may_avail": "Business firms, government agencies, individuals and entities",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of intent, Certificate of no objection, Tax Clearance",
+          "source": "Various (Applicant, Barangay, Treasurer's)"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements",
+          "agency_action": "1.1. Receive, review and validate",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Planning Officer I"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.3. Conduct inspection and prepare report",
+          "fees": "None",
+          "processing_time": "45 minutes",
+          "person_responsible": "Planning Officer I"
+        },
+        {
+          "client_step": "2. Claim endorsement letter",
+          "agency_action": "2. Release and advice client",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Planning Officer I"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "52 minutes"
+      }
+    },
+    {
+      "id": 6,
+      "service_name": "Request for Seedlings for Tree Planting Activity",
+      "image": "/assets/document_background/Request for Seedlings for Tree Planting Activity",
+      "office": "Lipa City Environment and Natural Resources Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B, G2G",
+      "who_may_avail": "All interested individuals and agencies",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of request",
+          "source": "Requesting party/ applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirement",
+          "agency_action": "1.1. Receive and forward for approval",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide VI"
+        },
+        {
+          "client_step": "2. Claim the seedlings",
+          "agency_action": "2. Prepare and release seedlings",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Laborer"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "37 minutes"
+      }
+    }
+  ]
+}
