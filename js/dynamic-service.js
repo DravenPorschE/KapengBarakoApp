@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const documentName = document.querySelector(".document-name");
     const classInfo = document.getElementById("class-info");
     const typeInfo = document.getElementById("type-info");
+    const backBtn = document.querySelector(".back-button");
 
     const dropdownAction = document.querySelectorAll(".inner-process-info");
 
@@ -28,6 +29,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         );
     }
 
+    backBtn.addEventListener("click", () => {
+        window.history.back();
+    });
+
     if (val) {
 
         const allServices = await loadAllServices();
@@ -39,12 +44,40 @@ document.addEventListener("DOMContentLoaded", async () => {
         if (matchedService) {
 
             // ✅ Set values
-            serviceName.textContent = matchedService.service_name;
-            documentName.textContent = matchedService.department; // ← Department here
+            serviceName.textContent = matchedService.office;
+            documentName.textContent = matchedService.service_name; 
             classInfo.textContent = matchedService.classification;
             typeInfo.textContent = matchedService.type_of_transaction;
 
-            console.log("Department:", matchedService.department);
+            // Create new checklist for each requirement
+            const checklist = matchedService.checklist_of_requirements || [];
+            const checklist_container = document.querySelector(".checklist-container");
+
+            checklist.forEach((list, index) => {
+                const checklistCollection = document.createElement("div");
+                checklistCollection.className = "checklist";
+
+                // the p elements
+                let requirementNumber_p = document.createElement("p");
+                requirementNumber_p.className = "requirement-number";
+                requirementNumber_p.textContent = "#" + (index + 1);
+
+                let requirementInfo_p = document.createElement("p");
+                requirementInfo_p.className = "requirement-info";
+                requirementInfo_p.textContent = list.requirement;
+
+                let requirementSource_p = document.createElement("p");
+                requirementSource_p.className = "requirement-source";
+                requirementSource_p.textContent = list.source;
+
+                checklistCollection.appendChild(requirementNumber_p);
+                checklistCollection.appendChild(requirementInfo_p);
+                checklistCollection.appendChild(requirementSource_p);
+                checklist_container.appendChild(checklistCollection);
+            });
+            
+
+            // Create new steps
 
         } else {
             console.log("Service not found");

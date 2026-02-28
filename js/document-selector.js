@@ -75,6 +75,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 inner.appendChild(labelDiv);
                 card.appendChild(inner);
                 container.appendChild(card);
+
+                card.addEventListener("click", () => {
+                    window.location.href=`/pages/dynamic-service.html?search=${encodeURIComponent(service.service_name)}`
+                });
             });
         })
         .catch(error => console.error("Error fetching JSON data:", error));
