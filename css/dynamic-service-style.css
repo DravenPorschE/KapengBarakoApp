@@ -136,6 +136,10 @@ body {
     grid-column: 2;
 
     overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .service-label {
@@ -189,7 +193,6 @@ body {
     grid-template-columns: 10% 1fr 40%;
     gap: 12px;
 
-    border-bottom: 1px solid #aaa;
     text-align: center;
 }
 .checklist-container {
@@ -225,135 +228,156 @@ body {
 }
 
 .process-info {
-    padding: 20px;
+    padding: 20px 40px;
 
     font-size: 20px;
     font-family: 'RussoOne';
     font-weight: lighter;
-
-    display: flex;
-    flex-direction: column;
 }
 .process-container {
-    display: flex;
-    flex-direction: column;
-}
-.process-number {
-    grid-column: 1;
-
-    border-radius: 100%;
-    background-color: black;
-    color: white;
-
-    font-family: 'RussoOne';
-    font-size: var(--normal-text-size);
-
-    padding: 10px;
-
-    width: 15px;
-    height: 15px;
-
-    align-items: center;
-    justify-items: center;
-
-    text-align: center;
-}
-.process-info {
-    grid-column: 2;
-}
-.dropdown-icon {
-    grid-column: 3;
-    width: 30px;
-    height: auto;
-}
-
-.inner-process-info {
-    
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-
-    align-items: center;
-
-    cursor: pointer;
-}
-.inner-process {
-    display: block;
-}
-.inner-process.show {
-    display: none;
-}
-.process-collection {
-    display: grid;
-    grid-template-columns: 10% 1fr auto;
-
-    font-size: 18px;
-    width: 95%;
-
-    gap: 10px;
+    padding: 20px;
+    border-radius: 15px;
 
     background-color: white;
 
-    height: auto;
-
-    align-items: center;
-    justify-self: right;
-    border-radius: 15px;
-}
-.process-num, .process-description, .other-info {padding: 10px;}
-.process-num {
-    grid-column: 1;
-    font-size: var(--normal-text-size);
-
-    background-color: #c41111;
-
-    height: 100%;
-
-    margin: 0;
-    padding: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 15px 0 0 15px;
-
-    color: white;
-}
-.process-description {
-    grid-column: 2;
-    font-size: 15px;
-}
-.other-info {
-    grid-column: 3;
     display: flex;
     flex-direction: column;
-    flex-grow: 0;
+}
+.client-step-container {
+    display: grid;
+    grid-template-columns: 10% 1fr auto;
+    gap: 15px;
 
-    text-align: left;
+    justify-items: center;
 
+    align-items: center;
+
+    width: 100%;
+    cursor: pointer;
+}
+.checklist-container {
+    padding: 20px;
+}
+.checkbox {
+    width: 50px;
+    height: 50px;
+
+    border: 2px solid rgb(160, 0, 0);
+
+    border-radius: 15px;
+
+}
+.step-container {
+    justify-self: left;
+}
+.step-number {
     font-size: 13px;
-
-    padding: 0 20px 0 0;
-    margin: 0;
-}
-.process-time {
-    background-color: #c8a96e;
-    padding: 5px;
-    text-align: center;
-}
-.process-fee {
-    background-color: #6de48033;
-    padding: 5px;
-    text-align: center;
-}
-.responsible {
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #aaa;
     margin-bottom: 10px;
-    margin-top: 20px;
-    word-break: break-word;
+    /* margin-top: 20px; */
+    margin-bottom: -13px;
 }
-.other-info p:not(:first-child) {
-    margin-top: -5px;
+.client-step-info {
+    font-size: 20px;
+}
+.step-arrow {
+    width: 30px;
+    height: auto;
+}
+.step-arrow {
+    transition: transform 0.3s ease;
+}
+
+.client-step-container.active .step-arrow {
+    transform: rotate(90deg);
+}
+.agency-action-container {
+    display: flex;
+    gap: 10px;
+
+    flex-direction: column;
+    
+    border-top: 1px solid #aaa;
+}
+.agency-action-container.show {
+    display: none;
+}
+.agency-action {
+    display: grid;
+    grid-template-columns: 10% 1fr auto;
+    gap: 10px;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+}
+.action-info {
+    font-size: 17px;
+}
+.action-responsible {
+    display: grid;
+    grid-template-rows: 1fr auto;
+
+    align-items: center;
+
+    
+}
+.action-role {
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    color: #aaa;
+    margin-top: -10px;
+}
+.agency-step {
+    background-color: #dc1212;
+
+    font-size: 15px;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    border-radius: 15px 0 0 15px;
+}
+.other-info {
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+
+    border-left: 2px solid rgb(202, 202, 202);
+}
+.other-info p {
+    background-color: rgb(202, 173, 4);
+    padding: 5px;  
+}
+.checkbox {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(160, 0, 0);
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.checkbox.checked {
+    background-color: #dc1212;
+}
+
+/* checkmark */
+.checkbox.checked::after {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 8px;
+    width: 12px;
+    height: 22px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    transform: rotate(45deg);
 }
