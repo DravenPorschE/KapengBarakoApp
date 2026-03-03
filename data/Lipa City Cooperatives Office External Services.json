@@ -1,0 +1,214 @@
+{
+    "department": "Lipa City Cooperatives Office",
+    "external_services": [
+      {
+        "id": 1,
+        "service_name": "Application for Accreditation as Suppliers of the Pasalubong Center",
+        "image": "/assets/document_background/Application for Accreditation as Suppliers of the Pasalubong Center",
+        "office": "Lipa City Cooperatives Office – Pasalubong Center",
+        "classification": "Simple",
+        "type_of_transaction": "G2C, G2B",
+        "who_may_avail": ["Cooperatives", "MSMEs"],
+        "checklist_of_requirements": [
+          { "requirement": "1 original copy of Properly filled-up application form", "source": "City Cooperatives Office" },
+          { "requirement": "1 original copy of Consignment Agreement Form", "source": "City Cooperatives Office" },
+          { "requirement": "1 original copy of List of Products", "source": "Interested applicant cooperative" }
+        ],
+        "steps": [
+          { "client_step": "Submit application form", "agency_action": "Receive and approve application", "fees": "None", "time": "30 minutes", "responsible": "City Cooperatives Officer" },
+          { "client_step": "Present list of products", "agency_action": "Receive and file list", "fees": "None", "time": "30 minutes", "responsible": "Supervising Cooperative Development Specialist" },
+          { "client_step": "Fill-out Consignment Agreement Form", "agency_action": "Receive and file form", "fees": "None", "time": "30 minutes", "responsible": "Supervising Cooperative Development Specialist / Admin Aide II" },
+          { "client_step": "Endorse products to Pasalubong Center", "agency_action": "Accept products", "fees": "None", "time": "1 hour", "responsible": "Administrative Aide III" }
+        ],
+        "total": { "fees": "None", "time": "2 hours and 30 minutes" }
+      },
+      {
+        "id": 2,
+        "service_name": "Application for Cooperative Loan",
+        "image": "/assets/document_background/Application for Cooperative Loan",
+        "office": "Lipa City Cooperatives Office",
+        "classification": "Highly technical",
+        "type_of_transaction": "G2B",
+        "who_may_avail": ["Registered operating cooperatives"],
+        "checklist_of_requirements": [
+          { "requirement": "GA Resolution for intent to borrow", "source": "Applicant cooperative" },
+          { "requirement": "Certificate of Registration", "source": "Applicant cooperative" },
+          { "requirement": "Latest audited financial statements", "source": "Applicant cooperative" },
+          { "requirement": "Promissory note", "source": "Applicant cooperative / Lipa City Cooperatives Office" }
+        ],
+        "steps": [
+          { "client_step": "Submit approved BOD/GA Resolution", "agency_action": "Receive Resolution", "fees": "None", "time": "15 minutes", "responsible": "City Mayor / City Cooperatives Officer" },
+          { "client_step": "File loan application and requirements", "agency_action": "Initial evaluation, Credit Investigation, Project Proposal preparation", "fees": "None", "time": "18 days", "responsible": "Senior/Supervising CDS, Project Dev Assistant" },
+          { "client_step": "Claim the check", "agency_action": "Award the check", "fees": "None", "time": "1 hour", "responsible": "City Cooperatives Officer" }
+        ],
+        "total": { "fees": "None", "time": "18 days, 4 hours and 45 minutes" }
+      },
+      {
+        "id": 3,
+        "service_name": "Participation in Cooperative Month Celebration",
+        "image": "/assets/document_background/Participation in Cooperative Month Celebration",
+        "office": "Lipa City Cooperatives Office",
+        "classification": "Simple",
+        "type_of_transaction": "G2B",
+        "who_may_avail": ["All participating cooperatives"],
+        "checklist_of_requirements": [
+          { "requirement": "Accomplished participation form", "source": "Lipa City Cooperatives Office" },
+          { "requirement": "Confirmation slip", "source": "Lipa City Cooperatives Office" }
+        ],
+        "steps": [
+          { "client_step": "Submit confirmation slip and participation form", "agency_action": "Collect slips", "fees": "None", "time": "2 days", "responsible": "CDS I / Project Development Assistant" },
+          { "client_step": "Participate in activities", "agency_action": "Facilitate activities", "fees": "None", "time": "1 day", "responsible": "Supervising/Senior CDS" }
+        ],
+        "total": { "fees": "None", "time": "3 days" }
+      },
+      {
+        "id": 4,
+        "service_name": "Request for the Conduct of Cooperative Advanced or Specialized Training Courses",
+        "image": "/assets/document_background/Request for the Conduct of Cooperative Advanced or Specialized Training",
+        "office": "Lipa City Cooperatives Office",
+        "classification": "Highly technical",
+        "type_of_transaction": "G2B",
+        "who_may_avail": ["All existing cooperatives"],
+        "checklist_of_requirements": [
+          { "requirement": "Accomplished technical service request form", "source": "Lipa City Cooperatives Office" },
+          { "requirement": "Confirmation slip", "source": "Lipa City Cooperatives Office" }
+        ],
+        "steps": [
+          { "client_step": "File technical service request form", "agency_action": "Approve request and prepare work program", "fees": "None", "time": "2 days, 30 minutes", "responsible": "City Cooperative Officer / Supervising CDS" },
+          { "client_step": "Confirm attendance", "agency_action": "Collect confirmation slips", "fees": "None", "time": "1 day", "responsible": "Senior CDS" },
+          { "client_step": "Attend scheduled trainings", "agency_action": "Facilitate conduct of seminars", "fees": "None", "time": "3 days", "responsible": "Supervising CDS / Senior CDS" }
+        ],
+        "total": { "fees": "None", "time": "6 days and 30 minutes" }
+      },
+      {
+        "id": 5,
+        "service_name": "Request for Conduct of Cooperative Orientation Seminar",
+        "image": "/assets/document_background/Request for Conduct of Cooperative Orientation Seminar",
+        "office": "Lipa City Cooperatives Office",
+        "classification": "Simple",
+        "type_of_transaction": "G2C",
+        "who_may_avail": ["All prospective members"],
+        "checklist_of_requirements": [
+          { "requirement": "Letter of request", "source": "Requesting party / Applicant" }
+        ],
+        "steps": [
+          { "client_step": "File technical service request form", "agency_action": "Approve request", "fees": "None", "time": "30 minutes", "responsible": "City Cooperative Officer" },
+          { "client_step": "Attend Orientation Seminar", "agency_action": "Facilitate seminar and award certificate", "fees": "None", "time": "3 hours 10 minutes", "responsible": "Senior CDS / Project Development Assistant" }
+        ],
+        "total": { "fees": "None", "time": "3 hours and 40 minutes" }
+      },
+      {
+        "id": 6,
+        "service_name": "Request for the Conduct of Pre-Registration Seminar (PRS)",
+        "image": "/assets/document_background/Request for the Conduct of Pre-Registration Seminar (PRS)",
+        "office": "Lipa City Cooperatives Office",
+        "classification": "Simple",
+        "type_of_transaction": "G2C",
+        "who_may_avail": ["Prospective individuals forming a cooperative"],
+        "checklist_of_requirements": [
+          { "requirement": "Letter of request", "source": "Requesting party / Applicant" }
+        ],
+        "total": { "fees": "None", "time": "1 day, 1 hour and 10 minutes" }
+      },
+      {
+        "id": 7,
+        "service_name": "Request for the Conduct of Cooperative Refresher Courses and Hands-on Trainings",
+        "image": "/assets/document_background/Request for the Conduct of Cooperative Refresher Courses and Hands-on",
+        "office": "Lipa City Cooperatives Office",
+        "classification": "Highly technical",
+        "type_of_transaction": "G2B",
+        "who_may_avail": ["All existing cooperatives"],
+        "checklist_of_requirements": [
+          { "requirement": "Accomplished technical service request form", "source": "Lipa City Cooperatives Office" },
+          { "requirement": "Confirmation slip", "source": "Lipa City Cooperatives Office" }
+        ],
+        "total": { "fees": "None", "time": "1 day and 40 minutes" }
+      },
+      {
+        "id": 8,
+        "service_name": "Request for the Conduct of Pre-Membership Education Seminar",
+        "image": "/assets/document_background/Request for the Conduct of Pre-Membership Education Seminar",
+        "office": "Lipa City Cooperatives Office",
+        "classification": "Simple",
+        "type_of_transaction": "G2C",
+        "who_may_avail": ["All prospective members"],
+        "checklist_of_requirements": [
+          { "requirement": "Accomplished technical service request form", "source": "Lipa City Cooperatives Office" },
+          { "requirement": "Confirmation slip", "source": "Lipa City Cooperatives Office" }
+        ],
+        "total": { "fees": "None", "time": "2 days and 50 minutes" }
+      },
+      {
+        "id": 9,
+        "service_name": "Request for Technical Assistance in the Preparation of Registration Documents",
+        "image": "/assets/document_background/Request for Technical Assistance in the Preparation of Registration",
+        "office": "Lipa City Cooperatives Office",
+        "classification": "Highly technical",
+        "type_of_transaction": "G2B",
+        "who_may_avail": ["All existing cooperatives"],
+        "checklist_of_requirements": [
+          { "requirement": "Accomplished technical service request form", "source": "Lipa City Cooperatives Office" },
+          { "requirement": "Articles of Cooperation", "source": "Lipa City Cooperatives Office or Cooperative Development Authority" },
+          { "requirement": "By Laws", "source": "Website - www.cda.gov.ph" },
+          { "requirement": "Organizational Structure", "source": "Forms" },
+          { "requirement": "Economic survey", "source": "www.cda.gov.ph" },
+          { "requirement": "Surety bond of accountable officers", "source": "Insurance Company" },
+          { "requirement": "Treasurer’s affidavit", "source": "Cooperative’s Treasurer" },
+          { "requirement": "Certification that the initial cooperators had undergone pre-registration seminar", "source": "Lipa City Cooperatives Office" }
+        ],
+        "total": { "fees": "None", "time": "8 days and 1 hour" }
+      },
+      {
+        "id": 10,
+        "service_name": "Request for Technical Support Services through the Packaging Center",
+       "image": "/assets/document_background/Request for Technical Support Services through the Packaging Center",  
+        "office": "Lipa City Cooperatives Office",
+        "classification": "Simple",
+        "type_of_transaction": "G2B",
+        "who_may_avail": ["Cooperatives", "MSMEs", "Students"],
+        "checklist_of_requirements": [
+          { "requirement": "Accomplished technical service request form", "source": "Lipa City Cooperatives Office" }
+        ],
+        "fee_schedule": [
+          { "service": "Label Design Development", "fee": "P2,000.00", "time": "1 day" },
+          { "service": "Logo Development", "fee": "P2,000.00", "time": "1 day" },
+          { "service": "Label Printing (sticker provided)", "fee": "P10.00/sheet", "time": "5 minutes" }
+        ],
+        "total": { "fees": "Variable (Price List)", "time": "55 minutes + processing time" }
+      },
+      {
+        "id": 11,
+        "service_name": "Application to Avail Local Investment Incentives",
+        "image": "/assets/document_background/Application to Avail Local Investment Incentives",
+        "office": "LEDIPO - Lipa City Cooperatives Office",
+        "classification": "Highly technical",
+        "type_of_transaction": "G2B",
+        "checklist_of_requirements": [
+          { "requirement": "Properly filled-up application form (Single Proprietorship)", "source": "Lipa City Cooperatives Office" },
+          { "requirement": "Business Name Registration (2 photocopies)", "source": "Department of Trade and Industry" },
+          { "requirement": "Audited Financial Statements (2 photocopies)", "source": "Bureau of Internal Revenue" },
+          { "requirement": "Other documents that may be required by the LGU", "source": "Applicant enterprise" },
+
+          { "requirement": "Properly filled-up application form (Partnership/Corporation)", "source": "Lipa City Cooperatives Office" },
+          { "requirement": "Articles of Partnership/Incorporation (2 photocopies)", "source": "Securities and Exchange Commission" },
+          { "requirement": "Certificate of Registration (2 certified true copies)", "source": "Securities and Exchange Commission" },
+          { "requirement": "Certificate of Good Standing (1 original)", "source": "Securities and Exchange Commission" },
+          { "requirement": "Resolution authorizing filing of application (1 original)", "source": "Applicant enterprise" },
+          { "requirement": "Audited Financial Statement (2 photocopies)", "source": "Bureau of Internal Revenue" },
+          { "requirement": "Environmental Compliance Certificate or Non-Compliance Clearance (2 photocopies)", "source": "DENR - Environmental Management Bureau" },
+          { "requirement": "Such other documents that may be required by the LGU", "source": "Applicant enterprise" }
+        ],
+        "who_may_avail": ["New and existing enterprises in IPAs"],
+        "fees": {
+          "filing_fee": "P20,000.00",
+          "registration_fee": [
+            { "range": "100M to <300M", "amount": "P50,000.00" },
+            { "range": "300M to <500M", "amount": "P80,000.00" },
+            { "range": "500M and above", "amount": "P150,000.00" }
+          ]
+        },
+        "total": { "time": "11 days, 1 hour and 5 minutes" }
+      }
+    ]
+  }
+

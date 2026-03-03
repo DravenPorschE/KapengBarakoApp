@@ -82,7 +82,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 container.appendChild(card);
 
                 card.addEventListener("click", () => {
-                    window.location.href=`/pages/dynamic-service.html?search=${encodeURIComponent(service.service_name)}`
+                    const serviceName = service.service_name
+                        .trim()
+                        .replace(/'/g,"_");
+
+                    window.location.href=`/pages/dynamic-service.html?search=${encodeURIComponent(serviceName)}`
+                
+                
                 });
             });
         })

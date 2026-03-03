@@ -10,29 +10,29 @@
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Request Slip (1 original copy)", "where_to_secure": "Lipa City Assessor’s Office" },
-        { "requirement": "Official Receipt (1 original copy)", "where_to_secure": "Lipa City Treasurer’s Office" },
-        { "requirement": "Authorization Letter and Valid ID (if representative)", "where_to_secure": "Owner" }
+        { "requirement": "Request Slip (1 original copy)", "source": "Lipa City Assessor’s Office" },
+        { "requirement": "Official Receipt (1 original copy)", "source": "Lipa City Treasurer’s Office" },
+        { "requirement": "Authorization Letter and Valid ID (if representative)", "source": "Owner" }
       ],
       "steps": [
         {
-          "client_steps": "1. Submit the Request Slip and required documents",
+          "client_step": "1. Submit the Request Slip and required documents",
           "agency_action": "1. Evaluate documents and verify property records",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "15 minutes",
           "person_responsible": "Assessment Clerk"
         },
         {
-          "client_steps": "2. Pay the fee at the Treasurer’s Office",
+          "client_step": "2. Pay the fee at the Treasurer’s Office",
           "agency_action": "2. Receive payment and issue Official Receipt",
-          "fees_to_be_paid": "P50.00",
+          "fees": "P50.00",
           "processing_time": "10 minutes",
           "person_responsible": "Revenue Collection Clerk"
         },
         {
-          "client_steps": "3. Present receipt and sign the office file copy",
+          "client_step": "3. Present receipt and sign the office file copy",
           "agency_action": "3. Process and release the certification",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "12 minutes",
           "person_responsible": "Releasing Clerk"
         }
@@ -48,31 +48,31 @@
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Letter of Request", "where_to_secure": "Owner" },
-        { "requirement": "Certified True Copy of Title", "where_to_secure": "Registry of Deeds" },
-        { "requirement": "Approved Subdivision/Consolidation Plan", "where_to_secure": "DENR/LRA" },
-        { "requirement": "Deed of Conveyance & CAR", "where_to_secure": "BIR" },
-        { "requirement": "Transfer Tax Receipt and Clearance", "where_to_secure": "City Treasurer’s Office" }
+        { "requirement": "Letter of Request", "source": "Owner" },
+        { "requirement": "Certified True Copy of Title", "source": "Registry of Deeds" },
+        { "requirement": "Approved Subdivision / Consolidation Plan", "source": "DENR/LRA" },
+        { "requirement": "Deed of Conveyance & CAR", "source": "BIR" },
+        { "requirement": "Transfer Tax Receipt and Clearance", "source": "City Treasurer’s Office" }
       ],
       "steps": [
         {
-          "client_steps": "1. Submit requirements for evaluation",
+          "client_step": "1. Submit requirements for evaluation",
           "agency_action": "1. Verify records and prepare new Tax Declaration",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "3 hours",
           "person_responsible": "Tax Mapper / Records Officer"
         },
         {
-          "client_steps": "2. Pay the fee at the Treasurer’s Office",
+          "client_step": "2. Pay the fee at the Treasurer’s Office",
           "agency_action": "2. Issue Official Receipt",
-          "fees_to_be_paid": "P50.00",
+          "fees": "P50.00",
           "processing_time": "11 minutes",
           "person_responsible": "Revenue Collection Clerk"
         },
         {
-          "client_steps": "3. Receive the new Tax Declaration",
+          "client_step": "3. Receive the new Tax Declaration",
           "agency_action": "3. Final approval and release",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "1 hour",
           "person_responsible": "City Assessor"
         }
@@ -88,30 +88,30 @@
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Certified True Copy of Title", "where_to_secure": "Registry of Deeds" },
-        { "requirement": "Deed of Absolute Sale", "where_to_secure": "Notary Public" },
-        { "requirement": "eCAR", "where_to_secure": "BIR" },
-        { "requirement": "Transfer Tax Receipt/Clearance", "where_to_secure": "City Treasurer’s Office" }
+        { "requirement": "Certified True Copy of Title", "source": "Registry of Deeds" },
+        { "requirement": "Deed of Absolute Sale", "source": "Notary Public" },
+        { "requirement": "eCAR", "source": "BIR" },
+        { "requirement": "Transfer Tax Receipt/Clearance", "source": "City Treasurer’s Office" }
       ],
       "steps": [
         {
-          "client_steps": "1. Submit requirements for evaluation",
+          "client_step": "1. Submit requirements for evaluation",
           "agency_action": "1. Verify records and encode data",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "2 hours",
           "person_responsible": "Records Officer"
         },
         {
-          "client_steps": "2. Pay required fees",
+          "client_step": "2. Pay required fees",
           "agency_action": "2. Receive payment",
-          "fees_to_be_paid": "P50.00",
+          "fees": "P50.00",
           "processing_time": "15 minutes",
           "person_responsible": "Treasurer's Office Staff"
         },
         {
-          "client_steps": "3. Claim owner's copy",
+          "client_step": "3. Claim owner's copy",
           "agency_action": "3. Process and release Tax Declaration",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "1 hour and 36 minutes",
           "person_responsible": "Releasing Clerk"
         }
@@ -127,29 +127,29 @@
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Letter of Request & Sworn Statement", "where_to_secure": "Owner" },
-        { "requirement": "Barangay Certification", "where_to_secure": "Barangay Hall" },
-        { "requirement": "Demolition Permit", "where_to_secure": "City Engineering Office" }
+        { "requirement": "Letter of Request & Sworn Statement", "source": "Owner" },
+        { "requirement": "Barangay Certification", "source": "Barangay Hall" },
+        { "requirement": "Demolition Permit", "source": "City Engineering Office" }
       ],
       "steps": [
         {
-          "client_steps": "1. File the request",
+          "client_step": "1. File the request",
           "agency_action": "1. Receive and schedule inspection",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "30 minutes",
           "person_responsible": "Administrative Staff"
         },
         {
-          "client_steps": "2. Accompany the appraiser",
+          "client_step": "2. Accompany the appraiser",
           "agency_action": "2. Conduct field inspection",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "1 day",
           "person_responsible": "Appraiser"
         },
         {
-          "client_steps": "3. Receive notice of cancellation",
+          "client_step": "3. Receive notice of cancellation",
           "agency_action": "3. Update assessment and release notice",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "42 minutes",
           "person_responsible": "Assessment Division"
         }
@@ -165,29 +165,29 @@
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Building/Occupancy Permit", "where_to_secure": "City Engineering Office" },
-        { "requirement": "Approved Building Plans", "where_to_secure": "Owner" },
-        { "requirement": "Invoice/Receipt (for Machineries)", "where_to_secure": "Supplier" }
+        { "requirement": "Building/Occupancy Permit", "source": "City Engineering Office" },
+        { "requirement": "Approved Building Plans", "source": "Owner" },
+        { "requirement": "Invoice/Receipt (for Machineries)", "source": "Supplier" }
       ],
       "steps": [
         {
-          "client_steps": "1. Submit request form",
+          "client_step": "1. Submit request form",
           "agency_action": "1. Schedule field inspection",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "1 hour",
           "person_responsible": "Appraisal Division"
         },
         {
-          "client_steps": "2. Facilitate inspection",
+          "client_step": "2. Facilitate inspection",
           "agency_action": "2. Conduct ocular visit and assessment",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "2 days",
           "person_responsible": "Appraiser"
         },
         {
-          "client_steps": "3. Pay processing fee and claim TD",
+          "client_step": "3. Pay processing fee and claim TD",
           "agency_action": "3. Issue OR and release new Tax Declaration",
-          "fees_to_be_paid": "P50.00",
+          "fees": "P50.00",
           "processing_time": "2 hours and 1 minute",
           "person_responsible": "Releasing Clerk"
         }
@@ -203,29 +203,29 @@
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Request Slip", "where_to_secure": "Assessor’s Office" },
-        { "requirement": "Updated RPT Receipt", "where_to_secure": "Treasurer’s Office" },
-        { "requirement": "Valid ID", "where_to_secure": "Owner" }
+        { "requirement": "Request Slip", "source": "Assessor’s Office" },
+        { "requirement": "Updated RPT Receipt", "source": "Treasurer’s Office" },
+        { "requirement": "Valid ID", "source": "Owner" }
       ],
       "steps": [
         {
-          "client_steps": "1. Submit request slip",
+          "client_step": "1. Submit request slip",
           "agency_action": "1. Verify record in digital database",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "10 minutes",
           "person_responsible": "Records Clerk"
         },
         {
-          "client_steps": "2. Pay certification fee",
+          "client_step": "2. Pay certification fee",
           "agency_action": "2. Receive payment",
-          "fees_to_be_paid": "P50.00",
+          "fees": "P50.00",
           "processing_time": "10 minutes",
           "person_responsible": "Treasurer's Office"
         },
         {
-          "client_steps": "3. Receive CTC",
+          "client_step": "3. Receive CTC",
           "agency_action": "3. Print and sign document",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "12 minutes (7 days if verification needed)",
           "person_responsible": "City Assessor"
         }
@@ -241,28 +241,28 @@
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Request Slip", "where_to_secure": "Assessor’s Office" },
-        { "requirement": "Previous TD or Title", "where_to_secure": "Owner" }
+        { "requirement": "Request Slip", "source": "Assessor’s Office" },
+        { "requirement": "Previous TD or Title", "source": "Owner" }
       ],
       "steps": [
         {
-          "client_steps": "1. Submit request for manual verification",
+          "client_step": "1. Submit request for manual verification",
           "agency_action": "1. Search property history in archives",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "2 days",
           "person_responsible": "Archive Officer"
         },
         {
-          "client_steps": "2. Pay necessary fees",
+          "client_step": "2. Pay necessary fees",
           "agency_action": "2. Issue Official Receipt",
-          "fees_to_be_paid": "P50.00",
+          "fees": "P50.00",
           "processing_time": "10 minutes",
           "person_responsible": "Treasurer's Office"
         },
         {
-          "client_steps": "3. Claim manual CTC",
+          "client_step": "3. Claim manual CTC",
           "agency_action": "3. Transcribe and verify record",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "9 minutes",
           "person_responsible": "Assessment Staff"
         }
@@ -278,28 +278,28 @@
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Request Slip", "where_to_secure": "Assessor’s Office" },
-        { "requirement": "Tax Declaration or Title", "where_to_secure": "Owner" }
+        { "requirement": "Request Slip", "source": "Assessor’s Office" },
+        { "requirement": "Tax Declaration or Title", "source": "Owner" }
       ],
       "steps": [
         {
-          "client_steps": "1. Submit request with lot details",
+          "client_step": "1. Submit request with lot details",
           "agency_action": "1. Locate property in Tax Mapping system",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "15 minutes",
           "person_responsible": "Tax Mapper"
         },
         {
-          "client_steps": "2. Pay map reproduction fee",
+          "client_step": "2. Pay map reproduction fee",
           "agency_action": "2. Receive payment",
-          "fees_to_be_paid": "P50.00",
+          "fees": "P50.00",
           "processing_time": "10 minutes",
           "person_responsible": "Treasurer's Office Staff"
         },
         {
-          "client_steps": "3. Secure copy of map",
+          "client_step": "3. Secure copy of map",
           "agency_action": "3. Release map and log receipt",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "9 minutes",
           "person_responsible": "Mapping Division"
         }
@@ -315,21 +315,21 @@
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Tax Declaration", "where_to_secure": "Owner" },
-        { "requirement": "Title or Survey Plan", "where_to_secure": "Registry of Deeds" }
+        { "requirement": "Tax Declaration", "source": "Owner" },
+        { "requirement": "Title or Survey Plan", "source": "Registry of Deeds" }
       ],
       "steps": [
         {
-          "client_steps": "1. Present property details",
+          "client_step": "1. Present property details",
           "agency_action": "1. Verify cadastral cost cost",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "10 minutes",
           "person_responsible": "Assessment Staff"
         },
         {
-          "client_steps": "2. Receive Order of Payment",
+          "client_step": "2. Receive Order of Payment",
           "agency_action": "2. Compute and issue order",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "14 minutes",
           "person_responsible": "Billing Clerk"
         }
@@ -345,29 +345,29 @@
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Zoning Certification", "where_to_secure": "City Planning Office" },
-        { "requirement": "Reclassification Ordinance", "where_to_secure": "Sangguniang Panlungsod" },
-        { "requirement": "Updated Tax Receipt", "where_to_secure": "Treasurer’s Office" }
+        { "requirement": "Zoning Certification", "source": "City Planning Office" },
+        { "requirement": "Reclassification Ordinance", "source": "Sangguniang Panlungsod" },
+        { "requirement": "Updated Tax Receipt", "source": "Treasurer’s Office" }
       ],
       "steps": [
         {
-          "client_steps": "1. Submit requirements",
+          "client_step": "1. Submit requirements",
           "agency_action": "1. Validate Zoning and Ordinance",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "1 hour",
           "person_responsible": "Tax Mapper"
         },
         {
-          "client_steps": "2. Pay processing fee",
+          "client_step": "2. Pay processing fee",
           "agency_action": "2. Issue Official Receipt",
-          "fees_to_be_paid": "P50.00",
+          "fees": "P50.00",
           "processing_time": "15 minutes",
           "person_responsible": "Treasurer's Office"
         },
         {
-          "client_steps": "3. Receive updated TD",
+          "client_step": "3. Receive updated TD",
           "agency_action": "3. Adjust assessment in system",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "54 minutes",
           "person_responsible": "City Assessor"
         }
@@ -383,29 +383,29 @@
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Request Slip", "where_to_secure": "Assessor’s Office" },
-        { "requirement": "Latest Tax Declaration", "where_to_secure": "Owner" },
-        { "requirement": "Certified Survey Plan", "where_to_secure": "LRA/DENR" }
+        { "requirement": "Request Slip", "source": "Assessor’s Office" },
+        { "requirement": "Latest Tax Declaration", "source": "Owner" },
+        { "requirement": "Certified Survey Plan", "source": "LRA/DENR" }
       ],
       "steps": [
         {
-          "client_steps": "1. Submit request to Mapping division",
+          "client_step": "1. Submit request to Mapping division",
           "agency_action": "1. Verify boundaries and adjacent owners",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "25 minutes",
           "person_responsible": "Tax Mapper"
         },
         {
-          "client_steps": "2. Pay certification fee",
+          "client_step": "2. Pay certification fee",
           "agency_action": "2. Issue Official Receipt",
-          "fees_to_be_paid": "P50.00",
+          "fees": "P50.00",
           "processing_time": "12 minutes",
           "person_responsible": "Treasurer's Office Staff"
         },
         {
-          "client_steps": "3. Claim certification",
+          "client_step": "3. Claim certification",
           "agency_action": "3. Release and sign log",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "10 minutes",
           "person_responsible": "Mapping Clerk"
         }

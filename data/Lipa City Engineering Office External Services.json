@@ -5,9 +5,9 @@
       "id": 1,
       "service_name": "Application for Building Permit",
       "image": "/assets/document_background/Application for Building Permit",
-      "classification": "Complex",
-      "transaction_type": ["G2C", "G2G", "G2B"],
       "office": "Lipa City Engineering Office External Services",
+      "classification": "Complex",
+      "type_of_transaction": "G2C, G2G, G2B",
       "who_may_avail": "Registered property owner/s, duly authorized individuals who shall construct, alter, repair, convert and add any building or structure or any portion thereof within the territorial jurisdiction of Lipa City",
       "checklist_of_requirements": [
         { "requirement": "Transfer Certificate of Title (6 photocopies)", "source": "Land Registration Authority" },
@@ -67,8 +67,9 @@
       "id": 2,
       "service_name": "Application for Certificate of Occupancy",
       "image": "/assets/document_background/Application for Certificate of Occupancy",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Complex",
-      "transaction_type": ["G2C", "G2G", "G2B"],
+      "type_of_transaction": "G2C, G2G, G2B",
       "who_may_avail": "Any person/entity occupying a structure with an approved building permit within Lipa City.",
       "checklist_of_requirements": [
         { "requirement": "Application for Certificate of Occupancy and Completion (1 original)", "source": "Lipa CEO / Professionals" },
@@ -91,8 +92,9 @@
       "id": 3,
       "service_name": "Application for Certificate of Operation",
       "image": "/assets/document_background/Application for Certificate of Operation",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Complex",
-      "transaction_type": ["G2C", "G2G", "G2B"],
+      "type_of_transaction": "G2C, G2G, G2B",
       "who_may_avail": "Any entity occupying a structure with mechanical installation in Lipa City.",
       "checklist_of_requirements": [
         { "requirement": "Application Form", "source": "Lipa CEO" },
@@ -112,8 +114,9 @@
       "id": 4,
       "service_name": "Application for Demolition Permit",
       "image": "/assets/document_background/Application for Demolition Permit",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Simple",
-      "transaction_type": ["G2C", "G2G", "G2B"],
+      "type_of_transaction": "G2C, G2G, G2B",
       "who_may_avail": "Any person/entity who shall demolish a structure in Lipa City.",
       "checklist_of_requirements": [
         { "requirement": "Demolition Permit Form", "source": "Lipa CEO" },
@@ -132,8 +135,9 @@
       "id": 5,
       "service_name": "Application for Excavation and Ground Preparation Permit",
       "image": "/assets/document_background/Application for Excavation and Ground Preparation Permit",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Simple",
-      "transaction_type": ["G2C", "G2G", "G2B"],
+      "type_of_transaction": "G2C, G2G, G2B",
       "who_may_avail": "Any person/entity excavating within Lipa City.",
       "checklist_of_requirements": [
         { "requirement": "Application Form for Excavation & Ground Prep (5 copies)", "source": "Lipa CEO" },
@@ -151,8 +155,9 @@
       "id": 6,
       "service_name": "Application for Fencing Permit",
       "image": "/assets/document_background/Application for Fencing Permit",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Complex",
-      "transaction_type": ["G2C", "G2G", "G2B"],
+      "type_of_transaction": "G2C, G2G, G2B",
       "who_may_avail": "Any person/entity constructing a fence in Lipa City.",
       "checklist_of_requirements": [
         { "requirement": "Fencing Permit Forms (5 copies)", "source": "Lipa CEO" },
@@ -170,8 +175,9 @@
       "id": 7,
       "service_name": "Application for Sign Permit",
       "image": "/assets/document_background/Application for Sign Permit",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Complex",
-      "transaction_type": ["G2C", "G2G", "G2B"],
+      "type_of_transaction": "G2C, G2G, G2B",
       "who_may_avail": "Any person/entity installing signboards in Lipa City.",
       "checklist_of_requirements": [
         { "requirement": "Sign Permit Form", "source": "Lipa CEO" },
@@ -187,8 +193,9 @@
       "id": 8,
       "service_name": "Request for Asphalting of Roads",
       "image": "/assets/document_background/Request for Asphalting of Roads",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Simple",
-      "transaction_type": ["G2G"],
+      "type_of_transaction": "G2G",
       "who_may_avail": "Any government instrumentality needing asphalting.",
       "checklist_of_requirements": [
         { "requirement": "Request Letter / Resolution", "source": "Requesting Party / Barangay" }
@@ -203,8 +210,9 @@
       "id": 9,
       "service_name": "Request for Certificate of Road Worthiness for Tricycle Franchise",
       "image": "/assets/document_background/Request for Certificate of Road Worthiness for Tricycle Franchise",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Simple",
-      "transaction_type": ["G2C"],
+      "type_of_transaction": "G2C",
       "who_may_avail": "Tricycle operators in Lipa City.",
       "checklist_of_requirements": [
         { "requirement": "Tricycle unit for inspection", "source": "Owner" },
@@ -220,8 +228,9 @@
       "id": 10,
       "service_name": "Request for Certificate of Water Connection",
       "image": "/assets/document_background/Request for Certificate of Water Connection",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Simple",
-      "transaction_type": ["G2C", "G2G", "G2B"],
+      "type_of_transaction": "G2C, G2G, G2B",
       "who_may_avail": "Any person/entity in need of water connection.",
       "checklist_of_requirements": [
         { "requirement": "Application Form", "source": "Lipa CEO" }
@@ -236,8 +245,9 @@
       "id": 11,
       "service_name": "Request for Infrastructure Development",
       "image": "/assets/document_background/Request for Infrastructure Development",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Highly Technical",
-      "transaction_type": ["G2C", "G2G"],
+      "type_of_transaction": "G2C, G2G",
       "who_may_avail": "Residents of Lipa City.",
       "checklist_of_requirements": [
         { "requirement": "Project Proposal / Resolution", "source": "Barangay / Sector" }
@@ -251,8 +261,9 @@
       "id": 12,
       "service_name": "Request for Payment of Ongoing Projects",
       "image": "/assets/document_background/Project Payment Request Illustration",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Simple",
-      "transaction_type": ["G2G"],
+      "type_of_transaction": "G2G",
       "who_may_avail": "Contractors and Suppliers.",
       "checklist_of_requirements": [
         { "requirement": "Billing / Accomplishment Report", "source": "Contractor" }
@@ -267,7 +278,8 @@
       "service_name": "Request for Repair and Maintenance of Streetlights and Other Electrical Facilities",
       "image": "/assets/document_background/Request for Repair and Maintenance of Streetlights and Other Electrical",
       "classification": "Complex",
-      "transaction_type": ["G2C", "G2G", "G2B"],
+      "office": "Lipa City Engineering Office External Services",
+      "type_of_transaction": "G2C, G2G, G2B",
       "who_may_avail": "Any person/entity in Lipa City.",
       "checklist_of_requirements": [
         { "requirement": "Request Letter / Report", "source": "Requesting Party" }
@@ -282,8 +294,9 @@
       "id": 14,
       "service_name": "Request for Repair of Artesian Well",
       "image": "/assets/document_background/Request for Repair of Artesian Well",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Simple",
-      "transaction_type": ["G2G"],
+      "type_of_transaction": "G2G",
       "who_may_avail": "Government instrumentalities in Lipa City.",
       "checklist_of_requirements": [
         { "requirement": "Request Letter", "source": "Barangay Office" }
@@ -297,8 +310,9 @@
       "id": 15,
       "service_name": "Request for the Use of Sound System",
       "image": "/assets/document_background/Request for the Use of Sound System",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Complex",
-      "transaction_type": ["G2C", "G2G", "G2B"],
+      "type_of_transaction": "G2C, G2G, G2B",
       "who_may_avail": "Any person/entity in Lipa City.",
       "checklist_of_requirements": [
         { "requirement": "Reservation Letter", "source": "Requesting Party" }
@@ -312,8 +326,9 @@
       "id": 16,
       "service_name": "Request for the Use of Vehicle Equipment",
       "image": "/assets/document_background/Request for the Use of Vehicle Equipment",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Simple",
-      "transaction_type": ["G2G"],
+      "type_of_transaction": ["G2G"],
       "who_may_avail": "Barangay Officials / Government Agencies.",
       "checklist_of_requirements": [
         { "requirement": "Requisition Slip / Request Letter", "source": "Requesting Office" }
@@ -327,8 +342,9 @@
       "id": 17,
       "service_name": "Responding to Communications",
       "image": "/assets/document_background/Responding to Communications",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Simple",
-      "transaction_type": ["G2C", "G2G", "G2B"],
+      "type_of_transaction": "G2C, G2G, G2B",
       "who_may_avail": "Concerned individuals/employees & Requesting Party.",
       "checklist_of_requirements": [
         { "requirement": "Incoming Letter/Communication", "source": "Requesting Party" }
@@ -342,8 +358,9 @@
       "id": 18,
       "service_name": "Responding to Formal Requests, Inquiries, Summons and Complaints",
       "image": "/assets/document_background/Responding to Formal Requests, Inquiries, Summons and Complaints",
+      "office": "Lipa City Engineering Office External Services",
       "classification": "Simple",
-      "transaction_type": ["G2C", "G2G", "G2B"],
+      "type_of_transaction": "G2C, G2G, G2B",
       "who_may_avail": "General Public.",
       "checklist_of_requirements": [
         { "requirement": "Legal Summons / Formal Complaint Letter", "source": "Court or Complainant" }
