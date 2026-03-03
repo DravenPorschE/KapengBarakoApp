@@ -1,0 +1,113 @@
+{
+  "department": "Lipa City Agriculture Office",
+  "external_services": [
+    {
+      "id": 1,
+      "service_name": "Request for Backyard Planting/ Gardening",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All",
+      "total_processing_time": "40 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 2,
+      "service_name": "Request for Certification for Non-Bearing/ Unproductive Trees",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipa City residents",
+      "total_processing_time": "3 hours and 40 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 3,
+      "service_name": "Request for Clearance for Tree Cutting",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
+      "who_may_avail": "All",
+      "total_processing_time": "20 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 4,
+      "service_name": "Request for Information and/ or Technical Assistance in Livestock and Crops Production",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
+      "who_may_avail": "All interested livestock and crop producers",
+      "total_processing_time": "50 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 5,
+      "service_name": "Request for Input Assistance",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All",
+      "total_processing_time": "1 hour and 20 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 6,
+      "service_name": "Request for Assistance in Insurance Application",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Farmers enrolled in RSBSA",
+      "total_processing_time": "43 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 7,
+      "service_name": "Request for Insurance Claim Assistance",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Farmers enrolled in RSBSA",
+      "total_processing_time": "43 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 8,
+      "service_name": "Request for Land Preparation Assistance (Tractor Services)",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
+      "who_may_avail": "All interested farmers",
+      "total_processing_time": "3 days and 23 minutes",
+      "total_fees": "None (Note: Farmer shall shoulder fuel costs and minor maintenance)"
+    },
+    {
+      "id": 9,
+      "service_name": "Request for Seedlings Dispersal",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipa City residents only",
+      "total_processing_time": "40 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 10,
+      "service_name": "Request for Soil Sampling and Analysis Assistance",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses",
+      "who_may_avail": "Individuals, businesses, NGOs and FAs",
+      "total_processing_time": "5 days, 5 hours and 5 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 11,
+      "service_name": "Request for Technology Transfer: Demos, Trainings, Seminars and Lectures",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
+      "who_may_avail": "All",
+      "total_processing_time": "22 days and 2 hours",
+      "total_fees": "None"
+    },
+    {
+      "id": 12,
+      "service_name": "Request for Tree Planting Activity, Community or School Gardening Projects",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
+      "who_may_avail": "NGOs, schools, barangays",
+      "total_processing_time": "3 hours and 50 minutes",
+      "total_fees": "None"
+    }
+  ]
+}
