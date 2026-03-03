@@ -165,6 +165,14 @@ document.addEventListener("DOMContentLoaded", async () => {
                     agencyStep.className = "agency-step";
                     agencyStep.textContent = currentStep + "." + agencyStepNum;
 
+                    const actionResponsible = document.createElement("div");
+                    actionResponsible.className = "action-responsible";
+
+                    let actionInfo = document.createElement("p");
+                    actionInfo.className = "action-info";
+                    actionInfo.textContent = step.agency_action
+                            .replace(/^\d+\.\s*/, "")
+                            .trim();
                 }
             });
         } else {
