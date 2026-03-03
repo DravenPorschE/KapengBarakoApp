@@ -304,6 +304,9 @@ body {
 .agency-action-container.show {
     display: none;
 }
+.agency-action-container.hide {
+    display: none;
+}
 .agency-action {
     display: grid;
     grid-template-columns: 10% 1fr auto;

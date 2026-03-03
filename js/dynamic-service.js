@@ -1,18 +1,17 @@
 document.addEventListener("DOMContentLoaded", async () => {
-
     const serviceName = document.querySelector(".service-name");
     const documentName = document.querySelector(".document-name");
     const classInfo = document.getElementById("class-info");
     const typeInfo = document.getElementById("type-info");
     const backBtn = document.querySelector(".back-button");
 
-    const dropdownAction = document.querySelectorAll(".client-step-container");
-
     const urlParams = new URLSearchParams(window.location.search);
     const val = urlParams.get("search");
 
     const jsonFiles = [
-        "/data/Lipa City Environment and Natural Resources Office External Services.json"
+        "/data/Lipa City Environment and Natural Resources Office External Services.json",
+        "/data/KOLEHIYO NG LUNGSOD NG LIPA EXTERNAL SERVICES.json",
+        "/data/Lipa City Social Welfare and Development Office External Services.json"
     ];
 
     async function loadAllServices() {
@@ -20,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             jsonFiles.map(file => fetch(file).then(res => res.json()))
         );
 
-        // 🔥 Attach department to each service
+        // attach department to each service
         return responses.flatMap(dept =>
             dept.external_services.map(service => ({
                 ...service,
@@ -34,7 +33,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
 
     if (val) {
-
         const allServices = await loadAllServices();
 
         const matchedService = allServices.find(service =>
@@ -42,60 +40,57 @@ document.addEventListener("DOMContentLoaded", async () => {
         );
 
         if (matchedService) {
-
-            // ✅ Set values
+            // Set header info
             serviceName.textContent = matchedService.office;
-            documentName.textContent = matchedService.service_name; 
+            documentName.textContent = matchedService.service_name;
             classInfo.textContent = matchedService.classification;
             typeInfo.textContent = matchedService.type_of_transaction;
 
-            // Create new checklist for each requirement
-            const checklist = matchedService.checklist_of_requirements || [];
+            // ===== Checklist =====
             const checklist_container = document.querySelector(".checklist-container");
+            checklist_container.innerHTML = "";
 
-            checklist.forEach((list, index) => {
+            (matchedService.checklist_of_requirements || []).forEach((list, index) => {
                 const checklistCollection = document.createElement("div");
                 checklistCollection.className = "checklist";
 
-                // the p elements
-                let requirementNumber_p = document.createElement("p");
+                const requirementNumber_p = document.createElement("p");
                 requirementNumber_p.className = "requirement-number";
                 requirementNumber_p.textContent = "#" + (index + 1);
 
-                let requirementInfo_p = document.createElement("p");
+                const requirementInfo_p = document.createElement("p");
                 requirementInfo_p.className = "requirement-info";
                 requirementInfo_p.textContent = list.requirement;
 
-                let requirementSource_p = document.createElement("p");
+                const requirementSource_p = document.createElement("p");
                 requirementSource_p.className = "requirement-source";
                 requirementSource_p.textContent = list.source;
 
                 checklistCollection.appendChild(requirementNumber_p);
                 checklistCollection.appendChild(requirementInfo_p);
                 checklistCollection.appendChild(requirementSource_p);
+
                 checklist_container.appendChild(checklistCollection);
             });
-            
 
-            // Create new steps
-            const steps = matchedService.steps || [];
+            // ===== Steps =====
             const processInfoContainer = document.querySelector(".process-info");
- 
-            let agencyActionLabel = document.createElement("p");
-            agencyActionLabel.className = "service-label";
-            agencyActionLabel.textContent = "AgencyActions";           
-            
+            processInfoContainer.innerHTML = ""; // clear once before generating
+
             let currentStep = 0;
-            let agencyStepNum = 0;
 
-            steps.forEach((step, index) => {
+            (matchedService.steps || []).forEach((step, index) => {
+                const isClientStep = step.client_step !== "N/A";
 
-                if(step.client_step != "N/A") {
-                    agencyStepNum = 0;
+                if (isClientStep) {
                     currentStep++;
+                    let agencyStepNum = 0;
+
+                    // ===== Process Container =====
                     const processContainer = document.createElement("div");
                     processContainer.className = "process-container";
 
+                    // ===== Client Step Container =====
                     const clientStepContainer = document.createElement("div");
                     clientStepContainer.className = "client-step-container";
 
@@ -104,27 +99,26 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                     const checkbox = document.createElement("div");
                     checkbox.className = "checkbox";
+                    checkboxContainer.appendChild(checkbox);
 
                     const stepContainer = document.createElement("div");
                     stepContainer.className = "step-container";
 
-                    let stepNumber = document.createElement("p");
+                    const stepNumber = document.createElement("p");
                     stepNumber.className = "step-number";
-                    if(step.client_step != "N/A") {
-                        stepNumber.textContent = "Step " + currentStep;
-                    } 
-                    
-                    let clientStepInfo = document.createElement("p");
-                    clientStepInfo.className = "client-step-info";
-                    if(step.client_step != "N/A") {
-                        clientStepInfo.textContent = step.client_step
-                            .replace(/^\d+\.\s*/, "")
-                            .trim();
-                    } 
-                    
-                    const svgNS = "http://www.w3.org/2000/svg";
+                    stepNumber.textContent = "Step " + currentStep;
 
-                    // Create the <svg>
+                    const clientStepInfo = document.createElement("p");
+                    clientStepInfo.className = "client-step-info";
+                    clientStepInfo.textContent = step.client_step
+                        .replace(/^\d+\.\s*/, "")
+                        .trim();
+
+                    stepContainer.appendChild(stepNumber);
+                    stepContainer.appendChild(clientStepInfo);
+
+                    // ===== Arrow SVG =====
+                    const svgNS = "http://www.w3.org/2000/svg";
                     const svg = document.createElementNS(svgNS, "svg");
                     svg.classList.add("step-arrow");
                     svg.setAttribute("viewBox", "0 0 24 24");
@@ -134,70 +128,85 @@ document.addEventListener("DOMContentLoaded", async () => {
                     svg.setAttribute("stroke-linecap", "round");
                     svg.setAttribute("stroke-linejoin", "round");
 
-                    // Create the <polyline>
                     const polyline = document.createElementNS(svgNS, "polyline");
                     polyline.setAttribute("points", "9 18 15 12 9 6");
-
-                    // Append polyline into svg
                     svg.appendChild(polyline);
 
-                    checkboxContainer.appendChild(checkbox);
-                    stepContainer.appendChild(stepNumber);
-                    stepContainer.appendChild(clientStepInfo);
-                    
                     clientStepContainer.appendChild(checkboxContainer);
                     clientStepContainer.appendChild(stepContainer);
                     clientStepContainer.appendChild(svg);
 
+                    // ===== Agency Container =====
+                    const agencyContainer = document.createElement("div");
+                    agencyContainer.className = "agency-action-container";
+
+                    const agencyLabel = document.createElement("p");
+                    agencyLabel.className = "service-label";
+                    agencyLabel.textContent = "Agency Actions";
+                    agencyContainer.appendChild(agencyLabel);
+
                     processContainer.appendChild(clientStepContainer);
+                    processContainer.appendChild(agencyContainer);
 
                     processInfoContainer.appendChild(processContainer);
-                } else {
-                    agencyStepNum++;
 
-                    const agencyActionContainer = document.createElement("div");
-                    agencyActionContainer.className = "agency-action-container";
+                    // ===== Add Click Event (checkbox toggle + show/hide) =====
+                    clientStepContainer.addEventListener("click", () => {
+                        agencyContainer.classList.toggle("show");
+                        clientStepContainer.classList.toggle("active");
+                        checkbox.classList.toggle("checked");
+                    });
 
-                    const agencyAction = document.createElement("div");
-                    agencyAction.className = "agency-action";
+                    // ===== Add Agency Action(s) =====
+                    if (step.agency_action) {
+                        agencyStepNum++;
+                        const agencyAction = document.createElement("div");
+                        agencyAction.className = "agency-action";
 
-                    let agencyStep = document.createElement("p");
-                    agencyStep.className = "agency-step";
-                    agencyStep.textContent = currentStep + "." + agencyStepNum;
+                        const agencyStep = document.createElement("p");
+                        agencyStep.className = "agency-step";
+                        agencyStep.textContent = currentStep + "." + agencyStepNum;
 
-                    const actionResponsible = document.createElement("div");
-                    actionResponsible.className = "action-responsible";
+                        const actionResponsible = document.createElement("div");
+                        actionResponsible.className = "action-responsible";
 
-                    let actionInfo = document.createElement("p");
-                    actionInfo.className = "action-info";
-                    actionInfo.textContent = step.agency_action
-                            .replace(/^\d+\.\s*/, "")
-                            .trim();
+                        const actionInfo = document.createElement("p");
+                        actionInfo.className = "action-info";
+                        actionInfo.textContent = step.agency_action.replace(/^\d+\.\s*/, "").trim();
+
+                        const actionRole = document.createElement("p");
+                        actionRole.className = "action-role";
+                        actionRole.textContent = step.person_responsible;
+
+                        const otherInfo = document.createElement("div");
+                        otherInfo.className = "other-info";
+
+                        const actionTime = document.createElement("p");
+                        actionTime.className = "action-time";
+                        actionTime.textContent = step.processing_time;
+
+                        const actionFee = document.createElement("p");
+                        actionFee.className = "action-fee";
+                        actionFee.textContent = step.fees || "None";
+
+                        actionResponsible.appendChild(actionInfo);
+                        actionResponsible.appendChild(actionRole);
+
+                        otherInfo.appendChild(actionTime);
+                        otherInfo.appendChild(actionFee);
+
+                        agencyAction.appendChild(agencyStep);
+                        agencyAction.appendChild(actionResponsible);
+                        agencyAction.appendChild(otherInfo);
+
+                        agencyContainer.appendChild(agencyAction);
+                    }
                 }
             });
         } else {
             console.log("Service not found");
         }
-
     } else {
         console.log("No search parameter in URL");
     }
-
-    document.querySelectorAll(".client-step-container").forEach(step => {
-        step.addEventListener("click", () => {
-
-            const processContainer = step.closest(".process-container");
-            const agencyContainer = processContainer.querySelector(".agency-action-container");
-            const checkbox = step.querySelector(".checkbox");
-
-            // Toggle dropdown
-            agencyContainer.classList.toggle("show");
-
-            // Toggle arrow rotation
-            step.classList.toggle("active");
-
-            // Toggle checkbox
-            checkbox.classList.toggle("checked");
-        });
-    });
 });

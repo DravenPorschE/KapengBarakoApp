@@ -1,0 +1,904 @@
+{
+  "department": "Lipa City Social Welfare and Development Office",
+  "external_services": [
+    {
+      "id": 1,
+      "service_name": "Application for KASAPI Assistance",
+     "image": "/assets/document_background/Application for KASAPI Assistance",
+      "office": "Lipa City Social Welfare and Development Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Families below poverty threshold included in the DSWD National Household Targeting System"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Duly-filled up application form",
+          "source": "Lipa City Social Welfare and Development Office"
+        },
+        {
+          "requirement": "Certificate of Indigency",
+          "source": "Barangay where the applicant resides"
+        },
+        {
+          "requirement": "Certificate of Residency",
+          "source": "Lipa City Social Welfare and Development Office"
+        },
+        {
+          "requirement": "1 Valid ID",
+          "source": "Any government agency (PSA, Comelec, LTO, DSWD, PhilPost, GSIS, SSS, etc.)"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure action slip/ endorsement from the Lipa City Mayor’s Office for CSWDO’s intervention",
+          "agency_action": "1.1. Issue action slip and advise the client to proceed to Lipa CSWDO for interview",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "CMO staff, Lipa City Mayor’s Office"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.2. Receive application form and assess the completeness of the submitted documents",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Social Welfare Assistant, Lipa City Social Welfare and Development Office"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.3. Conduct onsite evaluation of applicants",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Social Welfare Assistant, Lipa City Social Welfare and Development Office"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.4. Prepare master list of qualified recipients",
+          "fees": "None",
+          "processing_time": "1 hour",
+          "person_responsible": "Social Welfare Assistant, Lipa City Social Welfare and Development Office"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.5. Process payroll",
+          "fees": "None",
+          "processing_time": "5 days",
+          "person_responsible": "Social Welfare Assistant, Lipa City Social Welfare and Development Office"
+        },
+        {
+          "client_step": "2. Claim the allowance",
+          "agency_action": "2. Distribute allowance",
+          "fees": "None",
+          "processing_time": "4 hours",
+          "person_responsible": "City Mayor, CSWDO staff, CTO staff"
+        }
+      ],
+      "total_processing_time": "5 days, 5 hours and 20 minutes"
+    },
+    {
+      "id": 2,
+      "service_name": "Application for Local Social Pension for Senior Citizens",
+      "image": "/assets/document_background/Application for Local Social Pension for Senior Citizens",
+      "office": "Lipa City Social Welfare and Development Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Senior Citizens"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Senior Citizens ID issued by OSCA - 1 photocopy",
+          "source": "Lipa City Social Welfare and Development Office"
+        },
+        {
+          "requirement": "Barangay Certification as proof of at least 3-year residency – 1 original copy",
+          "source": "Barangay where the applicant resides"
+        },
+        {
+          "requirement": "Letter request of SC to the City Mayor – 1 original copy",
+          "source": "Requesting party/ applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure action slip/ endorsement from the Lipa City Mayor’s Office for CSWDO’s intervention",
+          "agency_action": "1.1. Issue action slip and advise the client to proceed to Lipa CSWDO for interview",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "CMO staff, Lipa City Mayor’s Office"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.2. Receive application form and interview applicant to validate data written on the form",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Social Welfare Assistant, Lipa City Social Welfare and Development Office"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.3. Conduct investigation thru collateral interview",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Social Welfare Assistant, Lipa City Social Welfare and Development Office"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.4. Verify/ validate the documents submitted",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Social Welfare Assistant, Lipa City Social Welfare and Development Office"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.5. Prepare masterlist of qualified recipients",
+          "fees": "None",
+          "processing_time": "1 hour",
+          "person_responsible": "Social Welfare Assistant, Lipa City Social Welfare and Development Office"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.6. Process payroll",
+          "fees": "None",
+          "processing_time": "5 days",
+          "person_responsible": "Social Welfare Assistant/ JO-Administrative Aide IV, Lipa City Social Welfare and Development Office"
+        },
+        {
+          "client_step": "2. Claim the local social pension",
+          "agency_action": "2. Distribute local social pension by district",
+          "fees": "None",
+          "processing_time": "4 hours",
+          "person_responsible": "City Mayor, CSWDO staff, CTO staff"
+        }
+      ],
+      "total_processing_time": "5 days, 5 hours and 28 minutes"
+    },
+    {
+      "id": 3,
+      "service_name": "Application for Tugon sa Edukasyon Allowance",
+      "image": "/assets/document_background/Application for Tugon sa Edukasyon Allowance",
+      "office": "Lipa City Social Welfare and Development Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Students enrolled in public elementary and secondary schools"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Application form – 1 original copy",
+          "source": "Lipa City Social Welfare and Development Office"
+        },
+        {
+          "requirement": "School certification/ certificate of enrollment – 1 certified true copy",
+          "source": "Public elementary and secondary schools where the applicant is enrolled"
+        },
+        {
+          "requirement": "Certificate of Indigency/ Residency – 1 original copy",
+          "source": "Barangay"
+        },
+        {
+          "requirement": "School card – 1 photocopy",
+          "source": "Public elementary and secondary schools where the applicant is enrolled"
+        },
+        {
+          "requirement": "ID of claimant – 1 photocopy",
+          "source": "Applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Client to secure action slip/ endorsement from the Lipa City Mayor’s Office for CSWDO’s intervention",
+          "agency_action": "1.1. Issue action slip",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "CMO staff, Lipa City Mayor’s Office"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.2. Conduct interview to client to validate submitted documents",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "SWO IV, SWO I, Admin Aide VI, Lipa City CSWDO"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.3. Review and recommend approval of recipients",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "SWO IV, Asst. CSWDO, CSWD Officer, Lipa City CSWDO"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.4. Prepare verification form",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "SWO IV, SWO I, Admin Aide VI, Lipa City CSWDO"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.5. Process payroll",
+          "fees": "None",
+          "processing_time": "5 days",
+          "person_responsible": "Admin Aide VI, Admin Aide IV, Lipa City CSWDO"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.6. Approve payroll for disbursement",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City Mayor, Lipa City Mayor’s Office"
+        },
+        {
+          "client_step": "2. Claim the assistance",
+          "agency_action": "2. Distribute allowance by batch",
+          "fees": "None",
+          "processing_time": "4 hours",
+          "person_responsible": "CSWDO staff, CTO staff and City Mayor"
+        }
+      ],
+      "total_processing_time": "5 days, 4 hours and 22 minutes"
+    },
+    {
+      "id": 4,
+      "service_name": "Availing of Aid to Individuals/ Families in Crisis Situation (AICS)",
+      "image": "/assets/document_background/Availing of Aid to Individuals_ Families in Crisis Situation AICS",
+      "office": "Lipa City Social Welfare and Development Office",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Individuals/ families where experiencing crisis situation"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of request to the City Mayor – 1 original copy",
+          "source": "Applicant"
+        },
+        {
+          "requirement": "Certification of Indigency/ Residency – 1 original copy",
+          "source": "Barangay"
+        },
+        {
+          "requirement": "Social Case Study Report – 1 original copy",
+          "source": "Lipa City Social Welfare and Development Office"
+        },
+        {
+          "requirement": "Billing of hospitalization/ confinement and/or medical prescription (if applicable) – 1 photocopy",
+          "source": "Hospital or medical institutions"
+        },
+        {
+          "requirement": "Voter’s ID or any valid ID – 1 photocopy",
+          "source": "Requesting party/ applicant or Any government agency"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Client to secure action slip/ endorsement from the Lipa City Mayor’s Office",
+          "agency_action": "1.1. Issue action slip",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "CMO staff"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.2. Interview client and conduct assessment",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "SWO IV, III, II, or I"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.3. Verify/ validate other pertinent documents",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "SWO IV, III, II, or I"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.4. Prepare Social Case Study Report",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "SWO IV, III, II, or I"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.5. Approve and sign Social Case Study Report",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "SWO IV, Asst. CSWDO, CSWD Officer"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.6. Endorse report to Mayor's Office",
+          "fees": "None",
+          "processing_time": "16 minutes",
+          "person_responsible": "Admin Aide IV"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.7. Sign the Social Case Study Report",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City Mayor"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.8. Process disbursement vouchers and payroll",
+          "fees": "None",
+          "processing_time": "10 days",
+          "person_responsible": "Day Care Worker II"
+        },
+        {
+          "client_step": "2. Claim the assistance",
+          "agency_action": "2. Distribute AICS assistance by batch",
+          "fees": "None",
+          "processing_time": "4 hours",
+          "person_responsible": "CSWDO staff, CTO staff, City Mayor"
+        }
+      ],
+      "total_processing_time": "10 days, 4 hours and 38 minutes"
+    },
+    {
+      "id": 5,
+      "service_name": "Availing of Burial Assistance for Indigents",
+      "image": "/assets/document_background/Availing of Burial Assistance for Indigents",
+      "office": "Lipa City Social Welfare and Development Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Nearest kin of deceased family member"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Personal letter addressed to the City Mayor",
+          "source": "Requesting party/ applicant"
+        },
+        {
+          "requirement": "Death Certificate",
+          "source": "Lipa City Civil Registrar’s Office"
+        },
+        {
+          "requirement": "Funeral Contract/ Promissory Note",
+          "source": "Funeral parlor"
+        },
+        {
+          "requirement": "Certificate of Indigency/ Residency of the deceased",
+          "source": "Barangay where the applicant resides"
+        },
+        {
+          "requirement": "Photocopy of Voter’s ID or any valid ID of claimant",
+          "source": "COMELEC or any other government agency"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure action slip from Mayor's Office",
+          "agency_action": "1.1. Issue action slip",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "CMO staff"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.2. Interview and assessment",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "SWO IV, III, II, or I"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.3. Validate contract with funeral parlor",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "SWO IV, III, II, or I"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.4. Prepare Social Case Study Report",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "SWO IV, III, II, or I"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.5. Review and sign Report",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "SWO IV, Asst. CSWDO, CSWD Officer"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.6. Mayor's Approval",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City Mayor"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.7. Process payment for funeral parlor",
+          "fees": "None",
+          "processing_time": "10 days",
+          "person_responsible": "Day Care Worker II"
+        },
+        {
+          "client_step": "2. Claim assistance",
+          "agency_action": "2. Distribute burial assistance by batch",
+          "fees": "None",
+          "processing_time": "4 hours",
+          "person_responsible": "CSWDO staff, CTO staff, City Mayor"
+        }
+      ],
+      "total_processing_time": "10 days, 4 hours and 38 minutes"
+    },
+    {
+      "id": 6,
+      "service_name": "Availing of Death Aid (Burial) to Senior Citizens",
+      "image": "/assets/document_background/Availing of Death Aid (Burial) to Senior Citizens",
+      "office": "Lipa City Social Welfare and Development Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Nearest kin of deceased senior citizens"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Request letter address to the City Mayor – 1original copy",
+          "source": "Applicant"
+        },
+        {
+          "requirement": "Death certificate – 1 photocopy",
+          "source": "Lipa City Civil Registrar’s Office or PSA"
+        },
+        {
+          "requirement": "Certificate of Indigency/ Residency – 1 original copy",
+          "source": "Barangay"
+        },
+        {
+          "requirement": "Any valid ID – 1 photocopy",
+          "source": "Any government agency"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure action slip from Mayor's Office",
+          "agency_action": "1.1. Issue action slip",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "CMO staff"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.2. Conduct interview/ assessment",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Social Welfare Assistant"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.3. Prepare Social Case Study Report",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Social Welfare Officer I"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.4. Review and recommend approval",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "SWO IV, Asst. CSWDO, CSWD Officer"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.5. Endorse to Mayor's Office",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Social Welfare Assistant"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.6. Mayor signs the report",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City Mayor"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.7. Process payroll for Death Aid (DASC)",
+          "fees": "None",
+          "processing_time": "5 days",
+          "person_responsible": "Day Care Worker II"
+        },
+        {
+          "client_step": "2. Claim assistance",
+          "agency_action": "2. Distribute DASC by batch",
+          "fees": "None",
+          "processing_time": "4 hours",
+          "person_responsible": "City Mayor, CSWD Officer, SWO IV, SW Assistant"
+        }
+      ],
+      "total_processing_time": "5 days, 4 hours and 50 minutes"
+    },
+    {
+      "id": 7,
+      "service_name": "Availing of Medical Financial Assistance",
+      "image": "/assets/document_background/Availing of Medical Financial Assistance",
+      "office": "Lipa City Social Welfare and Development Office",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Nearest kin of sick family member"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of request to the City Mayor",
+          "source": "Requesting party/ applicant"
+        },
+        {
+          "requirement": "Certificate of Residency/ Indigency",
+          "source": "Barangay"
+        },
+        {
+          "requirement": "Hospital bill with promissory note/ doctor’s prescription",
+          "source": "Hospitals or medical institutions"
+        },
+        {
+          "requirement": "Medical abstract/ certificate",
+          "source": "Hospitals or medical institutions"
+        },
+        {
+          "requirement": "Any valid ID of patient and informant",
+          "source": "Applicant or Any government agency"
+        },
+        {
+          "requirement": "Social Case Study Report",
+          "source": "Lipa City CSWDO"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure action slip from Mayor's Office",
+          "agency_action": "1.1. Issue action slip",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "CMO staff"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.2. Interview client to assess case",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "SWO IV, III, II, or I"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.3. Conduct assessment",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "SWO IV, III, II, or I"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.4. Prepare Social Case Study Report",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "SWO IV, III, II, or I"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.5. Recommend approval",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "SWO IV, Asst. CSWDO, CSWD Officer"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.6. Mayor signs report",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City Mayor"
+        },
+        {
+          "client_step": "2. Claim assistance",
+          "agency_action": "2. Distribute medical financial assistance by batch",
+          "fees": "None",
+          "processing_time": "4 hours",
+          "person_responsible": "CSWDO staff, CTO staff, City Mayor"
+        }
+      ],
+      "total_processing_time": "4 hours and 38 minutes"
+    },
+    {
+      "id": 8,
+      "service_name": "Availing of Residential Care Services",
+      "image": "/assets/document_background/Availing of Residential Care Services",
+      "office": "Lipa City Social Welfare and Development Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Children and youth below 18 years old, physically and sexually abused women, street children, victims of illegal recruitment/detention"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Referral letter from referring agency/ barangay – 1 original copy",
+          "source": "Referring agency"
+        },
+        {
+          "requirement": "Barangay clearance",
+          "source": "Barangay"
+        },
+        {
+          "requirement": "Authenticated birth certificate",
+          "source": "PSA"
+        },
+        {
+          "requirement": "Medico-legal certificate",
+          "source": "Government doctor"
+        },
+        {
+          "requirement": "Public Investigation report",
+          "source": "Lipa City PNP"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Proceed to Bahay Pag-asa for interview",
+          "agency_action": "1.1. Conduct intake interview",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "SWO II"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.2 - 1.4. Referral for medical/legal/other LGUs",
+          "fees": "None",
+          "processing_time": "35 minutes",
+          "person_responsible": "SWO III/II"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.5. Prepare Social Case Study Report",
+          "fees": "None",
+          "processing_time": "1 day",
+          "person_responsible": "SWO II"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.6. Conduct psycho-social investigation",
+          "fees": "None",
+          "processing_time": "3 days",
+          "person_responsible": "SWO III"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.7 - 1.11. Case conference, court hearings, diversion/progress/termination reports",
+          "fees": "None",
+          "processing_time": "10 hours",
+          "person_responsible": "SWO II"
+        }
+      ],
+      "total_processing_time": "4 days, 10 hours and 55 minutes"
+    },
+    {
+      "id": 9,
+      "service_name": "Availing of Sustainable Livelihood Program",
+      "image": "/assets/document_background/Availing of Sustainable Livelihood Program",
+      "office": "Lipa City Social Welfare and Development Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Micro and small entrepreneurs"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Barangay Certification of Residency – 1 original copy",
+          "source": "Barangay"
+        },
+        {
+          "requirement": "Proposed Project Proposal – 1 original copy",
+          "source": "Requesting party/ applicant"
+        },
+        {
+          "requirement": "Any valid ID of client – 1 photocopy",
+          "source": "Any government agency"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit complete requirements",
+          "agency_action": "1.1. Validation of documents",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "SWO III"
+        },
+        {
+          "client_step": "2. Attend Basic Business Management Skills Training",
+          "agency_action": "2.1 - 2.5. Conduct meetings, preparation of resolution, monitoring, and financial reporting",
+          "fees": "None",
+          "processing_time": "4 days, 1 hour, 2 mins",
+          "person_responsible": "SWO IV / SWO III"
+        }
+      ],
+      "total_processing_time": "4 days, 1 hour and 7 minutes"
+    },
+    {
+      "id": 10,
+      "service_name": "Issuance of Person with Disabilities (PWDs) Identification Card",
+      "image": "/assets/document_background/Issuance of Person with Disabilities (PWDs) Identification Card",
+      "office": "Lipa City Social Welfare and Development Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Any bonafide PWD with permanent disabilities (Psychosocial, Chronic illness, Learning, Mental, Visual, Orthopedic, Speech and hearing)"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Filled-up Application Form",
+          "source": "Lipa City CSWDO"
+        },
+        {
+          "requirement": "1x1 recent ID picture (2 copies)",
+          "source": "Applicant"
+        },
+        {
+          "requirement": "One (1) valid ID",
+          "source": "Any government agency"
+        },
+        {
+          "requirement": "Medical certificate/Doctor's Certification",
+          "source": "Licensed Private or Government Physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure action slip from Mayor's Office",
+          "agency_action": "1.1. Issue action slip",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "CMO staff"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.2 - 1.4. Assist in filling up form, verify info, and prepare ID",
+          "fees": "None",
+          "processing_time": "9 minutes",
+          "person_responsible": "Social Welfare Officer I"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.5 - 1.6. Endorse and sign ID",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "City Mayor"
+        },
+        {
+          "client_step": "2. Claim ID and booklet",
+          "agency_action": "2. Release ID and booklets",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Social Welfare Officer I"
+        }
+      ],
+      "total_processing_time": "29 minutes"
+    },
+    {
+      "id": 11,
+      "service_name": "Issuance of Senior Citizen’s Identification Card",
+      "image": "/assets/document_background/Issuance of Senior Citizen’s Identification Card",
+      "office": "Lipa City Social Welfare and Development Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "All Lipeño residents who are 60 years old or above"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Senior Citizen Application Form",
+          "source": "Lipa City CSWDO"
+        },
+        {
+          "requirement": "1x1 ID picture – 2 copies",
+          "source": "Barangay"
+        },
+        {
+          "requirement": "Birth/Baptismal certificate",
+          "source": "PSA/Lipa City Registrar/Parish"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure action slip from Mayor's Office",
+          "agency_action": "1.1. Issue action slip",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "CMO staff"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.2 - 1.4. Assist in filling up form (OSCA), verify info, and prepare ID",
+          "fees": "None",
+          "processing_time": "1 day, 4 mins",
+          "person_responsible": "Social Welfare Assistant"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.5. OSCA Chairman counter signing",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "OSCA Chairman"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.7. Mayor signs ID",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City Mayor"
+        },
+        {
+          "client_step": "2. Receive ID",
+          "agency_action": "2. Release ID and booklets",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Social Welfare Assistant"
+        }
+      ],
+      "total_processing_time": "1 day and 34 minutes"
+    },
+    {
+      "id": 12,
+      "service_name": "Issuance of Solo Parent Identification Card",
+      "image": "/assets/document_background/Issuance of Solo Parent Identification Card",
+      "office": "Lipa City Social Welfare and Development Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Solo parents (Widowed, separated, abandoned, unmarried parents, etc. as defined by law)"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Certificate of Residency, Proof of Solo Parent status, Income Tax Return (for working), Birth certificates of children",
+          "source": "Barangay, BIR, Civil Registrar, Lipa City CSWDO"
+        },
+        {
+          "requirement": "1x1 picture (2 pieces)",
+          "source": "Applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure action slip from Mayor's Office",
+          "agency_action": "1.1. Issue action slip",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "CMO staff"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.2 - 1.3. Receive form, interview, and collateral investigation",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Social Welfare Officer IV"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.4. Prepare ID",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide II"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.5 - 1.6. Endorse and sign ID",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "City Mayor"
+        },
+        {
+          "client_step": "2. Receive ID",
+          "agency_action": "2. Release ID",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Social Welfare Officer IV"
+        }
+      ],
+      "total_processing_time": "35 minutes"
+    }
+  ]
+}
