@@ -3,10 +3,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
     const val = urlParams.get("view");
 
+    // Replace single quotes with underscores
+    const normalizedVal = val ? val.replace(/'/g, "_") : "";
+
+    console.log(normalizedVal);
+    
     const serviceSelected = document.getElementById("service-selected");
     serviceSelected.textContent = val ? val : "No service selected";
 
-    fetch(`/data/${val}.json`)
+    fetch(`/data/${normalizedVal}.json`)
         .then(response => response.json())
         .then(data => {
             const container = document.getElementById("document-viewer");

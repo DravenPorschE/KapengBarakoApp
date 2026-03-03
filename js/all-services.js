@@ -14,11 +14,11 @@ document.addEventListener('DOMContentLoaded', function () {
             data = {
                 "Lipa City Accounting Office External Services": 0,
                 "Lipa City Accounting Office Internal Services": 0,
-                "Lipa City Administrator's Office External Services": 0,
+                "Lipa City Administrator_s Office External Services": 0,
                 "Lipa City Agriculture Office External Services": 0,
-                "Lipa City Assesor's Office External Services": 0,
+                "Lipa City Assesor_s Office External Services": 0,
                 "Lipa City Budget Office External Services": 0,
-                "Lipa City Civil Registar's Office External Services": 0,
+                "Lipa City Civil Registar_s Office External Services": 0,
                 "Lipa City Community Affairs Office External Services": 0,
                 "Lipa City Cooperatives Office External Services": 0,
                 "Lipa City Engineering Office External Services": 0,
@@ -26,22 +26,22 @@ document.addEventListener('DOMContentLoaded', function () {
                 "Lipa City General Services Office Internal Services": 0,
                 "Lipa City Health Office External Services": 0,
                 "Lipa City Legal Office External Services": 0,
-                "Lipa City Mayor's Office External Services": 0,
-                "Lipa City Mayor's Office Internal Services": 0,
+                "Lipa City Mayor_s Office External Services": 0,
+                "Lipa City Mayor_s Office Internal Services": 0,
                 "Lipa City Permits and Licensing Office External Services": 0,
                 "Lipa City Personnel Office External Services": 0,
                 "Lipa City Personnel Office Internal Services": 0,
                 "Lipa City Planning and Development Office External Services": 0,
                 "Lipa City Public Order and Safety Office External Services": 0,
                 "Lipa City Social Welfare and Development Office External Services": 0,
-                "Lipa City Treasurer's Office External Services": 0,
-                "Lipa City Treasurer's Office Internal Services": 0,
+                "Lipa City Treasurer_s Office External Services": 0,
+                "Lipa City Treasurer_s Office Internal Services": 0,
                 "Lipa City Veterinary Office External Services": 0,
                 "Kolehiyo ng Lungsod ng Lipa External Services": 0,
                 "Ospital ng Lipa External Services": 0,
                 "Ospital ng Lipa Internal Services": 0,
                 "Office of the Sangguniang Panglungsod External Services": 0,
-                "Lipa City Vice Mayor's Office External Services": 0
+                "Lipa City Vice Mayor_s Office External Services": 0
             };
         }
 

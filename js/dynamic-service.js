@@ -11,8 +11,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     const jsonFiles = [
         "/data/Lipa City Environment and Natural Resources Office External Services.json",
         "/data/KOLEHIYO NG LUNGSOD NG LIPA EXTERNAL SERVICES.json",
-        "/data/Lipa City Social Welfare and Development Office External Services.json"
+        "/data/Lipa City Social Welfare and Development Office External Services.json",
+        "/data/LIPA CITY AGRICULTURE OFFICE EXTERNAL SERVICES.json",
+        "/data/Lipa City Permits and Licensing Office External Services.json",
+        "/data/Lipa City Assessor_s Office External Services.json",
+        "/data/Lipa City Engineering Office External Services.json"
     ];
+    
 
     async function loadAllServices() {
         const responses = await Promise.all(
@@ -28,6 +33,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         );
     }
 
+    const allServices = await loadAllServices();
+
+    console.log(allServices);
+
     backBtn.addEventListener("click", () => {
         window.history.back();
     });
@@ -38,6 +47,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const matchedService = allServices.find(service =>
             service.service_name.toLowerCase().trim() === val.toLowerCase().trim()
         );
+
+        // console.log(matchedService);
 
         if (matchedService) {
             // Set header info
