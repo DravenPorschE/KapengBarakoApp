@@ -1,0 +1,336 @@
+{
+  "department": "Lipa City Accounting Office",
+  "external_services": [
+    {
+      "id": 1,
+      "service_name": "Certification of Net Income of Employees in Application to Multi-Purpose Loan made to Home Development Mutual Fund (PagIBIG)",
+      "office": "Lipa City Accounting Office – Accounting Division",
+      "classification": "Simple",
+      "image": "/assets/document_background/Certification of Net Income of Employees in Application to Multi-Purpose",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Regular employees",
+        "Casual employees"
+      ],
+      "steps": [
+        {
+          "client_step": "1. Proceed to the Accounting Division to request certification of net income and submit requirements. Wait for processing.",
+          "agency_action": "1.1 Acknowledge request and receive requirements; 1.2 Assess validity and verify records; 1.3 Process certification; 1.4 Sign certification for approval.",
+          "fees": "None",
+          "processing_time": "1 day and 5 minutes",
+          "person_responsible": "Administrative Aide VI / City Accountant"
+        },
+        {
+          "client_step": "2. Claim the duly signed MPL form.",
+          "agency_action": "2. Issue signed MPL form.",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide VI"
+        }
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Employee ID and any government-issued ID – 1 photocopy each",
+          "source": "Requesting party/ applicant or Any government agency (PSA, Comelec, LTO, PhilPost, GSIS, SSS, etc.)"
+        },
+        {
+          "requirement": "Filled-up HDMF Multi-purpose Loan Application Form – 1 original copy",
+          "source": "Requesting party/ applicant"
+        }
+      ],
+      "total_processing_time": "1 day and 7 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 2,
+      "service_name": "Issuance of BIR Form 2306 and/or 2307 to Job Order/ Contract of Service Workers and Consultants",
+      "office": "City Accounting Office – Accounting Division",
+      "image": "/assets/document_background/Issuance of BIR Form 2306 and_or 2307 to Job Order_ Contract of Service",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Contract of Service (COS) workers",
+        "Job Order (JO) workers",
+        "Consultants"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Request letter - 1 original copy",
+          "source": "Requesting party/ applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Proceed to Accounting Division to request issuance of BIR Form 2306/2307 and submit request letter. Wait for processing.",
+          "agency_action": "1.1 Receive and acknowledge request; 1.2 Verify correctness of information; 1.3 Gather relevant data; 1.4 Generate BIR Form; 1.5 Sign BIR Form.",
+          "fees": "None",
+          "processing_time": "2 days and 2 minutes",
+          "person_responsible": "Admin Assistant III / Assistant City Accountant / City Accountant"
+        },
+        {
+          "client_step": "2. Claim BIR Form 2306/2307.",
+          "agency_action": "2. Issue BIR Form 2306/2307.",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Assistant III"
+        }
+      ],
+      
+      "total_processing_time": "2 days and 4 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 3,
+      "service_name": "Issuance of Certification of Premium and Loan Amortization Remittance made to Government Service Insurance System (GSIS)",
+      "office": "Lipa City Accounting Office – Accounting Division",
+      "classification": "Simple",
+      "image": "/assets/document_background/Issuance of Certification of Premium and Loan Amortization Remittance",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Regular employees",
+        "Casual employees"
+      ],
+      "steps": [
+        {
+          "client_step": "1. Proceed to Accounting Office to request issuance of certification and submit BP Number. Wait for processing.",
+          "agency_action": "1.1 Acknowledge request and verify BP Number; 1.2 Verify records; 1.3 Process certification; 1.4 Sign certification.",
+          "fees": "None",
+          "processing_time": "2 days and 5 minutes",
+          "person_responsible": "Administrative Officer II / City Accountant"
+        },
+        {
+          "client_step": "2. Claim approved certification.",
+          "agency_action": "2. Issue approved certification.",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Accounting Staff"
+        }
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "GSIS Business Partner (BP) Number - 1 original and 1 photocopy",
+          "source": "Government Service Insurance System (GSIS)"
+        }
+      ],
+      "total_processing_time": "2 days and 7 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 4,
+      "service_name": "Issuance of Certification of Premium Remittances made to Philippine Health Insurance Corporation (PhilHealth)",
+      "office": "Lipa City Accounting Office – Accounting Division",
+      "classification": "Simple",
+      "image": "/assets/document_background/Issuance of Certification of Premium Remittances made to Philippine",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "steps": [
+        {
+          "client_step": "1. Transmit disbursement voucher with complete supporting documents.",
+          "agency_action": "Receive, assign DV number; review allotment; pre-audit voucher; review; endorse for compliance; re-check; certify Box A; forward to City Treasurer.",
+          "fees": "None",
+          "processing_time": "9 days, 2 hours and 30 minutes",
+          "person_responsible": "Administrative Aide IV / Administrative Officer II / Management Audit Analysts / Accountant IV / City Accountant / Admin Assistant IV"
+        }
+      ],
+      "who_may_avail": [
+        "Regular employees",
+        "Casual employees"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "PhilHealth Identification Number – 1 original and 1 photocopy",
+          "source": "Philippine Health Insurance Corporation (PhilHealth)"
+        }
+      ],
+      "total_processing_time": "1 day and 7 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 5,
+      "service_name": "Pre-audit of Vouchers for Procurement through Public Bidding",
+      "office": "Lipa City Accounting Office – Internal Audit Division",
+      "image": "/assets/document_background/Pre-audit of Vouchers for Procurement through Public Bidding",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2B – Government to Businesses, G2G – Government to Government",
+      "steps": [
+        {
+          "client_step": "1. Transmit disbursement voucher with complete supporting documents.",
+          "agency_action": "Receive and assign DV number; review allotment; pre-audit; review; endorse; re-check; certify Box A; forward to Treasurer.",
+          "fees": "None",
+          "processing_time": "5 days, 2 hours and 30 minutes",
+          "person_responsible": "Administrative Aide IV / Administrative Officer II / Audit Analysts / Accountant IV / City Accountant / Admin Assistant IV"
+        }
+      ],
+      "who_may_avail": [
+        "Lipa City General Services Office",
+        "Lipa City Engineering Office",
+        "BAC Secretariat"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Disbursement Voucher – 2 original copies",
+          "source": "Lipa City General Services Office or Lipa City Engineering Office"
+        },
+        {
+          "requirement": "Complete supporting documents in accordance with Revised IRR of RA 9184, COA Circular 2012-001",
+          "source": "Bids and Awards Secretariat"
+        }
+      ],
+      "total_processing_time": "9 days, 2 hours and 30 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 6,
+      "service_name": "Pre-audit of Disbursement Vouchers – Procurement of Goods and Services through Alternative Modes of Procurement",
+      "office": "Lipa City Accounting Office – Internal Audit Division",
+      "classification": "Complex",
+      "image": "/assets/document_background/Pre-audit of Disbursement Vouchers – Procurement of Goods and",
+      "type_of_transaction": "G2B / G2G",
+      "steps": [
+        {
+          "client_step": "1. Transmit payroll with complete supporting documents.",
+          "agency_action": "Receive and assign payroll number; review allotment; pre-audit payroll; review; certify Box A; forward to Treasurer.",
+          "fees": "None",
+          "processing_time": "6 days and 1 hour",
+          "person_responsible": "Administrative Aide IV / Administrative Officer II / Audit Analysts / Accountant IV / City Accountant / Admin Assistant IV"
+        }
+      ],
+      "who_may_avail": [
+        "End User Unit",
+        "Lipa City General Services Office",
+        "Lipa City Engineering Office",
+        "BAC Secretariat"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Disbursement Voucher – 2 original copies",
+          "source": "End User Unit/Lipa City GSO/Engineering Office/BAC Secretariat"
+        },
+        {
+          "requirement": "Complete supporting documents (RA 9184, COA 2012-001)",
+          "source": "Various Departments"
+        }
+      ],
+      "total_processing_time": "5 days, 2 hours and 30 minutes",
+      "total_fees": "None"
+    },
+    {
+      "id": 7,
+      "service_name": "Pre-Audit of Payrolls – Salaries and Wages",
+      "office": "Lipa City Accounting Office",
+      "classification": "Simple",
+      "image": "/assets/document_background/Pre-Audit of Payrolls – Salaries and Wages",
+      "type_of_transaction": "G2C – Government to Citizens, G2G – Government to Government",
+      "who_may_avail": [
+        "LGU Offices"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "General Payroll Form – 1 original and 2 photocopies",
+          "source": "Lipa City Personnel Office (HR) / Department Concerned"
+        },
+        {
+          "requirement": "Obligation Request (manual and system generated) – 1 original copy",
+          "source": "Lipa City Budget Office"
+        },
+        {
+          "requirement": "Daily Time Records – 1 original copy",
+          "source": "Employees / Department Concerned"
+        },
+        {
+          "requirement": "Leave Form – 1 original and 1 photocopy",
+          "source": "Department Concerned"
+        },
+        {
+          "requirement": "Travel Order – 1 original and 1 photocopy",
+          "source": "Lipa City Personnel Office"
+        },
+        {
+          "requirement": "Certificate of Appearance – 1 original and 1 photocopy",
+          "source": "Office of Destination"
+        },
+        {
+          "requirement": "Pass Slip – 1 original and 1 photocopy",
+          "source": "Department Concerned"
+        },
+        {
+          "requirement": "Accomplishment Report (for Casual and Job Orders)",
+          "source": "Employees / Department Concerned"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Transmit payroll with complete supporting documents.",
+          "agency_action": "1.1 Receive, record and assign payroll number; stamp supporting documents as 'passed'.",
+          "fees": "None",
+          "processing_time": "1 day",
+          "person_responsible": "Administrative Aide IV"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.2 Review allotment and obligation; update appropriate registry.",
+          "fees": "None",
+          "processing_time": "1 hour",
+          "person_responsible": "Administrative Officer II"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.3 Pre-audit payroll to determine completeness and verify computations.",
+          "fees": "None",
+          "processing_time": "1 day",
+          "person_responsible": "Management Audit Analyst I-III / Fiscal Examiner III / Fiscal Clerk II / Accounting Clerk II"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.4 Review pre-audited voucher and supporting documents.",
+          "fees": "None",
+          "processing_time": "4 hours",
+          "person_responsible": "Accountant IV"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.5 Certify on BOX A of disbursement voucher.",
+          "fees": "None",
+          "processing_time": "2 hours",
+          "person_responsible": "City Accountant"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.6 Forward certified voucher to Lipa City Treasurer’s Office.",
+          "fees": "None",
+          "processing_time": "1 hour",
+          "person_responsible": "Administrative Assistant IV"
+        }
+      ],
+      "total_processing_time": "2 days and 8 hours",
+      "total_fees": "None"
+    },
+    {
+      "id": 8,
+      "service_name": "Pre-audit of Payrolls for Various Social Services Programs – Financial Assistance",
+      "office": "Lipa City Accounting Office – Internal Audit Division",
+      "classification": "Complex",
+      "image": "/assets/document_background/Pre-audit of Payrolls for Various Social Services Programs – Financial",
+      "type_of_transaction": "G2G – Government to Government",
+      "who_may_avail": [
+        "LGU Departments Implementing Social Services Projects"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Filled-up application form, Payroll, Obligation Request, Approved work program, ID photocopy",
+          "source": "Implementing department and Budget Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Transmit payroll with complete supporting documents.",
+          "agency_action": "Receive and assign payroll number; review allotment; pre-audit payroll; review; certify Box A; forward to Treasurer.",
+          "fees": "None",
+          "processing_time": "6 days and 1 hour",
+          "person_responsible": "Administrative Aide IV / Administrative Officer II / Audit Analysts / Accountant IV / City Accountant / Admin Assistant IV"
+        }
+      ],
+      "total_processing_time": "6 days and 1 hour",
+      "total_fees": "None"
+    }
+  ]
+}

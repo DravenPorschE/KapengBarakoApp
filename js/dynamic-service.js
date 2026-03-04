@@ -5,14 +5,26 @@ document.addEventListener("DOMContentLoaded", async () => {
     const typeInfo = document.getElementById("type-info");
     const backBtn = document.querySelector(".back-button");
 
+    const totalFees = document.getElementById("total-fees");
+    const totalTime = document.getElementById("total-time");
+    const totalSteps = document.getElementById("total-steps");
+
     const urlParams = new URLSearchParams(window.location.search);
     const val = urlParams.get("search");
 
     const jsonFiles = [
         "/data/Lipa City Environment and Natural Resources Office External Services.json",
         "/data/KOLEHIYO NG LUNGSOD NG LIPA EXTERNAL SERVICES.json",
-        "/data/Lipa City Social Welfare and Development Office External Services.json"
+        "/data/Lipa City Social Welfare and Development Office External Services.json",
+        "/data/LIPA CITY AGRICULTURE OFFICE EXTERNAL SERVICES.json",
+        "/data/Lipa City Permits and Licensing Office External Services.json",
+        "/data/Lipa City Assessor_s Office External Services.json",
+        "/data/Lipa City Engineering Office External Services.json",
+        "/data/Lipa City Cooperatives Office External Services.json",
+        "/data/Lipa City Accounting Office External Services.json",
+        "/data/LIPA CITY ACCOUNTING OFFICE INTERNAL SERVICES.json"
     ];
+    
 
     async function loadAllServices() {
         const responses = await Promise.all(
@@ -28,6 +40,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         );
     }
 
+    const allServices = await loadAllServices();
+
     backBtn.addEventListener("click", () => {
         window.history.back();
     });
@@ -39,12 +53,23 @@ document.addEventListener("DOMContentLoaded", async () => {
             service.service_name.toLowerCase().trim() === val.toLowerCase().trim()
         );
 
+        // console.log(matchedService);
+
         if (matchedService) {
             // Set header info
             serviceName.textContent = matchedService.office;
             documentName.textContent = matchedService.service_name;
             classInfo.textContent = matchedService.classification;
             typeInfo.textContent = matchedService.type_of_transaction;
+
+            totalFees.textContent = matchedService.total_fees;
+            totalTime.textContent = matchedService.total_processing_time;
+            
+            const totalClientStep = (matchedService.steps || []).filter(
+                step => step.client_step && step.client_step !== "N/A"
+            );
+
+            totalSteps.textContent = totalClientStep.length;
 
             // ===== Checklist =====
             const checklist_container = document.querySelector(".checklist-container");

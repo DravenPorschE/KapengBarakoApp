@@ -1,0 +1,208 @@
+{
+  "department": "Lipa City Permits and Licensing Office",
+  "external_services": [
+    {
+      "id": 1,
+      "service_name": "Application for Business Permit – New Applications",
+      "image": "/assets/document_background/Application for Business Permit – New Applications",
+      "classification": "Simple",
+      "type_of_transaction": "G2B-Government to Business Owners",
+      "who_may_avail": "Business Owners",
+      "checklist_of_requirements": [
+        { "requirement": "Barangay Clearance w/ official receipt – 1 original & 1 photocopy", "source": "Respective Barangay Hall" },
+        { "requirement": "Location Plan or sketch of the location, clearly showing where business premises is located", "source": "Business Owner/Applicant" },
+        { "requirement": "DTI Registration (for single Proprietorship) – 1 photocopy", "source": "Department of Trade and Industry (DTI)" },
+        { "requirement": "SEC Registration with Articles of Incorporation/Partnership and By-Laws (for Corporation/Partnership) – 1 photocopy", "source": "Securities and Exchange Commission (SEC)" },
+        { "requirement": "CDA Registration (for Cooperatives) – 1 photocopy", "source": "Cooperative Development Authority" },
+        { "requirement": "Homeowner’s Clearance, if applicable -1 photocopy", "source": "Respective Homeowner’s Association" },
+        { "requirement": "Market Certification-for Public Market Stallholders - original copy", "source": "LCAdO-Economic Enterprise Division" },
+        { "requirement": "Proof of right of applicant to use location as business address (TCT, Tax Declaration, or Contract of Lease)", "source": "Property Owner" },
+        { "requirement": "Authority to Process (if not the owner) - original copy", "source": "Owner of Business" },
+        { "requirement": "Franchise Agreement (for franchised business) - 1 photocopy", "source": "Franchiser" },
+        { "requirement": "Tax Declaration of Lot/ Building/Machinery - 2 photocopies", "source": "City Assessor’s Office" },
+        { "requirement": "Updated Real Property Tax Receipt - 1 photocopy", "source": "Land Tax Division-Lipa City Treasurer’s Office" },
+        { "requirement": "Occupational Permit with CTC (for 4 employees & below) – original copy", "source": "Lipa City Permits and Licensing Office" },
+        { "requirement": "Masterlist of employees (for 5 employees or more) - original copy", "source": "Business Owner" },
+        { "requirement": "Certificate of Occupancy, if necessary - 1 photocopy", "source": "Lipa City Engineering Office" },
+        { "requirement": "Locational Clearance - 1 photocopy", "source": "Lipa City Planning and Development Office" },
+        { "requirement": "Sanitary Permit to Operate - 1 photocopy", "source": "Lipa City Health Office" },
+        { "requirement": "Fire Safety Inspection Certificate - 1 photocopy", "source": "Bureau of Fire Protection" }
+      ],
+      "steps": [
+        { "client_step": "Submit Accomplished Business Permit Application Form with required documents", "agency_action": "Receive and preliminarily evaluate application; forward to BOSS backroom; encode information", "fees_to_be_paid": "None", "processing_time": "2 hours and 20 minutes", "person_responsible": "Licensing Officer III, License Inspector II, BOSS Backroom Staff" },
+        { "client_step": "Payment of corresponding fees and taxes at the Lipa City Treasurer's Office", "agency_action": "Validate RPT, print TOP, receive payment and issue Official Receipt", "fees_to_be_paid": "In accordance with 1993 Revised Revenue Code and Tax Ordinance No. 132", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk III/II" },
+        { "client_step": "Submit application for release of permits and other clearances", "agency_action": "Process clearances, print Mayor's Permit, approve and release", "fees_to_be_paid": "None", "processing_time": "2 hours", "person_responsible": "City Permits and Licensing Officer, Admin Aide VI" }
+      ],
+      "total_processing_time": "4 hours and 5 minutes"
+    },
+    {
+      "id": 2,
+      "service_name": "Application for Renewal of Business Permits",
+      "image": "/assets/document_background/Application for Renewal of Business Permits",
+      "classification": "Simple",
+      "type_of_transaction": "G2B-Government to Business Owners",
+      "who_may_avail": "Business Owners",
+      "checklist_of_requirements": [
+        { "requirement": "Barangay Clearance w/ Official Receipt – 1 original, 1 photocopy", "source": "Respective Barangay Hall" },
+        { "requirement": "Statement of Gross Sales Receipts – 1 original copy", "source": "Business Owner" },
+        { "requirement": "Fire Safety Inspection Certificate - 1 photocopy", "source": "Bureau of Fire Protection" },
+        { "requirement": "Sanitary Permit to Operate - 1 photocopy", "source": "Lipa City Health Office" }
+      ],
+      "steps": [
+        { "client_step": "Submit Accomplished Business Permit Application Form", "agency_action": "Evaluate application and assessment of Gross Receipts", "fees_to_be_paid": "None", "processing_time": "2 hours and 20 minutes", "person_responsible": "Licensing Officer III, Planning Officer IV" },
+        { "client_step": "Payment of corresponding fees and taxes", "agency_action": "Issue Official Receipt and release application", "fees_to_be_paid": "Based on Revenue Code and Fire Code", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk" },
+        { "client_step": "Return and submit application for release of permit", "agency_action": "Print and release Mayor's Permit Certificate", "fees_to_be_paid": "None", "processing_time": "1 hour and 20 minutes", "person_responsible": "City Permits and Licensing Officer" }
+      ],
+      "total_processing_time": "4 hours and 5 minutes"
+    },
+    {
+      "id": 3,
+      "service_name": "Business Registration – Transfer of Business Location, for establishments with issued Mayor’s Permit for the current year",
+      "image": "/assets/document_background/Business Registration – Transfer of Business Location, for establishments",
+      "classification": "Simple",
+      "type_of_transaction": "G2B-Government to Business Owners",
+      "who_may_avail": "Business Owners",
+      "checklist_of_requirements": [
+        { "requirement": "Notice of transfer of location (Affidavit or Board Resolution)", "source": "Business Owner/s" },
+        { "requirement": "Locational Clearance - 1 photocopy", "source": "Lipa City Planning & Development Office" },
+        { "requirement": "Proof of right to use location (TCT or Lease Contract)", "source": "Property Owner" },
+        { "requirement": "Fire Safety Inspection Certificate for Occupancy", "source": "Business Owner" }
+      ],
+      "steps": [
+        { "client_step": "Submit Accomplished Application Form", "agency_action": "Preliminary evaluation and forward to CPDO for inspection", "fees_to_be_paid": "None", "processing_time": "2 hours and 20 minutes", "person_responsible": "Planning Officer IV, Licensing Officer III" },
+        { "client_step": "Pay corresponding fees", "agency_action": "Issue Official Receipt", "fees_to_be_paid": "P1,650.00 (Locational Clearance & Mayor's Permit Fee)", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk" },
+        { "client_step": "Return application for issuance of new certificate", "agency_action": "Update record, print and approve new certificate", "fees_to_be_paid": "None", "processing_time": "40 minutes", "person_responsible": "City Permits and Licensing Officer" }
+      ],
+      "total_processing_time": "3 hours and 25 minutes"
+    },
+    {
+      "id": 4,
+      "service_name": "Application for Mayor’s Permit – Transfer of Ownership, for establishments with issued Mayor’s Permit for the current year",
+      "image": "/assets/document_background/Application for Mayor’s Permit – Transfer of Ownership, for establishments",
+      "classification": "Simple",
+      "type_of_transaction": "G2B-Government to Business Owners",
+      "who_may_avail": "Business Owners",
+      "checklist_of_requirements": [
+        { "requirement": "Deed of Sale or Affidavit of Transfer", "source": "Business Owner/s" },
+        { "requirement": "DTI/SEC/CDA Registration in new owner's name", "source": "DTI/SEC/CDA" },
+        { "requirement": "Current Mayor's Permit Issued to former owner", "source": "Former Business Owner" }
+      ],
+      "steps": [
+        { "client_step": "Submit Accomplished Application Form", "agency_action": "Evaluate application and issue Order of Payment", "fees_to_be_paid": "None", "processing_time": "20 minutes", "person_responsible": "Licensing Officer III" },
+        { "client_step": "Pay the corresponding fee", "agency_action": "Receive payment and issue OR", "fees_to_be_paid": "P250.00 certificate fee + Transfer Fee (1% or P500 whichever is lower)", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk" },
+        { "client_step": "Submit application for issuance of new Permit", "agency_action": "Print and release approved permit", "fees_to_be_paid": "None", "processing_time": "40 minutes", "person_responsible": "City Permits and Licensing Officer" }
+      ],
+      "total_processing_time": "1 hour and 25 minutes"
+    },
+    {
+      "id": 5,
+      "service_name": "Application for Mayor’s Permit for Public Utility Vehicles (PUVs)",
+      "image": "/assets/document_background/Application for Mayor’s Permit for Public Utility Vehicles (PUVs)",
+      "classification": "Simple",
+      "type_of_transaction": "G2C-Government to Operators of PUVs",
+      "who_may_avail": "PUV Operators",
+      "checklist_of_requirements": [
+        { "requirement": "Duly filled-up Application Form", "source": "Lipa City Permits and Licensing Office" },
+        { "requirement": "Updated Official Receipt and Certificate of Registration", "source": "Land Transportation Office" },
+        { "requirement": "LTFRB Decision", "source": "LTFRB" },
+        { "requirement": "Driver's License", "source": "PUV Driver" }
+      ],
+      "steps": [
+        { "client_step": "Submit Accomplished PUV Permit Application Form", "agency_action": "Preliminary evaluation and issue Order of Payment", "fees_to_be_paid": "None", "processing_time": "10 minutes", "person_responsible": "Licensing Officer I" },
+        { "client_step": "Pay the fees at the City Treasurer's Office", "agency_action": "Receive payment and issue OR", "fees_to_be_paid": "P200.00 (Permit) + P30.00 (Sticker)", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk II" },
+        { "client_step": "Submit application and claim Mayor’s Permit and sticker", "agency_action": "Approve and release sticker/permit", "fees_to_be_paid": "None", "processing_time": "30 minutes", "person_responsible": "City Permits and Licensing Officer" }
+      ],
+      "total_processing_time": "1 hour and 5 minutes"
+    },
+    {
+      "id": 6,
+      "service_name": "Business Permit Retirement",
+      "image": "/assets/document_background/Business Permit Retirement",
+      "classification": "Simple",
+      "type_of_transaction": "G2B-Government to Business Owners",
+      "who_may_avail": "Business Owners",
+      "checklist_of_requirements": [
+        { "requirement": "Barangay Certification or Mall Certification", "source": "Barangay Hall/Mall Admin" },
+        { "requirement": "Last Mayor's Permit and Business Plate", "source": "Business Owner" },
+        { "requirement": "Statement of Gross Income", "source": "Business Owner" }
+      ],
+      "steps": [
+        { "client_step": "Submit Accomplished Business Retirement Form", "agency_action": "Evaluate and assess Gross Receipts", "fees_to_be_paid": "None", "processing_time": "20 minutes", "person_responsible": "Licensing Officer III" },
+        { "client_step": "Pay the corresponding tax/ fees", "agency_action": "Issue Official Receipt", "fees_to_be_paid": "Based on 1993 Revised Revenue Code", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk II" },
+        { "client_step": "Submit application for issuance of Certification", "agency_action": "Prepare and approve Certification of Retirement", "fees_to_be_paid": "None", "processing_time": "40 minutes", "person_responsible": "City Permits and Licensing Officer" }
+      ],
+      "total_processing_time": "1 hour and 25 minutes"
+    },
+    {
+      "id": 7,
+      "service_name": "Application for Occupational Permit",
+      "image": "/assets/document_background/Application for Occupational Permit",
+      "classification": "Simple",
+      "type_of_transaction": "G2C-Government to Citizens",
+      "who_may_avail": "Individuals engaged in calling",
+      "checklist_of_requirements": [
+        { "requirement": "Community Tax Certificate (CTC)", "source": "Lipa City Treasurer's Office" },
+        { "requirement": "Official Receipt for payment of Occupational Fee", "source": "Lipa City Treasurer's Office" }
+      ],
+      "steps": [
+        { "client_step": "Submit requirements and accomplished form", "agency_action": "Receive, approve, and release Occupational Permit", "fees_to_be_paid": "None", "processing_time": "30 minutes", "person_responsible": "City Permits and Licensing Officer" }
+      ],
+      "total_processing_time": "30 minutes"
+    },
+    {
+      "id": 8,
+      "service_name": "Permit to Collect Service Charge",
+      "image": "/assets/document_background/Permit to Collect Service Charge",
+      "classification": "Simple",
+      "type_of_transaction": "G2B – Government to Business",
+      "who_may_avail": "Business owners collecting service charge",
+      "checklist_of_requirements": [
+        { "requirement": "Currently Issued Mayor's/ Business Permit - 1 photocopy", "source": "Business Owner" }
+      ],
+      "steps": [
+        { "client_step": "Submit Accomplished Application Form", "agency_action": "Evaluate and assess fees", "fees_to_be_paid": "None", "processing_time": "20 minutes", "person_responsible": "Licensing Officer III" },
+        { "client_step": "Pay the corresponding fees", "agency_action": "Issue Official Receipt", "fees_to_be_paid": "P1,000 to P3,000 (New) or 1% of total collected (Renewal)", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk II" },
+        { "client_step": "Return and submit application for issuance of Permit", "agency_action": "Print, approve and release Permit", "fees_to_be_paid": "None", "processing_time": "40 minutes", "person_responsible": "City Permits and Licensing Officer" }
+      ],
+      "total_processing_time": "1 hour and 25 minutes"
+    },
+    {
+      "id": 9,
+      "service_name": "Application for Certification of No Business Record/ Business Retirement/ Last Mayor's Permit Issued/ Good Track Record/ Mayor's Permit on Process/ Other Certifications",
+      "image": "/assets/document_background/Application for Certification of No Business Record_ Business Retirement_ Last Mayor's Permit Issued_Good Track Record_ Mayor's Permit on Process_Other Certifications",
+      "classification": "Simple",
+      "type_of_transaction": "G2B, G2C, G2G",
+      "who_may_avail": "Individuals, Business Owners, Government Agencies",
+      "checklist_of_requirements": [
+        { "requirement": "Letter Request - original copy", "source": "Requesting party" },
+        { "requirement": "Official Receipt for payment of certification", "source": "Lipa City Treasurer's Office" }
+      ],
+      "steps": [
+        { "client_step": "Submit request for certification", "agency_action": "Verify records and issue Order of Payment", "fees_to_be_paid": "None", "processing_time": "30 minutes", "person_responsible": "Licensing Officer II" },
+        { "client_step": "Pay the corresponding fee", "agency_action": "Issue Official Receipt", "fees_to_be_paid": "P50.00", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk II" },
+        { "client_step": "Submit Official Receipt and claim certification", "agency_action": "Prepare, approve and release certification", "fees_to_be_paid": "None", "processing_time": "30 minutes", "person_responsible": "City Permits and Licensing Officer" }
+      ],
+      "total_processing_time": "1 hour and 25 minutes"
+    },
+    {
+      "id": 10,
+      "service_name": "Special Mayor's Permit",
+      "image": "/assets/document_background/Special Mayor's Permit",
+      "classification": "Simple",
+      "type_of_transaction": "G2B - Government to Business",
+      "who_may_avail": "Business owners on seasonal basis (3 months or less)",
+      "checklist_of_requirements": [
+        { "requirement": "Location Sketch of the New Business", "source": "Business Owner" },
+        { "requirement": "Sworn Statement of Capital Investment", "source": "Business Owner/SEC" },
+        { "requirement": "Locational Clearance", "source": "Lipa City Planning & Development Office" },
+        { "requirement": "Tax Receipt / Clearance", "source": "Lipa City Treasurer's Office" }
+      ],
+      "steps": [
+        { "client_step": "Submit Accomplished Application Form", "agency_action": "Evaluate, encode and assess fees", "fees_to_be_paid": "None", "processing_time": "20 minutes", "person_responsible": "License Officer III" },
+        { "client_step": "Pay the corresponding fees", "agency_action": "Issue Official Receipt", "fees_to_be_paid": "Based on Capital (P1,100 to P5,500/month)", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk II" },
+        { "client_step": "Submit application for issuance of Certificate", "agency_action": "Record, approve and release Certificate", "fees_to_be_paid": "None", "processing_time": "40 minutes", "person_responsible": "City Permits and Licensing Officer" }
+      ],
+      "total_processing_time": "1 hour and 25 minutes"
+    }
+  ]
+}
