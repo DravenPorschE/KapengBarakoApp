@@ -1,0 +1,69 @@
+{
+  "department": "Lipa City Legal Office",
+  "external_services": [
+    {
+      "service_name": "Request for Legal Advice or Counselling",
+      "office": "Lipa City Legal Office",
+      "image": "/assets/document_background/Request for Legal Advice or Counselling",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Transacting public",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Legal documents concerning their transactions or legal issues",
+          "source": "Requesting party/ applicant"
+        },
+        {
+          "requirement": "Any valid government-issued ID",
+          "source": "Any government agency (PSA, Comelec, LTO, PhilPost, GSIS, SSS, etc.)"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present relevant documents for review and narrate legal concerns/ issues",
+          "agency_action": "1.1. Ask clarificatory questions",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Administrative Officer V / Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Present relevant documents for review and narrate legal concerns/ issues",
+          "agency_action": "1.2. Review documents",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Administrative Officer V / Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Present relevant documents for review and narrate legal concerns/ issues",
+          "agency_action": "1.3. Explain legal consequences and remedies",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Administrative Officer V / Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Present relevant documents for review and narrate legal concerns/ issues",
+          "agency_action": "1.4. Draft a formal legal recommendation when requested",
+          "fees": "None",
+          "processing_time": "40 minutes",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Present relevant documents for review and narrate legal concerns/ issues",
+          "agency_action": "1.5. Review and approve the final legal recommendation",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "2. Acknowledge receipt",
+          "agency_action": "2.1. Ask client to acknowledge receipt",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City Legal Office)"
+        }
+      ],
+      "total_fees": "None",
+      "total_processing_time": "1 hour and 47 minutes"
+    }
+  ]
+}

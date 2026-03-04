@@ -9,8 +9,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     const totalTime = document.getElementById("total-time");
     const totalSteps = document.getElementById("total-steps");
 
+    const serviceNotice =  document.querySelector(".service-notice");
+    const showNotice = document.querySelector(".show-notice");
+
     const urlParams = new URLSearchParams(window.location.search);
     const val = urlParams.get("search");
+
+    const tableClose = document.querySelector(".table-close");
+    const noticeContainer = document.querySelector(".notice-container");
 
     const jsonFiles = [
         "/data/Lipa City Environment and Natural Resources Office External Services.json",
@@ -22,7 +28,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/Lipa City Engineering Office External Services.json",
         "/data/Lipa City Cooperatives Office External Services.json",
         "/data/Lipa City Accounting Office External Services.json",
-        "/data/LIPA CITY ACCOUNTING OFFICE INTERNAL SERVICES.json"
+        "/data/LIPA CITY ACCOUNTING OFFICE INTERNAL SERVICES.json",
+        "/data/Lipa City Veterinary Office External Services.json",
+        "/data/LIPA CITY GENERAL SERVICES OFFICE INTERNAL SERVICES.json",
+        "/data/LIPA CITY LEGAL OFFICE EXTERNAL SERVICES.json"
     ];
     
 
@@ -61,6 +70,11 @@ document.addEventListener("DOMContentLoaded", async () => {
             documentName.textContent = matchedService.service_name;
             classInfo.textContent = matchedService.classification;
             typeInfo.textContent = matchedService.type_of_transaction;
+
+            if(matchedService.service_notice != null) {
+                serviceNotice.style.display = "block";
+                showNotice.style.display = "block";
+            }
 
             totalFees.textContent = matchedService.total_fees;
             totalTime.textContent = matchedService.total_processing_time;
@@ -101,6 +115,39 @@ document.addEventListener("DOMContentLoaded", async () => {
             // ===== Steps =====
             const processInfoContainer = document.querySelector(".process-info");
             processInfoContainer.innerHTML = ""; // clear once before generating
+
+            showNotice.addEventListener("click", () => {
+                noticeContainer.classList.add("show");
+            });
+            tableClose.addEventListener("click", () => {
+                noticeContainer.classList.remove("show");
+            });
+
+            const tableContainer = document.querySelector(".table-notice");
+            const tableBody = document.querySelector(".data-container");
+
+            const serviceNoticeData = matchedService.service_notice;
+            
+            if(serviceNoticeData) {
+                serviceNoticeData.forEach((data, index) => {
+                    const row = document.createElement("tr");
+
+                    let serviceInfoData = document.createElement("td");
+                    serviceInfoData.innerHTML = data.service_name;
+
+                    let processFeeData = document.createElement("td");
+                    processFeeData.innerHTML = data.processing_fee;
+
+                    let processTimeData = document.createElement("td");
+                    processTimeData.innerHTML = data.processing_time;
+
+                    row.appendChild(serviceInfoData);
+                    row.appendChild(processFeeData);
+                    row.appendChild(processTimeData);
+
+                    tableBody.appendChild(row);
+                });
+            }
 
             let currentStep = 0;
 

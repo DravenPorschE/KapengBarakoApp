@@ -1,0 +1,152 @@
+{
+  "external_services": [
+    {
+      "id": 1,
+      "service_name": "Request for Inspection and Acceptance of Goods",
+      "image": "/assets/document_background/Request for Inspection and Acceptance of Goods",
+      "department": "Lipa City General Services Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2G – Government to Government",
+      "who_may_avail": "Employees of the City Government of Lipa",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Properly filled up Request for Inspection and Acceptance slip – 1 original, 1 photocopy",
+          "source": "Lipa City General Services Office"
+        },
+        {
+          "requirement": "Delivery Receipt – 1 duplicate copy",
+          "source": "Supplier or contractor"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit properly filled-up Request for Inspection and Acceptance slip",
+          "agency_action": "1.1. Receive Request and Acceptance slip",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City General Services Office)"
+        },
+        {
+          "client_step": "1. Submit properly filled-up Request for Inspection and Acceptance slip",
+          "agency_action": "1.2. Inspect the items delivered",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Administrative Officer III / Administrative Assistant III (Lipa City General Services Office)"
+        },
+        {
+          "client_step": "2. Claim the signed Inspection and Acceptance form",
+          "agency_action": "1.3. Sign and release the Inspection and Acceptance form",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Officer III (Lipa City General Services Office)"
+        }
+      ],
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "40 minutes"
+      }
+    },
+    {
+      "id": 2,
+      "service_name": "Request for Property Accountability Clearance",
+      "image": "/assets/document_background/Request for Property Accountability Clearance",
+      "department": "Lipa City General Services Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2G – Government to Government",
+      "who_may_avail": "Employees of the City Government of Lipa",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Properly filled up Clearance form",
+          "source": "Lipa City Personnel Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit properly filled-up Clearance form",
+          "agency_action": "1.1. Receive Clearance Form",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City General Services Office)"
+        },
+        {
+          "client_step": "1. Submit properly filled-up Clearance form",
+          "agency_action": "1.2. Secure record of accountability",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Administrative Assistant II / Supervising Administrative Officer (Lipa City General Services Office)"
+        },
+        {
+          "client_step": "1. Submit properly filled-up Clearance form",
+          "agency_action": "1.3. Settle accountability if applicable",
+          "fees": "None",
+          "processing_time": "2 days",
+          "person_responsible": "Supervising Administrative Officer (Lipa City General Services Office)"
+        },
+        {
+          "client_step": "2. Claim the signed Clearance form",
+          "agency_action": "2. Sign Clearance form and return to the requesting party",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City General Services Officer (Lipa City General Services Office)"
+        }
+      ],
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "2 days and 40 minutes"
+      }
+    },
+    {
+      "id": 3,
+      "service_name": "Request for Repair of Damaged/ Old LGU Facilities and Properties",
+      "image": "/assets/document_background/Request for Repair of Damaged_Old LGU Facilities and Properties",
+      "deparment": "Lipa City General Services Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2G – Government to Government",
+      "who_may_avail": "Employees of the City Government of Lipa",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of request – 1 original copy",
+          "source": "Requesting party/ applicant"
+        },
+        {
+          "requirement": "Phone call/ text message – 1 original copy",
+          "source": "Requesting party/ applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit letter of request/ make phone call/ send text messages",
+          "agency_action": "1.1. Receive requirements and order the staff to conduct site inspection",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Administrative Assistant II (Lipa City General Services Office)"
+        },
+        {
+          "client_step": "1. Submit letter of request/ make phone call/ send text messages",
+          "agency_action": "1.2. Inspect the facilities/ properties for repair",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Administrative Aide III / Administrative Aide V / Administrative Aide VI (Lipa City General Services Office)"
+        },
+        {
+          "client_step": "1. Submit letter of request/ make phone call/ send text messages",
+          "agency_action": "1.3. Prepare the materials needed for the repair of facilities or properties",
+          "fees": "None",
+          "processing_time": "1 day",
+          "person_responsible": "Administrative Aide III / Administrative Aide V / Administrative Aide VI (Lipa City General Services Office)"
+        },
+        {
+          "client_step": "1. Submit letter of request/ make phone call/ send text messages",
+          "agency_action": "1.4. Repair the damaged/ old facilities/ properties",
+          "fees": "None",
+          "processing_time": "1 day",
+          "person_responsible": "Administrative Aide III / Administrative Aide V / Administrative Aide VI (Lipa City General Services Office)"
+        }
+      ],
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "2 days and 45 minutes"
+      }
+    }
+  ]
+}

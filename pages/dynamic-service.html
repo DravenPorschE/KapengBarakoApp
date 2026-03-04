@@ -36,6 +36,9 @@
                     <p class="data" id="class-info">info</p>
                     <p class="service-label" id="type-label">Type</p>
                     <p class="data" id="type-info">info</p>
+
+                    <p class="service-label service-notice">Notices</p>
+                    <button class="show-notice">Click For Notice</button>
                 </div>
                 <br>
                 <div class="checlist-info">
@@ -81,7 +84,22 @@
                 </div>
             </div>
         </main>
-
+        <div class="notice-container">
+            <div class="notice-container-inner">
+                <button class="table-close">Close</button>
+                <table class="table-notice">
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Process Fee</th>
+                            <th>Process Time</th>
+                        </tr>
+                    </thead>
+                    <tbody class="data-container">
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
         <script src="/js/dynamic-service.js"></script>
     </body>

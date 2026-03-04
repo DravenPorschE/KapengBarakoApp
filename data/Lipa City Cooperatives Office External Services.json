@@ -20,7 +20,8 @@
           { "client_step": "Fill-out Consignment Agreement Form", "agency_action": "Receive and file form", "fees": "None", "time": "30 minutes", "responsible": "Supervising Cooperative Development Specialist / Admin Aide II" },
           { "client_step": "Endorse products to Pasalubong Center", "agency_action": "Accept products", "fees": "None", "time": "1 hour", "responsible": "Administrative Aide III" }
         ],
-        "total": { "fees": "None", "time": "2 hours and 30 minutes" }
+        "total_fees": "None",
+        "total_time": "2 hours and 30 minutes"
       },
       {
         "id": 2,
@@ -28,20 +29,220 @@
         "image": "/assets/document_background/Application for Cooperative Loan",
         "office": "Lipa City Cooperatives Office",
         "classification": "Highly technical",
-        "type_of_transaction": "G2B",
-        "who_may_avail": ["Registered operating cooperatives"],
+        "type_of_transaction": [
+          "G2B – Government to Business"
+        ],
+        "who_may_avail": [
+          "Registered operating cooperatives"
+        ],
         "checklist_of_requirements": [
-          { "requirement": "GA Resolution for intent to borrow", "source": "Applicant cooperative" },
-          { "requirement": "Certificate of Registration", "source": "Applicant cooperative" },
-          { "requirement": "Latest audited financial statements", "source": "Applicant cooperative" },
-          { "requirement": "Promissory note", "source": "Applicant cooperative / Lipa City Cooperatives Office" }
+          {
+            "requirement": "General Assembly Resolution stating intent to borrow, amount, project purpose, and authorized signatories",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Certificate of Registration",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Articles of Cooperation and By-Laws",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Updated list of members with addresses, subscribed capital and paid-in capital",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Latest audited financial statements (COA and CDA accredited external auditor)",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Recent Interim Financial Statements (at least 2 months old)",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "List of BODs, Officers and Committee members with trainings attended",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Updated bonding of accountable officers",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Cooperative policies, interviews and actual validation of account officers",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Information sheets of BODs, Treasurer, Secretary, Manager and Bookkeeper",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Background and credit investigation report",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Accomplished promissory note",
+            "source": "Applicant cooperative / Lipa City Cooperatives Office"
+          },
+          {
+            "requirement": "Approved loan proposal",
+            "source": "Lipa City Cooperatives Office"
+          },
+          {
+            "requirement": "Updated Certificate of Compliance",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Latest CAPRIS stamped 'RECEIVED' by CDA",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Latest Income Tax Return stamped 'RECORDED' by BIR",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Latest/updated Mayor’s Permit",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Minutes of the last GA Meeting with election returns",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "List of business activities certified by the Chairperson",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Work and Financial Plan with detailed proponent equity participation",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "Sworn affidavit of the Secretary (non-relationship up to 4th civil degree to approving authorities)",
+            "source": "Applicant cooperative"
+          },
+          {
+            "requirement": "List/photos of similar completed projects (if any)",
+            "source": "Applicant cooperative"
+          }
         ],
         "steps": [
-          { "client_step": "Submit approved BOD/GA Resolution", "agency_action": "Receive Resolution", "fees": "None", "time": "15 minutes", "responsible": "City Mayor / City Cooperatives Officer" },
-          { "client_step": "File loan application and requirements", "agency_action": "Initial evaluation, Credit Investigation, Project Proposal preparation", "fees": "None", "time": "18 days", "responsible": "Senior/Supervising CDS, Project Dev Assistant" },
-          { "client_step": "Claim the check", "agency_action": "Award the check", "fees": "None", "time": "1 hour", "responsible": "City Cooperatives Officer" }
+          {
+            "step_number": 1,
+            "client_step": "Submit approved BOD/GA Resolution",
+            "agency_action": "Receive approved BOD/GA Resolution for loan application",
+            "fees": "None",
+            "time": "15 minutes",
+            "responsible": "City Mayor - Lipa City Mayor’s Office / City Cooperatives Officer - Lipa City Cooperatives Office"
+          },
+          {
+            "step_number": 2.1,
+            "client_step": "File loan application and submit requirements",
+            "agency_action": "Receive loan application and requirements",
+            "fees": "None",
+            "time": "30 minutes",
+            "responsible": "Senior CDS / CDS I / Project Development Assistant"
+          },
+          {
+            "step_number": 2.2,
+            "client_step": "",
+            "agency_action": "Perform initial evaluation of submitted documents",
+            "fees": "None",
+            "time": "1 day",
+            "responsible": "Lipa City Cooperatives Office"
+          },
+          {
+            "step_number": 2.3,
+            "client_step": "",
+            "agency_action": "Conduct background and credit investigation",
+            "fees": "None",
+            "time": "2 days",
+            "responsible": "Administrative Aide III - Lipa City Cooperatives Office"
+          },
+          {
+            "step_number": 2.4,
+            "client_step": "",
+            "agency_action": "Assist in preparation of project proposal and required documents",
+            "fees": "None",
+            "time": "5 days",
+            "responsible": "Lipa City Cooperatives Office"
+          },
+          {
+            "step_number": 2.5,
+            "client_step": "",
+            "agency_action": "Review, evaluate and recommend for approval",
+            "fees": "None",
+            "time": "1 day",
+            "responsible": "Supervising Cooperative Development Specialist"
+          },
+          {
+            "step_number": 2.6,
+            "client_step": "",
+            "agency_action": "Endorse project proposal to City Administrator for recommendation to City Mayor",
+            "fees": "None",
+            "time": "1 day",
+            "responsible": "City Cooperatives Officer"
+          },
+          {
+            "step_number": 2.7,
+            "client_step": "",
+            "agency_action": "Prepare pre-release documents (promissory note, deed of assignment)",
+            "fees": "None",
+            "time": "1 day",
+            "responsible": "Senior CDS / CDS I / Project Development Assistant / Administrative Aide III"
+          },
+          {
+            "step_number": 2.8,
+            "client_step": "",
+            "agency_action": "Prepare work program, obligation of allotment and voucher",
+            "fees": "None",
+            "time": "5 days",
+            "responsible": "Supervising CDS / Administrative Assistant II / Administrative Aide IV"
+          },
+          {
+            "step_number": 2.9,
+            "client_step": "",
+            "agency_action": "Prepare and submit voucher for check preparation",
+            "fees": "None",
+            "time": "4 hours",
+            "responsible": "Administrative Assistant II / Administrative Aide IV / Administrative Aide III"
+          },
+          {
+            "step_number": 2.10,
+            "client_step": "",
+            "agency_action": "Process loan application",
+            "fees": "None",
+            "time": "1 day",
+            "responsible": "Lipa City Cooperatives Office"
+          },
+          {
+            "step_number": 2.11,
+            "client_step": "",
+            "agency_action": "Endorse check to City Accountant for advice preparation",
+            "fees": "None",
+            "time": "4 hours",
+            "responsible": "Administrative Aide IV - Lipa City Treasurer’s Office"
+          },
+          {
+            "step_number": 2.12,
+            "client_step": "",
+            "agency_action": "Explain undertaking and loan payment schedule",
+            "fees": "None",
+            "time": "3 hours",
+            "responsible": "City Cooperatives Officer"
+          },
+          {
+            "step_number": 3,
+            "client_step": "Claim the check",
+            "agency_action": "Award the check to the cooperative",
+            "fees": "None",
+            "time": "1 hour",
+            "responsible": "City Cooperatives Officer"
+          }
         ],
-        "total": { "fees": "None", "time": "18 days, 4 hours and 45 minutes" }
+        "total": {
+          "fees": "None",
+          "time": "18 days, 4 hours and 45 minutes"
+        }
       },
       {
         "id": 3,
@@ -167,14 +368,189 @@
         "type_of_transaction": "G2B",
         "who_may_avail": ["Cooperatives", "MSMEs", "Students"],
         "checklist_of_requirements": [
-          { "requirement": "Accomplished technical service request form", "source": "Lipa City Cooperatives Office" }
+          { 
+            "requirement": "Accomplished technical service request form", 
+            "source": "Lipa City Cooperatives Office" 
+          }
+        ],
+        "steps": [
+          {
+            "client_step": "Request Label Design Development (without client’s concept).",
+            "agency_action": "Develop label design based on client requirements and finalize artwork.",
+            "fees": "P2,000.00 per label",
+            "processing_time": "1 day",
+            "person_responsible": "Design/Layout Artist"
+          },
+          {
+            "client_step": "Submit concept and request Label Design Development (with client’s concept).",
+            "agency_action": "Enhance and finalize label design based on submitted concept.",
+            "fees": "P1,500.00 per label",
+            "processing_time": "4 hours",
+            "person_responsible": "Design/Layout Artist"
+          },
+          {
+            "client_step": "Submit box design concept and layout requirements.",
+            "agency_action": "Prepare and finalize box design layout.",
+            "fees": "P3,000.00 per label",
+            "processing_time": "1 day",
+            "person_responsible": "Design/Layout Artist"
+          },
+          {
+            "client_step": "Request Logo Development (without client’s concept).",
+            "agency_action": "Create and finalize logo design.",
+            "fees": "P2,000.00 per label",
+            "processing_time": "1 day",
+            "person_responsible": "Design/Layout Artist"
+          },
+          {
+            "client_step": "Submit concept and request Logo Development (with client’s concept).",
+            "agency_action": "Enhance and finalize logo based on submitted concept.",
+            "fees": "P1,500.00 per label",
+            "processing_time": "4 hours",
+            "person_responsible": "Design/Layout Artist"
+          },
+          {
+            "client_step": "Request student-rate Label Design Development (without concept, not exceeding 2 hours).",
+            "agency_action": "Develop student-rate label design within 2-hour limit.",
+            "fees": "P200.00 per label",
+            "processing_time": "2 hours",
+            "person_responsible": "Design/Layout Artist"
+          },
+          {
+            "client_step": "Submit concept for student-rate Label Design Development (not exceeding 2 hours).",
+            "agency_action": "Finalize student-rate label design within 2-hour limit.",
+            "fees": "P150.00 per label",
+            "processing_time": "2 hours",
+            "person_responsible": "Design/Layout Artist"
+          },
+          {
+            "client_step": "Request Label Editing (student rate).",
+            "agency_action": "Edit and revise existing label design.",
+            "fees": "P100.00 per label",
+            "processing_time": "2 hours",
+            "person_responsible": "Design/Layout Artist"
+          },
+          {
+            "client_step": "Submit file for Label Printing (sticker/photo paper not provided).",
+            "agency_action": "Print label using office-provided sticker/photo paper.",
+            "fees": "P20.00 per sheet",
+            "processing_time": "5 minutes per sheet",
+            "person_responsible": "Administrative Aide / Printing Personnel"
+          },
+          {
+            "client_step": "Submit file for Label Printing (sticker/photo paper provided).",
+            "agency_action": "Print label using client-provided sticker/photo paper.",
+            "fees": "P10.00 per sheet",
+            "processing_time": "5 minutes per sheet",
+            "person_responsible": "Administrative Aide / Printing Personnel"
+          },
+          {
+            "client_step": "Request Toll Packaging using retort packaging machine.",
+            "agency_action": "Operate retort packaging machine for processing.",
+            "fees": "P1,500.00 per cycle",
+            "processing_time": "1 hour",
+            "person_responsible": "Machine Operator"
+          },
+          {
+            "client_step": "Request Toll Packaging using vacuum packaging machine.",
+            "agency_action": "Operate vacuum packaging machine.",
+            "fees": "P200.00 per hour",
+            "processing_time": "1 hour",
+            "person_responsible": "Machine Operator"
+          },
+          {
+            "client_step": "Request Toll Packaging using band sealing machine.",
+            "agency_action": "Operate band sealing machine.",
+            "fees": "P200.00 per hour",
+            "processing_time": "1 hour",
+            "person_responsible": "Machine Operator"
+          },
+          {
+            "client_step": "Request Toll Production services.",
+            "agency_action": "Assess production requirements and process accordingly.",
+            "fees": "Flexible rate",
+            "processing_time": "Flexible time",
+            "person_responsible": "Assigned Production Personnel"
+          }
         ],
         "fee_schedule": [
           { "service": "Label Design Development", "fee": "P2,000.00", "time": "1 day" },
           { "service": "Logo Development", "fee": "P2,000.00", "time": "1 day" },
           { "service": "Label Printing (sticker provided)", "fee": "P10.00/sheet", "time": "5 minutes" }
         ],
-        "total": { "fees": "Variable (Price List)", "time": "55 minutes + processing time" }
+        "total": { "fees": "Variable (Price List)", "time": "55 minutes + processing time" },
+          "service_notice": [
+          {
+            "service_name": "Label Design Development (without client’s concept)",
+            "processing_fee": "P2,000.00 per label",
+            "processing_time": "1 day"
+          },
+          {
+            "service_name": "Label Design Development (with client’s concept)",
+            "processing_fee": "P1,500.00 per label",
+            "processing_time": "4 hours"
+          },
+          {
+            "service_name": "Box Design (Concept and Lay-out from their Design)",
+            "processing_fee": "P3,000.00 per label",
+            "processing_time": "1 day"
+          },
+          {
+            "service_name": "Logo Development (without client’s concept)",
+            "processing_fee": "P2,000.00 per label",
+            "processing_time": "1 day"
+          },
+          {
+            "service_name": "Logo Development (with client’s concept)",
+            "processing_fee": "P1,500.00 per label",
+            "processing_time": "4 hours"
+          },
+          {
+            "service_name": "Label Design Development (student rate without concept, not exceeding 2 hours)",
+            "processing_fee": "P200.00 per label",
+            "processing_time": "2 hours"
+          },
+          {
+            "service_name": "Label Design Development (student rate with concept, not exceeding 2 hours)",
+            "processing_fee": "P150.00 per label",
+            "processing_time": "2 hours"
+          },
+          {
+            "service_name": "Label Editing (student rate)",
+            "processing_fee": "P100.00 per label",
+            "processing_time": "2 hours"
+          },
+          {
+            "service_name": "Label Printing (sticker/photo paper not provided)",
+            "processing_fee": "P20.00 per sheet",
+            "processing_time": "5 minutes per sheet"
+          },
+          {
+            "service_name": "Label Printing (sticker/photo paper provided)",
+            "processing_fee": "P10.00 per sheet",
+            "processing_time": "5 minutes per sheet"
+          },
+          {
+            "service_name": "Toll Packaging (use of retort packaging machine)",
+            "processing_fee": "P1,500.00 per cycle",
+            "processing_time": "1 hour"
+          },
+          {
+            "service_name": "Toll Packaging (use of vacuum packaging machine)",
+            "processing_fee": "P200.00 per hour",
+            "processing_time": "1 hour"
+          },
+          {
+            "service_name": "Toll Packaging (use of band sealing machine)",
+            "processing_fee": "P200.00 per hour",
+            "processing_time": "1 hour"
+          },
+          {
+            "service_name": "Toll Production",
+            "processing_fee": "Flexible rate",
+            "processing_time": "Flexible time"
+          }
+        ]
       },
       {
         "id": 11,
