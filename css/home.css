@@ -506,3 +506,6 @@ body {
 .space-key {
     width: 450px;
 }
+.delete-btn {
+    padding: 0px;
+}
