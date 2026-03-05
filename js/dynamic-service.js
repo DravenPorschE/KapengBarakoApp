@@ -18,6 +18,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const tableClose = document.querySelector(".table-close");
     const noticeContainer = document.querySelector(".notice-container");
 
+    const mapContainerOuter = document.querySelector(".map-container-outer");
+    const showMapButton = document.querySelector(".show-map");
+    const closeMapButton = document.querySelector(".close-map-btn");
+
     const jsonFiles = [
         "/data/Lipa City Environment and Natural Resources Office External Services.json",
         "/data/KOLEHIYO NG LUNGSOD NG LIPA EXTERNAL SERVICES.json",
@@ -281,4 +285,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     } else {
         console.log("No search parameter in URL");
     }
+
+    showMapButton.addEventListener("click", () => {
+        mapContainerOuter.classList.add("show");
+    });
+    closeMapButton.addEventListener("click", () => {
+        mapContainerOuter.classList.remove("show");
+    });
 });
