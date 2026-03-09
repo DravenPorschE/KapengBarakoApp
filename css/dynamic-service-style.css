@@ -527,8 +527,48 @@ tbody tr:nth-child(even) {
 
 .message-container {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    gap: 10px;
+}
+
+.map-wrapper {
+    width: 990px;
+    height: 600px;
+
+    overflow: hidden; /* prevents layout overflow */
+}
+
+.map-size {
+    width: 100%;
+    height: auto;
+    transform-origin: center center;
+    transition: transform 0.2s ease;
+}
+.map-controls {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
 
     justify-content: center;
-    align-items: center;
-    height: 100%;
 }
+.zoomIn, .zoomOut {
+    background-color: #c41111;
+    border-radius: 100%;
+    border: none;
+
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controls {
+    width: 35px;
+    height: 35px;
+}
+
