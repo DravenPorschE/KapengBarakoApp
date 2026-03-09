@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="/css/dynamic-service-style.css">
+        <link rel="stylesheet" href="/css/dynamic-service-style.css?v=1">
     </head>
     <body>
         <nav class="navigation-bar">
@@ -61,7 +61,7 @@
                         </div>
                         <div class="step-container">
                             <p class="step-number">Step 1</p>
-                            <p class="client-step-info">Submit Requirements and Wait for advice</p>
+                            <p class="client-step-info">If you can see this, something is wrong on the json :(</p>
                         </div>
                         <svg class="step-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <polyline points="9 18 15 12 9 6"></polyline>
@@ -106,10 +106,20 @@
                     <button class="close-map-btn">Close Map</button>
                 </div>
                 <div class="message-container">
-                    <h1>THIS FEATURE IS COMING SOON :)))))))</h1>
+                    <div class="map-wrapper">
+                        <img src="/assets/map/ground floor.svg" class="map-size" id="map">
+                    </div>
+                    <div class="map-controls">
+                        <button class="zoomIn">
+                            <img src="/assets/foreground/zoom in.svg" class="controls" alt="">
+                        </button>
+                        <button class="zoomOut">
+                            <img src="/assets/foreground/zoom out.svg" class="controls" alt="">
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-        <script src="/js/dynamic-service.js"></script>
+        <script src="/js/dynamic-service.js?v=1"></script>
     </body>
 </html>
