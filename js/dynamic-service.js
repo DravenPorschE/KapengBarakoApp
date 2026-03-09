@@ -54,7 +54,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/LIPA CITY MAYOR_S OFFICE EXTERNAL SERVICES.json",
         "/data/LIPA CITY MAYOR_S OFFICE INTERNAL SERVICES.json",
         "/data/LIPA CITY BUDGET OFFICE EXTERNAL SERVICES.json",
-        "/data/Lipa City Civil Registrar_s Office External Services.json"
+        "/data/Lipa City Civil Registrar_s Office External Services.json",
+        "/data/OFFICE OF THE SANGGUNIANG PANLUNGSOD EXTERNAL SERVICES.json",
+        "/data/Lipa City Community Affairs Office External Services.json",
+        "/data/LIPA CITY HEALTH OFFICE EXTERNAL SERVICES.json"
     ];
     
 

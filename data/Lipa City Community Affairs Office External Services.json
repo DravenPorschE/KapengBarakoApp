@@ -1,0 +1,282 @@
+{
+  "department": "Lipa City Community Affairs Office",
+  "external_services": [
+    {
+      "id": 1,
+      "service_name": "Application for Educational Benefit Assistance – Financial Assistance for Private Senior High School and College Students",
+      "image": "/assets/document_background/Application for Educational Benefit Assistance – Financial Assistance for",
+      "office": "Lipa City Community Affairs Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C - Government to Citizens",
+      "who_may_avail": "Enrolled senior high school and college students of Lipa City",
+      "checklist_of_requirements": [
+        { "requirement": "Properly filled-out application form – 1 original copy", "source": "Lipa City Mayor’s Office" },
+        { "requirement": "Certificate of Indigency – 1 original copy", "source": "Respective barangay hall where the applicant resides" },
+        { "requirement": "Enrollment/ Registration Form – 1 photocopy", "source": "Schools, colleges or universities where applicant is enrolled" },
+        { "requirement": "Copy of grades from the previous semester – 1 certified true copy", "source": "Schools, colleges or universities where applicant is enrolled" },
+        { "requirement": "Latest 1x1 photo – 1 piece", "source": "Requesting party/ applicant" }
+      ],
+      "steps": [
+        { "client_step": "1. Secure application form, fill it up and submit requirement/s to the person-in-charge for initial assessment", "agency_action": "1.1 Accept properly filled-up application form and check the completeness of the submitted requirements before issuing action slip; 1.2. Verify with the barangays, colleges and universities the veracity of the submitted documents", "fees": "None", "processing_time": "10 minutes", "person_responsible": "Labor and Employment Officer II, JO-Administrative Aide IV" },
+        { "client_step": "2. Wait for the list to be posted at the City Mayor’s official Facebook page, respective barangay halls, colleges and universities", "agency_action": "2.1. Come up with the master list of qualified applicants; 2.2. Inform the students through phone calls, text messages and e-mails; 2.3. Endorse names; 2.4. Prepare and print Certificates", "fees": "None", "processing_time": "4 days, 25 minutes", "person_responsible": "Community Affairs Officer II, City Community Affairs Officer" },
+        { "client_step": "3. Attend orientation/ briefing for students and parents", "agency_action": "3.1. Orient the parents and students on the guidelines of the program", "fees": "None", "processing_time": "2 hours", "person_responsible": "City Community Affairs Officer, City Mayor" },
+        { "client_step": "4. Receive financial assistance to qualified beneficiaries", "agency_action": "4.1. Distribute financial assistance to qualified beneficiaries", "fees": "None", "processing_time": "5 days", "person_responsible": "JO-Administrative Aide IV, City Community Affairs Officer, City Mayor" }
+      ],
+      "total_processing_time": "9 days, 6 hours and 30 minutes"
+    },
+    {
+      "id": 2,
+      "service_name": "Application for Educational Benefit Assistance – Scholarship for College Students",
+      "image": "/assets/document_background/Application for Educational Benefit Assistance – Scholarship for College",
+      "office": "Lipa City Community Affairs Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C - Government to Citizens",
+      "who_may_avail": "College students",
+      "checklist_of_requirements": [
+        { "requirement": "Properly filled-out application form – 1 original copy", "source": "Lipa City Mayor’s Office" },
+        { "requirement": "Certificate of Residency – 1 original copy", "source": "Respective barangay hall where the applicant resides" },
+        { "requirement": "Enrollment/ Registration Form – 1 photocopy", "source": "Colleges or universities where applicant is enrolled" },
+        { "requirement": "Copy of grades from the previous semester – 1 certified true copy", "source": "Colleges or universities where applicant is enrolled" },
+        { "requirement": "Latest 1x1 photo – 1 piece", "source": "Requesting party/ applicant" }
+      ],
+      "total_processing_time": "4 days 6 hours and 33 minutes"
+    },
+    {
+      "id": 3,
+      "service_name": "Application for Incentives to Barangay Functionaries",
+      "image": "/assets/document_background/Application for Incentives to Barangay Functionaries",
+      "office": "Lipa City Community Affairs Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All appointed barangay functionaries (Secretaries, Treasurers, Barangay Tanods, Barangay Justices, Barangay Health Workers, Barangay Nutrition Scholars, and all clerical, administrative and other barangay personnel)",
+      "checklist_of_requirements": [
+        { "requirement": "Certification (proof of being in active service) – 1 original copy", "source": "Barangay where the applicant serves" },
+        { "requirement": "Master list of recipients – 1 original copy", "source": "Barangay where the applicant serves" },
+        { "requirement": "Accomplishment Report – 1 original copy", "source": "Requesting party/ applicant, countersigned by Punong Barangay" }
+      ],
+      "total_processing_time": "6 days and 15 minutes"
+    },
+    {
+      "id": 4,
+      "service_name": "Application for Transportation Allowance for Public Utility Vehicle Operators and Drivers Program",
+      "image": "/assets/document_background/Application for Transportation Allowance for Public Utility Vehicle",
+      "office": "Lipa City Community Affairs Office",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C - Government to Citizens",
+      "who_may_avail": "Public utility vehicle operators and drivers",
+      "checklist_of_requirements": [
+        { "requirement": "Filled out Application Form", "source": "Lipa City Mayor’s Office" },
+        { "requirement": "Driver’s License for PUV drivers – 1 photocopy", "source": "Land Transportation Office or applicant" },
+        { "requirement": "Certificate of Indigency/Residency", "source": "Barangays where the applicant resides" },
+        { "requirement": "Any government issued ID for PUV operators", "source": "Any government agency (PSA, Comelec, LTO, PhilPost, GSIS, SSS, etc.)" }
+      ],
+      "total_processing_time": "19 days and 5 minutes"
+    },
+    {
+      "id": 5,
+      "service_name": "Request for Mutual Benefit System for Barangay Tanods",
+      "image": "/assets/document_background/Request for Mutual Benefit System for Barangay Tanods",
+      "office": "Lipa City Community Affairs Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C - Government to Citizens",
+      "who_may_avail": "All active barangay tanods and/or nearest kin of deceased barangay tanod",
+      "checklist_of_requirements": [
+        { "requirement": "Medical certificate – 1 photocopy", "source": "Attending physician or Hospital where the applicant is confined" },
+        { "requirement": "Barangay Certification (active status) – 1 original copy", "source": "Barangay where the applicant serves" },
+        { "requirement": "Death certificate (for death claims) – 1 photocopy", "source": "Lipa City Civil Registrar’s Office" }
+      ],
+      "total_processing_time": "5 days, 7 hours and 5 minutes"
+    },
+    {
+      "id": 6,
+      "service_name": "Information Dissemination through the Official Radio Program of the City Government",
+      "image": "/assets/document_background/Information Dissemination through the Official Radio Program of the City",
+      "office": "LCCAO-Public Affairs, Information and Assistance Division",
+      "classification": "Simple",
+      "type_of_transaction": "G2C - Government to Citizens",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        { "requirement": "Copy of announcement – 1 original copy", "source": "Requesting party" }
+      ],
+      "total_processing_time": "1 hour and 6 minutes"
+    },
+    {
+      "id": 7,
+      "service_name": "Information Dissemination through the Official Social Media pages of the City Government",
+      "image": "/assets/document_background/Information Dissemination through the Official Social Media pages of the",
+      "office": "LCCAO-Public Affairs, Information and Assistance Division",
+      "classification": "Simple",
+      "type_of_transaction": "G2C - Government to Citizens / G2G – Government to Government",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        { "requirement": "Approved details of the announcements, advisories, etc. – 1 original copy", "source": "Requesting party" }
+      ],
+      "total_processing_time": "53 minutes to 2 hours and 23 minutes"
+    },
+    {
+      "id": 8,
+      "service_name": "Application for Special Program for Employment of Students (SPES)",
+      "image": "/assets/document_background/Application for Special Program for Employment of Students (SPES)",
+      "office": "LCCAO-Public Employment Service Division",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Qualified students, Out-of-School Youth (OSY)",
+      "checklist_of_requirements": [
+        { "requirement": "Birth certificate – 1 photocopy", "source": "Lipa City Civil Registrar’s Office or PSA" },
+        { "requirement": "Certificate of Registration/ Matriculation/ Form 138", "source": "Schools, colleges or universities" },
+        { "requirement": "Parent’s Income Tax Return (ITR) or Certificate of Indigency", "source": "BIR or Barangay" }
+      ],
+      "total_processing_time": "3 days and 5 hours"
+    },
+    {
+      "id": 9,
+      "service_name": "Application for Tulong Pangkabuhayan Para sa Ating Disadvantaged/Displaced Workers (TUPAD) Program",
+      "image": "/assets/document_background/Application for Tulong Pangkabuhayan Para sa Ating Disadvantaged",
+      "office": "LCCAO-Public Employment Service Division",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Displaced workers, underemployed, unemployed and indigent residents",
+      "checklist_of_requirements": [
+        { "requirement": "Certificate of Residency – 1 original copy", "source": "Barangay halls where the applicant resides" },
+        { "requirement": "2x2 ID picture, Application Letter, Personal Data Sheet, Medical Certificate, Contract", "source": "Requesting party / PESO" }
+      ],
+      "total_processing_time": "1 day, 4 hours and 25 minutes"
+    },
+    {
+      "id": 10,
+      "service_name": "Employment Facilitation for Employers",
+      "image": "/assets/document_background/Employment Facilitation for Employers",
+      "office": "LCCAO-Public Employment and Service Division",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens / G2B – Government to Business",
+      "who_may_avail": "Employers",
+      "checklist_of_requirements": [
+        { "requirement": "Company Profile", "source": "Interested employers" },
+        { "requirement": "List of Job Vacancies", "source": "Interested employers" }
+      ],
+      "total_processing_time": "41 minutes per applicant"
+    },
+    {
+      "id": 11,
+      "service_name": "Job Fair",
+      "image": "/assets/document_background/Job Fair",
+      "office": "LCCAO- Public Employment Services Division",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All interested jobseekers",
+      "checklist_of_requirements": [
+        { "requirement": "Company requirements (as posted on the Bulletin Board) – 1 original copy", "source": "LCCAO- PESO" },
+        { "requirement": "Updated biodata/ resume – 1 original copy", "source": "Requesting party/ applicant" }
+      ],
+      "total_processing_time": "2 hours and 30 minutes"
+    },
+    {
+      "id": 12,
+      "service_name": "Local Recruitment Activity for Employers",
+      "image": "/assets/document_background/Local Recruitment Activity for Employers",
+      "office": "LCCAO- Public Employment Services Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Employers",
+      "checklist_of_requirements": [
+        { "requirement": "Company checklist, List of Vacancies, Business Permit", "source": "Participating company" },
+        { "requirement": "Special Recruitment Permit (if overseas)", "source": "POEA / DOLE" }
+      ],
+      "total_processing_time": "1 day and 22 minutes"
+    },
+    {
+      "id": 13,
+      "service_name": "Request to Participate in Job Fair",
+      "image": "/assets/document_background/Request to Participate in Job Fair",
+      "office": "LCCAO-Public Employment Service Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2B – Government to Businesses",
+      "who_may_avail": "Registered business establishments",
+      "checklist_of_requirements": [
+        { "requirement": "Letter of Intent, Company Profile, Business Permit, Registration", "source": "Participating company / SEC / DTI" },
+        { "requirement": "Authority to Recruit / Certificate of No Pending Case", "source": "Department of Labor and Employment" }
+      ],
+      "total_processing_time": "1 day, 1 hour and 50 minutes"
+    },
+    {
+      "id": 14,
+      "service_name": "Request for Recommendation/ Referral Letter for Employment",
+      "image": "/assets/document_background/Request for Recommendation_ Referral Letter for Employment",
+      "office": "LCCAO-Public Employment Service Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All jobseekers (unemployed, underemployed)",
+      "checklist_of_requirements": [
+        { "requirement": "Updated biodata/ resume – 1 original copy", "source": "Requesting party/ applicant" },
+        { "requirement": "Endorsement letter (if not Lipa City resident) – 1 original copy", "source": "Cities or municipalities where the applicant resides" }
+      ],
+      "total_processing_time": "39 minutes"
+    },
+    {
+      "id": 15,
+      "service_name": "Provision of Assistance to Tourism-Related Events",
+      "image": "/assets/document_background/Provision of Assistance to Tourism-Related Events",
+      "office": "LCCAO-Tourism, Culture and Arts Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2G-Government to Government / G2B- Government to Businesses / G2C- Government to Citizens",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        { "requirement": "Written request indicating target date, time, duration, nature of event, number of guests", "source": "Requesting party/ applicant" }
+      ],
+      "total_processing_time": "2 days and 30 minutes"
+    },
+    {
+      "id": 16,
+      "service_name": "Request for Assistance to Tourism Enterprises for DOT Accreditation",
+      "image": "/assets/document_background/Request for Assistance to Tourism Enterprises for DOT Accreditation",
+      "office": "LCCAO-Tourism, Culture and Arts Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2G-Government to Government / G2B- Government to Businesses",
+      "who_may_avail": "All tourism enterprises",
+      "checklist_of_requirements": [
+        { "requirement": "Verbal request for assistance", "source": "Requesting party" }
+      ],
+      "total_processing_time": "45 minutes"
+    },
+    {
+      "id": 17,
+      "service_name":"Request for Group Visit at Lipa City Museum",
+      "image": "/assets/document_background/Request for Group Visit at Lipa City Museum",
+      "office": "LCCAO-Tourism, Culture and Arts Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2G-Government to Government / G2B- Government to Businesses / G2C- Government to Citizens",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        { "requirement": "Written request/ e-mail for assistance – 1 original copy", "source": "Requesting party" }
+      ],
+      "total_processing_time": "55 minutes"
+    },
+    {
+      "id": 18,
+      "service_name": "Request for Information or Materials on Local History and Culture",
+      "image": "/assets/document_background/Request for Information or Materials on Local History and Culture",
+      "office": "LCCAO-Tourism, Culture and Arts Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2G-Government to Government / G2B- Government to Businesses / G2C- Government to Citizens",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        { "requirement": "Written request/ e-mail requesting for assistance – 1 original copy", "source": "Requesting party" }
+      ],
+      "total_processing_time": "25 minutes"
+    },
+    {
+      "id": 19,
+      "service_name": "Registration of Youth Organizations",
+      "image": "/assets/document_background/Registration of Youth Organizations",
+      "office": "LCCAO-Youth Development Division",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All youth and youth-serving organizations in Lipa City",
+      "checklist_of_requirements": [
+        { "requirement": "Accomplished Youth Organization Profile Form, Directory of Officers, List of members, Constitution and by-laws", "source": "LCCAO / Requesting party" },
+        { "requirement": "Barangay Certification of Residency/Existence of Office", "source": "Barangay" }
+      ],
+      "total_processing_time": "4 hours and 25 minutes"
+    }
+  ]
+}
