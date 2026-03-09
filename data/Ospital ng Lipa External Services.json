@@ -117,6 +117,7 @@
     {
       "id": 3,
       "service_name": "OPD Consultation",
+      "image": "/assets/document_background/OPD Consultation",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -193,6 +194,7 @@
       "id": 4,
       "service_name": "Admission of Patients",
       "office": "Ospital ng Lipa",
+      "image": "/assets/document_background/Admission of Patients",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -239,6 +241,7 @@
     {
       "id": 5,
       "service_name": "Discharge of Patients",
+      "image": "/assets/document_background/Discharge of Patients",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -291,6 +294,7 @@
       "id": 6,
       "service_name": "Procedure for Minor Surgery (OPD)",
       "office": "Ospital ng Lipa",
+      "image": "/assets/document_background/Procedure for Minor Surgery (OPD)",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -330,6 +334,7 @@
     {
       "id": 7,
       "service_name": "Diagnostics/ Laboratory Examination",
+      "image": "/assets/document_background/Diagnostics Laboratory Examination",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -370,6 +375,7 @@
     {
       "id": 8,
       "service_name": "X-Ray Procedure (except Special Radiologic Procedure)",
+      "image": "/assets/document_background/X-Ray Procedure (except Special Radiologic Procedure)",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -410,6 +416,7 @@
     {
       "id": 9,
       "service_name": "Procedure for Ultrasound – OPD Scheduling",
+      "image": "/assets/document_background/Procedure for Ultrasound – OPD Scheduling",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -443,6 +450,7 @@
     {
       "id": 10,
       "service_name": "Ultrasound Procedure",
+      "image": "/assets/document_background/Ultrasound Procedure",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -483,6 +491,7 @@
     {
       "id": 11,
       "service_name": "Procedure for CT Scan – OPD Scheduling",
+      "image": "/assets/document_background/Procedure for CT Scan – OPD Scheduling",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -520,6 +529,7 @@
     {
       "id": 12,
       "service_name": "CT SCAN Procedure",
+      "image": "/assets/document_background/CT SCAN Procedure",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -564,6 +574,7 @@
     {
       "id": 13,
       "service_name": "Availing of Out-Patient Electrocardiography (ECG)",
+      "image": "/assets/document_background/Availing of Out-Patient Electrocardiography (ECG)",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -604,6 +615,7 @@
     {
       "id": 14,
       "service_name": "Procedure for 2D-Echo – OPD Scheduling",
+      "image": "/assets/document_background/Procedure for 2D-Echo – OPD Scheduling",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -637,6 +649,7 @@
     {
       "id": 15,
       "service_name": "Availing a 2D-Echo Procedure",
+      "image": "/assets/document_background/Availing a 2D-Echo Procedure",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -677,6 +690,7 @@
     {
       "id": 16,
       "service_name": "Request for Medical Certificate (In-Patient)",
+      "image": "/assets/document_background/Request for Medical Certificate (In-Patient)",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
