@@ -168,11 +168,11 @@ body::before {
     border-radius: 2px;
 }
 .hero-title {
-    font-family: 'Helvetica', Georgia, serif;
-    font-size: clamp(24px, 3.5vw, 44px);
+    font-family:Georgia;
+    font-size: clamp(27px, 4.5vw, 54px);
     font-weight: 700;
     color: #fff;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
     line-height: 1.15;
 }
 .hero-sub {
@@ -202,9 +202,9 @@ main {
 }
 
 .section-label {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 9.5px;
-    letter-spacing: 0.44em;
+    font-family: RussoOne;
+    font-size: 17px;
+    letter-spacing: 0.30em;
     text-transform: uppercase;
     color: var(--gold);
     white-space: nowrap;
@@ -212,6 +212,8 @@ main {
     border: 1px solid var(--gold-border);
     border-radius: 4px;
     background: var(--gold-dim);
+
+    
 }
 
 .section-rule {
@@ -292,8 +294,8 @@ main {
 
 .photo-fallback {
     display: none;          
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 150%;
     align-items: center;
     justify-content: center;
     background: rgba(255,255,255,0.03);
@@ -316,7 +318,7 @@ main {
 .card-body {
     flex: 1;
     min-width: 0;
-    padding: 20px 25px 25px;
+    padding: 30px 35px 35px;
     display: flex;
     flex-direction:column;
     gap: 10px;
@@ -373,7 +375,7 @@ main {
 }
 
 .info-list li span {
-    font-size: 20px;
+    font-size: 23px;
     color: var(--text-mid);
     line-height: 1.55;
     font-weight: 400;
