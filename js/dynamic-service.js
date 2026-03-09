@@ -60,6 +60,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/LIPA CITY HEALTH OFFICE EXTERNAL SERVICES.json",
         "/data/Ospital ng lipa External Services.json",
         "/data/OSPITAL NG LIPA INTERNAL SERVICES.json",
+        "/data/Lipa City Civil Registar_s Office External Services.json"
     ];
     
 
