@@ -1,0 +1,1189 @@
+{
+  "hospital": "Ospital ng Lipa",
+  "external_services": [
+    {
+      "id": 1,
+      "service_name": "Issuance of Patient’s Card",
+      "image": "/assets/document_background/Issuance of Patient’s Card",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Government issued ID",
+          "where_to_secure": "Any government agency (PSA, Comelec, LTO, PhilPost, GSIS, SSS, etc.)"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1. Fill out the Personal Information Sheet and submit to the Front Desk Clerk",
+          "agency_action": "1. Assist the patient/ relative in the filling up of information sheet",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Front Desk Clerk"
+        },
+        {
+          "client_steps": "2. Present a Government Issued ID",
+          "agency_action": "2. Verify the ID presented and prepare the Patient Card",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Front Desk Clerk"
+        },
+        {
+          "client_steps": "3. Receive the Patient Card",
+          "agency_action": "3.1. Issue the Patient Card and record on the Release Logbook; 3.2. Register the patient’s data in HIMS",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Front Desk Clerk"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "time": "7 minutes"
+      }
+    },
+    {
+      "id": 2,
+      "service_name": "Emergency Room Consultation",
+      "image": "/assets/document_background/Emergency Room Consultation",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Admission Order (if applicable)",
+          "where_to_secure": "Attending Physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1. Proceed to Triage Table. Present Admitting Orders if available. Relative / Companion: Present patient Card",
+          "agency_action": "1. Perform quick assessment and check vital signs. Patient will be categorized according to condition. Secure patient old record if needed.",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "ER Nurse on Duty"
+        },
+        {
+          "client_steps": "2. Cooperate in History taking and Physical Assessment",
+          "agency_action": "2. Assessment of patient, obtain medical history, perform physical assessment, order treatment plan, refer to Consultant if necessary",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "ER Physicians"
+        },
+        {
+          "client_steps": "3. Cooperate in Treatment/ interventions.",
+          "agency_action": "3. Carry out doctor’s order, enter requests to HIMS, administer medication, perform procedure",
+          "fees_to_be_paid": "None",
+          "processing_time": "30 minutes – 2 hours",
+          "person_responsible": "ER Physician/ Consultant, ER Nurse on Duty"
+        },
+        {
+          "client_steps": "4. Cooperate in Treatment / interventions. Wait for further instructions",
+          "agency_action": "4. Evaluate result of diagnostic procedure, and patient response to treatment. Advice for disposition.",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "ER Physician/ Consultant"
+        },
+        {
+          "client_steps": "5. Proceed to Business Office. Present the ER Charge Slip. Pay applicable fees",
+          "agency_action": "5. Process the billing statement and receive payment. Issue a Discharge Clearance Slip",
+          "fees_to_be_paid": "None for Lipeños; P200.00 for non-Lipeños",
+          "processing_time": "3 minutes",
+          "person_responsible": "Billing Clerk / Admitting Staff"
+        },
+        {
+          "client_steps": "6. Present the Official Receipt",
+          "agency_action": "6. Record the Official Receipt No. Assist the patient if required",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "ER Security Guard"
+        }
+      ],
+      "total": {
+        "fees": "None for Lipeños; P200.00 for non-Lipeños",
+        "time": "52 minutes - 2 hours"
+      }
+    },
+    {
+      "id": 3,
+      "service_name": "OPD Consultation",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Result of Laboratories and other Diagnostic Exams, Referral slip if applicable",
+          "where_to_secure": "Ospital ng Lipa or any other medical institutions"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1. Proceed to screening area",
+          "agency_action": "1. Screen patient for signs and symptoms.",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "OPD staff"
+        },
+        {
+          "client_steps": "2. Interview and vital signs Taking",
+          "agency_action": "2. Obtain patient’s information and vital signs taking",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "OPD staff"
+        },
+        {
+          "client_steps": "3. Proceed to Information and obtain Patient’s card",
+          "agency_action": "3. Direct patient to Information for registration",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "OPD staff"
+        },
+        {
+          "client_steps": "4. Proceed to waiting area",
+          "agency_action": "4. Direct patient to waiting area",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "OPD staff"
+        },
+        {
+          "client_steps": "5. Consultation",
+          "agency_action": "5. Consultation by a physician/specialist",
+          "fees_to_be_paid": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Physician"
+        },
+        {
+          "client_steps": "6. Proceed to nurse’s station for instructions",
+          "agency_action": "6. Instruct patients for home medications, follow up and diagnostics",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "OPD Nurse"
+        },
+        {
+          "client_steps": "7. Register patient and charge to HIMS",
+          "agency_action": "7. Register patient and charge to HIMS",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Record’s Clerk"
+        }
+      ],
+      "total": {
+        "fees": "Depends on procedures",
+        "time": "45 minutes"
+      }
+    },
+    {
+      "id": 4,
+      "service_name": "Admission of Patients",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Patient Data Sheet",
+          "where_to_secure": "Ospital ng Lipa"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1. Fill out Patient Data Sheet",
+          "agency_action": "1. Assist the patient/ relative in filling out patient data sheet.",
+          "fees_to_be_paid": "None",
+          "processing_time": "7 minutes",
+          "person_responsible": "ER Nurse on Duty"
+        },
+        {
+          "client_steps": "2. Present the Accomplished Patient Data Form, Cooperate with the interview",
+          "agency_action": "2. Check for room availability, interview, verify PhilHealth, secure consent, prepare chart, encode data.",
+          "fees_to_be_paid": "None",
+          "processing_time": "13 minutes",
+          "person_responsible": "Admitting Clerk"
+        },
+        {
+          "client_steps": "3. Wait until the patient is ready for transfer to room",
+          "agency_action": "3. Prepare the patient for the transfer to assigned room.",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "ER Nurse"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "time": "30 minutes"
+      }
+    },
+    {
+      "id": 5,
+      "service_name": "Discharge of Patients",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Discharge Slip from Nurses Station",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Medical Certificate",
+          "where_to_secure": "Attending physician"
+        },
+        {
+          "requirement": "PhilHealth Requirements / PBEF",
+          "where_to_secure": "PhilHealth / Ospital ng Lipa"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-6. Signatures and Clearance from Departments (Pharmacy, Radiology, Lab, Clinical)",
+          "agency_action": "Verify charges and sign discharge slip",
+          "fees_to_be_paid": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Nurses, Pharmacist, MedTech, RadTech"
+        },
+        {
+          "client_steps": "7-9. PhilHealth Processing and Billing",
+          "agency_action": "Review documents, issue billing stub, audit charge slip, prepare statement",
+          "fees_to_be_paid": "None",
+          "processing_time": "27 minutes",
+          "person_responsible": "PhilHealth Coordinator, Billing Clerk"
+        },
+        {
+          "client_steps": "10-14. Payment and Final Clearance",
+          "agency_action": "Process payment, issue clearance, discharge logbook, baggage checking",
+          "fees_to_be_paid": "Depends on case for non-Lipeños",
+          "processing_time": "34 minutes",
+          "person_responsible": "Social Worker, Cashier, Orderly, Security"
+        }
+      ],
+      "total": {
+        "fees": "Depends on patient case (Non-Lipeños)",
+        "time": "1 hour and 21 minutes"
+      }
+    },
+    {
+      "id": 6,
+      "service_name": "Procedure for Minor Surgery (OPD)",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Approved Assessment for Eligibility Stub",
+          "where_to_secure": "Ospital ng Lipa"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-4. Preparation and Surgery",
+          "agency_action": "Verify schedule, prepare instruments, discuss procedure, perform surgery",
+          "fees_to_be_paid": "None",
+          "processing_time": "44 minutes - 2 hours 14 mins",
+          "person_responsible": "OR Nurse, Attending Surgeon"
+        },
+        {
+          "client_steps": "5-8. Documentation and Discharge",
+          "agency_action": "HIMS charging, PhilHealth review, Billing, Home instructions",
+          "fees_to_be_paid": "Depends on case (Non-Lipeños)",
+          "processing_time": "12 minutes",
+          "person_responsible": "OR Nurse, PhilHealth Coordinator, Billing Clerk"
+        }
+      ],
+      "total": {
+        "fees": "Depends on case (Non-Lipeños)",
+        "time": "56 minutes - 2 hours 26 mins"
+      }
+    },
+    {
+      "id": 7,
+      "service_name": "Diagnostics/ Laboratory Examination",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Laboratory Request",
+          "where_to_secure": "Attending Physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-4. Registration and Billing",
+          "agency_action": "Check request, register, generate charges, direct to billing",
+          "fees_to_be_paid": "See Table of Fees",
+          "processing_time": "7 minutes",
+          "person_responsible": "Laboratory Clerk"
+        },
+        {
+          "client_steps": "5-8. Procedure and Results",
+          "agency_action": "Extract specimen, process test, release result",
+          "fees_to_be_paid": "None",
+          "processing_time": "4 minutes + Processing Time",
+          "person_responsible": "Medical Technologist / Phlebotomist"
+        }
+      ],
+      "total": {
+        "fees": "See Table of Fees",
+        "time": "11 minutes + Test Duration"
+      }
+    },
+    {
+      "id": 8,
+      "service_name": "X-Ray Procedure (except Special Radiologic Procedure)",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents (ER patients)"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "X ray Request",
+          "where_to_secure": "Ospital ng Lipa Physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-3. Verification and Payment",
+          "agency_action": "Validate request, record procedure, process payment",
+          "fees_to_be_paid": "See Table of Fees",
+          "processing_time": "10 minutes",
+          "person_responsible": "Radiology Clerk, Cashier"
+        },
+        {
+          "client_steps": "4-6. Procedure and Releasing",
+          "agency_action": "Perform X-Ray, Interpret images, Release result",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day and 7 minutes",
+          "person_responsible": "Radiologic Technologist, Radiologist"
+        }
+      ],
+      "total": {
+        "fees": "See Table of Fees",
+        "time": "1 day and 15-17 minutes"
+      }
+    },
+    {
+      "id": 9,
+      "service_name": "Procedure for Ultrasound – OPD Scheduling",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Request for Ultrasound",
+          "where_to_secure": "Ospital ng Lipa physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-3. Present request and receive schedule",
+          "agency_action": "Validate documents, advise preparations, indicate schedule date/time",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Ultrasound Clerk"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "time": "3 minutes"
+      }
+    },
+    {
+      "id": 10,
+      "service_name": "Ultrasound Procedure",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Request for Ultrasound",
+          "where_to_secure": "Ospital ng Lipa physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-3. Verification and Preparation",
+          "agency_action": "Check HIMS, record procedure, process payment",
+          "fees_to_be_paid": "See Table of Fees (Non-Lipeños)",
+          "processing_time": "6 minutes",
+          "person_responsible": "Radiology Clerk, Cashier"
+        },
+        {
+          "client_steps": "4-6. Procedure and Result",
+          "agency_action": "Perform ultrasound, type results, release official result",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 hours 16 minutes",
+          "person_responsible": "Sonologist, Radiology Clerk"
+        }
+      ],
+      "total": {
+        "fees": "See Table of Fees (Non-Lipeños)",
+        "time": "2 hours and 22 minutes"
+      }
+    },
+    {
+      "id": 11,
+      "service_name": "Procedure for CT Scan – OPD Scheduling",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Request for CT Scan",
+          "where_to_secure": "Ospital ng Lipa physician"
+        },
+        {
+          "requirement": "Result of Creatinine (If contrast)",
+          "where_to_secure": "Ospital ng Lipa"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-3. Present requirements and get schedule",
+          "agency_action": "Validate documents, advise preparations, indicate date/time",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Radiologic Technologist"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "time": "3 minutes"
+      }
+    },
+    {
+      "id": 12,
+      "service_name": "CT SCAN Procedure",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Request for CT Scan",
+          "where_to_secure": "Ospital ng Lipa physician"
+        },
+        {
+          "requirement": "Result of Creatinine (If contrast)",
+          "where_to_secure": "Ospital ng Lipa"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-4. Verification and Prep",
+          "agency_action": "Verify schedule, process payment, insert IV if needed",
+          "fees_to_be_paid": "See Table of Fees (Non-Lipeños)",
+          "processing_time": "16 minutes",
+          "person_responsible": "Radiology Clerk, Cashier, RadTech"
+        },
+        {
+          "client_steps": "5-9. Procedure and Releasing",
+          "agency_action": "Perform procedure, monitor vital signs, interpret image, release result",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 days + ~1 hour",
+          "person_responsible": "RadTech, Radiologist, Radiology Clerk"
+        }
+      ],
+      "total": {
+        "fees": "See Table of Fees (Non-Lipeños)",
+        "time": "2 days and 48 minutes - 2 days 1 hour 38 mins"
+      }
+    },
+    {
+      "id": 13,
+      "service_name": "Availing of Out-Patient Electrocardiography (ECG)",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Request for ECG",
+          "where_to_secure": "Ospital ng Lipa Physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-3. Registration and Payment",
+          "agency_action": "Check HIMS, record procedure, process payment",
+          "fees_to_be_paid": "None for Lipeño, P250.00 for non-Lipeño",
+          "processing_time": "5 minutes",
+          "person_responsible": "2D Echo Nurse, Cashier"
+        },
+        {
+          "client_steps": "4-6. Procedure and Result",
+          "agency_action": "Perform ECG, interpret tracing, release result",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day and 12 minutes",
+          "person_responsible": "2D Echo Nurse, Cardiologist"
+        }
+      ],
+      "total": {
+        "fees": "None for Lipeño, P250.00 for non-Lipeño",
+        "time": "1 day and 17 minutes"
+      }
+    },
+    {
+      "id": 14,
+      "service_name": "Procedure for 2D-Echo – OPD Scheduling",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Request for 2D Echo",
+          "where_to_secure": "Ospital ng Lipa physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-3. Present request and get schedule",
+          "agency_action": "Validate documents, schedule procedure, indicate date/time",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "2D Echo Nurse"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "time": "3 minutes"
+      }
+    },
+    {
+      "id": 15,
+      "service_name": "Availing a 2D-Echo Procedure",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Request for 2D Echo",
+          "where_to_secure": "Ospital ng Lipa physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-3. Verification and Payment",
+          "agency_action": "Check HIMS, process payment, prepare instruments",
+          "fees_to_be_paid": "None for Lipeño, P2,000.00 for non-Lipeño",
+          "processing_time": "6 minutes",
+          "person_responsible": "2D Echo Nurse, Cashier"
+        },
+        {
+          "client_steps": "4-7. Procedure and Releasing",
+          "agency_action": "Perform 2D Echo, interpret image, release result",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 days + ~1 hour",
+          "person_responsible": "2D Echo Nurse, Cardiologist, Radiology Clerk"
+        }
+      ],
+      "total": {
+        "fees": "None for Lipeño, P2,000.00 for non-Lipeño",
+        "time": "2 days and 38 minutes – 2 days, 1 hour and 8 minutes"
+      }
+    },
+    {
+      "id": 16,
+      "service_name": "Request for Medical Certificate (In-Patient)",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Authorization Letter and ID (if applicable)",
+          "where_to_secure": "Patient or next of kin"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-5. Fill out form, pay fees, and receive cert",
+          "agency_action": "Assist client, validate forms, receive payment, process and release certificate",
+          "fees_to_be_paid": "P50.00",
+          "processing_time": "11 minutes",
+          "person_responsible": "Medical Records Aide, Cash Clerk"
+        }
+      ],
+      "total": {
+        "fees": "P50.00",
+        "time": "11 minutes"
+      }
+    },
+    {
+      "id": 17,
+      "service_name": "Request for Certificate of Confinement",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Authorization Letter and ID",
+          "where_to_secure": "Patient or next of kin"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-5. Application, Payment, and Receipt",
+          "agency_action": "Assist client, validate legalities, receive payment, process with ward resident, release certificate",
+          "fees_to_be_paid": "P50.00",
+          "processing_time": "37 minutes",
+          "person_responsible": "Medical Records Aide/Assistant, Cash Clerk"
+        }
+      ],
+      "total": {
+        "fees": "P50.00",
+        "time": "37 minutes"
+      }
+    },
+    {
+      "id": 18,
+      "service_name": "Request for Medical Abstract",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Authorization Letter and ID",
+          "where_to_secure": "Patient or next of kin"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-4. Application, Payment, and Release",
+          "agency_action": "Assist client, interview, receive payment, prepare abstract, release",
+          "fees_to_be_paid": "P100.00",
+          "processing_time": "40 minutes",
+          "person_responsible": "Medical Records Aide/Assistant, Cash Clerk"
+        }
+      ],
+      "total": {
+        "fees": "P100.00",
+        "time": "40 minutes"
+      }
+    },
+    {
+      "id": 19,
+      "service_name": "Request for Birth Certificate",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Photocopy of Marriage Certificate",
+          "where_to_secure": "Lipa City Civil Registrar’s Office / PSA"
+        },
+        {
+          "requirement": "Photocopy of both parents’ ID or Birth Certificate",
+          "where_to_secure": "Government Agency / PSA"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-7. Data form filling, validation, payment, and signing",
+          "agency_action": "Assist parents, check legality, receive payment, process certificate, validate content, forward for signing, release",
+          "fees_to_be_paid": "P100.00",
+          "processing_time": "29 minutes",
+          "person_responsible": "Nurse, Medical Records Aide/Assistant, Cash Clerk"
+        }
+      ],
+      "total": {
+        "fees": "P100.00",
+        "time": "29 minutes"
+      }
+    },
+    {
+      "id": 20,
+      "service_name": "Request for Death Certificate",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Photocopy of Marriage Certificate",
+          "where_to_secure": "Lipa City Civil Registrar’s Office / PSA"
+        },
+        {
+          "requirement": "Photocopy of both parents’ ID or Birth Certificate",
+          "where_to_secure": "Government Agency / PSA"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-7. Data form filling, validation, payment, and signing",
+          "agency_action": "Assist relative, check completeness, receive payment, process certificate, validate content, forward for signing, release",
+          "fees_to_be_paid": "None for Lipeños, P150.00 for non-Lipeños",
+          "processing_time": "29 minutes",
+          "person_responsible": "Nurse, Medical Records Aide/Assistant, Cash Clerk"
+        }
+      ],
+      "total": {
+        "fees": "None for Lipeños, P150.00 for non-Lipeños",
+        "time": "29 minutes"
+      }
+    },
+    {
+      "id": 21,
+      "service_name": "Request for Medical Certificate - OPD",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Authorization Letter and ID",
+          "where_to_secure": "Patient or next of kin"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-6. Application, Consultation follow-up, Payment, and Release",
+          "agency_action": "Assist patient, interview, receive payment, prepare certificate during consultation, release medical cert",
+          "fees_to_be_paid": "None for Lipeños, P50.00 for non-Lipeños",
+          "processing_time": "41 minutes (excluding queue)",
+          "person_responsible": "OPD Medical Records Clerk, Cash Clerk, OPD Consultant"
+        }
+      ],
+      "total": {
+        "fees": "None for Lipeños, P50.00 for non-Lipeños",
+        "time": "41 minutes"
+      }
+    },
+    {
+      "id": 22,
+      "service_name": "Dental Consultation and Procedure",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-10. Screening, Interview, History, Treatment Plan, Consent, Procedure, and Health Teaching",
+          "agency_action": "Pre-screening, registration, vital signs, clinical evaluation, treatment disclosure, perform procedure, release charge slip, health teaching",
+          "fees_to_be_paid": "None",
+          "processing_time": "49 minutes - 1 hour 49 minutes",
+          "person_responsible": "Guard, Dental Aide, Dentist"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "time": "49 minutes - 1 hour 49 minutes"
+      }
+    },
+    {
+      "id": 23,
+      "service_name": "Pharmacy Services",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Government issued ID",
+          "where_to_secure": "Any government agency"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-3. Present prescription, record at billing, receive medicine",
+          "agency_action": "Check availability, prepare medicines, dispense and instruct patient",
+          "fees_to_be_paid": "None",
+          "processing_time": "6 minutes",
+          "person_responsible": "Pharmacist/ Pharmacy Aide, Cashier"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "time": "6 minutes"
+      }
+    },
+    {
+      "id": 24,
+      "service_name": "Pharmacy Procedures for Non-Lipenos",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Government issued ID",
+          "where_to_secure": "Any government agency"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-3. Present prescription, pay at billing, receive medicine",
+          "agency_action": "Check availability, issue charge slip, prepare and dispense medicines",
+          "fees_to_be_paid": "Price depending on amount of medicines",
+          "processing_time": "7 minutes",
+          "person_responsible": "Pharmacist/ Pharmacy Aide, Cashier"
+        }
+      ],
+      "total": {
+        "fees": "Variable",
+        "time": "7 minutes"
+      }
+    },
+    {
+      "id": 25,
+      "service_name": "Rehabilitation Consultation",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Laboratory Result / Referral slip",
+          "where_to_secure": "Medical Institutions"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-7. Referral submission, Registration, Billing, Consultation, and Scheduling",
+          "agency_action": "Pre-instruction, registration, issuance of receipt, consultation by physiatrist, scheduling PT session",
+          "fees_to_be_paid": "None for Lipeños",
+          "processing_time": "47 minutes",
+          "person_responsible": "PT Staff, Information Staff, Billing Staff, Physiatrist"
+        }
+      ],
+      "total": {
+        "fees": "None for Lipeños",
+        "time": "47 minutes"
+      }
+    },
+    {
+      "id": 26,
+      "service_name": "Rehabilitation Treatment Session",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Laboratory Result / Referral slip",
+          "where_to_secure": "Medical Institutions"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-5. Registration, Billing, and PT Session",
+          "agency_action": "Registration, issuance of receipt, recording, direct to waiting area, management and treatment",
+          "fees_to_be_paid": "None for Lipeños, See Table of Fees for non-Lipeños",
+          "processing_time": "1 hour and 17 minutes",
+          "person_responsible": "Information Staff, PT Staff, Billing Staff"
+        }
+      ],
+      "total": {
+        "fees": "See Table of Fees (Non-Lipeños)",
+        "time": "1 hour and 17 minutes"
+      }
+    },
+    {
+      "id": 27,
+      "service_name": "Availing of Dietary Services – Clinical Rounds and Bedside Counselling",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-2. Identify patient and sign logbook",
+          "agency_action": "Perform admission census, collect information from chart, update diet prescription, perform rounds and counselling",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 hour and 17 minutes",
+          "person_responsible": "Nutritionist-Dietitian, Nurse on duty"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "time": "1 hour and 17 minutes"
+      }
+    },
+    {
+      "id": 28,
+      "service_name": "Availing of Out-Patient Nutrition Counselling",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "where_to_secure": "Ospital ng Lipa"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-2. Appear before dietitian and sign logbook",
+          "agency_action": "Endorse patient, measure height/weight, conduct counselling",
+          "fees_to_be_paid": "None",
+          "processing_time": "35 minutes",
+          "person_responsible": "Attending Doctor, Nurse, Nutritionist-Dietitian"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "time": "35 minutes"
+      }
+    },
+    {
+      "id": 29,
+      "service_name": "Application for Philhealth Reimbursement",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Official Receipt of medicines/lab bought outside",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "Notice of PhilHealth Payment",
+          "where_to_secure": "PhilHealth"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-3. Present Notice and Receipt, Wait for call, Clarification",
+          "agency_action": "Receive document, retrieve billing, verify receipt, calculate refundable amount, explain calculation, get contact details",
+          "fees_to_be_paid": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Philhealth Staff"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "time": "20 minutes"
+      }
+    },
+    {
+      "id": 30,
+      "service_name": "Phone Inquiry",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "None",
+          "where_to_secure": "N/A"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1-2. Make a phone call and inquiry",
+          "agency_action": "Answer call, answer queries or transfer call",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes and 30 seconds",
+          "person_responsible": "Front desk Staff/ Phone Operator"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "time": "3 minutes and 30 seconds"
+      }
+    },
+    {
+      "id": 31,
+      "service_name": "Availing of Industrial and Occupational Medicine",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño patients"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient card",
+          "where_to_secure": "Ospital ng Lipa"
+        },
+        {
+          "requirement": "List of diagnostic procedures",
+          "where_to_secure": "Company/ School/ Organization"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1. Present requirements",
+          "agency_action": "Assess list, issue charge slip or request form, explain steps",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "IOMD Staff"
+        },
+        {
+          "client_steps": "2-4. Payment and Rendering of Services",
+          "agency_action": "Issue OR, encode procedures, render services",
+          "fees_to_be_paid": "See Table of Fees",
+          "processing_time": "45 minutes",
+          "person_responsible": "Cashier, Respective Departments"
+        }
+      ],
+      "total": {
+        "fees": "See Table of Fees",
+        "time": "50 minutes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "department": "Ospital ng Lipa",
+  "internal_services": [
+    {
+      "id": 1,
+      "service_name": "Filing of Application for Employment",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Lipeño and non-Lipeño residents"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Resume – 1 original copy",
+          "where_to_secure": "Applicant"
+        },
+        {
+          "requirement": "Transcript of records with RLE for nurses, Med. Tech. & other paramedical position – 1 original and 1 photocopy",
+          "where_to_secure": "University where the applicant graduated"
+        },
+        {
+          "requirement": "Board Rating & PRC license - 2 copies",
+          "where_to_secure": "Professional Regulatory Commission"
+        },
+        {
+          "requirement": "Certificate/ ID of membership in any organization – 1 photocopy",
+          "where_to_secure": "Professional Regulatory Commission or any other organization"
+        },
+        {
+          "requirement": "Residence certificate - current year – 1 original copy",
+          "where_to_secure": "Lipa City Treasurer’s Office or respective barangay halls"
+        },
+        {
+          "requirement": "Certificate of work experience and training – 1 photocopy",
+          "where_to_secure": "Applicant"
+        },
+        {
+          "requirement": "Marriage contract, if any – 1 photocopy",
+          "where_to_secure": "Lipa City Civil Registrar’s Office or Philippine Statistics Authority"
+        },
+        {
+          "requirement": "Birth Certificate of children, if any – 1 photocopy each",
+          "where_to_secure": "Lipa City Civil Registrar’s Office or Philippine Statistics Authority"
+        },
+        {
+          "requirement": "BIR TIN – 1 photocopy",
+          "where_to_secure": "Bureau of Internal Revenue"
+        },
+        {
+          "requirement": "Birth Certificate of applicant – 1 photocopy",
+          "where_to_secure": "Lipa City Civil Registrar’s Office or Philippine Statistics Authority"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1. Submit the requirements.",
+          "agency_action": "1. Receive the document. Check if there are available position.",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "HR Officer"
+        },
+        {
+          "client_steps": "2. Cooperate with the initial interview",
+          "agency_action": "2. Conduct initial interview. Instruct applicant to wait for further instruction via phone call, SMS or email. Enlist the applicant for Screening",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "HR Officer"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "12 minutes"
+      }
+    },
+    {
+      "id": 2,
+      "service_name": "Request for Exit Clearance for Resigned, Retired or Terminated Employees",
+      "office": "Ospital ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Ospital ng Lipa employees"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Resignation Letter submitted 30 days prior date of termination",
+          "where_to_secure": "Employee"
+        }
+      ],
+      "steps": [
+        {
+          "client_steps": "1. Fill up Exit Clearance Form",
+          "agency_action": "1. Assist in filling out",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "HR Clerk Staff"
+        },
+        {
+          "client_steps": "2. Submit the accomplished form",
+          "agency_action": "2. Evaluate the 201 file for deficient document If 210 file have deficiency- Schedule the exit Interview once they comleted the required document If 201 file is complete- Proceed to Exit Interview",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "HR Head"
+        },
+        {
+          "client_steps": "3. Cooperate with the initial interview. Surrender the ID",
+          "agency_action": "3. Conduct exit interview. Accomplish the Exit Interview Form Sign on the Exit Clearance Form Advice to proceed to Billing office of Business office Clearance",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "HR Head"
+        },
+        {
+          "client_steps": "4. Present the Exit Clearance Form Settle unpaid bill/ account at Billing Office, if there is any",
+          "agency_action": "4. Check and process employees record for unsettled loans and bills. Sign on the Exit Clearance Form",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "HR Clerk Staff"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "35 minutes"
+      }
+    }
+  ]
+}
