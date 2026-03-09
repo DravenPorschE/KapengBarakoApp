@@ -4,7 +4,7 @@
     {
       "id": 1,
       "service_name": "Request for Tree Planting Activity, Community or School Gardening Projects",
-      "image": "/assets/document_background/Request for Tree Planting Activity, Community or School Gardening Projects",
+      "image": "/assets/document_background/Request for Tree Planting Activity, Community or School Gardening",
       "office": "Lipa City Agriculture Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
@@ -227,7 +227,7 @@
     {
       "id": 5,
       "service_name": "Request for Information and/or Technical Assistance in Livestock and Crops Production",
-      "image": "/assets/document_background/Request for Information and_Technical Assistance in Livestock and Crops Production",
+      "image": "/assets/document_background/Request for Information and_Technical Assistance in Livestock and",
       "office": "Lipa City Agriculture Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
@@ -532,7 +532,7 @@
     {
       "id": 12,
       "service_name": "Request for Technology Transfer: Demos, Trainings, Seminars and Lectures",
-      "image": "/assets/document_background/Request for Technology Transfer_ Demos_Trainings_ Seminars and Lectures",
+      "image": "/assets/document_background/Request for Technology Transfer_ Demos_Trainings_ Seminars and",
       "office": "Lipa City Agriculture Office",
       "classification": "Highly technical",
       "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
