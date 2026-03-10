@@ -60,10 +60,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/LIPA CITY HEALTH OFFICE EXTERNAL SERVICES.json",
         "/data/Ospital ng lipa External Services.json",
         "/data/OSPITAL NG LIPA INTERNAL SERVICES.json",
-        "/data/Lipa City Civil Registar_s Office External Services.json"
+        "/data/Lipa City Civil Registar_s Office External Services.json",
+        "/data/Lipa City Personnel Office External Services.json",
+        "/data/Lipa City Personnel Office Internal Services.json",
+        "/data/Lipa City Planning and Development Office External Services.json"
     ];
     
-
+  
     async function loadAllServices() {
     const responses = await Promise.all(
         jsonFiles.map(file => fetch(file).then(res => res.json()))
