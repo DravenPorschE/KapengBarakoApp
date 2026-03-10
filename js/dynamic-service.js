@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/Lipa City Social Welfare and Development Office External Services.json",
         "/data/LIPA CITY AGRICULTURE OFFICE EXTERNAL SERVICES.json",
         "/data/Lipa City Permits and Licensing Office External Services.json",
-        "/data/Lipa City Assessor_s Office External Services.json",
+        "/data/Lipa City Assesor_s Office External Services.json",
         "/data/Lipa City Engineering Office External Services.json",
         "/data/Lipa City Cooperatives Office External Services.json",
         "/data/Lipa City Accounting Office External Services.json",
@@ -60,25 +60,26 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/LIPA CITY HEALTH OFFICE EXTERNAL SERVICES.json",
         "/data/Ospital ng lipa External Services.json",
         "/data/OSPITAL NG LIPA INTERNAL SERVICES.json",
-        "/data/Lipa City Civil Registar_s Office External Services.json",
         "/data/Lipa City Personnel Office External Services.json",
         "/data/Lipa City Personnel Office Internal Services.json",
-        "/data/Lipa City Planning and Development Office External Services.json"
+        "/data/Lipa City Planning and Development Office External Services.json",
+        "/data/KOLEHIYO NG LUNGSOD NG LIPA EXTERNAL SERVICES.json",
+        "/data/LIPA CITY VICE MAYOR_S OFFICE EXTERNAL SERVICES.json"
     ];
     
   
     async function loadAllServices() {
-    const responses = await Promise.all(
-        jsonFiles.map(file => fetch(file).then(res => res.json()))
-    );
+        const responses = await Promise.all(
+            jsonFiles.map(file => fetch(file).then(res => res.json()))
+        );
 
-    return responses.flatMap(dept =>
-        (dept.external_services || dept.internal_services || []).map(service => ({
-            ...service,
-            department: dept.department
-        }))
-    );
-}
+        return responses.flatMap(dept =>
+            (dept.external_services || dept.internal_services || []).map(service => ({
+                ...service,
+                department: dept.department
+            }))
+        );
+    }
 
     const allServices = await loadAllServices();
 
@@ -107,8 +108,19 @@ document.addEventListener("DOMContentLoaded", async () => {
                 showNotice.style.display = "block";
             }
 
-            totalFees.textContent = matchedService.total_fees;
-            totalTime.textContent = matchedService.total_processing_time;
+            const fees = matchedService.total?.fees || matchedService.total_fees;
+            const time = matchedService.total?.processing_time || matchedService.total_processing_time;
+
+            totalFees.textContent = fees;
+            totalTime.textContent = time;
+
+            if (fees && fees.length > 15) {
+                totalFees.style.fontSize = "12px";
+            }
+
+            if (time && time.length > 15) {
+                totalTime.style.fontSize = "12px";
+            }
             
             const totalClientStep = (matchedService.steps || []).filter(
                 step => step.client_step && step.client_step !== "N/A"

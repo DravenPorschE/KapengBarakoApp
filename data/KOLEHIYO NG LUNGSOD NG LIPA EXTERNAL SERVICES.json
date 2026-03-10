@@ -53,7 +53,7 @@
       ],
       "total": {
         "fees": "P10.00",
-        "time": "23 minutes"
+        "processing_time": "23 minutes"
       }
     },
     {
@@ -132,7 +132,7 @@
       ],
       "total": {
         "fees": "None",
-        "time": "14 minutes"
+        "processing_time": "14 minutes"
       }
     },
     {
@@ -184,7 +184,7 @@
       ],
       "total": {
         "fees": "None",
-        "time": "10 minutes"
+        "processing_time": "10 minutes"
       }
     },
     {
@@ -253,7 +253,7 @@
       ],
       "total": {
         "fees": "P50.00 per page",
-        "time": "6 days and 43 minutes"
+        "processing_time": "6 days and 43 minutes"
       }
     },
     {
@@ -322,7 +322,7 @@
       ],
       "total": {
         "fees": "P10.00 (Transfer), P50.00/page (TOR), P25.00 (Cert)",
-        "time": "6 days and 38 minutes"
+        "processing_time": "6 days and 38 minutes"
       }
     },
     {
@@ -391,7 +391,7 @@
       ],
       "total": {
         "fees": "P150.00 (second copy)",
-        "time": "6 days and 23 minutes"
+        "processing_time": "6 days and 23 minutes"
       }
     },
     {
@@ -470,7 +470,7 @@
       ],
       "total": {
         "fees": "None",
-        "time": "3 hours and 20 minutes (for first 100 students)"
+        "processing_time": "3 hours and 20 minutes (for first 100 students)"
       }
     }
   ]

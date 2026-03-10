@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 "Lipa City Agriculture Office External Services": 0,
                 "Lipa City Assesor_s Office External Services": 0,
                 "Lipa City Budget Office External Services": 0,
-                "Lipa City Civil Registar_s Office External Services": 0,
+                "Lipa City Civil Registrar_s Office External Services": 0,
                 "Lipa City Community Affairs Office External Services": 0,
                 "Lipa City Cooperatives Office External Services": 0,
                 "Lipa City Engineering Office External Services": 0,

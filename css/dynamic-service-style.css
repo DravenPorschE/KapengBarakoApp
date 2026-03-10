@@ -118,6 +118,11 @@ body {
     margin: 0;
     font-size: 18px;
     font-weight: 400;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    min-width: 0; /* important for flexbox */
 }
 
 .information-container h3 {
