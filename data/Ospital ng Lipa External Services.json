@@ -724,6 +724,7 @@
     {
       "id": 17,
       "service_name": "Request for Certificate of Confinement",
+      "image": "/assets/document_background/Request for Certificate of Confinement",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -757,6 +758,7 @@
     {
       "id": 18,
       "service_name": "Request for Medical Abstract",
+      "image": "/assets/document_background/Request for Medical Abstract",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -790,6 +792,7 @@
     {
       "id": 19,
       "service_name": "Request for Birth Certificate",
+      "image": "/assets/document_background/Request for Birth Certificate",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -823,6 +826,7 @@
     {
       "id": 20,
       "service_name": "Request for Death Certificate",
+      "image": "/assets/document_background/Request for Death Certificate",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -856,6 +860,7 @@
     {
       "id": 21,
       "service_name": "Request for Medical Certificate - OPD",
+      "image": "/assets/document_background/Request for Medical Certificate - OPD",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -889,6 +894,7 @@
     {
       "id": 22,
       "service_name": "Dental Consultation and Procedure",
+      "image": "/assets/document_background/Dental Consultation and Procedure",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -918,6 +924,7 @@
     {
       "id": 23,
       "service_name": "Pharmacy Services",
+      "image": "/assets/document_background/Pharmacy Services",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -947,6 +954,7 @@
     {
       "id": 24,
       "service_name": "Pharmacy Procedures for Non-Lipenos",
+      "image": "/assets/document_background/Pharmacy Procedures for Non-Lipenos",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -976,6 +984,7 @@
     {
       "id": 25,
       "service_name": "Rehabilitation Consultation",
+      "image": "/assets/document_background/Rehabilitation Consultation",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -1009,6 +1018,7 @@
     {
       "id": 26,
       "service_name": "Rehabilitation Treatment Session",
+      "image": "/assets/document_background/Rehabilitation Treatment Session",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -1042,6 +1052,7 @@
     {
       "id": 27,
       "service_name": "Availing of Dietary Services – Clinical Rounds and Bedside Counselling",
+      "image": "/assets/document_background/Availing of Dietary Services – Clinical Rounds and Bedside Counselling",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -1071,6 +1082,7 @@
     {
       "id": 28,
       "service_name": "Availing of Out-Patient Nutrition Counselling",
+      "image": "/assets/document_background/Availing of Out-Patient Nutrition Counselling",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -1100,6 +1112,7 @@
     {
       "id": 29,
       "service_name": "Application for Philhealth Reimbursement",
+      "image": "/assets/document_background/Application for Philhealth Reimbursement",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -1133,6 +1146,7 @@
     {
       "id": 30,
       "service_name": "Phone Inquiry",
+      "image": "/assets/document_background/Rehabilitation Consultation",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -1162,6 +1176,7 @@
     {
       "id": 31,
       "service_name": "Availing of Industrial and Occupational Medicine",
+      "image": "/assets/document_background/Availing of Industrial and Occupational Medicine",
       "office": "Ospital ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
