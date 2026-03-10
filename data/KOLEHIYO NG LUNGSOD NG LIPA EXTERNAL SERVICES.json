@@ -4,7 +4,7 @@
     {
       "id": 1,
       "service_name": "Issuance of Certificate of Good Moral Character",
-      "image": "image_1_468",
+      "image": "/assets/document_background/Issuance of Certificate of Good Moral Character",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -59,7 +59,7 @@
     {
       "id": 2,
       "service_name": "Enrollment Procedure for New Students at the Kolehiyo ng Lungsod ng Lipa",
-      "image": "image_2_469",
+      "image": "/assets/document_background/Enrollment Procedure for New Students at the Kolehiyo ng Lungsod",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -138,7 +138,7 @@
     {
       "id": 3,
       "service_name": "Enrolment Procedure for Old Students at Kolehiyo ng Lungsod ng Lipa",
-      "image": "image_3_470",
+      "image": "/assets/document_background/Enrolment Procedure for Old Students at Kolehiyo ng Lungsod ng Lipa",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -190,7 +190,7 @@
     {
       "id": 4,
       "service_name": "Issuance of Transcript of Records (TOR) for Graduates",
-      "image": "image_4_471",
+      "image": "/assets/document_background/Issuance of Transcript of Records (TOR) for Graduates",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -259,7 +259,6 @@
     {
       "id": 5,
       "service_name": "Issuance of Transfer Credentials and Transcript of Records (TOR) for Transferees",
-      "image": "image_5_472",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
