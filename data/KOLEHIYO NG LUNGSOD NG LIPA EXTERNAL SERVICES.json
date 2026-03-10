@@ -259,6 +259,7 @@
     {
       "id": 5,
       "service_name": "Issuance of Transfer Credentials and Transcript of Records (TOR) for Transferees",
+      "image": "/assets/document_background/Issuance of Transfer Credentials and Transcript of Records (TOR) for",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -327,7 +328,7 @@
     {
       "id": 6,
       "service_name": "Issuance of Diploma",
-      "image": "image_6_473",
+      "image": "/assets/document_background/Issuance of Diploma",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -396,7 +397,7 @@
     {
       "id": 7,
       "service_name": "Application for Admission and Entrance Examination",
-      "image": "image_7_474",
+      "image": "/assets/document_background/Application for Admission and Entrance Examination",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
