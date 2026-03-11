@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const jsonFiles = [
         "/data/Lipa City Environment and Natural Resources Office External Services.json",
-        "/data/KOLEHIYO NG LUNGSOD NG LIPA EXTERNAL SERVICES.json",
         "/data/Lipa City Social Welfare and Development Office External Services.json",
         "/data/LIPA CITY AGRICULTURE OFFICE EXTERNAL SERVICES.json",
         "/data/Lipa City Permits and Licensing Office External Services.json",
@@ -66,7 +65,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/KOLEHIYO NG LUNGSOD NG LIPA EXTERNAL SERVICES.json",
         "/data/LIPA CITY VICE MAYOR_S OFFICE EXTERNAL SERVICES.json",
         "/data/Lipa City Treasurer_s Office External Services.json",
-        "/data/LIPA CITY ADMINISTRATOR_S OFFICE EXTERNAL SERVICES.json"
+        "/data/LIPA CITY ADMINISTRATOR_S OFFICE EXTERNAL SERVICES.json",
+        "/data/LIPA CITY TREASURER_S OFFICE INTERNAL SERVICES.json",
+        "/data/LIPA CITY PUBLIC ORDER AND SAFETY OFFICE EXTERNAL SERVICES.json"
     ];
     
   
