@@ -30,13 +30,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let finalSearch = searchInput.value.trim();
 
-    toggleBtn.addEventListener('click', () => {
-        sidebarContainer.classList.toggle('show');
-    });
+    // toggleBtn.addEventListener('click', () => {
+    //     sidebarContainer.classList.toggle('show');
+    // });
 
-    closeBtn.addEventListener('click', () => {
-        sidebarContainer.classList.toggle('show');
-    });
+    // closeBtn.addEventListener('click', () => {
+    //     sidebarContainer.classList.toggle('show');
+    // });
 
     browseAllDepartments.addEventListener('click', () => {
         window.location.href = "/pages/all-services.html";
