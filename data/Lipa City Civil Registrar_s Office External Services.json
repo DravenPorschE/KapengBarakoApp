@@ -4,6 +4,7 @@
     {
       "id": 1,
       "service_name": "Application for Late Registration of Birth",
+      "office": "Lipa City Civil Registrar’s Office",
       "image": "/assets/document_background/Application for Late Registration of Birth",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -91,11 +92,14 @@
           "person_responsible": "Administrative Aide IV (Lipa City Civil Registrar’s Office)"
         }
       ],
-      "total_fees": "P200.00 (if unmarried parents)",
-      "total_processing_time": "1 hour and 5 minutes with 10 days posting period"
+      "total": {
+        "fees": "P200.00 (if unmarried parents)",  
+        "processing_time": "1 hour and 5 minutes with 10 days posting period"
+      }
     },
     {
       "id": 2,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Application for Late Registration of Death",
       "image": "/assets/document_background/Application for Late Registration of Death",
       "classification": "Highly technical",
@@ -168,6 +172,7 @@
     },
     {
       "id": 3,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Application for Late Registration of Marriage",
       "image": "/assets/document_background/Application for Late Registration of Marriage",
       "classification": "Highly technical",
@@ -247,6 +252,7 @@
     },
     {
       "id": 4,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Application for Legitimation of Children under RA No. 9858",
       "image": "/assets/document_background/Application for Legitimation of Children under RA No. 9858",
       "classification": "Simple",
@@ -312,6 +318,7 @@
     },
     {
       "id": 5,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Application for Marriage License",
       "image": "/assets/document_background/Application for Marriage License",
       "classification": "Simple",
@@ -410,6 +417,7 @@
     },
     {
       "id": 6,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Application for Timely Registration of Birth",
       "image": "/assets/document_background/Application for Timely Registration of Birth",
       "classification": "Simple",
@@ -460,6 +468,7 @@
     },
     {
       "id": 7,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Application for Timely Registration of Death",
       "image": "/assets/document_background/Application for Timely Registration of Death",
       "classification": "Simple",
@@ -499,6 +508,7 @@
     },
     {
       "id": 8,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Application for Timely Registration of Marriage",
       "image": "/assets/document_background/Application for Timely Registration of Marriage",
       "classification": "Simple",
@@ -538,6 +548,7 @@
     },
     {
       "id": 9,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Application for Transfer of Records as per Memorandum Circular No. 91-6",
       "image": "/assets/document_background/Application for Transfer of Records per Memorandum Circular No. 91-6",
       "classification": "Simple",
@@ -599,6 +610,7 @@
     },
     {
       "id": 10,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Petition for Acknowledgement of Paternity",
       "image": "/assets/document_background/Petition for Acknowledgement of Paternity",
       "classification": "Simple",
@@ -667,6 +679,7 @@
     },
     {
       "id": 11,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Petition for Authority to Use the Surname of the Father for Children (RA 9255)",
       "image": "/assets/document_background/Petition for Authority to Use the Surname of the Father for Children (RA",
       "classification": "Highly technical",
@@ -728,6 +741,7 @@
     },
     {
       "id": 12,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Petition for Change of Entries in the Birth Certificate (RA No. 10172)",
       "image": "/assets/document_background/Petition for Change of Entries in the Birth Certificate (RA No. 10172)",
       "classification": "Highly technical",
@@ -785,6 +799,7 @@
     },
     {
       "id": 13,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Petition for Change of First Name or Nickname (RA No. 9048)",
       "image": "/assets/document_background/Petition for Change of First Name or Nickname (RA No. 9048)",
       "classification": "Highly technical",
@@ -838,6 +853,7 @@
     },
     {
       "id": 14,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Petition for Correction of Clerical or Typographical Error in the Civil Register (RA No. 9048)",
       "image": "/assets/document_background/Petition for Correction of Clerical or Typographical Error in the Civil",
       "classification": "Highly technical",
@@ -891,6 +907,7 @@
     },
     {
       "id": 15,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Request for Certifications and Certified True Copies of Civil Registry Documents",
       "image": "/assets/document_background/Request for Certification and Certified True Copies of Civil Registry",
       "classification": "Simple",
@@ -937,6 +954,7 @@
     },
     {
       "id": 16,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Request for Correction of Entries in the Geographic Statistical Portion and/or Registry Documents",
       "image": "/assets/document_background/Request for Correction in the Geographic Statistical Portion",
       "classification": "Simple",
@@ -976,6 +994,7 @@
     },
     {
       "id": 17,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Request for Endorsement to PSA",
       "image": "/assets/document_background/Request for Endorsement to PSA",
       "classification": "Simple",
@@ -1022,6 +1041,7 @@
     },
     {
       "id": 18,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Request for Inclusion of Entries in the Civil Registry Documents",
       "image": "/assets/document_background/Request for Inclusion of Entries in the Civil Registry Documents",
       "classification": "Simple",
@@ -1068,6 +1088,7 @@
     },
     {
       "id": 19,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Request for Piecemeal Submission of Civil Registry Documents to PSA",
       "image": "/assets/document_background/Request for Piecemeal Submission of Civil Registry Documents to PSA",
       "classification": "Simple",
@@ -1107,6 +1128,7 @@
     },
     {
       "id": 20,
+      "office": "Lipa City Civil Registrar’s Office",
       "service_name": "Request for Registration of Court Decrees and Orders",
       "image": "/assets/document_background/Request for Registration of Court Decrees and Orders",
       "classification": "Simple",

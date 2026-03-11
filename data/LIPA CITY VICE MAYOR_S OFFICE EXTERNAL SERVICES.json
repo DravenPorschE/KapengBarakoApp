@@ -3,7 +3,7 @@
   "external_services": [
     {
       "id": 1,
-      "service_name": "Issuance of Endorsement Letter to:",
+      "service_name": "Issuance of Endorsement Letter",
       "image": "/assets/document_background/Issuance of Endorsement Letter",
       "office": "Lipa City Vice Mayor’s Office",
       "classification": "Simple",
