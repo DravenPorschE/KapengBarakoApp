@@ -46,6 +46,12 @@ body {
         linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
     background-size: 72px 72px;
+    animation: gridDrift 12s linear infinite;
+}
+
+@keyframes gridDrift {
+    from { background-position: 0 0; }
+    to   { background-position: 72px 72px; }
 }
 
 .bg-overlay {
@@ -68,6 +74,8 @@ body {
     height: 100vh;
     display: flex;
     align-items: stretch;
+    backdrop-filter: blur(5px);
+    
 }
 
 #avatar-container {
@@ -113,20 +121,62 @@ body {
     gap: 40px;
 }
 
+/* ============================================
+   TAGLINE — ENHANCED
+   ============================================ */
+
 #tagline-container {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
     animation: fadeSlideIn 0.7s ease both;
+    position: relative;
+}
+
+/* Glowing red ambient behind the headline */
+#tagline-container::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 340px;
+    height: 180px;
+    background: radial-gradient(ellipse at center, rgba(177,0,0,0.22) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+    animation: ambientPulse 4s ease-in-out infinite;
+}
+
+@keyframes ambientPulse {
+    0%, 100% { opacity: 0.6; transform: translateY(-50%) scale(1); }
+    50%       { opacity: 1;   transform: translateY(-50%) scale(1.08); }
 }
 
 .tagline-eyebrow {
     font-family: 'Archivo Black', sans-serif;
     font-size: 10px;
-    letter-spacing: 0.35em;
+    letter-spacing: 0.45em;
     text-transform: uppercase;
     color: var(--gold);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    opacity: 0;
+    animation: fadeSlideIn 0.6s 0.1s ease forwards;
+}
 
+/* Small leading dash before eyebrow text */
+.tagline-eyebrow::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 1.5px;
+    background: var(--gold);
+    opacity: 0.7;
+    flex-shrink: 0;
 }
 
 #tagline-container h1 {
@@ -134,26 +184,82 @@ body {
     font-family: 'RussoOne', sans-serif;
     font-size: 61px;
     line-height: 1.05;
-    /* color: var(--text); */
-
     text-align: left;
+    letter-spacing: 0.045em;
+    position: relative;
+    z-index: 1;
 
-
-    background: linear-gradient(90deg, #8a0000 0%, #b10000 40%, #c41111 100%);
+    /* Layered red gradient with a bright highlight streak */
+    background: linear-gradient(
+        135deg,
+        #6b0000 0%,
+        #b10000 30%,
+        #e82020 52%,
+        #b10000 72%,
+        #7a0000 100%
+    );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 
+    /* Glow via background-size shimmer only — no filter (breaks background-clip: text) */
+    background-size: 200% 200%;
 
-    letter-spacing: 0.045em;
+    opacity: 0;
+    animation:
+        fadeSlideIn 0.75s 0.25s ease forwards,
+        shimmerText 6s 1.2s ease-in-out infinite;
 }
 
+/* Shimmer: only animate background-position, never filter */
+@keyframes shimmerText {
+    0%, 100% { background-position: 0% 50%; }
+    50%       { background-position: 100% 50%; }
+}
+
+#tagline-container h1:hover {
+    cursor: default;
+}
+
+/* Animated underline: red → gold, grows in */
 .tagline-line {
-    width: 170px;
+    width: 0;
     height: 4px;
     background: linear-gradient(90deg, var(--red) 0%, var(--gold) 100%);
     border-radius: 2px;
+    position: relative;
+    z-index: 1;
+    animation: expandLine 0.9s 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    /* Glowing edge */
+    box-shadow: 0 0 10px rgba(177,0,0,0.6), 0 0 24px rgba(200,169,110,0.25);
 }
+
+@keyframes expandLine {
+    from { width: 0; }
+    to   { width: 170px; }
+}
+
+/* A second, fainter echo line that lags behind */
+.tagline-line::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: linear-gradient(90deg, rgba(177,0,0,0.3) 0%, transparent 100%);
+    border-radius: 2px;
+    animation: expandLine2 1.1s 1.1s ease forwards;
+}
+
+@keyframes expandLine2 {
+    from { width: 0; }
+    to   { width: 120px; }
+}
+
+/* ============================================
+   SEARCH
+   ============================================ */
 
 #search-container {
     animation: fadeSlideIn 0.7s 0.15s ease both;
@@ -182,11 +288,9 @@ body {
     width: 45px;
     height: 100%;
     flex-shrink: 0;
-
     padding: 5px 10px 5px 5px;
     background-color: #e80202;
     border-radius: 0 18px 18px 0;
-
     filter: none;
 }
 
@@ -199,6 +303,10 @@ body {
     font-size: 22px;
     color: #1a1a1a;
     letter-spacing: 0.01em;
+    background: linear-gradient(90deg, rgb(156, 137, 26), Black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 #search-input::placeholder {
@@ -242,8 +350,16 @@ body {
     margin: 0;
     padding: 8px;
     box-shadow: 0 16px 48px rgba(0,0,0,0.2);
-    z-index: 50;
-    overflow: hidden;
+    z-index: 10000;
+    overflow-y: auto;
+    max-height: 320px;
+}
+
+/* When keyboard is open, flip autocomplete UP above the searchbox */
+.keyboard-open #autocomplete-list {
+    top: auto;
+    bottom: calc(100% + 10px);
+    box-shadow: 0 -8px 32px rgba(0,0,0,0.2);
 }
 
 #autocomplete-list li {
@@ -277,9 +393,12 @@ body {
     text-overflow: ellipsis;
 }
 
+/* ============================================
+   ACTION BUTTON
+   ============================================ */
+
 #action-container {
     animation: fadeSlideIn 0.7s 0.3s ease both;
-
     justify-items: center;
 }
 
@@ -300,6 +419,22 @@ body {
     background: linear-gradient(90deg, #8a0000 0%, #b10000 40%, #c41111 100%);
     transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
     border-bottom: 4px solid #6e0000;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Shimmer sweep on hover */
+#browse-all-departments::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.12), transparent);
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+}
+
+#browse-all-departments:hover::after {
+    transform: translateX(100%);
 }
 
 #browse-all-departments:hover {
@@ -319,10 +454,10 @@ body {
     flex-shrink: 0;
 }
 
-@keyframes fadeSlideIn {
-    from { opacity: 0; transform: translateY(24px); }
-    to   { opacity: 1; transform: translateY(0); }
-}
+/* ============================================
+   SHARED ANIMATIONS
+   ============================================ */
+
 @keyframes fadeSlideIn {
     from { opacity: 0; transform: translateY(24px); }
     to   { opacity: 1; transform: translateY(0); }
@@ -342,14 +477,12 @@ body {
     flex-direction: column;
 }
 
-/* gold-to-red gradient top edge */
 .nav-topline {
     height: 2px;
     background: linear-gradient(90deg, transparent 0%, var(--red-deep) 15%, var(--red) 40%, var(--gold) 70%, transparent 100%);
     flex-shrink: 0;
 }
 
-/* main bar */
 .nav-bar {
     background: linear-gradient(180deg, #0e0404 0%, #0a0202 100%);
     border-top: 1px solid rgba(177, 0, 0, 0.2);
@@ -362,7 +495,6 @@ body {
     overflow: hidden;
 }
 
-/* ── each nav button ── */
 .nav-item {
     flex: 1;
     display: flex;
@@ -384,7 +516,6 @@ body {
     transform: scale(0.93);
 }
 
-/* gold top indicator — springs in when active */
 .nav-indicator {
     position: absolute;
     top: 0;
@@ -402,7 +533,6 @@ body {
     transform: scaleX(1);
 }
 
-/* icon wrap */
 .nav-icon-wrap {
     width: 44px;
     height: 44px;
@@ -428,7 +558,6 @@ body {
     color: var(--text);
 }
 
-/* label */
 .nav-label {
     font-family: 'Archivo Black', sans-serif;
     font-size: 10px;
@@ -446,7 +575,6 @@ body {
     color: var(--gold);
 }
 
-/* thin dividers between items */
 .nav-divider {
     width: 1px;
     height: 36px;
@@ -455,7 +583,6 @@ body {
     flex-shrink: 0;
 }
 
-/* city identity strip at the very bottom */
 .nav-city-strip {
     background: var(--red-deep);
     display: flex;
@@ -482,14 +609,28 @@ body {
     color: rgba(200, 169, 110, 0.6);
 }
 
-
+/* ============================================
+   KEYBOARD
+   ============================================ */
 
 .main-keyboard-container {
-    position: relative;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     z-index: 9999;
-    inset: 0;
     display: flex;
     align-items: flex-end;
+
+    /* Hidden by default — slides up when .keyboard-visible is added */
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+}
+
+.main-keyboard-container.keyboard-visible {
+    transform: translateY(0);
+    pointer-events: all;
 }
 
 .keyboard-container {

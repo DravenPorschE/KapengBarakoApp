@@ -16,6 +16,10 @@
     src: url('/fonts/helvetica-light.ttf') format('truetype');
 }
 
+@keyframes slideUp{
+    from{transform: translateY(50px); opacity:0;}
+    to{transform: translateY(0); opacity:1;}
+}
 
 :root {
     --red:          #8a0000;
@@ -141,11 +145,13 @@ body::before {
 }
 
 .hero {
-    position: relative;
+    position: sticky;
     overflow: hidden;
     padding: 44px 68px 38px;
     background: linear-gradient(135deg, var(--red) 0%, #5a0000 100%);
     border-bottom: 1px solid var(--gold-border);
+    z-index: 9999;
+    inset: 0;
 }
 
 .hero::after {
@@ -174,6 +180,7 @@ body::before {
     color: #fff;
     letter-spacing: 0.01em;
     line-height: 1.15;
+    
 }
 .hero-sub {
     margin-top: 10px;

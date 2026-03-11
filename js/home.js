@@ -30,38 +30,28 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let finalSearch = searchInput.value.trim();
 
-    // toggleBtn.addEventListener('click', () => {
-    //     sidebarContainer.classList.toggle('show');
-    // });
-
-    // closeBtn.addEventListener('click', () => {
-    //     sidebarContainer.classList.toggle('show');
-    // });
-
     browseAllDepartments.addEventListener('click', () => {
         window.location.href = "/pages/all-services.html";
     });
 
+    // ── Keyboard key press ──────────────────────────────────────
     keys.forEach(key => {
         key.addEventListener("mousedown", (e) => {
-            e.preventDefault();
+            e.preventDefault(); // prevent blur on searchInput
             const keyValue = key.textContent.trim();
 
             searchInput.focus();
 
             if (keyValue === "<--") {
                 searchInput.value = searchInput.value.slice(0, -1);
-            } else if(keyValue.toLowerCase() == "search") {
+            } else if (keyValue.toLowerCase() === "search") {
                 let bestSearch = output[0];
-
                 if (bestSearch != null) {
                     window.location.href = `/pages/dynamic-service.html?search=${encodeURIComponent(bestSearch)}`;
                 }
-            } 
-            else if(keyValue.toLowerCase() == "space") {
+            } else if (keyValue.toLowerCase() === "space") {
                 searchInput.value += " ";
-            }
-            else {
+            } else {
                 searchInput.value += keyValue;
             }
 
@@ -70,44 +60,26 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    keyboardContainer.addEventListener("mousedown", (e) => {
-        e.preventDefault();
-        searchInput.focus();
+    // ── Show keyboard on search focus ───────────────────────────
+    searchInput.addEventListener("focus", () => {
+        keyboardContainer.classList.add("keyboard-visible");
+        document.getElementById("search-container").classList.add("keyboard-open");
     });
 
-    document.addEventListener("click", (e) => {
-        if (!searchInput.contains(e.target) && !keyboardContainer.contains(e.target)) {
-            searchInput.blur();
-            document.body.style.overflow = "hidden";
+    // ── Hide keyboard when clicking outside ─────────────────────
+    document.addEventListener("pointerdown", (e) => {
+        const insideSearch   = searchInput.contains(e.target) || e.target === searchInput;
+        const insideKeyboard = keyboardContainer.contains(e.target);
 
-            setTimeout(() => {
-                window.scrollTo({ top: 0, behavior: "smooth" });
-            }, 300);
+        if (!insideSearch && !insideKeyboard) {
+            keyboardContainer.classList.remove("keyboard-visible");
+            document.getElementById("search-container").classList.remove("keyboard-open");
+            searchInput.blur();
+            autocompleteList.innerHTML = "";
         }
     });
 
-    searchInput.addEventListener("focus", () => {
-        document.body.style.overflow = "auto";
-        setTimeout(() => {
-            document.body.style.overflow = "auto";
-
-            window.scrollTo({
-                top: document.documentElement.scrollHeight,
-                behavior: "smooth"
-            });
-        }, 300);
-    });
-
-    searchInput.addEventListener("blur", () => {
-        setTimeout(() => {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
-        }, 300);
-        document.body.style.overflow = "hidden";
-    });
-
+    // ── Autocomplete input handler ───────────────────────────────
     searchInput.addEventListener("input", function () {
         clearBtn.style.display = this.value ? "flex" : "none";
 
@@ -120,13 +92,25 @@ document.addEventListener("DOMContentLoaded", function() {
             .then(res => res.json())
             .then(data => {
                 const matches = data
-                    .filter(item => item.toLowerCase().includes(value))
+                    .filter(item => {
+                        const lower = item.toLowerCase();
+                        // Prioritize: starts with value, OR any word in the phrase starts with value
+                        return lower.startsWith(value) ||
+                               lower.split(/\s+/).some(word => word.startsWith(value));
+                    })
+                    .sort((a, b) => {
+                        // Exact start match ranks first
+                        const aStarts = a.toLowerCase().startsWith(value) ? 0 : 1;
+                        const bStarts = b.toLowerCase().startsWith(value) ? 0 : 1;
+                        return aStarts - bStarts;
+                    })
                     .slice(0, 5);
 
                 output = matches;
-                    
+
                 matches.forEach(match => {
                     const li = document.createElement("li");
+
                     const icon = document.createElement("img");
                     icon.src = "/assets/icons/search_icon.svg";
                     icon.alt = "search";
@@ -149,6 +133,7 @@ document.addEventListener("DOMContentLoaded", function() {
             });
     });
 
+    // ── Clear button ─────────────────────────────────────────────
     clearBtn.addEventListener("click", function () {
         searchInput.value = "";
         autocompleteList.innerHTML = "";
@@ -156,12 +141,14 @@ document.addEventListener("DOMContentLoaded", function() {
         searchInput.focus();
     });
 
+    // ── Search icon click ────────────────────────────────────────
     searchBtn.addEventListener("click", () => {
         if (searchInput.value.trim() !== "") {
             window.location.href = `/pages/dynamic-service.html?search=${encodeURIComponent(searchInput.value)}`;
         }
     });
 
+    // ── Placeholder typewriter ───────────────────────────────────
     function type() {
         const text = texts[textIndex];
         input.placeholder = text.slice(0, index);
@@ -171,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else if (direction === 1 && index === text.length) {
             direction = -1;
             setTimeout(type, 1000);
-                return;
+            return;
         } else if (direction === -1 && index > 0) {
             index--;
         } else if (direction === -1 && index === 0) {

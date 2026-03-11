@@ -154,6 +154,7 @@ html, body {
     transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.2s;
 }
 
+
 .back-btn:hover {
     background: rgba(200, 169, 110, 0.18);
     border-color: var(--gold);
@@ -214,6 +215,11 @@ html, body {
     box-shadow: 0 8px 32px rgba(0,0,0,0.6);
     position: relative;
     overflow: hidden;
+    .card{
+    box-shadow: 0 4px 10px rgb(224, 177, 47);
+    border-radius: 10px;
+}
+    
 }
 
 .card::before {
@@ -234,6 +240,10 @@ html, body {
         0 20px 60px rgba(0,0,0,0.3),
         0 0 0 1px rgba(177, 0, 0, 0.2),
         0 0 40px rgba(177, 0, 0, 0.15);
+        .card{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
 }
 
 .card.active::before {
