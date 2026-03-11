@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const carousel = document.querySelector(".carousel");
     const group = document.querySelector(".group");
-    const backBtn = document.getElementById("back-button");
+    const backBtn = document.querySelector(".back-btn");
+    
 
     backBtn.addEventListener("click", function () {
         window.location.href = "/pages/home.html";
