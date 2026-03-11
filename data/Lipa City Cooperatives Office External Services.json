@@ -15,10 +15,10 @@
           { "requirement": "1 original copy of List of Products", "source": "Interested applicant cooperative" }
         ],
         "steps": [
-          { "client_step": "Submit application form", "agency_action": "Receive and approve application", "fees": "None", "time": "30 minutes", "responsible": "City Cooperatives Officer" },
-          { "client_step": "Present list of products", "agency_action": "Receive and file list", "fees": "None", "time": "30 minutes", "responsible": "Supervising Cooperative Development Specialist" },
-          { "client_step": "Fill-out Consignment Agreement Form", "agency_action": "Receive and file form", "fees": "None", "time": "30 minutes", "responsible": "Supervising Cooperative Development Specialist / Admin Aide II" },
-          { "client_step": "Endorse products to Pasalubong Center", "agency_action": "Accept products", "fees": "None", "time": "1 hour", "responsible": "Administrative Aide III" }
+          { "client_step": "Submit application form", "agency_action": "Receive and approve application", "fees": "None", "processing_time": "30 minutes", "responsible": "City Cooperatives Officer" },
+          { "client_step": "Present list of products", "agency_action": "Receive and file list", "fees": "None", "processing_time": "30 minutes", "responsible": "Supervising Cooperative Development Specialist" },
+          { "client_step": "Fill-out Consignment Agreement Form", "agency_action": "Receive and file form", "fees": "None", "processing_time": "30 minutes", "responsible": "Supervising Cooperative Development Specialist / Admin Aide II" },
+          { "client_step": "Endorse products to Pasalubong Center", "agency_action": "Accept products", "fees": "None", "processing_time": "1 hour", "responsible": "Administrative Aide III" }
         ],
         "total_fees": "None",
         "total_time": "2 hours and 30 minutes"
@@ -131,7 +131,7 @@
             "client_step": "Submit approved BOD/GA Resolution",
             "agency_action": "Receive approved BOD/GA Resolution for loan application",
             "fees": "None",
-            "time": "15 minutes",
+            "processing_time": "15 minutes",
             "responsible": "City Mayor - Lipa City Mayor’s Office / City Cooperatives Officer - Lipa City Cooperatives Office"
           },
           {
@@ -139,7 +139,7 @@
             "client_step": "File loan application and submit requirements",
             "agency_action": "Receive loan application and requirements",
             "fees": "None",
-            "time": "30 minutes",
+            "processing_time": "30 minutes",
             "responsible": "Senior CDS / CDS I / Project Development Assistant"
           },
           {
@@ -147,7 +147,7 @@
             "client_step": "",
             "agency_action": "Perform initial evaluation of submitted documents",
             "fees": "None",
-            "time": "1 day",
+            "processing_time": "1 day",
             "responsible": "Lipa City Cooperatives Office"
           },
           {
@@ -155,7 +155,7 @@
             "client_step": "",
             "agency_action": "Conduct background and credit investigation",
             "fees": "None",
-            "time": "2 days",
+            "processing_time": "2 days",
             "responsible": "Administrative Aide III - Lipa City Cooperatives Office"
           },
           {
@@ -163,7 +163,7 @@
             "client_step": "",
             "agency_action": "Assist in preparation of project proposal and required documents",
             "fees": "None",
-            "time": "5 days",
+            "processing_time": "5 days",
             "responsible": "Lipa City Cooperatives Office"
           },
           {
@@ -171,7 +171,7 @@
             "client_step": "",
             "agency_action": "Review, evaluate and recommend for approval",
             "fees": "None",
-            "time": "1 day",
+            "processing_time": "1 day",
             "responsible": "Supervising Cooperative Development Specialist"
           },
           {
@@ -179,7 +179,7 @@
             "client_step": "",
             "agency_action": "Endorse project proposal to City Administrator for recommendation to City Mayor",
             "fees": "None",
-            "time": "1 day",
+            "processing_time": "1 day",
             "responsible": "City Cooperatives Officer"
           },
           {
@@ -187,7 +187,7 @@
             "client_step": "",
             "agency_action": "Prepare pre-release documents (promissory note, deed of assignment)",
             "fees": "None",
-            "time": "1 day",
+            "processing_time": "1 day",
             "responsible": "Senior CDS / CDS I / Project Development Assistant / Administrative Aide III"
           },
           {
@@ -195,7 +195,7 @@
             "client_step": "",
             "agency_action": "Prepare work program, obligation of allotment and voucher",
             "fees": "None",
-            "time": "5 days",
+            "processing_time": "5 days",
             "responsible": "Supervising CDS / Administrative Assistant II / Administrative Aide IV"
           },
           {
@@ -203,7 +203,7 @@
             "client_step": "",
             "agency_action": "Prepare and submit voucher for check preparation",
             "fees": "None",
-            "time": "4 hours",
+            "processing_time": "4 hours",
             "responsible": "Administrative Assistant II / Administrative Aide IV / Administrative Aide III"
           },
           {
@@ -211,7 +211,7 @@
             "client_step": "",
             "agency_action": "Process loan application",
             "fees": "None",
-            "time": "1 day",
+            "processing_time": "1 day",
             "responsible": "Lipa City Cooperatives Office"
           },
           {
@@ -219,7 +219,7 @@
             "client_step": "",
             "agency_action": "Endorse check to City Accountant for advice preparation",
             "fees": "None",
-            "time": "4 hours",
+            "processing_time": "4 hours",
             "responsible": "Administrative Aide IV - Lipa City Treasurer’s Office"
           },
           {
@@ -227,7 +227,7 @@
             "client_step": "",
             "agency_action": "Explain undertaking and loan payment schedule",
             "fees": "None",
-            "time": "3 hours",
+            "processing_time": "3 hours",
             "responsible": "City Cooperatives Officer"
           },
           {
@@ -235,13 +235,13 @@
             "client_step": "Claim the check",
             "agency_action": "Award the check to the cooperative",
             "fees": "None",
-            "time": "1 hour",
+            "processing_time": "1 hour",
             "responsible": "City Cooperatives Officer"
           }
         ],
         "total": {
           "fees": "None",
-          "time": "18 days, 4 hours and 45 minutes"
+          "processing_time": "18 days, 4 hours and 45 minutes"
         }
       },
       {
@@ -257,10 +257,10 @@
           { "requirement": "Confirmation slip", "source": "Lipa City Cooperatives Office" }
         ],
         "steps": [
-          { "client_step": "Submit confirmation slip and participation form", "agency_action": "Collect slips", "fees": "None", "time": "2 days", "responsible": "CDS I / Project Development Assistant" },
-          { "client_step": "Participate in activities", "agency_action": "Facilitate activities", "fees": "None", "time": "1 day", "responsible": "Supervising/Senior CDS" }
+          { "client_step": "Submit confirmation slip and participation form", "agency_action": "Collect slips", "fees": "None", "processing_time": "2 days", "responsible": "CDS I / Project Development Assistant" },
+          { "client_step": "Participate in activities", "agency_action": "Facilitate activities", "fees": "None", "processing_time": "1 day", "responsible": "Supervising/Senior CDS" }
         ],
-        "total": { "fees": "None", "time": "3 days" }
+        "total": { "fees": "None", "processing_time": "3 days" }
       },
       {
         "id": 4,
@@ -275,11 +275,11 @@
           { "requirement": "Confirmation slip", "source": "Lipa City Cooperatives Office" }
         ],
         "steps": [
-          { "client_step": "File technical service request form", "agency_action": "Approve request and prepare work program", "fees": "None", "time": "2 days, 30 minutes", "responsible": "City Cooperative Officer / Supervising CDS" },
-          { "client_step": "Confirm attendance", "agency_action": "Collect confirmation slips", "fees": "None", "time": "1 day", "responsible": "Senior CDS" },
-          { "client_step": "Attend scheduled trainings", "agency_action": "Facilitate conduct of seminars", "fees": "None", "time": "3 days", "responsible": "Supervising CDS / Senior CDS" }
+          { "client_step": "File technical service request form", "agency_action": "Approve request and prepare work program", "fees": "None", "processing_time": "2 days, 30 minutes", "responsible": "City Cooperative Officer / Supervising CDS" },
+          { "client_step": "Confirm attendance", "agency_action": "Collect confirmation slips", "fees": "None", "processing_time": "1 day", "responsible": "Senior CDS" },
+          { "client_step": "Attend scheduled trainings", "agency_action": "Facilitate conduct of seminars", "fees": "None", "processing_time": "3 days", "responsible": "Supervising CDS / Senior CDS" }
         ],
-        "total": { "fees": "None", "time": "6 days and 30 minutes" }
+        "total": { "fees": "None", "processing_time": "6 days and 30 minutes" }
       },
       {
         "id": 5,
@@ -293,10 +293,10 @@
           { "requirement": "Letter of request", "source": "Requesting party / Applicant" }
         ],
         "steps": [
-          { "client_step": "File technical service request form", "agency_action": "Approve request", "fees": "None", "time": "30 minutes", "responsible": "City Cooperative Officer" },
-          { "client_step": "Attend Orientation Seminar", "agency_action": "Facilitate seminar and award certificate", "fees": "None", "time": "3 hours 10 minutes", "responsible": "Senior CDS / Project Development Assistant" }
+          { "client_step": "File technical service request form", "agency_action": "Approve request", "fees": "None", "processing_time": "30 minutes", "responsible": "City Cooperative Officer" },
+          { "client_step": "Attend Orientation Seminar", "agency_action": "Facilitate seminar and award certificate", "fees": "None", "processing_time": "3 hours 10 minutes", "responsible": "Senior CDS / Project Development Assistant" }
         ],
-        "total": { "fees": "None", "time": "3 hours and 40 minutes" }
+        "total": { "fees": "None", "processing_time": "3 hours and 40 minutes" }
       },
       {
         "id": 6,
@@ -309,7 +309,7 @@
         "checklist_of_requirements": [
           { "requirement": "Letter of request", "source": "Requesting party / Applicant" }
         ],
-        "total": { "fees": "None", "time": "1 day, 1 hour and 10 minutes" }
+        "total": { "fees": "None", "processing_time": "1 day, 1 hour and 10 minutes" }
       },
       {
         "id": 7,
@@ -323,7 +323,7 @@
           { "requirement": "Accomplished technical service request form", "source": "Lipa City Cooperatives Office" },
           { "requirement": "Confirmation slip", "source": "Lipa City Cooperatives Office" }
         ],
-        "total": { "fees": "None", "time": "1 day and 40 minutes" }
+        "total": { "fees": "None", "processing_time": "1 day and 40 minutes" }
       },
       {
         "id": 8,
@@ -337,7 +337,7 @@
           { "requirement": "Accomplished technical service request form", "source": "Lipa City Cooperatives Office" },
           { "requirement": "Confirmation slip", "source": "Lipa City Cooperatives Office" }
         ],
-        "total": { "fees": "None", "time": "2 days and 50 minutes" }
+        "total": { "fees": "None", "processing_time": "2 days and 50 minutes" }
       },
       {
         "id": 9,
@@ -357,7 +357,7 @@
           { "requirement": "Treasurer’s affidavit", "source": "Cooperative’s Treasurer" },
           { "requirement": "Certification that the initial cooperators had undergone pre-registration seminar", "source": "Lipa City Cooperatives Office" }
         ],
-        "total": { "fees": "None", "time": "8 days and 1 hour" }
+        "total": { "fees": "None", "processing_time": "8 days and 1 hour" }
       },
       {
         "id": 10,
@@ -474,11 +474,11 @@
           }
         ],
         "fee_schedule": [
-          { "service": "Label Design Development", "fee": "P2,000.00", "time": "1 day" },
-          { "service": "Logo Development", "fee": "P2,000.00", "time": "1 day" },
-          { "service": "Label Printing (sticker provided)", "fee": "P10.00/sheet", "time": "5 minutes" }
+          { "service": "Label Design Development", "fee": "P2,000.00", "processing_time": "1 day" },
+          { "service": "Logo Development", "fee": "P2,000.00", "processing_time": "1 day" },
+          { "service": "Label Printing (sticker provided)", "fee": "P10.00/sheet", "processing_time": "5 minutes" }
         ],
-        "total": { "fees": "Variable (Price List)", "time": "55 minutes + processing time" },
+        "total": { "fees": "Variable (Price List)", "processing_time": "55 minutes + processing time" },
           "service_notice": [
           {
             "service_name": "Label Design Development (without client’s concept)",
@@ -564,7 +564,6 @@
           { "requirement": "Business Name Registration (2 photocopies)", "source": "Department of Trade and Industry" },
           { "requirement": "Audited Financial Statements (2 photocopies)", "source": "Bureau of Internal Revenue" },
           { "requirement": "Other documents that may be required by the LGU", "source": "Applicant enterprise" },
-
           { "requirement": "Properly filled-up application form (Partnership/Corporation)", "source": "Lipa City Cooperatives Office" },
           { "requirement": "Articles of Partnership/Incorporation (2 photocopies)", "source": "Securities and Exchange Commission" },
           { "requirement": "Certificate of Registration (2 certified true copies)", "source": "Securities and Exchange Commission" },
@@ -583,7 +582,7 @@
             { "range": "500M and above", "amount": "P150,000.00" }
           ]
         },
-        "total": { "time": "11 days, 1 hour and 5 minutes" }
+        "total": { "processing_time": "11 days, 1 hour and 5 minutes" }
       }
     ]
   }

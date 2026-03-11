@@ -4,7 +4,7 @@
     {
       "id": 1,
       "service_name": "Issuance of Certificate of Good Moral Character",
-      "image": "image_1_468",
+      "image": "/assets/document_background/Issuance of Certificate of Good Moral Character",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -53,13 +53,13 @@
       ],
       "total": {
         "fees": "P10.00",
-        "time": "23 minutes"
+        "processing_time": "23 minutes"
       }
     },
     {
       "id": 2,
       "service_name": "Enrollment Procedure for New Students at the Kolehiyo ng Lungsod ng Lipa",
-      "image": "image_2_469",
+      "image": "/assets/document_background/Enrollment Procedure for New Students at the Kolehiyo ng Lungsod",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -132,13 +132,13 @@
       ],
       "total": {
         "fees": "None",
-        "time": "14 minutes"
+        "processing_time": "14 minutes"
       }
     },
     {
       "id": 3,
       "service_name": "Enrolment Procedure for Old Students at Kolehiyo ng Lungsod ng Lipa",
-      "image": "image_3_470",
+      "image": "/assets/document_background/Enrolment Procedure for Old Students at Kolehiyo ng Lungsod ng Lipa",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -184,13 +184,13 @@
       ],
       "total": {
         "fees": "None",
-        "time": "10 minutes"
+        "processing_time": "10 minutes"
       }
     },
     {
       "id": 4,
       "service_name": "Issuance of Transcript of Records (TOR) for Graduates",
-      "image": "image_4_471",
+      "image": "/assets/document_background/Issuance of Transcript of Records (TOR) for Graduates",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -253,13 +253,13 @@
       ],
       "total": {
         "fees": "P50.00 per page",
-        "time": "6 days and 43 minutes"
+        "processing_time": "6 days and 43 minutes"
       }
     },
     {
       "id": 5,
       "service_name": "Issuance of Transfer Credentials and Transcript of Records (TOR) for Transferees",
-      "image": "image_5_472",
+      "image": "/assets/document_background/Issuance of Transfer Credentials and Transcript of Records (TOR) for",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -322,13 +322,13 @@
       ],
       "total": {
         "fees": "P10.00 (Transfer), P50.00/page (TOR), P25.00 (Cert)",
-        "time": "6 days and 38 minutes"
+        "processing_time": "6 days and 38 minutes"
       }
     },
     {
       "id": 6,
       "service_name": "Issuance of Diploma",
-      "image": "image_6_473",
+      "image": "/assets/document_background/Issuance of Diploma",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -391,13 +391,13 @@
       ],
       "total": {
         "fees": "P150.00 (second copy)",
-        "time": "6 days and 23 minutes"
+        "processing_time": "6 days and 23 minutes"
       }
     },
     {
       "id": 7,
       "service_name": "Application for Admission and Entrance Examination",
-      "image": "image_7_474",
+      "image": "/assets/document_background/Application for Admission and Entrance Examination",
       "office": "Kolehiyo ng Lungsod ng Lipa",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -470,7 +470,7 @@
       ],
       "total": {
         "fees": "None",
-        "time": "3 hours and 20 minutes (for first 100 students)"
+        "processing_time": "3 hours and 20 minutes (for first 100 students)"
       }
     }
   ]

@@ -18,31 +18,66 @@ document.addEventListener("DOMContentLoaded", async () => {
     const tableClose = document.querySelector(".table-close");
     const noticeContainer = document.querySelector(".notice-container");
 
+    const mapContainerOuter = document.querySelector(".map-container-outer");
+    const showMapButton = document.querySelector(".show-map");
+    const closeMapButton = document.querySelector(".close-map-btn");
+
+    const zoomIn = document.querySelector(".zoomIn");
+    const zoomOut = document.querySelector(".zoomOut");
+
+    const wrapper = document.querySelector('.map-wrapper');
+    const content = document.querySelector('.map-size');
+
+    // 1. "Home" coordinates (where the map sits when NOT being dragged)
+    let currentX = 0; 
+    let currentY = 0;
+
+    // 2. The starting point of the finger for the CURRENT drag session
+    let startX = 0;
+    let startY = 0;
+
     const jsonFiles = [
         "/data/Lipa City Environment and Natural Resources Office External Services.json",
-        "/data/KOLEHIYO NG LUNGSOD NG LIPA EXTERNAL SERVICES.json",
         "/data/Lipa City Social Welfare and Development Office External Services.json",
         "/data/LIPA CITY AGRICULTURE OFFICE EXTERNAL SERVICES.json",
         "/data/Lipa City Permits and Licensing Office External Services.json",
-        "/data/Lipa City Assessor_s Office External Services.json",
+        "/data/Lipa City Assesor_s Office External Services.json",
         "/data/Lipa City Engineering Office External Services.json",
         "/data/Lipa City Cooperatives Office External Services.json",
         "/data/Lipa City Accounting Office External Services.json",
         "/data/LIPA CITY ACCOUNTING OFFICE INTERNAL SERVICES.json",
         "/data/Lipa City Veterinary Office External Services.json",
         "/data/LIPA CITY GENERAL SERVICES OFFICE INTERNAL SERVICES.json",
-        "/data/LIPA CITY LEGAL OFFICE EXTERNAL SERVICES.json"
+        "/data/LIPA CITY LEGAL OFFICE EXTERNAL SERVICES.json",
+        "/data/LIPA CITY LEGAL OFFICE INTERNAL SERVICES.json",
+        "/data/LIPA CITY MAYOR_S OFFICE EXTERNAL SERVICES.json",
+        "/data/LIPA CITY MAYOR_S OFFICE INTERNAL SERVICES.json",
+        "/data/LIPA CITY BUDGET OFFICE EXTERNAL SERVICES.json",
+        "/data/Lipa City Civil Registrar_s Office External Services.json",
+        "/data/OFFICE OF THE SANGGUNIANG PANLUNGSOD EXTERNAL SERVICES.json",
+        "/data/Lipa City Community Affairs Office External Services.json",
+        "/data/LIPA CITY HEALTH OFFICE EXTERNAL SERVICES.json",
+        "/data/Ospital ng lipa External Services.json",
+        "/data/OSPITAL NG LIPA INTERNAL SERVICES.json",
+        "/data/Lipa City Personnel Office External Services.json",
+        "/data/Lipa City Personnel Office Internal Services.json",
+        "/data/Lipa City Planning and Development Office External Services.json",
+        "/data/KOLEHIYO NG LUNGSOD NG LIPA EXTERNAL SERVICES.json",
+        "/data/LIPA CITY VICE MAYOR_S OFFICE EXTERNAL SERVICES.json",
+        "/data/Lipa City Treasurer_s Office External Services.json",
+        "/data/LIPA CITY ADMINISTRATOR_S OFFICE EXTERNAL SERVICES.json",
+        "/data/LIPA CITY TREASURER_S OFFICE INTERNAL SERVICES.json",
+        "/data/LIPA CITY PUBLIC ORDER AND SAFETY OFFICE EXTERNAL SERVICES.json"
     ];
     
-
+  
     async function loadAllServices() {
         const responses = await Promise.all(
             jsonFiles.map(file => fetch(file).then(res => res.json()))
         );
 
-        // attach department to each service
         return responses.flatMap(dept =>
-            dept.external_services.map(service => ({
+            (dept.external_services || dept.internal_services || []).map(service => ({
                 ...service,
                 department: dept.department
             }))
@@ -76,8 +111,19 @@ document.addEventListener("DOMContentLoaded", async () => {
                 showNotice.style.display = "block";
             }
 
-            totalFees.textContent = matchedService.total_fees;
-            totalTime.textContent = matchedService.total_processing_time;
+            const fees = matchedService.total?.fees || matchedService.total_fees;
+            const time = matchedService.total?.processing_time || matchedService.total_processing_time;
+
+            totalFees.textContent = fees;
+            totalTime.textContent = time;
+
+            if (fees && fees.length > 15) {
+                totalFees.style.fontSize = "12px";
+            }
+
+            if (time && time.length > 15) {
+                totalTime.style.fontSize = "12px";
+            }
             
             const totalClientStep = (matchedService.steps || []).filter(
                 step => step.client_step && step.client_step !== "N/A"
@@ -281,4 +327,88 @@ document.addEventListener("DOMContentLoaded", async () => {
     } else {
         console.log("No search parameter in URL");
     }
+
+    showMapButton.addEventListener("click", () => {
+        mapContainerOuter.classList.add("show");
+
+        // 1. Define your boundaries
+        const MIN_ZOOM = 0.5;
+        const MAX_ZOOM = 3.0;
+        const ZOOM_STEP = 0.5; // Smaller steps feel smoother
+
+        let zoomVal = 1; 
+        let currentX = 0; 
+        let currentY = 0;
+        let startX = 0, startY = 0;
+
+        function updateDisplay() {
+            content.style.transform = `translate(${currentX}px, ${currentY}px) scale(${zoomVal})`;
+        }
+
+        // --- Zoom In with Limit ---
+        zoomIn.addEventListener('click', () => {
+            // Math.min ensures the value never goes ABOVE the Max
+            zoomVal = Math.min(MAX_ZOOM, zoomVal + ZOOM_STEP);
+            updateDisplay();
+        });
+
+        // --- Zoom Out with Limit ---
+        zoomOut.addEventListener('click', () => {
+            // Math.max ensures the value never goes BELOW the Min
+            zoomVal = Math.max(MIN_ZOOM, zoomVal - ZOOM_STEP);
+            updateDisplay();
+        });
+
+        // --- Panning Logic (Remains the same) ---
+        wrapper.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+            startY = e.touches[0].clientY;
+            content.style.transition = 'none';
+        }, { passive: false });
+
+        wrapper.addEventListener('touchmove', (e) => {
+            e.preventDefault();
+            const deltaX = e.touches[0].clientX - startX;
+            const deltaY = e.touches[0].clientY - startY;
+
+            let moveX = currentX + deltaX;
+            let moveY = currentY + deltaY;
+
+            content.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomVal})`;
+        }, { passive: false });
+
+        wrapper.addEventListener('touchend', (e) => {
+            const deltaX = e.changedTouches[0].clientX - startX;
+            const deltaY = e.changedTouches[0].clientY - startY;
+
+            currentX += deltaX;
+            currentY += deltaY;
+            content.style.transition = 'transform 0.2s ease-out';
+        });
+    
+    });
+    
+    closeMapButton.addEventListener("click", () => {
+        mapContainerOuter.classList.remove("show");
+
+        let zoomVal = 1;
+        let currentX = 0;
+        let currentY = 0;
+
+        // 2. Add a smooth transition for the "fly back" effect
+        content.style.transition = 'transform 0.5s ease-in-out';
+
+        function updateDisplay() {
+            content.style.transform = `translate(${currentX}px, ${currentY}px) scale(${zoomVal})`;
+        }
+
+        // 3. Update the display
+        updateDisplay();
+
+        // 4. Important: Remove the transition after it finishes 
+        // so it doesn't interfere with the "instant" feel of dragging later
+        setTimeout(() => {
+            content.style.transition = 'none';
+        }, 500);
+    });
 });

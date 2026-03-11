@@ -7,6 +7,7 @@
     src: url('/fonts/ArchivoBlack-Regular.ttf') format('truetype');
 }
 
+
 :root {
     --red: #b10000;
     --red-bright: #e00000;
@@ -70,6 +71,7 @@ html, body {
     gap: 2px;
 }
 
+
 .nav-eyebrow {
     font-family: 'Archivo Black', sans-serif;
     font-size: 11px;
@@ -122,43 +124,51 @@ html, body {
     margin-bottom: 24px;
     flex-shrink: 0;
 }
+.top-bar-label{
+    font-family: 'RussoOne';
+    font-size: 35px;
+    font-weight: 10px;
+    letter-spacing: 0.04em;
+}
+.top-bar-label{
+    border-bottom:1px solid  var(--gold)
+    
+}
 
-#back-button {
-    width: 72px;
-    height: 72px;
+.back-btn {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid rgba(200, 169, 110, 0.4);
+    background: rgba(255, 255, 255, 0.07);
+    color: #e8cfa0;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 12.5px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-decoration: none;
     cursor: pointer;
-    background: var(--red);
-    border-radius: 14px;
-    padding: 14px;
-    border: 2px solid rgba(255,255,255,0.15);
-    box-shadow: 0 4px 20px rgba(177, 0, 0, 0.5);
-    transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
     flex-shrink: 0;
+    transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.2s;
 }
 
-#back-button:hover,
-#back-button:active {
-    background: var(--red-bright);
-    transform: scale(0.96);
-    box-shadow: 0 6px 28px rgba(177, 0, 0, 0.7);
+
+.back-btn:hover {
+    background: rgba(200, 169, 110, 0.18);
+    border-color: var(--gold);
+    color: var(--gold);
+    transform: translateX(-2px);
 }
 
-.top-bar-label {
-    font-family: 'RussoOne', sans-serif;
-    font-size: clamp(22px, 2.8vw, 40px);
-    color: var(--text);
-    letter-spacing: 0.02em;
+.back-btn svg {
+    transition: transform 0.2s;
 }
 
-.top-bar-label::after {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: var(--gold);
-    margin-top: 6px;
-    border-radius: 2px;
-}
+.back-btn:hover svg {
+    transform: translateX(-3px);
+}   
 
 .carousel {
     flex: 1;
@@ -205,6 +215,11 @@ html, body {
     box-shadow: 0 8px 32px rgba(0,0,0,0.6);
     position: relative;
     overflow: hidden;
+    .card{
+    box-shadow: 0 4px 10px rgb(224, 177, 47);
+    border-radius: 10px;
+}
+    
 }
 
 .card::before {
@@ -225,6 +240,10 @@ html, body {
         0 20px 60px rgba(0,0,0,0.3),
         0 0 0 1px rgba(177, 0, 0, 0.2),
         0 0 40px rgba(177, 0, 0, 0.15);
+        .card{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
 }
 
 .card.active::before {

@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Replace single quotes with underscores
     const normalizedVal = val ? val.replace(/'/g, "_") : "";
 
-    console.log(normalizedVal);
+    // console.log("Normalized: " + normalizedVal);
     
     const serviceSelected = document.getElementById("service-selected");
     serviceSelected.textContent = val ? val : "No service selected";
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(response => response.json())
         .then(data => {
             const container = document.getElementById("document-viewer");
-            const services = data.external_services || [];
+            const services = data.external_services || data.internal_services || [];
             const extensions = ["avif", "png", "jpg", "jpeg"];
 
             services.forEach((service, index) => {

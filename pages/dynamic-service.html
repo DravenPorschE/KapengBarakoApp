@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="/css/dynamic-service-style.css">
+        <link rel="stylesheet" href="/css/dynamic-service-style.css?v=1">
     </head>
     <body>
         <nav class="navigation-bar">
             <button class="back-button">
                 <img src="/assets/foreground/arrow_back.svg">
             </button>
-
             <h1 class="service-name">Service Name</h1>
             <div class="misc-info">
                 <div class="information-container">
@@ -29,7 +28,7 @@
         <main class="main-content">
             <div class="document-info">
                 <h2 class="document-name">Filing of Other Environmental Complaints</h2>
-            
+                <button class="show-map">Where is it located?</button>
                 <div class="service-info">
                     <p class="service-label" id="service-header">Service Information</p>
                     <p class="service-label" id="class-label">Classification</p>
@@ -61,7 +60,7 @@
                         </div>
                         <div class="step-container">
                             <p class="step-number">Step 1</p>
-                            <p class="client-step-info">Submit Requirements and Wait for advice</p>
+                            <p class="client-step-info">If you can see this, something is wrong on the json :(</p>
                         </div>
                         <svg class="step-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <polyline points="9 18 15 12 9 6"></polyline>
@@ -100,7 +99,26 @@
                 </table>
             </div>
         </div>
-
-        <script src="/js/dynamic-service.js"></script>
+        <div class="map-container-outer">
+            <div class="map-container">
+                <div class="close-btn-container">
+                    <button class="close-map-btn">Close Map</button>
+                </div>
+                <div class="message-container">
+                    <div class="map-wrapper">
+                        <img src="/assets/map/ground floor.svg" class="map-size" id="map">
+                    </div>
+                    <div class="map-controls">
+                        <button class="zoomIn">
+                            <img src="/assets/foreground/zoom in.svg" class="controls" alt="">
+                        </button>
+                        <button class="zoomOut">
+                            <img src="/assets/foreground/zoom out.svg" class="controls" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/js/dynamic-service.js?v=1"></script>
     </body>
 </html>

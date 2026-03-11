@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    const backBtn = document.getElementById("back-button"); 
+    const backBtn = document.querySelector(".back-btn"); 
     backBtn.addEventListener("click", function() {
         window.history.back();
     });
