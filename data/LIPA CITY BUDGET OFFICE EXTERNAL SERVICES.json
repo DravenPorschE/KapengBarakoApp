@@ -215,9 +215,9 @@
           "person_responsible": "Secretary to the SP (Office of the Sangguniang Panlungsod)"
         }
       ],
-      "total_summary": {
-        "total_fees": "None",
-        "total_processing_time": "10 working days, 4 hours and 35 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "10 working days, 4 hours and 35 minutes"
       }
     }
   ]
