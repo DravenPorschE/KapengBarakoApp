@@ -1,9 +1,10 @@
 {
+  "department": "Lipa City Budget Office External Services",
   "external_services": [
     {
+      "office": "Lipa City Budget Office External Services",
       "service_name": "Request for Review and Approval of Annual and Supplemental Barangay Budget",
       "image": "/assets/document_background/Request for Review and Approval of Annual and Supplemental Barangay",
-      "department": "Lipa City Budget Office",
       "classification": "Highly technical",
       "type_of_transaction": "G2G - Government to Government",
       "who_may_avail": "Barangay Officials only",
