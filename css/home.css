@@ -134,18 +134,31 @@ body {
     font-family: 'RussoOne', sans-serif;
     font-size: 61px;
     line-height: 1.05;
-    /* color: var(--text); */
-
     text-align: left;
 
-
-    background: linear-gradient(90deg, #8a0000 0%, #b10000 40%, #c41111 100%);
+    background: linear-gradient(
+        90deg,
+        #8a0000 0%,
+        #b10000 20%,
+        #ff6666 38%,
+        #ffdddd 50%,
+        #ff6666 62%,
+        #b10000 80%,
+        #8a0000 100%
+    );
+    background-size: 250% 100%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 
-
     letter-spacing: 0.045em;
+    animation: glowSweep 8s ease-in-out infinite;
+}
+
+@keyframes glowSweep {
+    0%   { background-position: 150% center; }
+    50%  { background-position: -50% center; }
+    100% { background-position: 150% center; }
 }
 
 .tagline-line {
@@ -328,9 +341,7 @@ body {
     to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ============================================
-   BOTTOM NAVIGATION BAR
-   ============================================ */
+
 
 #bottom-nav {
     position: fixed;
@@ -342,14 +353,13 @@ body {
     flex-direction: column;
 }
 
-/* gold-to-red gradient top edge */
+
 .nav-topline {
     height: 2px;
     background: linear-gradient(90deg, transparent 0%, var(--red-deep) 15%, var(--red) 40%, var(--gold) 70%, transparent 100%);
     flex-shrink: 0;
 }
 
-/* main bar */
 .nav-bar {
     background: linear-gradient(180deg, #0e0404 0%, #0a0202 100%);
     border-top: 1px solid rgba(177, 0, 0, 0.2);
@@ -362,7 +372,7 @@ body {
     overflow: hidden;
 }
 
-/* ── each nav button ── */
+
 .nav-item {
     flex: 1;
     display: flex;
@@ -384,7 +394,7 @@ body {
     transform: scale(0.93);
 }
 
-/* gold top indicator — springs in when active */
+
 .nav-indicator {
     position: absolute;
     top: 0;
@@ -402,7 +412,7 @@ body {
     transform: scaleX(1);
 }
 
-/* icon wrap */
+
 .nav-icon-wrap {
     width: 44px;
     height: 44px;
@@ -414,6 +424,10 @@ body {
     position: relative;
     z-index: 1;
     color: var(--text-muted);
+}
+.graph{
+    height: 26x;
+    width: 26px;
 }
 
 .nav-item.active .nav-icon-wrap {
@@ -428,7 +442,7 @@ body {
     color: var(--text);
 }
 
-/* label */
+
 .nav-label {
     font-family: 'Archivo Black', sans-serif;
     font-size: 10px;
