@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 searchInput.value = searchInput.value.slice(0, -1);
             } else if(keyValue.toLowerCase() == "search") {
                 let bestSearch = output[0];
-
+                
                 if (bestSearch != null) {
                     window.location.href = `/pages/dynamic-service.html?search=${encodeURIComponent(bestSearch)}`;
                 }
@@ -119,12 +119,18 @@ document.addEventListener("DOMContentLoaded", function() {
         fetch("/data/services-list.json")
             .then(res => res.json())
             .then(data => {
-                const matches = data
-                    .filter(item => item.toLowerCase().includes(value))
+                // Combine searches and offices into objects with type
+                const combined = [
+                    ...data.searches.map(item => ({ name: item, type: "service" })),
+                    ...data.office.map(item => ({ name: item, type: "office" }))
+                ];
+
+                const matches = combined
+                    .filter(item => item.name.toLowerCase().includes(value))
                     .slice(0, 5);
 
-                output = matches;
-                    
+                output = matches.map(item => item.name); // optional for first suggestion
+
                 matches.forEach(match => {
                     const li = document.createElement("li");
                     const icon = document.createElement("img");
@@ -133,15 +139,29 @@ document.addEventListener("DOMContentLoaded", function() {
                     icon.classList.add("autocomplete-icon");
 
                     const text = document.createElement("span");
-                    text.textContent = match;
+                    text.textContent = match.name;
                     text.classList.add("autocomplete-text");
 
                     li.appendChild(icon);
                     li.appendChild(text);
 
                     li.addEventListener("click", () => {
-                        searchInput.value = match;
+                        let name = match.name;
+
+                        name = name.replace(/['’]/g, "_");
+
+                        searchInput.value = match.name; 
                         autocompleteList.innerHTML = "";
+
+                        // Redirect based on type
+                        if (match.type === "service") {
+                            //alert("service");
+                            window.location.href = `/pages/dynamic-service.html?search=${encodeURIComponent(name)}`;
+                        } else if (match.type === "office") {
+                            //alert(name.replace(/'/g,'_'));
+                            
+                            window.location.href = `/pages/document-selector.html?view=${encodeURIComponent(name)}`;
+                        }
                     });
 
                     autocompleteList.appendChild(li);
@@ -156,9 +176,32 @@ document.addEventListener("DOMContentLoaded", function() {
         searchInput.focus();
     });
 
-    searchBtn.addEventListener("click", () => {
-        if (searchInput.value.trim() !== "") {
-            window.location.href = `/pages/dynamic-service.html?search=${encodeURIComponent(searchInput.value)}`;
+    // searchBtn.addEventListener("click", () => {
+    //     // if (searchInput.value.trim() !== "") {
+    //     //     window.location.href = `/pages/dynamic-service.html?search=${encodeURIComponent(searchInput.value)}`;
+    //     // }
+
+    //     if(fetchDataFromServices(searchInput.value) == "Success") {
+    //         console.log("yeyyy");
+    //     }
+    // });
+    searchBtn.addEventListener("click", async () => {
+        const value = searchInput.value.trim().toLowerCase();
+
+        if (!value) return;
+
+        const res = await fetch("/data/services-list.json");
+        const data = await res.json();
+
+        const serviceMatch = data.searches.find(item => item.toLowerCase() === value);
+        const officeMatch = data.office.find(item => item.toLowerCase() === value);
+
+        if (serviceMatch) {
+            window.location.href = `/pages/dynamic-service.html?search=${encodeURIComponent(serviceMatch)}`;
+        } else if (officeMatch) {
+            window.location.href = `/pages/document-selector.html?view=${encodeURIComponent(officeMatch)}`;
+        } else {
+            console.log("Not found");
         }
     });
 
@@ -183,4 +226,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     type();
+
+    async function fetchDataFromServices(value) {
+        const res = await fetch("/data/services-list.json");
+        const data = await res.json();
+
+        // Find the first item that includes the value (case-insensitive)
+        const found = data.office.find(item => item.toLowerCase().includes(value.toLowerCase()));
+
+        // Return the matched text, or null if nothing is found
+        return found || null;
+    }
 });
