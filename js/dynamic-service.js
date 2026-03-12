@@ -69,8 +69,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/LIPA CITY TREASURER_S OFFICE INTERNAL SERVICES.json",
         "/data/LIPA CITY PUBLIC ORDER AND SAFETY OFFICE EXTERNAL SERVICES.json"
     ];
+
     
-  
+
     async function loadAllServices() {
         const responses = await Promise.all(
             jsonFiles.map(file => fetch(file).then(res => res.json()))
