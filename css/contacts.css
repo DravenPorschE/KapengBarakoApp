@@ -86,7 +86,7 @@ body::before {
     background: rgba(255, 255, 255, 0.07);
     color: var(--gold-light);
     font-family: 'Helvetica', Arial, sans-serif;
-    font-size: 12.5px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.06em;
     text-decoration: none;
@@ -397,42 +397,43 @@ main {
 .action-button {
     position: fixed;
     z-index: 99999;
-
-    height: 100vh;
-    width: 100vw;
-/* 
-    background-color: black; */
-    display: flex;
-
-    justify-content: end;
-    align-items: end;
-
-    inset: 0;
+    bottom: 50px;
+    right: 30px;
     pointer-events: none;
 }
+
 .go-top {
     pointer-events: auto;
-    background-color: var(--gold);
-    position: static;
-
-    padding: 20px;
-    font-size: 13px;
-
-    height: 100px;
-    width: 100px;
-
-    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+    height: 54px;
+    border-radius: 27px;
     border: none;
-
-    text-align: center;
-
-    font-family: 'Helvetica';
-
-    margin-bottom: 50px;
-    margin-right: 30px;
+    border-bottom: 3px solid #6e0000;
+    cursor: pointer;
+    background: #b10000;
+    box-shadow: 0 6px 28px rgba(177, 0, 0, 0.5);
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 13px;
+    letter-spacing: .08em;
+    color: #fff;
+    text-transform: uppercase;
     opacity: 0;
     transform: translateY(20px);
-    transition: all 0.3s ease;
+    transition: opacity .3s ease, transform .3s ease, box-shadow .2s ease;
+    
+}
+
+.go-top:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 36px rgba(177, 0, 0, 0.65);
+}
+
+.go-top:active {
+    transform: translateY(1px);
+    border-bottom-width: 1px;
 }
 
 .go-top.show {
