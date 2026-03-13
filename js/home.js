@@ -51,9 +51,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (key.classList.contains('action-keys') && key.id !== 'keyboard-search') {
             searchInput.value = searchInput.value.slice(0, -1);
-        } else if (keyValue.toLowerCase() == "search") {
+        } else if (keyValue.toLowerCase() === "search") {
             let bestSearch = output[0];
-            if (bestSearch != null) {
+            let query = searchInput.value.trim();
+
+            if (bestSearch != null && query.length >= 4) {
                 window.location.href = `/pages/dynamic-service.html?search=${encodeURIComponent(bestSearch)}`;
             }
         } else if (keyValue.toLowerCase() == "space") {

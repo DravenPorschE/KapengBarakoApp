@@ -323,7 +323,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                 }
             });
         } else {
-            console.log("Service not found");
+            alert("Service Not Found");
+            window.location.href = "/pages/home.html";
         }
     } else {
         console.log("No search parameter in URL");
