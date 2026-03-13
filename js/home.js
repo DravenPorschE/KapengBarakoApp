@@ -43,32 +43,29 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     keys.forEach(key => {
-        key.addEventListener("mousedown", (e) => {
-            e.preventDefault();
-            const keyValue = key.textContent.trim();
+    key.addEventListener("mousedown", (e) => {
+        e.preventDefault();
+        const keyValue = key.textContent.trim();
 
-            searchInput.focus();
+        searchInput.focus();
 
-            if (keyValue === "<--") {
-                searchInput.value = searchInput.value.slice(0, -1);
-            } else if(keyValue.toLowerCase() == "search") {
-                let bestSearch = output[0];
-                
-                if (bestSearch != null) {
-                    window.location.href = `/pages/dynamic-service.html?search=${encodeURIComponent(bestSearch)}`;
-                }
-            } 
-            else if(keyValue.toLowerCase() == "space") {
-                searchInput.value += " ";
+        if (key.classList.contains('action-keys') && key.id !== 'keyboard-search') {
+            searchInput.value = searchInput.value.slice(0, -1);
+        } else if (keyValue.toLowerCase() == "search") {
+            let bestSearch = output[0];
+            if (bestSearch != null) {
+                window.location.href = `/pages/dynamic-service.html?search=${encodeURIComponent(bestSearch)}`;
             }
-            else {
-                searchInput.value += keyValue;
-            }
+        } else if (keyValue.toLowerCase() == "space") {
+            searchInput.value += " ";
+        } else {
+            searchInput.value += keyValue;
+        }
 
-            const event = new Event('input', { bubbles: true });
-            searchInput.dispatchEvent(event);
-        });
+        const event = new Event('input', { bubbles: true });
+        searchInput.dispatchEvent(event);
     });
+});
 
     keyboardContainer.addEventListener("mousedown", (e) => {
         e.preventDefault();
