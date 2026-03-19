@@ -63,10 +63,13 @@
       }
     },
     {
+      
+      
       "id": 2,
-      "office": "Lipa City Administrator's Office",
+      "department": "Lipa City Administrator's Office",
+      "office":"Lipa City Administrator's Office",
       "service_name": "Application for Mayor's Clearance",
-      "image": "/assets/document_background/Application for Mayor's Clearance",
+      "image": "/assets/document_background/Application for Mayor’s Clearance",
       "classification": "Simple",
       "type_of_transaction": "G2C - Government to Citizen",
       "who_may_avail": "All Lipa City residents and non-Lipa residents",
@@ -156,7 +159,7 @@
       "id": 3,
       "office": "Lipa City Administrator's Office",
       "service_name": "Application for Special Mayor's Permit for Film Making, Group Activities and Fund-Raising Activities",
-      "image": "/assets/document_background/Application for Special Mayor's Permit for Film Making, Group Activities",
+      "image": "/assets/document_background/Application for Special Mayor’s Permit for Film Making, Group Activities",
       "classification": "Simple",
       "type_of_transaction": "G2C - Government to Citizen",
       "who_may_avail": "All",
@@ -254,7 +257,7 @@
       "id": 4,
       "office": "Lipa City Administrator's Office",
       "service_name": "Application for Special Mayor's Permit for the Use of Government Facilities",
-      "image": "/assets/document_background/Application for Special Mayor's Permit for the Use of Government Facilities",
+      "image": "/assets/document_background/Application for Special Mayor’s Permit for the Use of Government Facilities",
       "classification": "Simple",
       "type_of_transaction": "G2C - Government to Citizen",
       "who_may_avail": "All",

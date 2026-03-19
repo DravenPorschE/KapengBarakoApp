@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         );
 
         console.log(matchedService);
-        currentDepartment = matchedService.department;
+        // currentDepartment = matchedService.department;
 
         if (matchedService) {
             // Set header info

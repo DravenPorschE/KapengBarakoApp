@@ -86,9 +86,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 container.appendChild(card);
 
                 card.addEventListener("click", () => {
-                    const serviceName = service.service_name
-                        .trim()
-                        .replace(/'/g,"_");
+                    const serviceName = service.service_name;
+                        
 
                     window.location.href=`/pages/dynamic-service.html?search=${encodeURIComponent(serviceName)}`
                 
