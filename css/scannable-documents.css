@@ -1,25 +1,55 @@
 
-                *, *::before, *::after {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+@font-face {
+    font-family: 'RussoOne';
+    src: url('/fonts/RussoOne-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Archivo Black';
+    src: url('/fonts/ArchivoBlack-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica-light';
+    src: url('/fonts/helvetica-light.ttf') format('truetype');
+}
 
-        :root {
-            --red: #b10000;
-            --maroon: #7B0D1E;
-            --maroon-deep: #560A16;
-            --maroon-light: #9E1226;
-            --gold: #C9A84C;
-            --gold-light: #E8C97A;
-            --cream: #F9F5EE;
-            --warm-white: #FDFAF5;
-            --ink: #1A1108;
-            --ink-mid: #3D2B1F;
-            --ink-soft: #6B5344;
-            --border: #E2D8CC;
-            --shadow: rgba(90, 30, 10, 0.12);
-        }
+@keyframes slideUp{
+    from{transform: translateY(50px); opacity:0;}
+    to{transform: translateY(0); opacity:1;}
+}
+
+:root {
+    --red:          #8a0000;
+    --red-mid:      #b10000;
+    --gold:         #c8a96e;
+    --gold-light:   #e8cfa0;
+    --gold-dim:     rgba(200, 169, 110, 0.13);
+    --gold-border:  rgba(200, 169, 110, 0.38);
+    --bg:           #f7f4ef;
+    --card-bg:      #ffffff;
+    --text-dark:    #1a1108;
+    --text-mid:     #4a3f35;
+    --text-muted:   #8a7d70;
+    --nav-h:        88px;
+    --gap:          56px;
+    --radius:       12px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Helvetica', 'Helvetica Neue', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text-dark);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
 
         html {
             scroll-behavior: smooth;
@@ -34,28 +64,65 @@
             overflow-x: hidden;
         }
 
-        /* ─── HERO HEADER ─── */
         #navigation-bar {
-    position: relative;
-    z-index: 10;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    height: var(--nav-h);
     display: flex;
     align-items: center;
-    height: var(--nav-height);
-    gap: 24px;
-    padding: 0 32px;
-    background: linear-gradient(90deg, #8a0000 0%, var(--red) 40%, #c41111 100%);
-    border-bottom: px solid var(--gold);
-    box-shadow: 0 4px 30px rgba(177, 0, 0, 0.5);
-    padding-bottom: 13px;
-    padding-top: 13px;
+    gap: 18px;
+    padding: 0 44px;
+    background: linear-gradient(105deg, #550000 0%, var(--red) 45%, #b80e0e 100%);
+    border-bottom: 2px solid var(--gold);
+    box-shadow: 0 4px 32px rgba(138, 0, 0, 0.32);
 }
 
-#navigation-bar img {
-    height: 72px;
+
+.back-btn {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid rgba(200, 169, 110, 0.4);
+    background: rgba(255, 255, 255, 0.07);
+    color: var(--gold-light);
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.2s;
+}
+.back-btn:hover {
+    background: rgba(200, 169, 110, 0.18);
+    border-color: var(--gold);
+    color: var(--gold);
+    transform: translateX(-2px);
+}
+.back-btn svg {
+    transition: transform 0.2s;
+}
+.back-btn:hover svg {
+    transform: translateX(-3px);
+}
+
+
+.nav-divider {
+    width: 1px;
+    height: 38px;
+    background: rgba(200, 169, 110, 0.28);
+    flex-shrink: 0;
+}
+
+.nav-logo {
+    height: 56px;
     width: auto;
     flex-shrink: 0;
-    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.5));
-    
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.45));
 }
 
 .nav-title-block {
@@ -63,35 +130,22 @@
     flex-direction: column;
     gap: 2px;
 }
-
-
 .nav-eyebrow {
     font-family: 'Archivo Black', sans-serif;
-    font-size: 11px;
-    letter-spacing: 0.35em;
+    font-size: 9.5px;
+    letter-spacing: 0.46em;
     text-transform: uppercase;
     color: var(--gold);
 }
-
-#navigation-bar h2 {
-    margin: 0;
+.nav-title {
     font-family: 'RussoOne', sans-serif;
-    font-size: clamp(14px, 1.6vw, 22px);
+    font-size: clamp(12px, 1.5vw, 20px);
     font-weight: 400;
     color: #fff;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.04em;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.4);
     line-height: 1.2;
-    text-shadow: 0 1px 4px rgba(0,0,0,0.4);
 }
-
-        
-        
-        
-        
-        
-        
-        
-        
         /* .hero {
             background: linear-gradient(90deg, #8a0000 0%, var(--red) 40%, #c41111 100%);
             position: relative;

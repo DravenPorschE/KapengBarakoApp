@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'RussoOne';
     src: url('/fonts/RussoOne-Regular.ttf') format('truetype');
@@ -6,34 +7,53 @@
     font-family: 'Archivo Black';
     src: url('/fonts/ArchivoBlack-Regular.ttf') format('truetype');
 }
-
-
-:root {
-    --red: #b10000;
-    --red-bright: #e00000;
-    --gold: #c8a96e;
-    --gold-dim: rgba(200, 169, 110, 0.15);
-    --dark: white;
-    --dark-card: white;
-    --border: rgba(0,0,0,0.1);
-    --text: white;
-    --text-muted: #9a9590;
-    --nav-height: 100px;
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica-light';
+    src: url('/fonts/helvetica-light.ttf') format('truetype');
 }
 
+@keyframes slideUp{
+    from{transform: translateY(50px); opacity:0;}
+    to{transform: translateY(0); opacity:1;}
+}
+
+:root {
+    --red:          #8a0000;
+    --red-mid:      #b10000;
+    --gold:         #c8a96e;
+    --gold-light:   #e8cfa0;
+    --gold-dim:     rgba(200, 169, 110, 0.13);
+    --gold-border:  rgba(200, 169, 110, 0.38);
+    --bg:           #f7f4ef;
+    --card-bg:      #ffffff;
+    --text-dark:    #1a1108;
+    --text-mid:     #4a3f35;
+    --text-muted:   #8a7d70;
+    --nav-h:        88px;
+    --gap:          56px;
+    --radius:       12px;
+}
 *, *::before, *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
+    font-family: 'Helvetica', 'Helvetica Neue', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text-dark);
+    min-height: 100vh;
+    /* overflow-x: hidden; */
+
+    
     margin: 0;
     padding: 0;
-    height: 100%;
-    overflow: hidden;
-    background: var(--dark);
-    color: var(--text);
 }
-
 
 #navigation-bar {
     position: sticky;
@@ -119,19 +139,21 @@ html, body {
 }
 
 .main-content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 25%;
-    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - var(--nav-h));
+}
 
-    height: 100vh;
-}
 .map-view-container {
-    grid-column: span 2 / span 2;
+    flex: 1; /* fills remaining space */
 }
+.map-view svg  {
+    height: 400px;
+    width: auto;
+}
+
 .map-buttons {
-    grid-column: span 2 / span 2;
-    grid-row-start: 2;
+    height: 80px; /* or whatever you want */
 
     background-color: red;
 }
