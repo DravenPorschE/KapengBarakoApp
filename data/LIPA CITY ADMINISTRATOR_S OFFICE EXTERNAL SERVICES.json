@@ -1,9 +1,9 @@
 {
-  "department": "Lipa City Administrator’s Office",
+  "department": "Lipa City Administrator's Office",
   "external_services": [
     {
       "id": 1,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Application for Authority to Travel/ Medical Clearance Certificate",
       "image": "/assets/document_background/Application for Authority to Travel_ Medical Clearance Certificate",
       "classification": "Simple",
@@ -11,7 +11,7 @@
       "who_may_avail": "All",
       "checklist_of_requirements": [
         {
-          "requirement": "Valid ID with address in Lipa City, preferably Driver’s License, Voter’s ID or postal ID – 1 original, 1 photocopy",
+          "requirement": "Valid ID with address in Lipa City, preferably Driver's License, Voter's ID or postal ID – 1 original, 1 photocopy",
           "source": "Requesting party"
         },
         {
@@ -25,35 +25,35 @@
           "agency_action": "1.1. Receive the accomplished Client Information Sheet and evaluate the submitted attachment",
           "fees_to_be_paid": "None",
           "processing_time": "2 minutes",
-          "person_responsible": "Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Fill up the Client Information Sheet, attach the photocopy of valid ID and submit to the person in charge",
           "agency_action": "1.2. Prepare the Authority to Travel/ Medical Clearance Certificate",
           "fees_to_be_paid": "None",
           "processing_time": "3 minutes",
-          "person_responsible": "Administrative Assistant III, Administrative Officer II (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Assistant III, Administrative Officer II (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Fill up the Client Information Sheet, attach the photocopy of valid ID and submit to the person in charge",
           "agency_action": "1.3. Forward the Authority to Travel/ Medical Clearance Certificate to the City Administrator for signature",
           "fees_to_be_paid": "None",
           "processing_time": "3 minutes",
-          "person_responsible": "Senior Admin. Asst. II (Lipa City Administrator’s Office)"
+          "person_responsible": "Senior Admin. Asst. II (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Fill up the Client Information Sheet, attach the photocopy of valid ID and submit to the person in charge",
           "agency_action": "1.4. Sign the Authority to Travel/ Medical Clearance Certificate",
           "fees_to_be_paid": "None",
           "processing_time": "3 minutes",
-          "person_responsible": "City Administrator (Lipa City Administrator’s Office)"
+          "person_responsible": "City Administrator (Lipa City Administrator's Office)"
         },
         {
           "client_step": "2. Receive the approved Authority to Travel/ Medical Clearance Certificate",
           "agency_action": "2. Release the Authority to Travel/ Medical Clearance Certificate",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Administrative Assistant III, Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Assistant III, Administrative Officer IV (Lipa City Administrator's Office)"
         }
       ],
 
@@ -64,9 +64,9 @@
     },
     {
       "id": 2,
-      "office": "Lipa City Administrator’s Office",
-      "service_name": "Application for Mayor’s Clearance",
-      "image": "/assets/document_background/Application for Mayor’s Clearance",
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Application for Mayor's Clearance",
+      "image": "/assets/document_background/Application for Mayor's Clearance",
       "classification": "Simple",
       "type_of_transaction": "G2C - Government to Citizen",
       "who_may_avail": "All Lipa City residents and non-Lipa residents",
@@ -85,11 +85,11 @@
         },
         {
           "requirement": "Community Tax Certificate – 1 original copy",
-          "source": "Respective barangay halls or Lipa City Treasurer’s Office"
+          "source": "Respective barangay halls or Lipa City Treasurer's Office"
         },
         {
           "requirement": "Endorsement letter from City or Municipal Mayor (non-Lipa residents) – 1 original copy",
-          "source": "Respective City/ Municipal Mayor’s Office"
+          "source": "Respective City/ Municipal Mayor's Office"
         },
         {
           "requirement": "Health permit (if food handler) – 1 original copy",
@@ -102,49 +102,49 @@
           "agency_action": "1.1 Receive, assess and evaluate the submitted requirements",
           "fees_to_be_paid": "None",
           "processing_time": "2 minutes",
-          "person_responsible": "Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Submit complete requirements to the person-in-charge",
           "agency_action": "1.2 Issue Order of Payment",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Administrative Officer II (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer II (Lipa City Administrator's Office)"
         },
         {
-          "client_step": "2. Present the Order of Payment and pay the corresponding fee at the City Treasurer’s Office",
+          "client_step": "2. Present the Order of Payment and pay the corresponding fee at the City Treasurer's Office",
           "agency_action": "2. Receive payment and issue Official Receipt",
           "fees_to_be_paid": "Lipa Residents: P50.00 / Non-Lipa: P75.00",
           "processing_time": "10 minutes",
-          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
         },
         {
-          "client_step": "3. Present the Official Receipt to the City Administrator’s Office",
-          "agency_action": "3.1 Prepare the Mayor’s Clearance",
+          "client_step": "3. Present the Official Receipt to the City Administrator's Office",
+          "agency_action": "3.1 Prepare the Mayor's Clearance",
           "fees_to_be_paid": "None",
           "processing_time": "3 minutes",
-          "person_responsible": "Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
         },
         {
-          "client_step": "3. Present the Official Receipt to the City Administrator’s Office",
-          "agency_action": "3.2 Endorse the Mayor’s Clearance to the City Administrator for signature",
+          "client_step": "3. Present the Official Receipt to the City Administrator's Office",
+          "agency_action": "3.2 Endorse the Mayor's Clearance to the City Administrator for signature",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Administrative Officer II (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer II (Lipa City Administrator's Office)"
         },
         {
-          "client_step": "3. Present the Official Receipt to the City Administrator’s Office",
-          "agency_action": "3.3 Sign the Mayor’s Clearance",
+          "client_step": "3. Present the Official Receipt to the City Administrator's Office",
+          "agency_action": "3.3 Sign the Mayor's Clearance",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "City Administrator (Lipa City Administrator’s Office)"
+          "person_responsible": "City Administrator (Lipa City Administrator's Office)"
         },
         {
-          "client_step": "4. Receive the approved Mayor’s Clearance",
+          "client_step": "4. Receive the approved Mayor's Clearance",
           "agency_action": "4. Record the document, put a dry seal, retain a duplicate copy and issue the clearance",
           "fees_to_be_paid": "None",
           "processing_time": "2 minutes",
-          "person_responsible": "Administrative Officer IV / Administrative Officer II (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV / Administrative Officer II (Lipa City Administrator's Office)"
         }
       ],
       "total": {
@@ -154,9 +154,9 @@
     },
     {
       "id": 3,
-      "office": "Lipa City Administrator’s Office",
-      "service_name": "Application for Special Mayor’s Permit for Film Making, Group Activities and Fund-Raising Activities",
-      "image": "/assets/document_background/Application for Special Mayor’s Permit for Film Making, Group Activities",
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Application for Special Mayor's Permit for Film Making, Group Activities and Fund-Raising Activities",
+      "image": "/assets/document_background/Application for Special Mayor's Permit for Film Making, Group Activities",
       "classification": "Simple",
       "type_of_transaction": "G2C - Government to Citizen",
       "who_may_avail": "All",
@@ -172,56 +172,56 @@
           "agency_action": "1.1. Receive the request letter and record on the logbook",
           "fees_to_be_paid": "None",
           "processing_time": "3 minutes",
-          "person_responsible": "Administrative Officer IV / Administrative Assistant III (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV / Administrative Assistant III (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Submit the request letter to the person-in-charge",
           "agency_action": "1.2. Endorse the request to City Administrator for approval",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Administrative Assistant III (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Assistant III (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Submit the request letter to the person-in-charge",
           "agency_action": "1.3. Issue Order of Payment",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Administrative Officer IV / Administrative Assistant III (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV / Administrative Assistant III (Lipa City Administrator's Office)"
         },
         {
-          "client_step": "2. Present the Order of Payment and pay the corresponding fee at the Lipa City Treasurer’s Office",
+          "client_step": "2. Present the Order of Payment and pay the corresponding fee at the Lipa City Treasurer's Office",
           "agency_action": "2. Receive payment and issue Official Receipt",
           "fees_to_be_paid": "See table of fees",
           "processing_time": "10 minutes",
-          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
         },
         {
-          "client_step": "3. Present the Official Receipt to the Lipa City Administrator’s Office",
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
           "agency_action": "3.1. Prepare the permit",
           "fees_to_be_paid": "None",
           "processing_time": "3 minutes",
-          "person_responsible": "Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
         },
         {
-          "client_step": "3. Present the Official Receipt to the Lipa City Administrator’s Office",
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
           "agency_action": "3.2. Endorse the permit to the Assistant City Administrator for his initial",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Administrative Assistant III / Assistant City Administrator for Administration (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Assistant III / Assistant City Administrator for Administration (Lipa City Administrator's Office)"
         },
         {
-          "client_step": "3. Present the Official Receipt to the Lipa City Administrator’s Office",
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
           "agency_action": "3.3 Sign the permit",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "City Administrator (Lipa City Administrator’s Office)"
+          "person_responsible": "City Administrator (Lipa City Administrator's Office)"
         },
         {
           "client_step": "4. Claim the permit",
           "agency_action": "4. Issue the permit and retain a duplicate copy",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Administrative Officer IV / Administrative Assistant III (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV / Administrative Assistant III (Lipa City Administrator's Office)"
         }
       ],
 
@@ -252,9 +252,9 @@
 
     {
       "id": 4,
-      "office": "Lipa City Administrator’s Office",
-      "service_name": "Application for Special Mayor’s Permit for the Use of Government Facilities",
-      "image": "/assets/document_background/Application for Special Mayor’s Permit for the Use of Government Facilities",
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Application for Special Mayor's Permit for the Use of Government Facilities",
+      "image": "/assets/document_background/Application for Special Mayor's Permit for the Use of Government Facilities",
       "classification": "Simple",
       "type_of_transaction": "G2C - Government to Citizen",
       "who_may_avail": "All",
@@ -267,73 +267,73 @@
       "steps": [
         {
           "client_step": "1. Submit complete requirement/s to the person in charge",
-          "agency_action": "1.1 Receive and record into the logbook the client’s request",
+          "agency_action": "1.1 Receive and record into the logbook the client's request",
           "fees_to_be_paid": "None",
           "processing_time": "4 minutes",
-          "person_responsible": "Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Submit complete requirement/s to the person in charge",
           "agency_action": "1.2 Attach an action slip and check the availability of the venue",
           "fees_to_be_paid": "None",
           "processing_time": "Included in Step 1",
-          "person_responsible": "Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Submit complete requirement/s to the person in charge",
           "agency_action": "1.3 Forward the request for approval or inform client if not available",
           "fees_to_be_paid": "None",
           "processing_time": "Included in Step 1",
-          "person_responsible": "Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Submit complete requirement/s to the person in charge",
           "agency_action": "1.4 Issue Order of Payment",
           "fees_to_be_paid": "None",
           "processing_time": "Included in Step 1",
-          "person_responsible": "Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
         },
         {
-          "client_step": "2. Present the Order of Payment and pay at the Treasurer’s Office",
+          "client_step": "2. Present the Order of Payment and pay at the Treasurer's Office",
           "agency_action": "2. Receive payment and issue Official Receipt",
           "fees_to_be_paid": "See table of fees",
           "processing_time": "10 minutes",
-          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
         },
         {
-          "client_step": "3. Present the Official Receipt to the Lipa City Administrator’s Office",
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
           "agency_action": "3.1 Prepare the permit to use the venue",
           "fees_to_be_paid": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
         },
         {
-          "client_step": "3. Present the Official Receipt to the Lipa City Administrator’s Office",
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
           "agency_action": "3.2 Endorse the permit to the Asst. City Administrator",
           "fees_to_be_paid": "None",
           "processing_time": "Included in Step 3",
-          "person_responsible": "Administrative Assistant III (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Assistant III (Lipa City Administrator's Office)"
         },
         {
-          "client_step": "3. Present the Official Receipt to the Lipa City Administrator’s Office",
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
           "agency_action": "3.3 Initial and sign the permit",
           "fees_to_be_paid": "None",
           "processing_time": "Included in Step 3",
-          "person_responsible": "Asst. City Administrator for Administration / City Administrator (Lipa City Administrator’s Office)"
+          "person_responsible": "Asst. City Administrator for Administration / City Administrator (Lipa City Administrator's Office)"
         },
         {
           "client_step": "4. Claim the approved permit",
           "agency_action": "4.1 Record document and sign in logbook",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
         },
         {
           "client_step": "4. Claim the approved permit",
           "agency_action": "4.2 Issue the permit",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Administrative Assistant III (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Assistant III (Lipa City Administrator's Office)"
         }
       ],
       "total": {
@@ -353,7 +353,7 @@
     },
     {
       "id": 5,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Application for Permit for Motorcade/ Recorrida and Processions",
       "image": "/assets/document_background/Application for Permit for Motorcade_Recorrida and Processions",
       "classification": "Simple",
@@ -371,42 +371,42 @@
           "agency_action": "1.1 Receive and coordinate with Traffic Management Division",
           "fees_to_be_paid": "None",
           "processing_time": "3 minutes",
-          "person_responsible": "Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Submit the request letter to the person-in-charge",
           "agency_action": "1.2 Endorse letter to City Administrator for approval",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Administrative Assistant III (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Assistant III (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Submit the request letter to the person-in-charge",
           "agency_action": "1.3 Approve the request and issue Order of Payment",
           "fees_to_be_paid": "None",
           "processing_time": "2 minutes",
-          "person_responsible": "City Administrator / Admin Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "City Administrator / Admin Officer IV (Lipa City Administrator's Office)"
         },
         {
-          "client_step": "2. Present the Order of Payment and pay at the Treasurer’s Office",
+          "client_step": "2. Present the Order of Payment and pay at the Treasurer's Office",
           "agency_action": "2. Receive payment and issue Official Receipt",
           "fees_to_be_paid": "Motorcade/Recorrida: P300; w/ Escort: P500",
           "processing_time": "10 minutes",
-          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
         },
         {
-          "client_step": "3. Present the Official Receipt to the Lipa City Administrator’s Office",
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
           "agency_action": "3.1 Prepare, initial, and sign the permit",
           "fees_to_be_paid": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Admin Officer IV / Asst. City Admin / City Admin (Lipa City Administrator’s Office)"
+          "person_responsible": "Admin Officer IV / Asst. City Admin / City Admin (Lipa City Administrator's Office)"
         },
         {
           "client_step": "4. Claim the permit",
           "agency_action": "4. Release the permit and retain duplicate",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Administrative Officer IV / Administrative Assistant III (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV / Administrative Assistant III (Lipa City Administrator's Office)"
         }
       ],
     
@@ -422,7 +422,7 @@
     },
     {
       "id": 6,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Responding to Other Incoming Communications",
       "image": "/assets/document_background/Responding to Other Incoming Communications",
       "classification": "Simple",
@@ -440,28 +440,28 @@
           "agency_action": "1.1. Receive the letter, record and attach action slip",
           "fees_to_be_paid": "None",
           "processing_time": "2 minutes",
-          "person_responsible": "Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Submit the letter to the person-in-charge",
           "agency_action": "1.2. Endorse and forward to City Administrator for action",
           "fees_to_be_paid": "None",
           "processing_time": "6 minutes",
-          "person_responsible": "Senior Admin. Asst. II / Asst. City Administrator (Lipa City Administrator’s Office)"
+          "person_responsible": "Senior Admin. Asst. II / Asst. City Administrator (Lipa City Administrator's Office)"
         },
         {
           "client_step": "1. Submit the letter to the person-in-charge",
           "agency_action": "1.4. Act on the matter",
           "fees_to_be_paid": "None",
           "processing_time": "3 minutes",
-          "person_responsible": "City Administrator (Lipa City Administrator’s Office)"
+          "person_responsible": "City Administrator (Lipa City Administrator's Office)"
         },
         {
           "client_step": "2. Wait for the decision/ action",
           "agency_action": "2. Notify the client of the decision/ action/ instruction",
           "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Senior Admin. Asst. II / Administrative Officer IV (Lipa City Administrator’s Office)"
+          "person_responsible": "Senior Admin. Asst. II / Administrative Officer IV (Lipa City Administrator's Office)"
         }
       ],
       "total": {
@@ -472,7 +472,7 @@
     },
     {
       "id": 7,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Emergency Response Services",
       "image": "/assets/document_background/Emergency Response Services",
       "classification": "Simple",
@@ -522,7 +522,7 @@
     },
     {
       "id": 8,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Request for the Conduct of Disaster Awareness and Management Seminar",
       "image": "/assets/document_background/Request for the Conduct of Disaster Awareness and Management",
       "classification": "Simple",
@@ -572,7 +572,7 @@
     },
     {
       "id": 9,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Request for Review of CCTV Recorded Incidents",
       "image": "/assets/document_background/Request for Review of CCTV Recorded Incidents",
       "classification": "Simple",
@@ -622,7 +622,7 @@
     },
     {
       "id": 10,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Attending to Complaints against Defective Weights and Measures at Candido B.Lopez Memorial Public Market",
       "image": "/assets/document_background/Attending to Complaints against Defective Weights and Measures at",
       "classification": "Simple",
@@ -672,16 +672,16 @@
     },
     {
       "id": 11,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Request for Market Certification for Business Permit Application",
       "image": "/assets/document_background/Request for Market Certification for Business Permit Application",
       "classification": "Simple",
       "type_of_transaction": "G2C, G2B",
       "who_may_avail": "All registered market stallholders",
       "checklist_of_requirements": [
-        { "requirement": "Community Tax Certificate - 1 original copy", "source": "Barangay hall or Lipa City Treasurer’s Office" },
+        { "requirement": "Community Tax Certificate - 1 original copy", "source": "Barangay hall or Lipa City Treasurer's Office" },
         { "requirement": "Lease Contract - 1 original copy", "source": "Lessor" },
-        { "requirement": "Official receipt of rental fee – 1 original copy", "source": "Lipa City Treasurer’s Extension Office" }
+        { "requirement": "Official receipt of rental fee – 1 original copy", "source": "Lipa City Treasurer's Extension Office" }
       ],
       "steps": [
         {
@@ -699,11 +699,11 @@
           "person_responsible": "Administrative Aide IV (LCAdO - Economic Enterprise Division)"
         },
         {
-          "client_step": "2. Pay fee at Lipa City Treasurer’s Extension Office",
+          "client_step": "2. Pay fee at Lipa City Treasurer's Extension Office",
           "agency_action": "2. Receive payment and issue Official Receipt",
           "fees_to_be_paid": "P50.00",
           "processing_time": "2 minutes",
-          "person_responsible": "Revenue Collection Officer II (Lipa City Treasurer’s Extension Office)"
+          "person_responsible": "Revenue Collection Officer II (Lipa City Treasurer's Extension Office)"
         },
         {
           "client_step": "3. Process and Signing of Certification",
@@ -729,7 +729,7 @@
     },
     {
       "id": 12,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Request for Permit to Conduct Promotional Activities at Candido B. Lopez Memorial Public Market",
       "image": "/assets/document_background/Request for Permit to Conduct Promotional Activities at Candido B. Lopez",
       "classification": "Simple",
@@ -747,11 +747,11 @@
           "person_responsible": "OIC-Market Administrator / Market Inspector II (LCAdO - Economic Enterprise Division)"
         },
         {
-          "client_step": "2. Pay corresponding fee at Treasurer’s Office",
+          "client_step": "2. Pay corresponding fee at Treasurer's Office",
           "agency_action": "2.1 Receive payment and issue Official Receipt",
           "fees_to_be_paid": "P500.00/day + P250.00 (elec)",
           "processing_time": "2 minutes",
-          "person_responsible": "Revenue Collection Officer II (Lipa City Treasurer’s Office Extension)"
+          "person_responsible": "Revenue Collection Officer II (Lipa City Treasurer's Office Extension)"
         },
         {
           "client_step": "3. Claim permit and conduct promotional activity",
@@ -770,7 +770,7 @@
     },
     {
       "id": 13,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Request to Transfer the Rights of Stalls to New Stall Owners",
       "image": "/assets/document_background/Request to Transfer the Rights of Stalls to New Stall Owners",
       "classification": "Simple",
@@ -791,11 +791,11 @@
           "person_responsible": "Market Inspector / OIC-Market Admin / Admin Aide IV (LCAdO- Economic Enterprise Division)"
         },
         {
-          "client_step": "2. Pay transfer fee at Treasurer’s Extension Office",
+          "client_step": "2. Pay transfer fee at Treasurer's Extension Office",
           "agency_action": "2.1 Receive payment and issue Official Receipt",
           "fees_to_be_paid": "P5,000.00",
           "processing_time": "2 minutes",
-          "person_responsible": "Revenue Collection Officer II (Lipa City Treasurer’s Extension Office)"
+          "person_responsible": "Revenue Collection Officer II (Lipa City Treasurer's Extension Office)"
         },
         {
           "client_step": "3. Present receipt and claim certification of ownership",
@@ -814,7 +814,7 @@
     },
     {
       "id": 14,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Availing of Free Access to Internet Services (for Computer Desktop Users)",
       "image": "/assets/document_background/Availing of Free Access to Internet Services (for Computer Desktop users)",
       "classification": "Simple",
@@ -848,7 +848,7 @@
     },
     {
       "id": 15,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Availing of Free Access to Internet Services (for Laptop/ Wi-fi Users)",
       "image": "/assets/document_background/Availing of Free Access to Internet Services _for Laptop_ Wi-fi users",
       "classification": "Simple",
@@ -881,7 +881,7 @@
     },
     {
       "id": 16,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Availing of Library Lecture and Storytelling Activity",
       "image": "/assets/document_background/Availing of Library Lecture and Storytelling Activity",
       "classification": "Simple",
@@ -914,7 +914,7 @@
     },
     {
       "id": 17,
-      "office": "Lipa City Administrator’s Office",
+      "office": "Lipa City Administrator's Office",
       "service_name": "Lending of Books and Other Reading Materials",
       "image": "/assets/document_background/Lending of Books and Other Reading Materials",
       "classification": "Simple",

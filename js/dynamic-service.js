@@ -15,6 +15,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const val = urlParams.get("search");
 
+    //alert(val);
+
+    //map clickables
+    const rooms = document.querySelectorAll('.rooms');
+
     const tableClose = document.querySelector(".table-close");
     const noticeContainer = document.querySelector(".notice-container");
 
@@ -35,6 +40,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     // 2. The starting point of the finger for the CURRENT drag session
     let startX = 0;
     let startY = 0;
+
+    let departmentName = "";
+    let currentDepartment = "";
 
     const jsonFiles = [
         "/data/Lipa City Environment and Natural Resources Office External Services.json",
@@ -98,7 +106,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             service.service_name.toLowerCase().trim() === val.toLowerCase().trim()
         );
 
-        // console.log(matchedService);
+        console.log(matchedService);
+        currentDepartment = matchedService.department;
 
         if (matchedService) {
             // Set header info
@@ -323,8 +332,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 }
             });
         } else {
-            alert("Service Not Found");
-            window.location.href = "/pages/home.html";
+            
         }
     } else {
         console.log("No search parameter in URL");
@@ -412,5 +420,24 @@ document.addEventListener("DOMContentLoaded", async () => {
         setTimeout(() => {
             content.style.transition = 'none';
         }, 500);
+    });
+
+    rooms.forEach(room => {
+        room.addEventListener("click", (e) => {
+            const mapValue = e.target.closest(".rooms").dataset.mapvalue;
+            const floorLocation = e.target.closest(".rooms").dataset.floorlocation;
+
+            departmentName = e.target.closest(".rooms").dataset.fulldepartmentname;
+
+            document.querySelector(".name-of-room").textContent = mapValue;
+            document.querySelector(".floor-information").textContent = floorLocation;
+        });
+    });
+
+    document.getElementById("navigate-document-selector").addEventListener("click", () => {
+        if(!departmentName) {
+            return;
+        }
+        window.location.href = `/pages/document-selector.html?view=${encodeURIComponent(departmentName)}`;
     });
 });

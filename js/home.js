@@ -147,8 +147,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     li.addEventListener("click", () => {
                         let name = match.name;
 
-                        name = name.replace(/['’]/g, "_");
-
                         searchInput.value = match.name; 
                         autocompleteList.innerHTML = "";
 
@@ -158,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             window.location.href = `/pages/dynamic-service.html?search=${encodeURIComponent(name)}`;
                         } else if (match.type === "office") {
                             //alert(name.replace(/'/g,'_'));
-                            
+                            name = name.replace(/['’]/g, "_");
                             window.location.href = `/pages/document-selector.html?view=${encodeURIComponent(name)}`;
                         }
                     });
