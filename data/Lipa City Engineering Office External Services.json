@@ -61,7 +61,11 @@
           "responsible": "Admin Aide IV"
         }
       ],
-      "total_processing_time": "3 hours"
+
+    "total": {
+        "fees": "None",  
+        "processing_time": "3hrs"
+      }
     },
     {
       "id": 2,
