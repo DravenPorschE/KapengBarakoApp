@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-
     const urlParams = new URLSearchParams(window.location.search);
     const val = urlParams.get("view");
+
+    const backBtn = document.querySelector(".back-btn");
 
     // Replace single quotes with underscores
     const normalizedVal = val ? val.replace(/'/g, "_") : "";
@@ -9,7 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // console.log("Normalized: " + normalizedVal);
     
     const serviceSelected = document.getElementById("service-selected");
-    serviceSelected.textContent = val ? val : "No service selected";
+
+    let serviceNameSelected = val.replace('_', "'");
+
+    serviceSelected.textContent = serviceNameSelected ? serviceNameSelected : "No service selected";
 
     fetch(`/data/${normalizedVal}.json`)
         .then(response => response.json())
@@ -93,4 +97,8 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         })
         .catch(error => console.error("Error fetching JSON data:", error));
+
+    backBtn.addEventListener("click", () => {
+        window.history.back();
+    });
 });

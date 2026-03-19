@@ -29,7 +29,14 @@
                             <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
                         </svg>
                     </button>
-                    <img src="/assets/icons/search_icon.svg" id="search-icon-left"/>
+                    <button id="search-icon-left">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+        stroke="#ffffff" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="7"/>
+        <line x1="16.5" y1="16.5" x2="22" y2="22"/>
+    </svg>
+</button>
                     <ul id="autocomplete-list"></ul>
                 </div>
             </div>
@@ -57,9 +64,7 @@
             <button class="nav-item" onclick='window.location.href="/pages/frequently-visited.html"'>
                 <div class="nav-indicator"></div>
                 <div class="nav-icon-wrap">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="26" height="26">
-                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-                    </svg>
+                   <img class= "graph" src="/assets/icons/graph.svg" alt="">
                 </div>
                 <span class="nav-label">Frequently Visited</span>
             </button>
@@ -103,50 +108,66 @@
     <div class="main-keyboard-container">
         <div class="keyboard-container">
             <!-- Row 1 -->
-            <span class="keyboard-rows">
-                <button class="keyboard-keys">q</button>
-                <button class="keyboard-keys">w</button>
-                <button class="keyboard-keys">e</button>
-                <button class="keyboard-keys">r</button>
-                <button class="keyboard-keys">t</button>
-                <button class="keyboard-keys">y</button>
-                <button class="keyboard-keys">u</button>
-                <button class="keyboard-keys">i</button>            
-                <button class="keyboard-keys">o</button>
-                <button class="keyboard-keys">p</button>
-                <button class="keyboard-keys action-keys"><--</button>
-            </span>
+            <div class="keyboard-container">
 
-            <!-- Row 2 -->
-            <span class="keyboard-rows">
-                <button class="keyboard-keys">a</button>
-                <button class="keyboard-keys">s</button>
-                <button class="keyboard-keys">d</button>
-                <button class="keyboard-keys">f</button>
-                <button class="keyboard-keys">g</button>
-                <button class="keyboard-keys">h</button>
-                <button class="keyboard-keys">j</button>
-                <button class="keyboard-keys">k</button>
-                <button class="keyboard-keys">l</button>
-                <button class="keyboard-keys action-keys" id="keyboard-search">Search</button>
-            </span>
+    <span class="keyboard-rows">
+        <button class="keyboard-keys">q</button>
+        <button class="keyboard-keys">w</button>
+        <button class="keyboard-keys">e</button>
+        <button class="keyboard-keys">r</button>
+        <button class="keyboard-keys">t</button>
+        <button class="keyboard-keys">y</button>
+        <button class="keyboard-keys">u</button>
+        <button class="keyboard-keys">i</button>
+        <button class="keyboard-keys">o</button>
+        <button class="keyboard-keys">p</button>
+        <button class="keyboard-keys action-keys">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="#c8a96e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 4H8l-7 8 7 8h13a2 2 0 002-2V6a2 2 0 00-2-2z"/>
+                <line x1="18" y1="9" x2="12" y2="15"/>
+                <line x1="12" y1="9" x2="18" y2="15"/>
+            </svg>
+            Del
+        </button>
+    </span>
 
-            <!-- Row 3 -->
-            <span class="keyboard-rows">
-                <button class="keyboard-keys">z</button>
-                <button class="keyboard-keys">x</button>
-                <button class="keyboard-keys">c</button>
-                <button class="keyboard-keys">v</button>
-                <button class="keyboard-keys">b</button>
-                <button class="keyboard-keys">n</button>
-                <button class="keyboard-keys">m</button>
-                <button class="keyboard-keys">'</button>
-            </span>
+    <span class="keyboard-rows">
+        <button class="keyboard-keys">a</button>
+        <button class="keyboard-keys">s</button>
+        <button class="keyboard-keys">d</button>
+        <button class="keyboard-keys">f</button>
+        <button class="keyboard-keys">g</button>
+        <button class="keyboard-keys">h</button>
+        <button class="keyboard-keys">j</button>
+        <button class="keyboard-keys">k</button>
+        <button class="keyboard-keys">l</button>
+        <button class="keyboard-keys action-keys" id="keyboard-search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="#c8a96e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="7"/>
+                <line x1="16.5" y1="16.5" x2="22" y2="22"/>
+            </svg>
+            Search
+        </button>
+    </span>
 
-            <span class="keyboard-rows">
-                <button class="keyboard-keys space-key">Space</button>
-            </span>
-        </div>
+    <span class="keyboard-rows">
+        <button class="keyboard-keys">z</button>
+        <button class="keyboard-keys">x</button>
+        <button class="keyboard-keys">c</button>
+        <button class="keyboard-keys">v</button>
+        <button class="keyboard-keys">b</button>
+        <button class="keyboard-keys">n</button>
+        <button class="keyboard-keys">m</button>
+        <button class="keyboard-keys">'</button>
+    </span>
+
+    <span class="keyboard-rows">
+        <button class="keyboard-keys space-key">Space</button>
+    </span>
+
+</div>
     </div>
 
     <script src="/js/home.js?v=1" defer></script>

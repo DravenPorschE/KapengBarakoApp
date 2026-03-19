@@ -86,7 +86,7 @@ body::before {
     background: rgba(255, 255, 255, 0.07);
     color: var(--gold-light);
     font-family: 'Helvetica', Arial, sans-serif;
-    font-size: 12.5px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.06em;
     text-decoration: none;
@@ -392,4 +392,51 @@ main {
     display: grid;
     grid-template-columns: 1fr 45%;
     gap: 16px;
+}
+
+.action-button {
+    position: fixed;
+    z-index: 99999;
+    bottom: 50px;
+    right: 30px;
+    pointer-events: none;
+}
+
+.go-top {
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+    height: 54px;
+    border-radius: 27px;
+    border: none;
+    border-bottom: 3px solid #6e0000;
+    cursor: pointer;
+    background: #b10000;
+    box-shadow: 0 6px 28px rgba(177, 0, 0, 0.5);
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 13px;
+    letter-spacing: .08em;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity .3s ease, transform .3s ease, box-shadow .2s ease;
+    
+}
+
+.go-top:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 36px rgba(177, 0, 0, 0.65);
+}
+
+.go-top:active {
+    transform: translateY(1px);
+    border-bottom-width: 1px;
+}
+
+.go-top.show {
+    opacity: 1;
+    transform: translateY(0);
 }
