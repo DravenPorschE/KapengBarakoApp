@@ -3,6 +3,7 @@
   "external_services": [
     {
       "id": 1,
+      "office":"Lipa City Cooperatives Office", 
       "service_name": "Application for Accreditation as Suppliers of the Pasalubong Center",
       "image": "/assets/document_background/Application for Accreditation as Suppliers of the Pasalubong Center",
       "classification": "Simple",
@@ -60,6 +61,7 @@
     },
     {
       "id": 2,
+      "office":"Lipa City Cooperatives Office",
       "service_name": "Application for Cooperative Loan",
       "image": "/assets/document_background/Application for Cooperative Loan",
       "classification": "Highly technical",
@@ -255,6 +257,7 @@
     },
     {
       "id": 3,
+      "office":"Lipa City Cooperatives Office",
       "service_name": "Participation in Cooperative Month Celebration",
       "image": "/assets/document_background/Participation in Cooperative Month Celebration",
       "classification": "Simple",
@@ -294,6 +297,7 @@
     },
     {
       "id": 4,
+      "office":"Lipa City Cooperatives Office",
       "service_name": "Request for the Conduct of Cooperative Advanced or Specialized Training Courses",
       "image": "/assets/document_background/Request for the Conduct of Cooperative Advanced or Specialized Training",
       "classification": "Highly technical",
@@ -353,6 +357,7 @@
     },
     {
       "id": 5,
+      "office":"Lipa City Cooperatives Office",
       "service_name": "Request for Conduct of Cooperative Orientation Seminar",
       "image": "/assets/document_background/Request for Conduct of Cooperative Orientation Seminar",
       "classification": "Simple",
@@ -394,6 +399,7 @@
     },
     {
       "id": 6,
+      "office":"Lipa City Cooperatives Office",
       "service_name": "Request for the Conduct of Pre-Registration Seminar (PRS)",
       "image": "/assets/document_background/Request for the Conduct of Pre-Registration Seminar (PRS)",
       "classification": "Simple",
@@ -442,6 +448,7 @@
     },
     {
       "id": 7,
+      "office":"Lipa City Cooperatives Office",
       "service_name": "Request for the Conduct of Cooperative Refresher Courses and Hands-on Trainings",
       "image": "/assets/document_background/Request for the Conduct of Cooperative Refresher Courses and Hands-on",
       "classification": "Highly technical",
@@ -488,6 +495,7 @@
     },
     {
       "id": 8,
+      "office":"Lipa City Cooperatives Office",
       "service_name": "Request for the Conduct of Pre-Membership Education Seminar",
       "image": "/assets/document_background/Request for the Conduct of Pre-Membership Education Seminar",
       "classification": "Simple",
@@ -537,6 +545,7 @@
     },
     {
       "id": 9,
+      "office":"Lipa City Cooperatives Office",
       "service_name": "Request for Technical Assistance in the Preparation of Registration Documents",
       "image": "/assets/document_background/Request for Technical Assistance in the Preparation of Registration",
       "classification": "Highly technical",
@@ -614,6 +623,7 @@
     },
     {
       "id": 10,
+      "office":"Lipa City Cooperatives Office",
       "service_name": "Request for Technical Support Services through the Packaging Center",
       "image": "/assets/document_background/Request for Technical Support Services through the Packaging Center",
       "classification": "Simple",
@@ -732,6 +742,7 @@
     },
     {
       "id": 11,
+      "office":"Lipa City Cooperatives Office",
       "service_name": "Application to Avail Local Investment Incentives",
       "image": "/assets/document_background/Application to Avail Local Investment Incentives",
       "classification": "Highly technical",
