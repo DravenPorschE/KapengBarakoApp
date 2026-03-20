@@ -2,6 +2,7 @@
   "internal_services": [
     {
       "id": 1,
+      "office": "Lipa City Mayor's Office External Services",
       "service_name": "Issuance of Job Referral, Recommendation or Endorsement",
       "image": "/assets/document_background/Issuance of Job Referral, Recommendation or Endorsement",
       "department": "Lipa City Mayor’s Office",
@@ -11,23 +12,23 @@
       "checklist_of_requirements": [
         {
           "requirement": "Recommendation for Employment: Biodata/ Personal Data Sheet – 1 original copy",
-          "where_to_secure": "Requesting party/ applicant"
+          "source": "Requesting party/ applicant"
         },
         {
           "requirement": "Referrals of Indigents: Certificate of Indigency",
-          "where_to_secure": "Respective Barangay Captains"
+          "source": "Respective Barangay Captains"
         },
         {
           "requirement": "Referrals of Indigents: Hospital Bill (if patient is/ was confined)",
-          "where_to_secure": "Hospital where the patient is/ was confined"
+          "source": "Hospital where the patient is/ was confined"
         },
         {
           "requirement": "DFA Assistance: Passport – 1 photocopy",
-          "where_to_secure": "Requesting party/ applicant"
+          "source": "Requesting party/ applicant"
         },
         {
           "requirement": "DFA Assistance: Any government issued ID – 1 photocopy",
-          "where_to_secure": "Requesting party/ applicant or Any government agency (PSA, Comelec, LTO, DSWD, PhilPost, GSIS, SSS, etc.)"
+          "source": "Requesting party/ applicant or Any government agency (PSA, Comelec, LTO, DSWD, PhilPost, GSIS, SSS, etc.)"
         }
       ],
       "steps": [
@@ -60,13 +61,14 @@
           "person_responsible": "Executive Assistant IV (Lipa City Mayor’s Office)"
         }
       ],
-      "total_summary": {
-        "total_fees": "None",
-        "total_processing_time": "45 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "45 minutes"
       }
     },
     {
       "id": 2,
+      "office": "Lipa City Mayor's Office External Services",
       "service_name": "Request for Civil Wedding Schedule",
       "image": "/assets/document_background/Request for Civil Wedding Schedule",
       "department": "Lipa City Mayor’s Office",
@@ -76,7 +78,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "None",
-          "where_to_secure": "N/A"
+          "source": "N/A"
         }
       ],
       "steps": [
@@ -88,13 +90,14 @@
           "person_responsible": "Senior Administrative Assistant III (Lipa City Mayor’s Office)"
         }
       ],
-      "total_summary": {
-        "total_fees": "None",
-        "total_processing_time": "10 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "10 minutes"
       }
     },
     {
       "id": 3,
+      "office": "Lipa City Mayor's Office External Services",  
       "service_name": "Solemnization of Marriage",
       "image": "/assets/document_background/Solemnization of Marriage",
       "department": "Lipa City Mayor’s Office",
@@ -104,7 +107,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Marriage license",
-          "where_to_secure": "Lipa City Civil Registrar’s Office"
+          "source": "Lipa City Civil Registrar’s Office"
         }
       ],
       "steps": [
@@ -130,9 +133,9 @@
           "person_responsible": "City Mayor (Lipa City Mayor’s Office)"
         }
       ],
-      "total_summary": {
-        "total_fees": "None",
-        "total_processing_time": "45 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "45 minutes"
       }
     }
   ]
