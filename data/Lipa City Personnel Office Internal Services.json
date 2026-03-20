@@ -3,6 +3,7 @@
   "internal_services": [
     {
       "id": 1,
+     "office": "Lipa City Personnel Office Internal Services",
       "service_name": "Request for HRDC Confirmation",
       "image": "/assets/document_background/Request for HRDC Confirmation",
       "classification": "Simple",
@@ -11,11 +12,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Invitation (1 original copy)",
-          "where_to_secure": "Sponsoring agency"
+          "source": "Sponsoring agency"
         },
         {
           "requirement": "Program of Activities (1 original copy)",
-          "where_to_secure": "Sponsoring agency"
+          "source": "Sponsoring agency"
         }
       ],
       "steps": [
@@ -48,11 +49,14 @@
           "person_responsible": "HRDC Secretariat / Administrative Officer II / Administrative Assistant II (Lipa City Personnel Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 hour and 10 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "1 hour and 10 minutes"
+      }
     },
     {
       "id": 2,
+      "office": "Lipa City Personnel Office Internal Services",
       "service_name": "Issuance of Name Tag/ ID",
       "image": "/assets/document_background/Issuance of Name Tag_ID",
       "classification": "Simple",
@@ -61,7 +65,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "None",
-          "where_to_secure": "None"
+          "source": "None"
         }
       ],
       "steps": [
@@ -94,11 +98,14 @@
           "person_responsible": "Administrative Assistant V / Administrative Officer II (Lipa City Personnel Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "25 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "25 minutes"
+      }
     },
     {
       "id": 3,
+      "office": "Lipa City Personnel Office Internal Services",
       "service_name": "Processing of Employees’ Leave Application",
       "image": "/assets/document_background/Processing of Employee’s Leave Application",
       "classification": "Simple",
@@ -107,11 +114,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Leave application approved by the head of office (1 original copy)",
-          "where_to_secure": "Concerned department or Lipa City Personnel Office"
+          "source": "Concerned department or Lipa City Personnel Office"
         },
         {
           "requirement": "Medical certificate (if sick leave exceeds 5 days) – 1 original copy, 1 photocopy",
-          "where_to_secure": "Private doctor or medical institution where the employee was hospitalized"
+          "source": "Private doctor or medical institution where the employee was hospitalized"
         }
       ],
       "steps": [
@@ -151,11 +158,14 @@
           "person_responsible": "Administrative Officer V (Lipa City Personnel Officer)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "40 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "40 minutes"
+      }
     },
     {
       "id": 4,
+      "office": "Lipa City Personnel Office Internal Services",
       "service_name": "Certifying Documents",
       "image": "/assets/document_background/Certifying Documents",
       "classification": "Simple",
@@ -164,7 +174,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Original and photocopied documents",
-          "where_to_secure": "Requesting party/ Applicant"
+          "source": "Requesting party/ Applicant"
         }
       ],
       "steps": [
@@ -183,11 +193,14 @@
           "person_responsible": "Supervising Administrative Officer (Lipa City Personnel Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "2 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "2 minutes"
+      }
     },
     {
       "id": 5,
+      "office": "Lipa City Personnel Office Internal Services",
       "service_name": "Processing of Employees’ Rehabilitation Privilege Leave",
       "image": "/assets/document_background/Processing of Employee’s Rehabilitation Privilege Leave",
       "classification": "Simple",
@@ -196,19 +209,19 @@
       "checklist_of_requirements": [
         {
           "requirement": "Letter request (1 original copy)",
-          "where_to_secure": "Requesting party/ applicant"
+          "source": "Requesting party/ applicant"
         },
         {
           "requirement": "Police report (1 photocopy)",
-          "where_to_secure": "Lipa City PNP or any police headquarters"
+          "source": "Lipa City PNP or any police headquarters"
         },
         {
           "requirement": "Medical certificate (1 photocopy)",
-          "where_to_secure": "Private doctor or private or public hospital"
+          "source": "Private doctor or private or public hospital"
         },
         {
           "requirement": "Approved sick leave application form (1 original copy)",
-          "where_to_secure": "Lipa City Personnel Office"
+          "source": "Lipa City Personnel Office"
         }
       ],
       "steps": [
@@ -234,11 +247,14 @@
           "person_responsible": "Supervising Administrative Officer (Lipa City Personnel Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "36 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "36 minutes"
+      }
     },
     {
       "id": 6,
+       "office": "Lipa City Personnel Office ",
       "service_name": "Issuance of Authority to Travel (Optional)",
       "image": "/assets/document_background/Issuance of Authority to Travel (Optional)",
       "classification": "Simple",
@@ -247,11 +263,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Letter (1 original copy)",
-          "where_to_secure": "Requesting party/ applicant"
+          "source": "Requesting party/ applicant"
         },
         {
           "requirement": "Approved leave (1 original copy)",
-          "where_to_secure": "Lipa City Personnel Office"
+          "source": "Lipa City Personnel Office"
         }
       ],
       "steps": [
@@ -284,11 +300,14 @@
           "person_responsible": "Administrative Assistant II (Lipa City Personnel Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "9 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "9 minutes"
+      }
     },
     {
       "id": 7,
+      "office": "Lipa City Personnel Office Internal Services",
       "service_name": "Attending to Employees’ Requests",
       "image": "/assets/document_background/Attending to Employee’s Requests",
       "classification": "Simple",
@@ -297,7 +316,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Request letter/ requisition slip",
-          "where_to_secure": "Requesting party/ applicant"
+          "source": "Requesting party/ applicant"
         }
       ],
       "steps": [
@@ -309,11 +328,12 @@
           "person_responsible": "Supervising Administrative Officer / Zoning Inspector I (Lipa City Personnel Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "30 minutes"
+      "fees": "None",
+      "processing_time": "30 minutes"
     },
     {
       "id": 8,
+      "office": "Lipa City Personnel Office Internal Services",
       "service_name": "Availing of Compensatory Overtime Services",
       "image": "/assets/document_background/Availing of Compensatory Overtime Services",
       "classification": "Simple",
@@ -322,7 +342,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Request letter signed by the Department Head",
-          "where_to_secure": "Concerned department"
+          "source": "Concerned department"
         }
       ],
       "steps": [
@@ -341,11 +361,14 @@
           "person_responsible": "City Personnel Officer (Lipa City Personnel Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "11 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "11 minutes"
+      }
     },
     {
       "id": 9,
+      "office": "Lipa City Personnel Office Internal Services",
       "service_name": "Request for Service Record",
       "image": "/assets/document_background/Request for Service Record",
       "classification": "Simple",
@@ -354,7 +377,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Letter of request (1 original copy), phone call, or text message",
-          "where_to_secure": "Requesting party/ applicant"
+          "source": "Requesting party/ applicant"
         }
       ],
       "steps": [
@@ -387,11 +410,14 @@
           "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "2 hours and 12 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "2 hours and 12 minutes"
+      }
     },
     {
       "id": 10,
+      "office": "Lipa City Personnel Office Internal Services",
       "service_name": "Request for Certificate of Employment",
       "image": "/assets/document_background/Request for Certificate of Employment",
       "classification": "Simple",
@@ -400,7 +426,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Request form (1 original copy), phone call, or text message",
-          "where_to_secure": "Lipa City Personnel Office / Requesting party"
+          "source": "Lipa City Personnel Office / Requesting party"
         }
       ],
       "steps": [
@@ -440,8 +466,10 @@
           "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "4 hours and 20 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "4 hours and 20 minutes"
+      }
     }
   ]
 }

@@ -14,19 +14,19 @@
       "checklist_of_requirements": [
         {
           "requirement": "Letter addressed to the Vice Mayor – 1 original copy",
-          "where_to_secure": "Requesting party/ applicant"
+          "source": "Requesting party/ applicant"
         },
         {
           "requirement": "Certificate of Indigency – 1 original copy",
-          "where_to_secure": "Barangays where applicant resides"
+          "source": "Barangays where applicant resides"
         },
         {
           "requirement": "Medical abstract – 1 photocopy",
-          "where_to_secure": "Hospital or medical institution where the patient was confined/ seeking medical attention"
+          "source": "Hospital or medical institution where the patient was confined/ seeking medical attention"
         },
         {
           "requirement": "Doctor’s prescription – 1 photocopy",
-          "where_to_secure": "Hospital or medical institution where the patient was confined/ seeking medical attention"
+          "source": "Hospital or medical institution where the patient was confined/ seeking medical attention"
         }
       ],
       "steps": [
@@ -77,7 +77,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Solicitation letter addressed to the Vice Mayor – 1 original copy",
-          "where_to_secure": "Requesting party/ applicant"
+          "source": "Requesting party/ applicant"
         }
       ],
       "steps": [

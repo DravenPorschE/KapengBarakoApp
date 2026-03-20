@@ -14,43 +14,43 @@
       "checklist_of_requirements": [
         {
           "requirement": "Resume – 1 original copy",
-          "where_to_secure": "Applicant"
+          "source": "Applicant"
         },
         {
           "requirement": "Transcript of records with RLE for nurses, Med. Tech. & other paramedical position – 1 original and 1 photocopy",
-          "where_to_secure": "University where the applicant graduated"
+          "source": "University where the applicant graduated"
         },
         {
           "requirement": "Board Rating & PRC license - 2 copies",
-          "where_to_secure": "Professional Regulatory Commission"
+          "source": "Professional Regulatory Commission"
         },
         {
           "requirement": "Certificate/ ID of membership in any organization – 1 photocopy",
-          "where_to_secure": "Professional Regulatory Commission or any other organization"
+          "source": "Professional Regulatory Commission or any other organization"
         },
         {
           "requirement": "Residence certificate - current year – 1 original copy",
-          "where_to_secure": "Lipa City Treasurer’s Office or respective barangay halls"
+          "source": "Lipa City Treasurer’s Office or respective barangay halls"
         },
         {
           "requirement": "Certificate of work experience and training – 1 photocopy",
-          "where_to_secure": "Applicant"
+          "source": "Applicant"
         },
         {
           "requirement": "Marriage contract, if any – 1 photocopy",
-          "where_to_secure": "Lipa City Civil Registrar’s Office or Philippine Statistics Authority"
+          "source": "Lipa City Civil Registrar’s Office or Philippine Statistics Authority"
         },
         {
           "requirement": "Birth Certificate of children, if any – 1 photocopy each",
-          "where_to_secure": "Lipa City Civil Registrar’s Office or Philippine Statistics Authority"
+          "source": "Lipa City Civil Registrar’s Office or Philippine Statistics Authority"
         },
         {
           "requirement": "BIR TIN – 1 photocopy",
-          "where_to_secure": "Bureau of Internal Revenue"
+          "source": "Bureau of Internal Revenue"
         },
         {
           "requirement": "Birth Certificate of applicant – 1 photocopy",
-          "where_to_secure": "Lipa City Civil Registrar’s Office or Philippine Statistics Authority"
+          "source": "Lipa City Civil Registrar’s Office or Philippine Statistics Authority"
         }
       ],
       "steps": [
@@ -87,7 +87,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Resignation Letter submitted 30 days prior date of termination",
-          "where_to_secure": "Employee"
+          "source": "Employee"
         }
       ],
       "steps": [

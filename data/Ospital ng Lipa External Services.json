@@ -14,7 +14,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Government issued ID",
-          "where_to_secure": "Any government agency (PSA, Comelec, LTO, PhilPost, GSIS, SSS, etc.)"
+          "source": "Any government agency (PSA, Comelec, LTO, PhilPost, GSIS, SSS, etc.)"
         }
       ],
       "steps": [
@@ -58,11 +58,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Admission Order (if applicable)",
-          "where_to_secure": "Attending Physician"
+          "source": "Attending Physician"
         }
       ],
       "steps": [
@@ -127,11 +127,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Result of Laboratories and other Diagnostic Exams, Referral slip if applicable",
-          "where_to_secure": "Ospital ng Lipa or any other medical institutions"
+          "source": "Ospital ng Lipa or any other medical institutions"
         }
       ],
       "steps": [
@@ -203,11 +203,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Patient Data Sheet",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         }
       ],
       "steps": [
@@ -251,15 +251,15 @@
       "checklist_of_requirements": [
         {
           "requirement": "Discharge Slip from Nurses Station",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Medical Certificate",
-          "where_to_secure": "Attending physician"
+          "source": "Attending physician"
         },
         {
           "requirement": "PhilHealth Requirements / PBEF",
-          "where_to_secure": "PhilHealth / Ospital ng Lipa"
+          "source": "PhilHealth / Ospital ng Lipa"
         }
       ],
       "steps": [
@@ -303,11 +303,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Approved Assessment for Eligibility Stub",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         }
       ],
       "steps": [
@@ -344,11 +344,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Laboratory Request",
-          "where_to_secure": "Attending Physician"
+          "source": "Attending Physician"
         }
       ],
       "steps": [
@@ -385,11 +385,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "X ray Request",
-          "where_to_secure": "Ospital ng Lipa Physician"
+          "source": "Ospital ng Lipa Physician"
         }
       ],
       "steps": [
@@ -426,11 +426,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Request for Ultrasound",
-          "where_to_secure": "Ospital ng Lipa physician"
+          "source": "Ospital ng Lipa physician"
         }
       ],
       "steps": [
@@ -460,11 +460,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Request for Ultrasound",
-          "where_to_secure": "Ospital ng Lipa physician"
+          "source": "Ospital ng Lipa physician"
         }
       ],
       "steps": [
@@ -501,15 +501,15 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Request for CT Scan",
-          "where_to_secure": "Ospital ng Lipa physician"
+          "source": "Ospital ng Lipa physician"
         },
         {
           "requirement": "Result of Creatinine (If contrast)",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         }
       ],
       "steps": [
@@ -539,15 +539,15 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Request for CT Scan",
-          "where_to_secure": "Ospital ng Lipa physician"
+          "source": "Ospital ng Lipa physician"
         },
         {
           "requirement": "Result of Creatinine (If contrast)",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         }
       ],
       "steps": [
@@ -584,11 +584,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Request for ECG",
-          "where_to_secure": "Ospital ng Lipa Physician"
+          "source": "Ospital ng Lipa Physician"
         }
       ],
       "steps": [
@@ -625,11 +625,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Request for 2D Echo",
-          "where_to_secure": "Ospital ng Lipa physician"
+          "source": "Ospital ng Lipa physician"
         }
       ],
       "steps": [
@@ -659,11 +659,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Request for 2D Echo",
-          "where_to_secure": "Ospital ng Lipa physician"
+          "source": "Ospital ng Lipa physician"
         }
       ],
       "steps": [
@@ -700,11 +700,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Authorization Letter and ID (if applicable)",
-          "where_to_secure": "Patient or next of kin"
+          "source": "Patient or next of kin"
         }
       ],
       "steps": [
@@ -734,11 +734,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Authorization Letter and ID",
-          "where_to_secure": "Patient or next of kin"
+          "source": "Patient or next of kin"
         }
       ],
       "steps": [
@@ -768,11 +768,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Authorization Letter and ID",
-          "where_to_secure": "Patient or next of kin"
+          "source": "Patient or next of kin"
         }
       ],
       "steps": [
@@ -802,11 +802,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Photocopy of Marriage Certificate",
-          "where_to_secure": "Lipa City Civil Registrar’s Office / PSA"
+          "source": "Lipa City Civil Registrar’s Office / PSA"
         },
         {
           "requirement": "Photocopy of both parents’ ID or Birth Certificate",
-          "where_to_secure": "Government Agency / PSA"
+          "source": "Government Agency / PSA"
         }
       ],
       "steps": [
@@ -836,11 +836,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Photocopy of Marriage Certificate",
-          "where_to_secure": "Lipa City Civil Registrar’s Office / PSA"
+          "source": "Lipa City Civil Registrar’s Office / PSA"
         },
         {
           "requirement": "Photocopy of both parents’ ID or Birth Certificate",
-          "where_to_secure": "Government Agency / PSA"
+          "source": "Government Agency / PSA"
         }
       ],
       "steps": [
@@ -870,11 +870,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Authorization Letter and ID",
-          "where_to_secure": "Patient or next of kin"
+          "source": "Patient or next of kin"
         }
       ],
       "steps": [
@@ -904,7 +904,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         }
       ],
       "steps": [
@@ -934,7 +934,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Government issued ID",
-          "where_to_secure": "Any government agency"
+          "source": "Any government agency"
         }
       ],
       "steps": [
@@ -964,7 +964,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Government issued ID",
-          "where_to_secure": "Any government agency"
+          "source": "Any government agency"
         }
       ],
       "steps": [
@@ -994,11 +994,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Laboratory Result / Referral slip",
-          "where_to_secure": "Medical Institutions"
+          "source": "Medical Institutions"
         }
       ],
       "steps": [
@@ -1028,11 +1028,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Laboratory Result / Referral slip",
-          "where_to_secure": "Medical Institutions"
+          "source": "Medical Institutions"
         }
       ],
       "steps": [
@@ -1062,7 +1062,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         }
       ],
       "steps": [
@@ -1092,7 +1092,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         }
       ],
       "steps": [
@@ -1122,11 +1122,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Official Receipt of medicines/lab bought outside",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "Notice of PhilHealth Payment",
-          "where_to_secure": "PhilHealth"
+          "source": "PhilHealth"
         }
       ],
       "steps": [
@@ -1156,7 +1156,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "None",
-          "where_to_secure": "N/A"
+          "source": "N/A"
         }
       ],
       "steps": [
@@ -1186,11 +1186,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient card",
-          "where_to_secure": "Ospital ng Lipa"
+          "source": "Ospital ng Lipa"
         },
         {
           "requirement": "List of diagnostic procedures",
-          "where_to_secure": "Company/ School/ Organization"
+          "source": "Company/ School/ Organization"
         }
       ],
       "steps": [

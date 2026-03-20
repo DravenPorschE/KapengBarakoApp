@@ -3,6 +3,7 @@
   "external_services": [
     {
       "id": 1,
+      "office": "Lipa City Personnel Office External Services",
       "service_name": "Screening of Walk-in Applicants",
       "image": "/assets/document_background/Screening of Walk-in Applicants in the City Government of Lipa",
       "classification": "Complex",
@@ -11,15 +12,15 @@
       "checklist_of_requirements": [
         {
           "requirement": "Application letter",
-          "where_to_secure": "Requesting party/ applicant"
+          "source": "Requesting party/ applicant"
         },
         {
           "requirement": "Resume/ Personal Data Sheet (PDS)",
-          "where_to_secure": "Lipa City Personnel Office"
+          "source": "Lipa City Personnel Office"
         },
         {
           "requirement": "School credentials",
-          "where_to_secure": "Schools/ universities where the applicant graduated"
+          "source": "Schools/ universities where the applicant graduated"
         }
       ],
       "steps": [
@@ -66,11 +67,14 @@
           "person_responsible": "Administrative Officer V (Lipa City Personnel Officer)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 day and 20 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "1 day and 20 minutes"
+      }
     },
     {
       "id": 2,
+      "office": "Lipa City Personnel Office External Services",
       "service_name": "On the Job Training (OJT) Assistance",
       "image": "/assets/document_background/On-the-Job Training_Work Immersion for Students",
       "classification": "Simple",
@@ -79,15 +83,15 @@
       "checklist_of_requirements": [
         {
           "requirement": "Endorsement letter",
-          "where_to_secure": "School where the applicant is currently enrolled"
+          "source": "School where the applicant is currently enrolled"
         },
         {
           "requirement": "Resume with picture",
-          "where_to_secure": "Requesting party/ applicant"
+          "source": "Requesting party/ applicant"
         },
         {
           "requirement": "Training and Liability Waiver duly notarized",
-          "where_to_secure": "Lipa City Personnel Office or Schools"
+          "source": "Lipa City Personnel Office or Schools"
         }
       ],
       "steps": [
@@ -120,11 +124,14 @@
           "person_responsible": "Human Resource Management Officer II / Human Resource Management Assistant / City Personnel Officer (Lipa City Personnel Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 hour and 18 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "1 hour and 18 minutes"
+      }
     },
     {
       "id": 3,
+      "office": "Lipa City Personnel Office External Services",
       "service_name": "GSIS Kiosk Assistance for Pensioners and Active Members",
       "image": "/assets/document_background/image_1_309",
       "classification": "Simple",
@@ -133,7 +140,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "GSIS UMID Card",
-          "where_to_secure": "Government Service Insurance System (GSIS)"
+          "source": "Government Service Insurance System (GSIS)"
         }
       ],
       "steps": [
@@ -145,11 +152,14 @@
           "person_responsible": "Human Resource Management Officer III / Human Resource Management Officer II / Human Resource Management Officer I (Lipa City Personnel Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "10 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "10 minutes"
+      }
     },
     {
       "id": 4,
+      "office": "Lipa City Personnel Office External Services",
       "service_name": "Submission of SALN of Barangay Officials",
       "image": "/assets/document_background/image_2_309",
       "classification": "Complex",
@@ -158,7 +168,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Fully accomplished SALN form",
-          "where_to_secure": "Requesting party/ applicant"
+          "source": "Requesting party/ applicant"
         }
       ],
       "steps": [
@@ -191,8 +201,10 @@
           "person_responsible": "Human Resource Management Officer III / Administrative Assistant IV (Lipa City Personnel Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "6 days and 6 minutes"
+      "total": {
+      "fees": "None",
+      "processing_time": "6 days and 6 minutes"
+      }
     }
   ]
 }
