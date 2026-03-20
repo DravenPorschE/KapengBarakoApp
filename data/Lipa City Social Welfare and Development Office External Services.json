@@ -73,7 +73,10 @@
           "person_responsible": "City Mayor, CSWDO staff, CTO staff"
         }
       ],
-      "total_processing_time": "5 days, 5 hours and 20 minutes"
+      "total": {
+        "fees": "none",
+      "processing_time": "5 days, 5 hours and 20 minutes"
+      }
     },
     {
       "id": 2,
@@ -150,7 +153,10 @@
           "person_responsible": "City Mayor, CSWDO staff, CTO staff"
         }
       ],
-      "total_processing_time": "5 days, 5 hours and 28 minutes"
+    "total": {
+        "fees": "none",
+      "processing_time": "5 days, 5 hours and 28 minutes"
+      }
     },
     {
       "id": 3,
@@ -235,7 +241,11 @@
           "person_responsible": "CSWDO staff, CTO staff and City Mayor"
         }
       ],
-      "total_processing_time": "5 days, 4 hours and 22 minutes"
+
+    "total": {
+        "fees": "none",
+      "processing_time": "5 days, 4 hours and 22 minutes"
+      }
     },
     {
       "id": 4,
@@ -334,7 +344,10 @@
           "person_responsible": "CSWDO staff, CTO staff, City Mayor"
         }
       ],
-      "total_processing_time": "10 days, 4 hours and 38 minutes"
+     "total": {
+        "fees": "none",
+      "processing_time": "10 days, 4 hours and 38 minutes"
+      }
     },
     {
       "id": 5,
@@ -426,7 +439,11 @@
           "person_responsible": "CSWDO staff, CTO staff, City Mayor"
         }
       ],
-      "total_processing_time": "10 days, 4 hours and 38 minutes"
+   
+    "total": {
+        "fees": "none",
+      "processing_time": "10 days, 4 hours and 38 minutes"
+      }
     },
     {
       "id": 6,
@@ -514,7 +531,11 @@
           "person_responsible": "City Mayor, CSWD Officer, SWO IV, SW Assistant"
         }
       ],
-      "total_processing_time": "5 days, 4 hours and 50 minutes"
+     
+     "total": {
+        "fees": "none",
+      "processing_time": "5 days, 4 hours and 50 minutes"
+      }
     },
     {
       "id": 7,
@@ -603,7 +624,11 @@
           "person_responsible": "CSWDO staff, CTO staff, City Mayor"
         }
       ],
-      "total_processing_time": "4 hours and 38 minutes"
+      
+    "total": {
+        "fees": "none",
+      "processing_time": "4 hours and 38 minutes"
+      }
     },
     {
       "id": 8,
@@ -674,7 +699,11 @@
           "person_responsible": "SWO II"
         }
       ],
-      "total_processing_time": "4 days, 10 hours and 55 minutes"
+    
+     "total": {
+        "fees": "none",
+      "processing_time": "4 days, 10 hours and 55 minutes"
+      }
     },
     {
       "id": 9,
@@ -716,7 +745,12 @@
           "person_responsible": "SWO IV / SWO III"
         }
       ],
-      "total_processing_time": "4 days, 1 hour and 7 minutes"
+     
+     
+     "total": {
+        "fees": "none",
+      "processing_time": "4 days, 1 hour and 7 minutes"
+      }
     },
     {
       "id": 10,
@@ -776,7 +810,11 @@
           "person_responsible": "Social Welfare Officer I"
         }
       ],
-      "total_processing_time": "29 minutes"
+      
+     "total": {
+        "fees": "none",
+      "processing_time": "29 minutes"
+      }
     },
     {
       "id": 11,
@@ -839,7 +877,11 @@
           "person_responsible": "Social Welfare Assistant"
         }
       ],
-      "total_processing_time": "1 day and 34 minutes"
+
+    "total": {
+        "fees": "none",
+      "processing_time": "1 day and 34 minutes"
+      }
     },
     {
       "id": 12,
@@ -898,7 +940,11 @@
           "person_responsible": "Social Welfare Officer IV"
         }
       ],
-      "total_processing_time": "35 minutes"
+    
+    "total": {
+        "fees": "none",
+      "processing_time": "35 minutes"
+      }
     }
   ]
 }

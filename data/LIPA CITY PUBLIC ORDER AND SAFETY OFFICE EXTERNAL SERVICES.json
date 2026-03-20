@@ -3,6 +3,7 @@
   "external_services": [
     {
       "id": 1,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Releasing of Confiscated Goods/ Items Apprehended from Illegal Vendors",
       "image": "/assets/document_background/Releasing of Confiscated Goods_Items Apprehended from Illegal Vendors",
       "classification": "Simple",
@@ -51,11 +52,14 @@
           "person_responsible": "Administrative Assistant III / Administrative Aide III (Lipa City Public Order and Safety Office)"
         }
       ],
-      "total_fees_to_be_paid": "Varies based on offense",
-      "total_processing_time": "17 minutes"
+      "total": {
+      "fees": "Varies based on offense",
+      "processing_time": "17 minutes"
+      }
     },
     {
       "id": 2,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Settlement of Complaints",
       "image": "/assets/document_background/Settlement of Complaints",
       "classification": "Simple",
@@ -83,11 +87,14 @@
           "person_responsible": "Supervising Administrative Officer / Traffic Operation Officer IV / Special Operations Officer IV / Security Officer II / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 hour for major issues / 20 minutes for minor issues"
+      "total": {
+      "fees": "None",
+      "processing_time": "1 hour for major issues / 20 minutes for minor issues"
+    }
     },
     {
       "id": 3,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Releasing of Confiscated Driver’s License",
       "image": "/assets/document_background/Releasing of Confiscated Driver’s License",
       "classification": "Simple",
@@ -129,8 +136,8 @@
           "person_responsible": "Administrative Aide VI / III / IV (Lipa City Public Order and Safety Office)"
         }
       ],
-      "total_fees_to_be_paid": "See table of fees",
-      "total_processing_time": "10 minutes",
+      "fees": "See table of fees",
+      "processing_time": "10 minutes",
       "service_notice": [
         { "service_name": "Illegal parking", "processing_fee": "500.00" },
         { "service_name": "Obstruction", "processing_fee": "400.00" },
@@ -175,6 +182,7 @@
     },
     {
       "id": 4,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Releasing of Impounded Motor Vehicles",
       "image": "/assets/document_background/Releasing of Impounded Motor Vehicles",
       "classification": "Simple",
@@ -217,8 +225,8 @@
           "person_responsible": "Administrative Aide VI / III / IV (Lipa City Public Order and Safety Office)"
         }
       ],
-      "total_fees_to_be_paid": "See table of fees",
-      "total_processing_time": "16 minutes",
+      "fees": "See table of fees",
+      "processing_time": "16 minutes",
       "service_notice": [
         {
           "service_name": "Impounding: Four-wheeled vehicles and below",
@@ -239,6 +247,7 @@
     },
     {
       "id": 5,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Renewal of Tricycle Franchise/ Motorized Tricycle Operator’s Permit",
       "image": "/assets/document_background/Renewal of Tricycle Franchise Motorized Tricycle Operator’s Permit",
       "classification": "Simple",
@@ -302,11 +311,14 @@
           "person_responsible": "City Mayor (Lipa City Mayor’s Office)"
         }
       ],
-      "total_fees_to_be_paid": "P160.00",
-      "total_processing_time": "3 days and 43 minutes"
+      "total": {
+      "fees": "P160.00",
+      "processing_time": "3 days and 43 minutes"
+      }
     },
     {
       "id": 6,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Application for Renewal of Tricycle Franchise",
       "image": "/assets/document_background/Application for Renewal of Tricycle Franchise",
       "classification": "Complex",
@@ -367,11 +379,14 @@
           "person_responsible": "City Mayor (Lipa City Mayor’s Office)"
         }
       ],
-      "total_fees_to_be_paid": "P160.00",
-      "total_processing_time": "3 days and 43 minutes"
+      "total": {
+      "fees": "P160.00",
+      "processing_time": "3 days and 43 minutes"
+      }
     },
     {
       "id": 7,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Renewal of Mayor’s Permit for Tricycle",
       "image": "/assets/document_background/Renewal of Mayor’s Permit for Tricycle",
       "classification": "Complex",
@@ -410,11 +425,14 @@
           "person_responsible": "Administrative Officer III / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
         }
       ],
-      "total_fees_to_be_paid": "P140.00",
-      "total_processing_time": "12 minutes"
+      "total": {
+      "fees": "P140.00",
+      "processing_time": "12 minutes"
+      }
     },
     {
       "id": 8,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Transfer of Ownership of Motorized Tricycle and Change Motor",
       "image": "/assets/document_background/Transfer of Ownership of Motorized Tricycle and Change Motor",
       "classification": "Complex",
@@ -467,8 +485,10 @@
           "person_responsible": "City Mayor (Lipa City Mayor’s Office)"
         }
       ],
-      "total_fees_to_be_paid": "P160.00 (Change) / P2,500.00 (Transfer)",
-      "total_processing_time": "3 days and 43 minutes"
+      "total": {
+      "fees": "P160.00 (Change) / P2,500.00 (Transfer)",
+      "processing_time": "3 days and 43 minutes"
+      }
     }
   ]
 }
