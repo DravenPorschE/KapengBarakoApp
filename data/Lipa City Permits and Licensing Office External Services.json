@@ -3,6 +3,7 @@
   "external_services": [
     {
       "id": 1,
+      "office": "Lipa City Permits and Licensing Office External Services",
       "service_name": "Application for Business Permit – New Applications",
       "image": "/assets/document_background/Application for Business Permit – New Applications",
       "classification": "Simple",
@@ -33,10 +34,16 @@
         { "client_step": "Payment of corresponding fees and taxes at the Lipa City Treasurer's Office", "agency_action": "Validate RPT, print TOP, receive payment and issue Official Receipt", "fees_to_be_paid": "In accordance with 1993 Revised Revenue Code and Tax Ordinance No. 132", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk III/II" },
         { "client_step": "Submit application for release of permits and other clearances", "agency_action": "Process clearances, print Mayor's Permit, approve and release", "fees_to_be_paid": "None", "processing_time": "2 hours", "person_responsible": "City Permits and Licensing Officer, Admin Aide VI" }
       ],
-      "total_processing_time": "4 hours and 5 minutes"
+    
+    "total": {
+        "fees": "None",
+        "processing_time": "4 hours and 5 minutes"
+      }
     },
+  
     {
       "id": 2,
+       "office": "Lipa City Permits and Licensing Office External Services",
       "service_name": "Application for Renewal of Business Permits",
       "image": "/assets/document_background/Application for Renewal of Business Permits",
       "classification": "Simple",
@@ -53,10 +60,15 @@
         { "client_step": "Payment of corresponding fees and taxes", "agency_action": "Issue Official Receipt and release application", "fees_to_be_paid": "Based on Revenue Code and Fire Code", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk" },
         { "client_step": "Return and submit application for release of permit", "agency_action": "Print and release Mayor's Permit Certificate", "fees_to_be_paid": "None", "processing_time": "1 hour and 20 minutes", "person_responsible": "City Permits and Licensing Officer" }
       ],
-      "total_processing_time": "4 hours and 5 minutes"
+    
+    "total": {
+        "fees": "None",
+        "processing_time": "4 hours and 5 minutes"
+      }
     },
     {
       "id": 3,
+       "office": "Lipa City Permits and Licensing Office External Services",
       "service_name": "Business Registration – Transfer of Business Location, for establishments with issued Mayor’s Permit for the current year",
       "image": "/assets/document_background/Business Registration – Transfer of Business Location, for establishments",
       "classification": "Simple",
@@ -73,10 +85,15 @@
         { "client_step": "Pay corresponding fees", "agency_action": "Issue Official Receipt", "fees_to_be_paid": "P1,650.00 (Locational Clearance & Mayor's Permit Fee)", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk" },
         { "client_step": "Return application for issuance of new certificate", "agency_action": "Update record, print and approve new certificate", "fees_to_be_paid": "None", "processing_time": "40 minutes", "person_responsible": "City Permits and Licensing Officer" }
       ],
-      "total_processing_time": "3 hours and 25 minutes"
+    
+     "total": {
+        "fees": "None",
+        "processing_time": "3 hours and 25 minutes"
+      }
     },
     {
       "id": 4,
+       "office": "Lipa City Permits and Licensing Office External Services",
       "service_name": "Application for Mayor’s Permit – Transfer of Ownership, for establishments with issued Mayor’s Permit for the current year",
       "image": "/assets/document_background/Application for Mayor’s Permit – Transfer of Ownership, for establishments",
       "classification": "Simple",
@@ -92,10 +109,15 @@
         { "client_step": "Pay the corresponding fee", "agency_action": "Receive payment and issue OR", "fees_to_be_paid": "P250.00 certificate fee + Transfer Fee (1% or P500 whichever is lower)", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk" },
         { "client_step": "Submit application for issuance of new Permit", "agency_action": "Print and release approved permit", "fees_to_be_paid": "None", "processing_time": "40 minutes", "person_responsible": "City Permits and Licensing Officer" }
       ],
-      "total_processing_time": "1 hour and 25 minutes"
+    
+      "total": {
+        "fees": "None",
+        "processing_time": "1 hour and 25 minutes"
+      }
     },
     {
       "id": 5,
+       "office": "Lipa City Permits and Licensing Office External Services",
       "service_name": "Application for Mayor’s Permit for Public Utility Vehicles (PUVs)",
       "image": "/assets/document_background/Application for Mayor’s Permit for Public Utility Vehicles (PUVs)",
       "classification": "Simple",
@@ -112,10 +134,15 @@
         { "client_step": "Pay the fees at the City Treasurer's Office", "agency_action": "Receive payment and issue OR", "fees_to_be_paid": "P200.00 (Permit) + P30.00 (Sticker)", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk II" },
         { "client_step": "Submit application and claim Mayor’s Permit and sticker", "agency_action": "Approve and release sticker/permit", "fees_to_be_paid": "None", "processing_time": "30 minutes", "person_responsible": "City Permits and Licensing Officer" }
       ],
-      "total_processing_time": "1 hour and 5 minutes"
+     
+        "total": {
+        "fees": "None",
+        "processing_time": "1 hour and 5 minutes"
+      }
     },
     {
       "id": 6,
+       "office": "Lipa City Permits and Licensing Office External Services",
       "service_name": "Business Permit Retirement",
       "image": "/assets/document_background/Business Permit Retirement",
       "classification": "Simple",
@@ -131,10 +158,15 @@
         { "client_step": "Pay the corresponding tax/ fees", "agency_action": "Issue Official Receipt", "fees_to_be_paid": "Based on 1993 Revised Revenue Code", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk II" },
         { "client_step": "Submit application for issuance of Certification", "agency_action": "Prepare and approve Certification of Retirement", "fees_to_be_paid": "None", "processing_time": "40 minutes", "person_responsible": "City Permits and Licensing Officer" }
       ],
-      "total_processing_time": "1 hour and 25 minutes"
+     
+       "total": {
+        "fees": "None",
+        "processing_time": "1 hour and 25 minutes"
+      }
     },
     {
       "id": 7,
+       "office": "Lipa City Permits and Licensing Office External Services",
       "service_name": "Application for Occupational Permit",
       "image": "/assets/document_background/Application for Occupational Permit",
       "classification": "Simple",
@@ -147,10 +179,15 @@
       "steps": [
         { "client_step": "Submit requirements and accomplished form", "agency_action": "Receive, approve, and release Occupational Permit", "fees_to_be_paid": "None", "processing_time": "30 minutes", "person_responsible": "City Permits and Licensing Officer" }
       ],
-      "total_processing_time": "30 minutes"
+     
+      "total": {
+        "fees": "None",
+        "processing_time": "30 minutes"
+      }
     },
     {
       "id": 8,
+       "office": "Lipa City Permits and Licensing Office External Services",
       "service_name": "Permit to Collect Service Charge",
       "image": "/assets/document_background/Permit to Collect Service Charge",
       "classification": "Simple",
@@ -164,10 +201,15 @@
         { "client_step": "Pay the corresponding fees", "agency_action": "Issue Official Receipt", "fees_to_be_paid": "P1,000 to P3,000 (New) or 1% of total collected (Renewal)", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk II" },
         { "client_step": "Return and submit application for issuance of Permit", "agency_action": "Print, approve and release Permit", "fees_to_be_paid": "None", "processing_time": "40 minutes", "person_responsible": "City Permits and Licensing Officer" }
       ],
-      "total_processing_time": "1 hour and 25 minutes"
+     
+      "total": {
+        "fees": "None",
+        "processing_time": "1 hour and 25 minutes"
+      }
     },
     {
       "id": 9,
+       "office": "Lipa City Permits and Licensing Office External Services",
       "service_name": "Application for Certification of No Business Record/ Business Retirement/ Last Mayor's Permit Issued/ Good Track Record/ Mayor's Permit on Process/ Other Certifications",
       "image": "/assets/document_background/Application for Certification of No Business Record_ Business Retirement_ Last Mayor's Permit Issued_Good Track Record_ Mayor's Permit on Process_Other Certifications",
       "classification": "Simple",
@@ -182,10 +224,15 @@
         { "client_step": "Pay the corresponding fee", "agency_action": "Issue Official Receipt", "fees_to_be_paid": "P50.00", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk II" },
         { "client_step": "Submit Official Receipt and claim certification", "agency_action": "Prepare, approve and release certification", "fees_to_be_paid": "None", "processing_time": "30 minutes", "person_responsible": "City Permits and Licensing Officer" }
       ],
-      "total_processing_time": "1 hour and 25 minutes"
+    
+       "total": {
+        "fees": "None",
+        "processing_time": "1 hour and 25 minutes"
+      }
     },
     {
       "id": 10,
+       "office": "Lipa City Permits and Licensing Office External Services",
       "service_name": "Special Mayor's Permit",
       "image": "/assets/document_background/Special Mayor's Permit",
       "classification": "Simple",
@@ -202,7 +249,11 @@
         { "client_step": "Pay the corresponding fees", "agency_action": "Issue Official Receipt", "fees_to_be_paid": "Based on Capital (P1,100 to P5,500/month)", "processing_time": "25 minutes", "person_responsible": "Revenue Collection Clerk II" },
         { "client_step": "Submit application for issuance of Certificate", "agency_action": "Record, approve and release Certificate", "fees_to_be_paid": "None", "processing_time": "40 minutes", "person_responsible": "City Permits and Licensing Officer" }
       ],
-      "total_processing_time": "1 hour and 25 minutes"
+  
+      "total": {
+        "fees": "None",
+        "processing_time": "1 hour and 25 minutes"
+      }
     }
   ]
 }

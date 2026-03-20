@@ -10,11 +10,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Ordinances passed by the Sangguniang Panlungsod – 6 copies",
-          "where_to_secure": "Sangguniang Panlungsod"
+          "source": "Sangguniang Panlungsod"
         },
         {
           "requirement": "Transmittal letter – 1 original copy",
-          "where_to_secure": "Sangguniang Panlungsod"
+          "source": "Sangguniang Panlungsod"
         }
       ],
       "steps": [
@@ -40,9 +40,9 @@
           "person_responsible": "Senior Administrative Assistant III (Lipa City Mayor’s Office)"
         }
       ],
-      "total_summary": {
-        "total_fees": "None",
-        "total_processing_time": "10 days and 10 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "10 days and 10 minutes"
       }
     }
   ]
