@@ -121,7 +121,10 @@ document.addEventListener("DOMContentLoaded", async () => {
                 showNotice.style.display = "block";
             }
 
-            const fees = matchedService.total?.fees || matchedService.total_fees;
+            const fees =
+    matchedService.total?.fees ||
+    matchedService.total_fees_to_be_paid ||
+    "N/A";
             const time = matchedService.total?.processing_time || matchedService.total_processing_time;
 
             totalFees.textContent = fees;
