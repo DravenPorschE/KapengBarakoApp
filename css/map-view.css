@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'RussoOne';
     src: url('/fonts/RussoOne-Regular.ttf') format('truetype');
@@ -16,9 +15,14 @@
     src: url('/fonts/helvetica-light.ttf') format('truetype');
 }
 
-@keyframes slideUp{
-    from{transform: translateY(50px); opacity:0;}
-    to{transform: translateY(0); opacity:1;}
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to   { transform: translateY(0);    opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 :root {
@@ -37,6 +41,7 @@
     --gap:          56px;
     --radius:       12px;
 }
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -48,12 +53,12 @@ html, body {
     background: var(--bg);
     color: var(--text-dark);
     min-height: 100vh;
-    /* overflow-x: hidden; */
-
-    
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
+
+/* ─── NAV: UNTOUCHED ────────────────────────────────────────────────────── */
 
 #navigation-bar {
     position: sticky;
@@ -68,7 +73,6 @@ html, body {
     border-bottom: 2px solid var(--gold);
     box-shadow: 0 4px 32px rgba(138, 0, 0, 0.32);
 }
-
 
 .back-btn {
     display: flex;
@@ -94,13 +98,8 @@ html, body {
     color: var(--gold);
     transform: translateX(-2px);
 }
-.back-btn svg {
-    transition: transform 0.2s;
-}
-.back-btn:hover svg {
-    transform: translateX(-3px);
-}
-
+.back-btn svg { transition: transform 0.2s; }
+.back-btn:hover svg { transform: translateX(-3px); }
 
 .nav-divider {
     width: 1px;
@@ -138,22 +137,250 @@ html, body {
     line-height: 1.2;
 }
 
+/* ─── LAYOUT ────────────────────────────────────────────────────────────── */
+
 .main-content {
     display: flex;
     flex-direction: column;
     height: calc(100vh - var(--nav-h));
+    overflow: hidden;
 }
 
 .map-view-container {
-    flex: 1; /* fills remaining space */
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 300px;
 }
-.map-view svg  {
-    height: 400px;
+
+/* ─── MAP AREA ───────────────────────────────────────────────────────────── */
+
+.map-view {
+    position: relative;
+    max-height: calc(100vh - var(--nav-h));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edeae4;
+    background-image:
+        linear-gradient(rgba(138,0,0,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(138,0,0,0.03) 1px, transparent 1px);
+    background-size: 32px 32px;
+    overflow: hidden;
+}
+
+.map-view svg {
+    height: 100%;
     width: auto;
+    z-index: 1;
 }
 
-.map-buttons {
-    height: 80px; /* or whatever you want */
+/* ─── MAP CONTROLS ───────────────────────────────────────────────────────── */
 
-    background-color: red;
+.map-controls-container {
+    position: absolute;
+    bottom: 28px;
+    left: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 50;
+    animation: fadeIn 0.4s ease both;
+}
+
+.map-controls-container button {
+    height: 44px;
+    padding: 0 14px;
+    min-width: 44px;
+    border-radius: 10px;
+    border: 1.5px solid var(--gold-border);
+    background: var(--card-bg);
+    color: var(--red-mid);
+    font-family: 'RussoOne', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    box-shadow: 0 2px 12px rgba(138,0,0,0.10);
+    transition: background 0.18s, border-color 0.18s, color 0.18s, transform 0.15s;
+}
+
+.map-controls-container .zoom-in,
+.map-controls-container .zoom-out {
+    width: 44px;
+    padding: 0;
+    font-size: 22px;
+    font-family: inherit;
+}
+
+.map-controls-container button:hover {
+    background: var(--red-mid);
+    border-color: var(--red-mid);
+    color: var(--gold-light);
+    transform: scale(1.07);
+}
+
+.map-controls-container button:active {
+    transform: scale(0.96);
+}
+
+/* Subtle separator between zoom and floor controls */
+.map-controls-container .floor-up {
+    margin-top: 6px;
+}
+
+/* ── Floor display badge — clearly not a button ── */
+#floor-display {
+    margin-top: 4px;
+    padding: 6px 12px;
+    background: rgba(26, 17, 8, 0.72);
+    color: var(--gold-light);
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid var(--gold-border);
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+}
+
+/* ─── INFORMATION SIDEBAR ────────────────────────────────────────────────── */
+
+.map-information-container {
+    display: flex;
+    flex-direction: column;
+    background: var(--card-bg);
+    border-left: 3px solid var(--gold);
+    box-shadow: -4px 0 24px rgba(138,0,0,0.08);
+    overflow-y: auto;
+    animation: slideUp 0.4s ease both;
+}
+
+/* ── Department header ── */
+
+.map-department-name {
+    font-family: 'RussoOne', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: var(--gold-light);
+    background: linear-gradient(105deg, #550000 0%, var(--red-mid) 100%);
+    padding: 18px 16px;
+    border-bottom: 2px solid var(--gold-border);
+}
+
+/* ── Info rows ── */
+
+.map-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    flex: 1;
+    padding: 0 0 16px;
+}
+
+.map-info-row {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 14px 20px;
+    border-bottom: 1px solid rgba(200, 169, 110, 0.15);
+}
+
+.map-info-label {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.30em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin: 0;
+}
+
+.map-info-data {
+    font-family: 'RussoOne', sans-serif;
+    font-size: 15px;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+.map-info-data.no-data {
+    color: var(--text-muted);
+    font-style: italic;
+    font-size: 13px;
+}
+
+/* ── Action button ── */
+
+.action-location {
+    margin: 20px 20px 4px;
+    padding: 13px 16px;
+    background: linear-gradient(105deg, #550000 0%, #b80e0e 100%);
+    color: var(--gold-light);
+    font-family: 'RussoOne', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    border: 1.5px solid var(--gold-border);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.18s, transform 0.15s, border-color 0.18s;
+}
+
+.action-location:hover {
+    opacity: 0.88;
+    border-color: var(--gold);
+    transform: translateY(-1px);
+}
+
+.action-location:active {
+    transform: translateY(0) scale(0.98);
+}
+
+/* ─── SERVICES LIST ──────────────────────────────────────────────────────── */
+
+.services-list {
+    list-style: none;
+    margin: 0;
+    padding: 10px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.service-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 12px;
+    background: var(--gold-dim);
+    border: 1px solid var(--gold-border);
+    border-left: 3px solid var(--gold);
+    border-radius: 6px;
+    font-family: 'Helvetica-light', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--text-mid);
+    transition: background 0.18s, border-color 0.18s, color 0.18s;
+}
+
+.service-item::before {
+    content: '';
+    flex-shrink: 0;
+    width: 6px;
+    height: 6px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background: var(--gold);
+}
+
+.service-item:hover {
+    background: rgba(200, 169, 110, 0.22);
+    border-left-color: var(--red-mid);
+    color: var(--text-dark);
 }

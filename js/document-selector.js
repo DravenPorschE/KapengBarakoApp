@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const backBtn = document.querySelector(".back-btn");
 
+    // console.log("PRINT: " + encodeURIComponent("Application for Mayor’s Clearance.jpg"));
+
     // Replace single quotes with underscores
     const normalizedVal = val ? val.replace(/'/g, "_") : "";
 
@@ -86,9 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 container.appendChild(card);
 
                 card.addEventListener("click", () => {
-                    const serviceName = service.service_name
-                        .trim()
-                        .replace(/'/g,"_");
+                    const serviceName = service.service_name;
 
                     window.location.href=`/pages/dynamic-service.html?search=${encodeURIComponent(serviceName)}`
                 

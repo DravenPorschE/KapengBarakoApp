@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const zoomIn = document.querySelector(".zoomIn");
     const zoomOut = document.querySelector(".zoomOut");
 
-    const wrapper = document.querySelector('.map-wrapper');
+    const wrapper = document.querySelector('.map-view');
     const content = document.querySelector('.map-size');
 
     // 1. "Home" coordinates (where the map sits when NOT being dragged)
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     let startY = 0;
 
     let departmentName = "";
-    let currentDepartment = "";
+    // let currentDepartment = "";
 
     const jsonFiles = [
         "/data/Lipa City Environment and Natural Resources Office External Services.json",
@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         );
 
         console.log(matchedService);
-        currentDepartment = matchedService.department;
+        // currentDepartment = matchedService.department;
 
         if (matchedService) {
             // Set header info
