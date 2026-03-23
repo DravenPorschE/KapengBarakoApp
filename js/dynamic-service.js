@@ -121,7 +121,10 @@ document.addEventListener("DOMContentLoaded", async () => {
                 showNotice.style.display = "block";
             }
 
-            const fees = matchedService.total?.fees || matchedService.total_fees;
+            const fees =
+    matchedService.total?.fees ||
+    matchedService.total_fees_to_be_paid ||
+    "N/A";
             const time = matchedService.total?.processing_time || matchedService.total_processing_time;
 
             totalFees.textContent = fees;
@@ -135,9 +138,10 @@ document.addEventListener("DOMContentLoaded", async () => {
                 totalTime.style.fontSize = "12px";
             }
             
-            const totalClientStep = (matchedService.steps || []).filter(
-                step => step.client_step && step.client_step !== "N/A"
-            );
+            const totalClientStep = (matchedService.steps || []).filter(step => {
+    const clientStep = step.client_step || step.client_steps;
+    return clientStep && clientStep !== "N/A";
+});
 
             totalSteps.textContent = totalClientStep.length;
 
@@ -208,11 +212,13 @@ document.addEventListener("DOMContentLoaded", async () => {
             let currentStep = 0;
 
             (matchedService.steps || []).forEach((step, index) => {
-                const isClientStep = step.client_step !== "N/A";
+    const clientStepValue = step.client_step || step.client_steps || "";
+    const feeValue = step.fees || step.fees_to_be_paid || "None";
+    const isClientStep = clientStepValue && clientStepValue !== "N/A";
 
-                if (isClientStep) {
-                    currentStep++;
-                    let agencyStepNum = 0;
+    if (isClientStep) {
+        currentStep++;
+        let agencyStepNum = 0;
 
                     // ===== Process Container =====
                     const processContainer = document.createElement("div");
@@ -238,9 +244,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                     const clientStepInfo = document.createElement("p");
                     clientStepInfo.className = "client-step-info";
-                    clientStepInfo.textContent = step.client_step
-                        .replace(/^\d+\.\s*/, "")
-                        .trim();
+                    clientStepInfo.textContent = clientStepValue
+    .replace(/^\d+[-.]?\d*\.\s*/, "")
+    .trim();
 
                     stepContainer.appendChild(stepNumber);
                     stepContainer.appendChild(clientStepInfo);

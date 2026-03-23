@@ -1,448 +1,476 @@
-{
-  "department": "Lipa City Personnel Office",
-  "internal_services": [
-    {
-      "id": 1,
-      "service_name": "Request for HRDC Confirmation",
-      "image": "/assets/document_background/Request for HRDC Confirmation",
-      "classification": "Simple",
-      "type_of_transaction": "G2G – Government to Government",
-      "who_may_avail": "All city government employees",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Invitation (1 original copy)",
-          "where_to_secure": "Sponsoring agency"
-        },
-        {
-          "requirement": "Program of Activities (1 original copy)",
-          "where_to_secure": "Sponsoring agency"
+  {
+    "department": "Lipa City Personnel Office",
+    "internal_services": [
+      {
+        "id": 1,
+      "office": "Lipa City Personnel Office Internal Services",
+        "service_name": "Request for HRDC Confirmation",
+        "image": "/assets/document_background/Request for HRDC Confirmation",
+        "classification": "Simple",
+        "type_of_transaction": "G2G – Government to Government",
+        "who_may_avail": "All city government employees",
+        "checklist_of_requirements": [
+          {
+            "requirement": "Invitation (1 original copy)",
+            "source": "Sponsoring agency"
+          },
+          {
+            "requirement": "Program of Activities (1 original copy)",
+            "source": "Sponsoring agency"
+          }
+        ],
+        "steps": [
+          {
+            "client_step": "1. Submit invitation and program of activities to the Lipa City Personnel Office",
+            "agency_action": "1.1. Receive letter request from the department",
+            "fees_to_be_paid": "None",
+            "processing_time": "10 minutes",
+            "person_responsible": "Administrative Officer II (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit invitation and program of activities to the Lipa City Personnel Office",
+            "agency_action": "1.2. Conduct initial evaluation of proposal and indorses to HRDC for action",
+            "fees_to_be_paid": "None",
+            "processing_time": "15 minutes",
+            "person_responsible": "Administrative Assistant II (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit invitation and program of activities to the Lipa City Personnel Office",
+            "agency_action": "1.3. HRDC deliberation",
+            "fees_to_be_paid": "None",
+            "processing_time": "15 minutes",
+            "person_responsible": "HRD Committee"
+          },
+          {
+            "client_step": "1. Submit invitation and program of activities to the Lipa City Personnel Office",
+            "agency_action": "1.4. Prepare resolution and Minutes of the Meeting",
+            "fees_to_be_paid": "None",
+            "processing_time": "30 minutes",
+            "person_responsible": "HRDC Secretariat / Administrative Officer II / Administrative Assistant II (Lipa City Personnel Office)"
+          }
+        ],
+        "total": {
+        "fees": "None",
+        "processing_time": "1 hour and 10 minutes"
         }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit invitation and program of activities to the Lipa City Personnel Office",
-          "agency_action": "1.1. Receive letter request from the department",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Administrative Officer II (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit invitation and program of activities to the Lipa City Personnel Office",
-          "agency_action": "1.2. Conduct initial evaluation of proposal and indorses to HRDC for action",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Administrative Assistant II (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit invitation and program of activities to the Lipa City Personnel Office",
-          "agency_action": "1.3. HRDC deliberation",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "HRD Committee"
-        },
-        {
-          "client_step": "1. Submit invitation and program of activities to the Lipa City Personnel Office",
-          "agency_action": "1.4. Prepare resolution and Minutes of the Meeting",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "HRDC Secretariat / Administrative Officer II / Administrative Assistant II (Lipa City Personnel Office)"
+      },
+      {
+        "id": 2,
+        "office": "Lipa City Personnel Office Internal Services",
+        "service_name": "Issuance of Name Tag/ ID",
+        "image": "/assets/document_background/Issuance of Name Tag_ID",
+        "classification": "Simple",
+        "type_of_transaction": "G2G – Government to Government",
+        "who_may_avail": "All city government employees",
+        "checklist_of_requirements": [
+          {
+            "requirement": "None",
+            "source": "None"
+          }
+        ],
+        "steps": [
+          {
+            "client_step": "1. Fill up information sheet",
+            "agency_action": "1. Issue Information Sheet",
+            "fees_to_be_paid": "None",
+            "processing_time": "2 minutes",
+            "person_responsible": "Administrative Assistant V / Administrative Officer II (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "2. Photo capture",
+            "agency_action": "2. Photo capturing",
+            "fees_to_be_paid": "None",
+            "processing_time": "2 minutes",
+            "person_responsible": "Administrative Assistant V / Administrative Officer II (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "2. Photo capture",
+            "agency_action": "2.1. Encode and print ID/ Name Tag",
+            "fees_to_be_paid": "None",
+            "processing_time": "20 minutes",
+            "person_responsible": "Administrative Assistant V (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "3. Claim ID/ name tag",
+            "agency_action": "3. Issue ID/ Name Tag",
+            "fees_to_be_paid": "None",
+            "processing_time": "1 minute",
+            "person_responsible": "Administrative Assistant V / Administrative Officer II (Lipa City Personnel Office)"
+          }
+        ],
+        "total": {
+        "fees": "None",
+        "processing_time": "25 minutes"
         }
-      ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 hour and 10 minutes"
-    },
-    {
-      "id": 2,
-      "service_name": "Issuance of Name Tag/ ID",
-      "image": "/assets/document_background/Issuance of Name Tag_ID",
-      "classification": "Simple",
-      "type_of_transaction": "G2G – Government to Government",
-      "who_may_avail": "All city government employees",
-      "checklist_of_requirements": [
-        {
-          "requirement": "None",
-          "where_to_secure": "None"
+      },
+      {
+        "id": 3,
+        "office": "Lipa City Personnel Office Internal Services",
+        "service_name": "Processing of Employees’ Leave Application",
+        "image": "/assets/document_background/Processing of Employee’s Leave Application",
+        "classification": "Simple",
+        "type_of_transaction": "G2G – Government to Government",
+        "who_may_avail": "All city government employees",
+        "checklist_of_requirements": [
+          {
+            "requirement": "Leave application approved by the head of office (1 original copy)",
+            "source": "Concerned department or Lipa City Personnel Office"
+          },
+          {
+            "requirement": "Medical certificate (if sick leave exceeds 5 days) – 1 original copy, 1 photocopy",
+            "source": "Private doctor or medical institution where the employee was hospitalized"
+          }
+        ],
+        "steps": [
+          {
+            "client_step": "1. Fill up the Application for Leave form and have it approved by the Head of Office",
+            "agency_action": "1.1. Accept/ receive employee’s leave application duly approved by the head of office",
+            "fees_to_be_paid": "None",
+            "processing_time": "2 minutes",
+            "person_responsible": "Administrative Officer V (Lipa City Personnel Officer)"
+          },
+          {
+            "client_step": "1. Fill up the Application for Leave form and have it approved by the Head of Office",
+            "agency_action": "1.2. Process leave application",
+            "fees_to_be_paid": "None",
+            "processing_time": "5 minutes",
+            "person_responsible": "Administrative Aide II (Lipa City Personnel Officer)"
+          },
+          {
+            "client_step": "1. Fill up the Application for Leave form and have it approved by the Head of Office",
+            "agency_action": "1.3. Sign documents",
+            "fees_to_be_paid": "None",
+            "processing_time": "2 minutes",
+            "person_responsible": "City Personnel Officer (Lipa City Personnel Officer)"
+          },
+          {
+            "client_step": "1. Fill up the Application for Leave form and have it approved by the Head of Office",
+            "agency_action": "1.4. Indorse to the Office of the City Administrator for final signature/ action",
+            "fees_to_be_paid": "None",
+            "processing_time": "30 minutes",
+            "person_responsible": "Administrative Aide II (Lipa City Personnel Officer)"
+          },
+          {
+            "client_step": "1. Fill up the Application for Leave form and have it approved by the Head of Office",
+            "agency_action": "1.5. Release all approved leave application",
+            "fees_to_be_paid": "None",
+            "processing_time": "1 minute",
+            "person_responsible": "Administrative Officer V (Lipa City Personnel Officer)"
+          }
+        ],
+        "total": {
+        "fees": "None",
+        "processing_time": "40 minutes"
         }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Fill up information sheet",
-          "agency_action": "1. Issue Information Sheet",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Assistant V / Administrative Officer II (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "2. Photo capture",
-          "agency_action": "2. Photo capturing",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Assistant V / Administrative Officer II (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "2. Photo capture",
-          "agency_action": "2.1. Encode and print ID/ Name Tag",
-          "fees_to_be_paid": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Administrative Assistant V (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "3. Claim ID/ name tag",
-          "agency_action": "3. Issue ID/ Name Tag",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Administrative Assistant V / Administrative Officer II (Lipa City Personnel Office)"
+      },
+      {
+        "id": 4,
+        "office": "Lipa City Personnel Office Internal Services",
+        "service_name": "Certifying Documents",
+        "image": "/assets/document_background/Certifying Documents",
+        "classification": "Simple",
+        "type_of_transaction": "G2G – Government to Government",
+        "who_may_avail": "All city government employees",
+        "checklist_of_requirements": [
+          {
+            "requirement": "Original and photocopied documents",
+            "source": "Requesting party/ Applicant"
+          }
+        ],
+        "steps": [
+          {
+            "client_step": "1. Submit original and photocopies of documents for authentication",
+            "agency_action": "1.1. Authenticate photocopied documents",
+            "fees_to_be_paid": "None",
+            "processing_time": "1 minute",
+            "person_responsible": "Supervising Administrative Officer (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit original and photocopies of documents for authentication",
+            "agency_action": "1.2. Certify/ issue/ release Certified true copy",
+            "fees_to_be_paid": "None",
+            "processing_time": "1 minute",
+            "person_responsible": "Supervising Administrative Officer (Lipa City Personnel Office)"
+          }
+        ],
+        "total": {
+        "fees": "None",
+        "processing_time": "2 minutes"
         }
-      ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "25 minutes"
-    },
-    {
-      "id": 3,
-      "service_name": "Processing of Employees’ Leave Application",
-      "image": "/assets/document_background/Processing of Employee’s Leave Application",
-      "classification": "Simple",
-      "type_of_transaction": "G2G – Government to Government",
-      "who_may_avail": "All city government employees",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Leave application approved by the head of office (1 original copy)",
-          "where_to_secure": "Concerned department or Lipa City Personnel Office"
-        },
-        {
-          "requirement": "Medical certificate (if sick leave exceeds 5 days) – 1 original copy, 1 photocopy",
-          "where_to_secure": "Private doctor or medical institution where the employee was hospitalized"
+      },
+      {
+        "id": 5,
+        "office": "Lipa City Personnel Office Internal Services",
+        "service_name": "Processing of Employees’ Rehabilitation Privilege Leave",
+        "image": "/assets/document_background/Processing of Employee’s Rehabilitation Privilege Leave",
+        "classification": "Simple",
+        "type_of_transaction": "G2G – Government to Government",
+        "who_may_avail": "All city government employees",
+        "checklist_of_requirements": [
+          {
+            "requirement": "Letter request (1 original copy)",
+            "source": "Requesting party/ applicant"
+          },
+          {
+            "requirement": "Police report (1 photocopy)",
+            "source": "Lipa City PNP or any police headquarters"
+          },
+          {
+            "requirement": "Medical certificate (1 photocopy)",
+            "source": "Private doctor or private or public hospital"
+          },
+          {
+            "requirement": "Approved sick leave application form (1 original copy)",
+            "source": "Lipa City Personnel Office"
+          }
+        ],
+        "steps": [
+          {
+            "client_step": "1. Submit requirements",
+            "agency_action": "1.1. Accept/ request for availment of rehabilitation privilege leave and cancellation of sick leave filed",
+            "fees_to_be_paid": "None",
+            "processing_time": "1 minute",
+            "person_responsible": "Administrative Officer V (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit requirements",
+            "agency_action": "1.2. Evaluate application and prepare indorsement/ recommendation as a result of evaluation made",
+            "fees_to_be_paid": "None",
+            "processing_time": "30 minutes",
+            "person_responsible": "Administrative Officer V / Supervising Administrative Officer (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit requirements",
+            "agency_action": "1.3. Inform employee of action/ decision",
+            "fees_to_be_paid": "None",
+            "processing_time": "5 minutes",
+            "person_responsible": "Supervising Administrative Officer (Lipa City Personnel Office)"
+          }
+        ],
+        "total": {
+        "fees": "None",
+        "processing_time": "36 minutes"
         }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Fill up the Application for Leave form and have it approved by the Head of Office",
-          "agency_action": "1.1. Accept/ receive employee’s leave application duly approved by the head of office",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Officer V (Lipa City Personnel Officer)"
-        },
-        {
-          "client_step": "1. Fill up the Application for Leave form and have it approved by the Head of Office",
-          "agency_action": "1.2. Process leave application",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Aide II (Lipa City Personnel Officer)"
-        },
-        {
-          "client_step": "1. Fill up the Application for Leave form and have it approved by the Head of Office",
-          "agency_action": "1.3. Sign documents",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "City Personnel Officer (Lipa City Personnel Officer)"
-        },
-        {
-          "client_step": "1. Fill up the Application for Leave form and have it approved by the Head of Office",
-          "agency_action": "1.4. Indorse to the Office of the City Administrator for final signature/ action",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Administrative Aide II (Lipa City Personnel Officer)"
-        },
-        {
-          "client_step": "1. Fill up the Application for Leave form and have it approved by the Head of Office",
-          "agency_action": "1.5. Release all approved leave application",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Administrative Officer V (Lipa City Personnel Officer)"
+      },
+      {
+        "id": 6,
+        "office": "Lipa City Personnel Office ",
+        "service_name": "Issuance of Authority to Travel (Optional)",
+        "image": "/assets/document_background/Issuance of Authority to Travel (Optional)",
+        "classification": "Simple",
+        "type_of_transaction": "G2G – Government to Government",
+        "who_may_avail": "All city government employees",
+        "checklist_of_requirements": [
+          {
+            "requirement": "Letter (1 original copy)",
+            "source": "Requesting party/ applicant"
+          },
+          {
+            "requirement": "Approved leave (1 original copy)",
+            "source": "Lipa City Personnel Office"
+          }
+        ],
+        "steps": [
+          {
+            "client_step": "1. Submit letter and the approved leave form",
+            "agency_action": "1.1. Accept letter request and duly approved leave form",
+            "fees_to_be_paid": "None",
+            "processing_time": "2 minutes",
+            "person_responsible": "Administrative Officer V (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit letter and the approved leave form",
+            "agency_action": "1.2. Prepare requested document (Authority to Travel)",
+            "fees_to_be_paid": "None",
+            "processing_time": "2 minutes",
+            "person_responsible": "Administrative Aide IV (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit letter and the approved leave form",
+            "agency_action": "1.3. Indorse documents to the City Administrator for initial and indorsement to the City Mayor",
+            "fees_to_be_paid": "None",
+            "processing_time": "3 minutes",
+            "person_responsible": "Administrative Aide IV (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "2. Receive approved Authority to Travel",
+            "agency_action": "2. Release document",
+            "fees_to_be_paid": "None",
+            "processing_time": "2 minutes",
+            "person_responsible": "Administrative Assistant II (Lipa City Personnel Office)"
+          }
+        ],
+        "total": {
+        "fees": "None",
+        "processing_time": "9 minutes"
         }
-      ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "40 minutes"
-    },
-    {
-      "id": 4,
-      "service_name": "Certifying Documents",
-      "image": "/assets/document_background/Certifying Documents",
-      "classification": "Simple",
-      "type_of_transaction": "G2G – Government to Government",
-      "who_may_avail": "All city government employees",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Original and photocopied documents",
-          "where_to_secure": "Requesting party/ Applicant"
+      },
+      {
+        "id": 7,
+        "office": "Lipa City Personnel Office Internal Services",
+        "service_name": "Attending to Employees’ Requests",
+        "image": "/assets/document_background/Attending to Employee’s Requests",
+        "classification": "Simple",
+        "type_of_transaction": "G2G – Government to Government",
+        "who_may_avail": "All city government employees",
+        "checklist_of_requirements": [
+          {
+            "requirement": "Request letter/ requisition slip",
+            "source": "Requesting party/ applicant"
+          }
+        ],
+        "steps": [
+          {
+            "client_step": "1. Submit letter of request to the Lipa City Personnel Office",
+            "agency_action": "1. Prepare recommendation of action regarding exemption from dress code, attendance, or availment of flexible time",
+            "fees_to_be_paid": "None",
+            "processing_time": "30 minutes",
+            "person_responsible": "Supervising Administrative Officer / Zoning Inspector I (Lipa City Personnel Office)"
+          }
+        ],
+        "fees": "None",
+        "processing_time": "30 minutes"
+      },
+      {
+        "id": 8,
+        "office": "Lipa City Personnel Office Internal Services",
+        "service_name": "Availing of Compensatory Overtime Services",
+        "image": "/assets/document_background/Availing of Compensatory Overtime Services",
+        "classification": "Simple",
+        "type_of_transaction": "G2G – Government to Government",
+        "who_may_avail": "All city government employees",
+        "checklist_of_requirements": [
+          {
+            "requirement": "Request letter signed by the Department Head",
+            "source": "Concerned department"
+          }
+        ],
+        "steps": [
+          {
+            "client_step": "1. Submit letter of intent to avail of COC",
+            "agency_action": "1.1. Prepare evaluation/ indorsement of COC availment of employees with overtime services",
+            "fees_to_be_paid": "None",
+            "processing_time": "10 minutes",
+            "person_responsible": "Supervising Administrative Officer / Zoning Inspector I (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit letter of intent to avail of COC",
+            "agency_action": "1.2. Sign indorsement",
+            "fees_to_be_paid": "None",
+            "processing_time": "1 minute",
+            "person_responsible": "City Personnel Officer (Lipa City Personnel Office)"
+          }
+        ],
+        "total": {
+        "fees": "None",
+        "processing_time": "11 minutes"
         }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit original and photocopies of documents for authentication",
-          "agency_action": "1.1. Authenticate photocopied documents",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Supervising Administrative Officer (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit original and photocopies of documents for authentication",
-          "agency_action": "1.2. Certify/ issue/ release Certified true copy",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Supervising Administrative Officer (Lipa City Personnel Office)"
+      },
+      {
+        "id": 9,
+        "office": "Lipa City Personnel Office Internal Services",
+        "service_name": "Request for Service Record",
+        "image": "/assets/document_background/Request for Service Record",
+        "classification": "Simple",
+        "type_of_transaction": "G2G – Government to Government",
+        "who_may_avail": "City government employees",
+        "checklist_of_requirements": [
+          {
+            "requirement": "Letter of request (1 original copy), phone call, or text message",
+            "source": "Requesting party/ applicant"
+          }
+        ],
+        "steps": [
+          {
+            "client_step": "1. Submit a letter requesting for service record/ make phone call/ send text message",
+            "agency_action": "1.1. Receive / acknowledge the request",
+            "fees_to_be_paid": "None",
+            "processing_time": "5 minutes",
+            "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit a letter requesting for service record/ make phone call/ send text message",
+            "agency_action": "1.2. Prepare Service Record",
+            "fees_to_be_paid": "None",
+            "processing_time": "2 hours",
+            "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit a letter requesting for service record/ make phone call/ send text message",
+            "agency_action": "1.3. Sign the Service Record",
+            "fees_to_be_paid": "None",
+            "processing_time": "5 minutes",
+            "person_responsible": "City Personnel Officer (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "2. Claim the Service Record",
+            "agency_action": "2. Release the Service Record",
+            "fees_to_be_paid": "None",
+            "processing_time": "2 minutes",
+            "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
+          }
+        ],
+        "total": {
+        "fees": "None",
+        "processing_time": "2 hours and 12 minutes"
         }
-      ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "2 minutes"
-    },
-    {
-      "id": 5,
-      "service_name": "Processing of Employees’ Rehabilitation Privilege Leave",
-      "image": "/assets/document_background/Processing of Employee’s Rehabilitation Privilege Leave",
-      "classification": "Simple",
-      "type_of_transaction": "G2G – Government to Government",
-      "who_may_avail": "All city government employees",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Letter request (1 original copy)",
-          "where_to_secure": "Requesting party/ applicant"
-        },
-        {
-          "requirement": "Police report (1 photocopy)",
-          "where_to_secure": "Lipa City PNP or any police headquarters"
-        },
-        {
-          "requirement": "Medical certificate (1 photocopy)",
-          "where_to_secure": "Private doctor or private or public hospital"
-        },
-        {
-          "requirement": "Approved sick leave application form (1 original copy)",
-          "where_to_secure": "Lipa City Personnel Office"
+      },
+      {
+        "id": 10,
+        "office": "Lipa City Personnel Office Internal Services",
+        "service_name": "Request for Certificate of Employment",
+        "image": "/assets/document_background/Request for Certificate of Employment",
+        "classification": "Simple",
+        "type_of_transaction": "G2G – Government to Government",
+        "who_may_avail": "City government employees",
+        "checklist_of_requirements": [
+          {
+            "requirement": "Request form (1 original copy), phone call, or text message",
+            "source": "Lipa City Personnel Office / Requesting party"
+          }
+        ],
+        "steps": [
+          {
+            "client_step": "1. Submit a letter requesting for Certificate of Employment/ make phone call/ send text message",
+            "agency_action": "1.1. Receive / acknowledge the request",
+            "fees_to_be_paid": "None",
+            "processing_time": "5 minutes",
+            "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit a letter requesting for Certificate of Employment/ make phone call/ send text message",
+            "agency_action": "1.2. Prepare Certificate of Employment",
+            "fees_to_be_paid": "None",
+            "processing_time": "4 hours",
+            "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit a letter requesting for Certificate of Employment/ make phone call/ send text message",
+            "agency_action": "1.3. Sign the Certificate of Employment",
+            "fees_to_be_paid": "None",
+            "processing_time": "5 minutes",
+            "person_responsible": "City Personnel Officer (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "1. Submit a letter requesting for Certificate of Employment/ make phone call/ send text message",
+            "agency_action": "1.4. Put a seal of the city to the document",
+            "fees_to_be_paid": "None",
+            "processing_time": "5 minutes",
+            "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
+          },
+          {
+            "client_step": "2. Claim the Certificate of Employment",
+            "agency_action": "2. Release the Certificate of Employment",
+            "fees_to_be_paid": "None",
+            "processing_time": "5 minutes",
+            "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
+          }
+        ],
+        "total": {
+        "fees": "None",
+        "processing_time": "4 hours and 20 minutes"
         }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit requirements",
-          "agency_action": "1.1. Accept/ request for availment of rehabilitation privilege leave and cancellation of sick leave filed",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Administrative Officer V (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit requirements",
-          "agency_action": "1.2. Evaluate application and prepare indorsement/ recommendation as a result of evaluation made",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Administrative Officer V / Supervising Administrative Officer (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit requirements",
-          "agency_action": "1.3. Inform employee of action/ decision",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Supervising Administrative Officer (Lipa City Personnel Office)"
-        }
-      ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "36 minutes"
-    },
-    {
-      "id": 6,
-      "service_name": "Issuance of Authority to Travel (Optional)",
-      "image": "/assets/document_background/Issuance of Authority to Travel (Optional)",
-      "classification": "Simple",
-      "type_of_transaction": "G2G – Government to Government",
-      "who_may_avail": "All city government employees",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Letter (1 original copy)",
-          "where_to_secure": "Requesting party/ applicant"
-        },
-        {
-          "requirement": "Approved leave (1 original copy)",
-          "where_to_secure": "Lipa City Personnel Office"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit letter and the approved leave form",
-          "agency_action": "1.1. Accept letter request and duly approved leave form",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Officer V (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit letter and the approved leave form",
-          "agency_action": "1.2. Prepare requested document (Authority to Travel)",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Aide IV (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit letter and the approved leave form",
-          "agency_action": "1.3. Indorse documents to the City Administrator for initial and indorsement to the City Mayor",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Administrative Aide IV (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "2. Receive approved Authority to Travel",
-          "agency_action": "2. Release document",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Assistant II (Lipa City Personnel Office)"
-        }
-      ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "9 minutes"
-    },
-    {
-      "id": 7,
-      "service_name": "Attending to Employees’ Requests",
-      "image": "/assets/document_background/Attending to Employee’s Requests",
-      "classification": "Simple",
-      "type_of_transaction": "G2G – Government to Government",
-      "who_may_avail": "All city government employees",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Request letter/ requisition slip",
-          "where_to_secure": "Requesting party/ applicant"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit letter of request to the Lipa City Personnel Office",
-          "agency_action": "1. Prepare recommendation of action regarding exemption from dress code, attendance, or availment of flexible time",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Supervising Administrative Officer / Zoning Inspector I (Lipa City Personnel Office)"
-        }
-      ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "30 minutes"
-    },
-    {
-      "id": 8,
-      "service_name": "Availing of Compensatory Overtime Services",
-      "image": "/assets/document_background/Availing of Compensatory Overtime Services",
-      "classification": "Simple",
-      "type_of_transaction": "G2G – Government to Government",
-      "who_may_avail": "All city government employees",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Request letter signed by the Department Head",
-          "where_to_secure": "Concerned department"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit letter of intent to avail of COC",
-          "agency_action": "1.1. Prepare evaluation/ indorsement of COC availment of employees with overtime services",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Supervising Administrative Officer / Zoning Inspector I (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit letter of intent to avail of COC",
-          "agency_action": "1.2. Sign indorsement",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "City Personnel Officer (Lipa City Personnel Office)"
-        }
-      ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "11 minutes"
-    },
-    {
-      "id": 9,
-      "service_name": "Request for Service Record",
-      "image": "/assets/document_background/Request for Service Record",
-      "classification": "Simple",
-      "type_of_transaction": "G2G – Government to Government",
-      "who_may_avail": "City government employees",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Letter of request (1 original copy), phone call, or text message",
-          "where_to_secure": "Requesting party/ applicant"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit a letter requesting for service record/ make phone call/ send text message",
-          "agency_action": "1.1. Receive / acknowledge the request",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit a letter requesting for service record/ make phone call/ send text message",
-          "agency_action": "1.2. Prepare Service Record",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 hours",
-          "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit a letter requesting for service record/ make phone call/ send text message",
-          "agency_action": "1.3. Sign the Service Record",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "City Personnel Officer (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "2. Claim the Service Record",
-          "agency_action": "2. Release the Service Record",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
-        }
-      ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "2 hours and 12 minutes"
-    },
-    {
-      "id": 10,
-      "service_name": "Request for Certificate of Employment",
-      "image": "/assets/document_background/Request for Certificate of Employment",
-      "classification": "Simple",
-      "type_of_transaction": "G2G – Government to Government",
-      "who_may_avail": "City government employees",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Request form (1 original copy), phone call, or text message",
-          "where_to_secure": "Lipa City Personnel Office / Requesting party"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit a letter requesting for Certificate of Employment/ make phone call/ send text message",
-          "agency_action": "1.1. Receive / acknowledge the request",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit a letter requesting for Certificate of Employment/ make phone call/ send text message",
-          "agency_action": "1.2. Prepare Certificate of Employment",
-          "fees_to_be_paid": "None",
-          "processing_time": "4 hours",
-          "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit a letter requesting for Certificate of Employment/ make phone call/ send text message",
-          "agency_action": "1.3. Sign the Certificate of Employment",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "City Personnel Officer (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit a letter requesting for Certificate of Employment/ make phone call/ send text message",
-          "agency_action": "1.4. Put a seal of the city to the document",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "2. Claim the Certificate of Employment",
-          "agency_action": "2. Release the Certificate of Employment",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Assistant IV (Lipa City Personnel Office)"
-        }
-      ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "4 hours and 20 minutes"
-    }
-  ]
-}
+      }
+    ]
+  }
 

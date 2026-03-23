@@ -61,7 +61,11 @@
           "responsible": "Admin Aide IV"
         }
       ],
-      "total_processing_time": "3 hours"
+
+    "total": {
+        "fees": "None",  
+        "processing_time": "3hrs"
+      }
     },
     {
       "id": 2,
@@ -86,7 +90,10 @@
         { "client_step": "3. Return to obtain Order of Payment", "agency_action": "Prepare, review, and approve Order of Payment", "fees": "None", "processing_time": "3 days 6 minutes", "responsible": "Engineer IV, City Engineer" },
         { "client_step": "4. Pay fees and submit Official Receipt", "agency_action": "Check OR, sign safety certifications, review and release certificate", "fees": "Refer to NBCP Schedule", "processing_time": "26 minutes", "responsible": "Engineer/Architect/Inspector" }
       ],
-      "total_processing_time": "4 days and 57 minutes"
+        "total": {
+        "fees": "None",  
+        "processing_time": "4 days and 57 minutes"
+      }
     },
     {
       "id": 3,
@@ -108,7 +115,11 @@
         { "client_step": "5. Pay fees and present OR", "agency_action": "Check OR, sign and approve Certificate", "fees": "Based on NBCP", "processing_time": "32 minutes", "responsible": "Engineer IV, City Engineer" },
         { "client_step": "6. Receive Certificate", "agency_action": "Release Certificate", "fees": "None", "processing_time": "5 minutes", "responsible": "Officer of the Day" }
       ],
-      "total_processing_time": "3 days, 1 hour, 3 minutes"
+    
+       "total": {
+        "fees": "None",  
+        "processing_time": "3 days, 1 hour, 3 minutes"
+      }
     },
     {
       "id": 4,
@@ -129,7 +140,11 @@
         { "client_step": "4. Pay fees and submit OR", "agency_action": "Review, sign, and approve permit", "fees": "P3.00 per sq. meter", "processing_time": "10 minutes", "responsible": "Engineer/City Engineer" },
         { "client_step": "5. Sign record book", "agency_action": "Release Demolition Permit", "fees": "None", "processing_time": "5 minutes", "responsible": "Admin Aide III" }
       ],
-      "total_processing_time": "2 days, 32 minutes"
+     
+     "total": {
+        "fees": "None",  
+        "processing_time": "2 days, 32 minutes"
+      }
     },
     {
       "id": 5,
@@ -149,8 +164,13 @@
         { "client_step": "2. Wait for inspection", "agency_action": "Conduct site inspection", "fees": "None", "processing_time": "2 days", "responsible": "Inspector" },
         { "client_step": "3. Pay fees and get permit", "agency_action": "Issue Order of Payment and release permit", "fees": "Based on NBCP", "processing_time": "11 minutes", "responsible": "City Engineer" }
       ],
-      "total_processing_time": "2 days, 26 minutes"
+   
+      "total": {
+        "fees": "None",  
+        "processing_time": "2 days, 26 minutes"
+      }
     },
+    
     {
       "id": 6,
       "service_name": "Application for Fencing Permit",
@@ -169,7 +189,10 @@
         { "client_step": "2. Wait for approval", "agency_action": "Site verification and final assessment", "fees": "None", "processing_time": "5 days", "responsible": "City Engineer" },
         { "client_step": "3. Pay and receive permit", "agency_action": "Process payment and release", "fees": "Based on NBCP", "processing_time": "22 minutes", "responsible": "Admin Aide" }
       ],
-      "total_processing_time": "5 days and 52 minutes"
+      "total": {
+        "fees": "None",  
+        "processing_time": "5 days and 52 minutes"
+      }
     },
     {
       "id": 7,
@@ -187,7 +210,10 @@
         { "client_step": "1. Submit Sign Permit application", "agency_action": "Review design and location", "fees": "None", "processing_time": "3 days", "responsible": "Building Inspector" },
         { "client_step": "2. Pay and collect permit", "agency_action": "Release permit", "fees": "Based on Signage size", "processing_time": "37 minutes", "responsible": "Admin" }
       ],
-      "total_processing_time": "3 days and 37 minutes"
+          "total": {
+        "fees": "None",  
+        "processing_time": "3 days and 37 minutes"
+      }
     },
     {
       "id": 8,
@@ -204,7 +230,11 @@
         { "client_step": "1. Submit request letter", "agency_action": "Validate request and site inspection", "fees": "None", "processing_time": "4 hours", "responsible": "Maintenance Division" },
         { "client_step": "2. Coordinate schedule", "agency_action": "Preparation of materials and execution", "fees": "None", "processing_time": "4 hours 38 minutes", "responsible": "Maintenance Crew" }
       ],
-      "total_processing_time": "8 hours and 38 minutes"
+
+              "total": {
+        "fees": "None",  
+        "processing_time": "8 hours and 38 minutes"
+      }
     },
     {
       "id": 9,
@@ -222,7 +252,11 @@
         { "client_step": "1. Present tricycle for inspection", "agency_action": "Physical inspection of unit", "fees": "None", "processing_time": "20 minutes", "responsible": "Mechanical Inspector" },
         { "client_step": "2. Receive certificate", "agency_action": "Sign and issue certificate", "fees": "None", "processing_time": "10 minutes", "responsible": "Engineer IV" }
       ],
-      "total_processing_time": "30 minutes"
+
+    "total": {
+        "fees": "None",  
+        "processing_time": "30 minutes"
+      }
     },
     {
       "id": 10,
@@ -239,7 +273,11 @@
         { "client_step": "1. Submit application", "agency_action": "Review and site visit", "fees": "P50.00", "processing_time": "2 days", "responsible": "Plumbing Inspector" },
         { "client_step": "2. Get certificate", "agency_action": "Release for Water District use", "fees": "None", "processing_time": "37 minutes", "responsible": "Admin" }
       ],
-      "total_processing_time": "2 days, 37 minutes"
+
+       "total": {
+        "fees": "None",  
+        "processing_time": "2 days, 37 minutes"
+      }
     },
     {
       "id": 11,
@@ -255,7 +293,11 @@
       "steps": [
         { "client_step": "1. Submit project proposal", "agency_action": "Survey, Planning, and Budgeting", "fees": "None", "processing_time": "30-60 days", "responsible": "Planning & Programming Division" }
       ],
-      "total_processing_time": "24 to 60 days"
+
+       "total": {
+        "fees": "None",  
+        "processing_time": "24 to 60 days"
+      }
     },
     {
       "id": 12,
@@ -271,7 +313,11 @@
       "steps": [
         { "client_step": "1. Submit billing/accomplishment report", "agency_action": "Verify work accomplished and process voucher", "fees": "None", "processing_time": "4 hours 25 minutes", "responsible": "Project Engineer" }
       ],
-      "total_processing_time": "4 hours and 25 minutes"
+ 
+          "total": {
+        "fees": "None",  
+        "processing_time": "4 hours and 25 minutes"
+      }
     },
     {
       "id": 13,
@@ -288,7 +334,11 @@
         { "client_step": "1. Report busted lights", "agency_action": "Scheduling of maintenance team", "fees": "None", "processing_time": "1 day", "responsible": "Electrical Division" },
         { "client_step": "2. Assist on site", "agency_action": "Actual repair", "fees": "None", "processing_time": "1 day 25 minutes", "responsible": "Electricians" }
       ],
-      "total_processing_time": "2 days and 25 minutes"
+      
+             "total": {
+        "fees": "None",  
+        "processing_time": "2 days and 25 minutes"
+      }
     },
     {
       "id": 14,
@@ -304,7 +354,11 @@
       "steps": [
         { "client_step": "1. Submit request", "agency_action": "Site visit and repair", "fees": "None", "processing_time": "4 hours 25 minutes", "responsible": "Well Driller Team" }
       ],
-      "total_processing_time": "4 hours and 25 minutes"
+  
+             "total": {
+        "fees": "None",  
+        "processing_time": "4 hours and 25 minutes"
+      }
     },
     {
       "id": 15,
@@ -320,7 +374,10 @@
       "steps": [
         { "client_step": "1. Submit reservation", "agency_action": "Check availability and approve", "fees": "None", "processing_time": "17 minutes", "responsible": "Admin" }
       ],
-      "total_processing_time": "17 minutes"
+                 "total": {
+        "fees": "None",  
+        "processing_time": "17 minutes"
+      }
     },
     {
       "id": 16,
@@ -336,7 +393,11 @@
       "steps": [
         { "client_step": "1. Submit request for heavy equipment", "agency_action": "Approval and dispatch", "fees": "None", "processing_time": "3 hours 5 minutes", "responsible": "Motorpool" }
       ],
-      "total_processing_time": "3 hours and 5 minutes"
+
+     "total": {
+        "fees": "None",  
+        "processing_time": "3 hours and 5 minutes"
+      }
     },
     {
       "id": 17,
@@ -352,7 +413,11 @@
       "steps": [
         { "client_step": "1. Submit letter", "agency_action": "Draft and sign response", "fees": "None", "processing_time": "13 minutes", "responsible": "Records Officer" }
       ],
-      "total_processing_time": "13 minutes"
+ 
+       "total": {
+        "fees": "None",  
+        "processing_time": "13 minutes"
+      }
     },
     {
       "id": 18,
@@ -368,7 +433,11 @@
       "steps": [
         { "client_step": "1. Submit legal/formal query", "agency_action": "Technical evaluation and formal reply", "fees": "None", "processing_time": "27 minutes", "responsible": "City Engineer" }
       ],
-      "total_processing_time": "27 minutes"
+
+           "total": {
+        "fees": "None",  
+        "processing_time": "27 minutes"
+      }
     }
   ]
 }

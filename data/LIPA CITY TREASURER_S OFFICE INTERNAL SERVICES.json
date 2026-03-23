@@ -2,8 +2,9 @@
     "internal_services": [
         {
         "id": 1,
+        "office": "Lipa City Treasurer’s Office Internal Services",
         "service_name": "Payment of Legal Claims of Job Order and Casual Employees (Check Payment)",
-        "image": "/assets/document_background/Payment of Legal Claims JO Check",
+        "image": "/assets/document_background/Payment of Legal Claims of Job Order and Casual Employees",
         "department": "Lipa City Treasurer’s Office",
         "classification": "Simple",
         "type_of_transaction": "G2G – Government to Government",
@@ -30,15 +31,16 @@
             "person_responsible": "Administrative Aide IV, Administrative Officer III (Lipa City Treasurer’s Office)"
             }
         ],
-        "total_summary": {
-            "total_fees": "None",
-            "total_processing_time": "20 minutes"
+        "total": {
+            "fees": "None",
+            "processing_time": "20 minutes"
         }
         },
         {
         "id": 2,
+        "office": "Lipa City Treasurer’s Office Internal Services",
         "service_name": "Payment of Legal Claims of Job Order and Casual Employees (Cash Payment)",
-        "image": "/assets/document_background/Payment of Legal Claims JO Cash",
+        "image": "/assets/document_background/Payment of Legal Claims",
         "department": "Lipa City Treasurer’s Office",
         "classification": "Simple",
         "type_of_transaction": "G2G – Government to Government",
@@ -65,9 +67,9 @@
             "person_responsible": "Administrative Aide IV, Administrative Officer III (Lipa City Treasurer’s Office)"
             }
         ],
-        "total_summary": {
-            "total_fees": "None",
-            "total_processing_time": "10 minutes"
+        "total": {
+            "fees": "None",
+            "processing_time": "10 minutes"
         }
         }
     ]

@@ -2,7 +2,9 @@
   "external_services": [
     {
       "id": 1,
+       "office": "Lipa City Treasurer's Office External Services",
       "service_name": "Computation and Collection of Real Property Tax and Issuance of Real Property Tax Clearance",
+      "image": "/assets/document_background/Computation and Collection of Real Property Tax and Issuance of Real",
       "department": "Lipa City Treasurer's Office External Services",
       "classification": "Simple",
       "type_of_transaction": "G2C - Government to Citizens",
@@ -72,7 +74,9 @@
     },
     {
     "id": 2,
+     "office": "Lipa City Treasurer's Office External Services",
     "service_name": "Collection of Business Taxes, Fees and Other Charges",
+    "image": "/assets/document_background/Collection of Business Taxes, Fees and Other Charges",
     "department": "Lipa City Treasurer's Office External Services",
     "classification": "Simple",
     "type_of_transaction": "G2C - Government to Citizens, G2B – Government to Businesses",
@@ -429,7 +433,9 @@
     },
     {
     "id": 3,
+     "office": "Lipa City Treasurer's Office External Services",
     "service_name": "Collection of Business Taxes, Fees and Other Charges from Business Retirement",
+    "image": "/assets/document_background/Collection of Business Taxes, Fees and Other Charges from Business",
     "department": "Lipa City Treasurer's Office External Services",
     "classification": "Simple",
     "type_of_transaction": "G2C - Government to Citizens",
@@ -631,7 +637,9 @@
     },
     {
         "id": 4,
+         "office": "Lipa City Treasurer's Office External Services",
         "service_name": "Issuance of Transfer Tax Payment of Real Property and Certificate",
+        "image": "/assets/document_background/Issuance of Transfer Tax Payment of Real Property and Certificate",
         "department": "Lipa City Treasurer's Office External Services",
         "classification": "Simple",
         "type_of_transaction": "G2C - Government to Citizens",
@@ -708,8 +716,10 @@
     },
     {
     "id": 5,
+     "office": "Lipa City Treasurer's Office External Services",
     "service_name": "Assessment and Collection of Additional Business Tax, Fees and Charges through Examination of Books of Accounts and Issuance of Certificate of Tax Clearance",
     "department": "Lipa City Treasurer's Office External Services",
+    "image": "/assets/document_background/Assessment and Collection of Additional Business Tax, Fees and Charges",
     "classification": "Simple",
     "type_of_transaction": "G2C - Government to Citizens",
     "who_may_avail": "Public/Private Individuals",
@@ -777,8 +787,10 @@
     },
     {
     "id": 6,
+     "office": "Lipa City Treasurer's Office External Services",
     "service_name": "Assessment and Collection of Additional Business Tax, Fees and Charges through Examination of Books of Accounts and Issuance of Certificate of Tax Clearance",
     "department": "Lipa City Treasurer's Office External Services",
+    "image": "/assets/document_background/Assessment and Collection of Additional Business Tax, Fees and Charges",
     "classification": "Simple",
     "type_of_transaction": "G2C - Government to Citizens",
     "who_may_avail": "Private Individuals",
@@ -818,7 +830,9 @@
     },
     {
     "id": 7,
+     "office": "Lipa City Treasurer's Office External Services",
     "service_name": "Collection of Fees from Building Permits, Occupancy Certificates and Building Repair Permits",
+    "image": "/assets/document_background/Collection of Fees from Building Permits, Occupancy Certificates and",
     "department": "Lipa City Treasurer's Office External Services",
     "classification": "Simple",
     "type_of_transaction": "G2C - Government to Citizens",
@@ -852,7 +866,9 @@
     },
     {
     "id": 8,
+     "office": "Lipa City Treasurer's Office External Services",
     "service_name": "Collection of Tax on Delivery Truck/Van and Issuance of Delivery Truck/Van Sticker",
+    "image": "/assets/document_background/Collection of Tax on Delivery Truck_Van and Issuance of Delivery",
     "department": "Lipa City Treasurer's Office External Services",
     "classification": "Simple",
     "type_of_transaction": "G2C - Government to Citizens",
@@ -879,7 +895,9 @@
     },
     {
     "id": 9,
+     "office": "Lipa City Treasurer's Office External Services",
     "service_name": "Issuance of Community Tax Certificate",
+    "image": "/assets/document_background/Issuance of Community Tax Certificate",
     "department": "Lipa City Treasurer's Office External Services",
     "classification": "Simple",
     "type_of_transaction": "G2C - Government to Citizens",
@@ -917,7 +935,9 @@
     },
     {
     "id": 10,
+     "office": "Lipa City Treasurer's Office External Services",
     "service_name": "Issuance of Accountable Forms (AF 51 and CTC) to Barangays",
+    "image": "/assets/document_background/Issuance of Accountable Forms (AF 51 and CTC) to Barangays",
     "department": "Lipa City Treasurer's Office External Services",
     "classification": "Simple",
     "type_of_transaction": "G2G - Government to Government",
@@ -962,7 +982,9 @@
     },
     {
     "id": 11,
+     "office": "Lipa City Treasurer's Office External Services",
     "service_name": "Issuance of Professional Tax Receipt/ Collection of Calling Fee",
+    "image": "/assets/document_background/Issuance of Professional Tax Receipt_Collection of Calling Fee",
     "department": "Lipa City Treasurer's Office External Services",
     "classification": "Simple",
     "type_of_transaction": "G2C - Government to Citizen",
@@ -1000,7 +1022,9 @@
     },
     {
     "id": 12,
+     "office": "Lipa City Treasurer's Office External Services",
     "service_name": "Calibration of Weights",
+    "image": "/assets/document_background/Calibration of Weights",
     "department": "Lipa City Treasurer's Office External Services",
     "classification": "Simple",
     "type_of_transaction": "G2C - Government to Citizens",

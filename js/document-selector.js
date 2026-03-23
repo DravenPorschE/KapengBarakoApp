@@ -89,6 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 card.addEventListener("click", () => {
                     const serviceName = service.service_name;
+                        
 
                     window.location.href=`/pages/dynamic-service.html?search=${encodeURIComponent(serviceName)}`
                 

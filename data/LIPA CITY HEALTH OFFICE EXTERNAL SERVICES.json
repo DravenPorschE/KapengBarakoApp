@@ -3,6 +3,7 @@
   "external_services": [
     {
       "id": 1,
+      "office": "Lipa City Health Office",
       "service_name": "Application for Cadaver Transfer Permit/ Burial Permit / Cremation Permit / Exhumation Permit",
       "image": "/assets/document_background/Application for Cadaver Transfer Permit_Burial Permit_Cremation Permit",
       "classification": "Highly Technical",
@@ -11,15 +12,15 @@
       "checklist_of_requirements": [
         {
           "requirement": "Death Certificate from hospital, if none Death Certificate and other Death Permits by the City Health Officer",
-          "where_to_secure": "Hospital where the patient expired"
+          "source": "Hospital where the patient expired"
         },
         {
           "requirement": "Death Certificate of remains to be exhumed",
-          "where_to_secure": "Lipa City Civil Registrar Office or Personal File"
+          "source": "Lipa City Civil Registrar Office or Personal File"
         },
         {
           "requirement": "Exhumation Permit shall only be approved after a lapse of 5-year burial period",
-          "where_to_secure": "Lipa City Health Office"
+          "source": "Lipa City Health Office"
         }
       ],
       "steps": [
@@ -52,11 +53,14 @@
           "person_responsible": "Midwife II (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "Transfer permit: P100 (within the city), P50 (outside the city); Burial permit: P50; Cremation permit: P200; Exhumation Permit: P100 per tomb",
-      "total_processing_time": "20 minutes"
+      "total":{
+      "fees": "Transfer permit: P100 (within the city), P50 (outside the city); Burial permit: P50; Cremation permit: P200; Exhumation Permit: P100 per tomb",
+      "processing_time": "20 minutes"
+      }
     },
     {
       "id": 2,
+      "office": "Lipa City Health Office",
       "service_name": "Application for Sanitary Permit",
       "image": "/assets/document_background/Application for Sanitary Permit",
       "classification": "Highly technical",
@@ -65,11 +69,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Water analysis for water refilling station",
-          "where_to_secure": "DOH accredited laboratories"
+          "source": "DOH accredited laboratories"
         },
         {
           "requirement": "Health certificate for food handlers",
-          "where_to_secure": "DOH accredited hospitals/ laboratories"
+          "source": "DOH accredited hospitals/ laboratories"
         }
       ],
       "steps": [
@@ -102,11 +106,14 @@
           "person_responsible": "Sanitation Inspector II (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "2 hours and 15 minutes"
+      "total":{
+      "fees": "None",
+      "processing_time": "2 hours and 15 minutes"
+      }
     },
     {
       "id": 3,
+      "office": "Lipa City Health Office",
       "service_name": "Availing of Adolescent Health Program",
       "image": "/assets/document_background/Availing of Adolescent Health Program",
       "classification": "Highly Technical",
@@ -115,11 +122,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Referral",
-          "where_to_secure": "Midwife / Peer Educator"
+          "source": "Midwife / Peer Educator"
         },
         {
           "requirement": "Laboratory Results (U/A, CBC, HBSAg & UTZ) if available",
-          "where_to_secure": "Midwife"
+          "source": "Midwife"
         }
       ],
       "steps": [
@@ -173,11 +180,14 @@
           "person_responsible": "Nurse II (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 hour and 6 minutes"
+      "total":{
+      "fees": "None",
+      "processing_time": "1 hour and 6 minutes"
+      }
     },
     {
       "id": 4,
+      "office": "Lipa City Health Office",
       "service_name": "Availing of Dental Services",
       "image": "/assets/document_background/Availing of Dental Services",
       "classification": "Highly technical",
@@ -186,7 +196,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "None",
-          "where_to_secure": "N/A"
+          "source": "N/A"
         }
       ],
       "steps": [
@@ -240,11 +250,14 @@
           "person_responsible": "Pharmacist I / II / IV (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 hour and 50 minutes"
+      "total":{
+      "fees": "None",
+      "processing_time": "1 hour and 50 minutes"
+      }
     },
     {
       "id": 5,
+      "office": "Lipa City Health Office",
       "service_name": "Availing of Laboratory Services",
       "image": "/assets/document_background/Availing of Laboratory Services",
       "classification": "Highly Technical",
@@ -253,7 +266,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Properly filled up request slip from the requesting physician",
-          "where_to_secure": "City Health and District Health Centers"
+          "source": "City Health and District Health Centers"
         }
       ],
       "steps": [
@@ -293,11 +306,14 @@
           "person_responsible": "Medical Technologist III / II / I (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "2 hours and 19 minutes"
+      "total":{
+      "fees": "None",
+      "processing_time": "2 hours and 19 minutes"
+      }
     },
     {
       "id": 6,
+      "office": "Lipa City Health Office",
       "service_name": "Availing of Medical Treatment Services/ Consultation - Urban District",
       "image": "/assets/document_background/Availing of Medical Treatment Services_Consultation _ Urban District",
       "classification": "Highly technical",
@@ -306,7 +322,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "None",
-          "where_to_secure": "N/A"
+          "source": "N/A"
         }
       ],
       "steps": [
@@ -360,11 +376,14 @@
           "person_responsible": "Pharmacist III (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 hour"
+      "total": {
+      "fees": "None",
+      "processing_time": "1 hour"
+      }
     },
     {
       "id": 7,
+      "office": "Lipa City Health Office",
       "service_name": "Availing of Medical Treatment Services/ Consultation – East District",
       "image": "/assets/document_background/Availing of Medical Treatment Services_Consultation _ Urban District",
       "classification": "Highly Technical",
@@ -373,11 +392,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Referral (for patients coming from BHS)",
-          "where_to_secure": "Midwife"
+          "source": "Midwife"
         },
         {
           "requirement": "Laboratory Results (U/A, CBC, HBSAg & UTZ) if available",
-          "where_to_secure": "Midwife"
+          "source": "Midwife"
         }
       ],
       "steps": [
@@ -431,11 +450,14 @@
           "person_responsible": "Midwife III / II / I (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "58 minutes"
+      "total":{
+      "fees": "None",
+      "processing_time": "58 minutes"
+      }
     },
     {
       "id": 8,
+      "office": "Lipa City Health Office",
       "service_name": "Availing of Medical Treatment Services/ Consultation - West District",
       "image": "/assets/document_background/Availing of Medical Treatment Services_Consultation _ Urban District",
       "classification": "Highly Technical",
@@ -444,7 +466,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "None",
-          "where_to_secure": "N/A"
+          "source": "N/A"
         }
       ],
       "steps": [
@@ -498,11 +520,14 @@
           "person_responsible": "Pharmacist III (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 hour"
+       "total":{
+      "fees": "None",
+      "processing_time": "1 hour"
+       }
     },
     {
       "id": 9,
+      "office": "Lipa City Health Office",
       "service_name": "Availing of Medical Treatment Services – South District Health Center",
       "image": "/assets/document_background/Availing of Medical Treatment Services_Consultation _ Urban District",
       "classification": "Highly Technical",
@@ -511,7 +536,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "None",
-          "where_to_secure": "N/A"
+          "source": "N/A"
         }
       ],
       "steps": [
@@ -565,11 +590,14 @@
           "person_responsible": "Pharmacist III (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 hour"
+       "total":{
+      "fees": "None",
+      "processing_time": "1 hour"
+       }
     },
     {
       "id": 10,
+      "office": "Lipa City Health Office",
       "service_name": "Availing of Primary Health Care – East District Health Center",
       "image": "/assets/document_background/Availing of Primary Health Care Services – East District Health Center",
       "classification": "Highly technical",
@@ -578,11 +606,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Referral (for patients coming from BHS)",
-          "where_to_secure": "Midwife"
+          "source": "Midwife"
         },
         {
           "requirement": "Laboratory Results (U/A, CBC, HBSAg & UTZ) if available",
-          "where_to_secure": "Midwife"
+          "source": "Midwife"
         }
       ],
       "steps": [
@@ -629,11 +657,14 @@
           "person_responsible": "Pharmacist I / Midwife / Nurse / Lipa City Health Office staff"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "35 minutes"
+       "total":{
+      "fees": "None",
+      "processing_time": "35 minutes"
+       }
     },
     {
       "id": 11,
+      "office": "Lipa City Health Office",
       "service_name": "Availing of Pre-Marriage Counselling Services",
       "image": "/assets/document_background/Availing of Pre-Marriage Counselling Services",
       "classification": "Highly Technical",
@@ -642,7 +673,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Marriage claim slip",
-          "where_to_secure": "At the Local Civil Registrar"
+          "source": "At the Local Civil Registrar"
         }
       ],
       "steps": [
@@ -689,11 +720,14 @@
           "person_responsible": "Population Program Worker II (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "4 Hours and 35 Minutes"
+       "total":{
+      "fees": "None",
+      "processing_time": "4 Hours and 35 Minutes"
+       }
     },
     {
       "id": 12,
+      "office": "Lipa City Health Office",
       "service_name": "Availing of Social Hygiene Services",
       "image": "/assets/document_background/Availing of Social Hygiene Service",
       "classification": "Highly technical",
@@ -702,7 +736,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "None",
-          "where_to_secure": "N/A"
+          "source": "N/A"
         }
       ],
       "steps": [
@@ -756,11 +790,14 @@
           "person_responsible": "Pharmacist I (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 hour and 50 minutes"
+       "total":{
+      "fees": "None",
+      "processing_time": "1 hour and 50 minutes"
+       }
     },
     {
       "id": 13,
+      "office": "Lipa City Health Office",
       "service_name": "Availing of TB DOTS Services",
       "image": "/assets/document_background/Availing of TB DOTS Services",
       "classification": "Highly Technical",
@@ -769,15 +806,15 @@
       "checklist_of_requirements": [
         {
           "requirement": "Chest Xray Result",
-          "where_to_secure": "Any Public and Private Hospitals and Clinics"
+          "source": "Any Public and Private Hospitals and Clinics"
         },
         {
           "requirement": "Genexpert",
-          "where_to_secure": "TB DOTS"
+          "source": "TB DOTS"
         },
         {
           "requirement": "Referral From Private Doctor, if available",
-          "where_to_secure": "Any Private Hospitals and Clinics"
+          "source": "Any Private Hospitals and Clinics"
         }
       ],
       "steps": [
@@ -845,11 +882,14 @@
           "person_responsible": "Medical Technologist III (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "7 hours and 7 minutes"
+       "total":{
+      "fees": "None",
+      "processing_time": "7 hours and 7 minutes"
+       }
     },
     {
       "id": 14,
+      "office": "Lipa City Health Office",
       "service_name": "Request for Certification of Death",
       "image": "/assets/document_background/Request for Certification of Death",
       "classification": "Highly Technical",
@@ -858,11 +898,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Medical Abstract for Death Certificate request (if died at home but previously confined)",
-          "where_to_secure": "Hospital last attended prior to death"
+          "source": "Hospital last attended prior to death"
         },
         {
           "requirement": "Filled up Death Certificate Forms signed by attending physician (if died in hospital)",
-          "where_to_secure": "Hospital last attended prior to death"
+          "source": "Hospital last attended prior to death"
         }
       ],
       "steps": [
@@ -902,11 +942,14 @@
           "person_responsible": "Midwife II (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "P 50.00",
-      "total_processing_time": "30 minutes"
+       "total":{
+      "fees": "P 50.00",
+      "processing_time": "30 minutes"
+       }
     },
     {
       "id": 15,
+      "office": "Lipa City Health Office",
       "service_name": "Request for Fogging/ Misting Services",
       "image": "/assets/document_background/Request for Fogging_ Misting Services",
       "classification": "Highly technical",
@@ -915,7 +958,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Letter of request addressed to City Health Officer – 1 original copy",
-          "where_to_secure": "Requesting party/ applicant"
+          "source": "Requesting party/ applicant"
         }
       ],
       "steps": [
@@ -941,11 +984,14 @@
           "person_responsible": "Sanitary Inspectors on duty (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "4 hours and 1 minute"
+       "total":{
+      "fees": "None",
+      "processing_time": "4 hours and 1 minute"
+       }
     },
     {
       "id": 16,
+      "office": "Lipa City Health Office",
       "service_name": "Request for Free Medicines",
       "image": "/assets/document_background/Request for Free Medicines",
       "classification": "Simple",
@@ -954,11 +1000,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Dated doctor’s prescription",
-          "where_to_secure": "District Health Centers"
+          "source": "District Health Centers"
         },
         {
           "requirement": "Nurses’ and midwives’ prescription after conducting primary health care",
-          "where_to_secure": "District Health Centers"
+          "source": "District Health Centers"
         }
       ],
       "steps": [
@@ -991,11 +1037,14 @@
           "person_responsible": "Pharmacist II / Job Order (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "14 minutes"
+       "total":{
+      "fees": "None",
+      "processing_time": "14 minutes"
+       }
     },
     {
       "id": 17,
+      "office": "Lipa City Health Office",
       "service_name": "Request for Medical Certificate for Employment Purposes",
       "image": "/assets/document_background/Request for Medical Certificate for Employment Purposes",
       "classification": "Highly Technical",
@@ -1004,11 +1053,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Chest Xray (not more than 6 months)",
-          "where_to_secure": "Any Diagnostic Laboratory"
+          "source": "Any Diagnostic Laboratory"
         },
         {
           "requirement": "Other requirements stated in CIVIL SERVICE CHECKLIST (if government)",
-          "where_to_secure": "Any Diagnostic Laboratory"
+          "source": "Any Diagnostic Laboratory"
         }
       ],
       "steps": [
@@ -1034,11 +1083,14 @@
           "person_responsible": "Midwife II (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "P50.00",
-      "total_processing_time": "15 minutes"
+       "total":{
+      "fees": "P50.00",
+      "processing_time": "15 minutes"
+       }
     },
     {
       "id": 18,
+      "office": "Lipa City Health Office",
       "service_name": "Treatment of Animal Bite Cases",
       "image": "/assets/document_background/Treatment of Animal Bite Cases",
       "classification": "Highly technical",
@@ -1047,7 +1099,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Biting Animal Form",
-          "where_to_secure": "Respective Barangay Health Centers"
+          "source": "Respective Barangay Health Centers"
         }
       ],
       "steps": [
@@ -1094,8 +1146,10 @@
           "person_responsible": "Pharmacist I (Lipa City Health Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 hour and 25 minutes"
+       "total":{
+      "fees": "None",
+      "processing_time": "1 hour and 25 minutes"
+       }
     }
   ]
 }

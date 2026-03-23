@@ -3,6 +3,7 @@
   "external_services": [
     {
       "id": 1,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Releasing of Confiscated Goods/ Items Apprehended from Illegal Vendors",
       "image": "/assets/document_background/Releasing of Confiscated Goods_Items Apprehended from Illegal Vendors",
       "classification": "Simple",
@@ -11,7 +12,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Citation ticket – 1 duplicate copy",
-          "where_to_secure": "Lipa City Public Order and Safety Office"
+          "source": "Lipa City Public Order and Safety Office"
         }
       ],
       "steps": [
@@ -51,11 +52,14 @@
           "person_responsible": "Administrative Assistant III / Administrative Aide III (Lipa City Public Order and Safety Office)"
         }
       ],
-      "total_fees_to_be_paid": "Varies based on offense",
-      "total_processing_time": "17 minutes"
+      "total": {
+      "fees": "Varies based on offense",
+      "processing_time": "17 minutes"
+      }
     },
     {
       "id": 2,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Settlement of Complaints",
       "image": "/assets/document_background/Settlement of Complaints",
       "classification": "Simple",
@@ -64,7 +68,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Written complaint",
-          "where_to_secure": "Complainant"
+          "source": "Complainant"
         }
       ],
       "steps": [
@@ -83,11 +87,14 @@
           "person_responsible": "Supervising Administrative Officer / Traffic Operation Officer IV / Special Operations Officer IV / Security Officer II / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
         }
       ],
-      "total_fees_to_be_paid": "None",
-      "total_processing_time": "1 hour for major issues / 20 minutes for minor issues"
+      "total": {
+      "fees": "None",
+      "processing_time": "1 hour for major issues / 20 minutes for minor issues"
+    }
     },
     {
       "id": 3,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Releasing of Confiscated Driver’s License",
       "image": "/assets/document_background/Releasing of Confiscated Driver’s License",
       "classification": "Simple",
@@ -96,7 +103,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Citation ticket – 1 duplicate copy",
-          "where_to_secure": "Traffic Management Office"
+          "source": "Traffic Management Office"
         }
       ],
       "steps": [
@@ -129,8 +136,8 @@
           "person_responsible": "Administrative Aide VI / III / IV (Lipa City Public Order and Safety Office)"
         }
       ],
-      "total_fees_to_be_paid": "See table of fees",
-      "total_processing_time": "10 minutes",
+      "fees": "See table of fees",
+      "processing_time": "10 minutes",
       "service_notice": [
         { "service_name": "Illegal parking", "processing_fee": "500.00" },
         { "service_name": "Obstruction", "processing_fee": "400.00" },
@@ -175,17 +182,18 @@
     },
     {
       "id": 4,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Releasing of Impounded Motor Vehicles",
       "image": "/assets/document_background/Releasing of Impounded Motor Vehicles",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": "Traffic violators, vehicle owners",
       "checklist_of_requirements": [
-        { "requirement": "Citation ticket – 1 duplicate copy", "where_to_secure": "Traffic Enforcer on duty" },
-        { "requirement": "Valid driver’s license of claimant – 1 photocopy", "where_to_secure": "Tricycle operator or driver" },
-        { "requirement": "Certificate of Registration – 1 photocopy", "where_to_secure": "Land Transportation Office" },
-        { "requirement": "Official Receipt – 1 photocopy", "where_to_secure": "Land Transportation Office" },
-        { "requirement": "Authorization letter and ID of representative (If authorized representative)", "where_to_secure": "Tricycle operator / Representative" }
+        { "requirement": "Citation ticket – 1 duplicate copy", "source": "Traffic Enforcer on duty" },
+        { "requirement": "Valid driver’s license of claimant – 1 photocopy", "source": "Tricycle operator or driver" },
+        { "requirement": "Certificate of Registration – 1 photocopy", "source": "Land Transportation Office" },
+        { "requirement": "Official Receipt – 1 photocopy", "source": "Land Transportation Office" },
+        { "requirement": "Authorization letter and ID of representative (If authorized representative)", "source": "Tricycle operator / Representative" }
       ],
       "steps": [
         {
@@ -217,8 +225,8 @@
           "person_responsible": "Administrative Aide VI / III / IV (Lipa City Public Order and Safety Office)"
         }
       ],
-      "total_fees_to_be_paid": "See table of fees",
-      "total_processing_time": "16 minutes",
+      "fees": "See table of fees",
+      "processing_time": "16 minutes",
       "service_notice": [
         {
           "service_name": "Impounding: Four-wheeled vehicles and below",
@@ -239,17 +247,18 @@
     },
     {
       "id": 5,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Renewal of Tricycle Franchise/ Motorized Tricycle Operator’s Permit",
       "image": "/assets/document_background/Renewal of Tricycle Franchise Motorized Tricycle Operator’s Permit",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": "All tricycle operators with franchise",
       "checklist_of_requirements": [
-        { "requirement": "Official Receipt/Certificate of Registration – 1 photocopy", "where_to_secure": "Land Transportation Office" },
-        { "requirement": "Barangay Clearance – 1 original copy", "where_to_secure": "Barangay hall" },
-        { "requirement": "Vehicle Insurance Coverage – 1 photocopy", "where_to_secure": "Any insurance company" },
-        { "requirement": "Motorized Tricycle Operator’s Franchise – 1 original copy", "where_to_secure": "City Public Order and Safety Office" },
-        { "requirement": "Inspection Report – 1 original copy", "where_to_secure": "City Engineering Office" }
+        { "requirement": "Official Receipt/Certificate of Registration – 1 photocopy", "source": "Land Transportation Office" },
+        { "requirement": "Barangay Clearance – 1 original copy", "source": "Barangay hall" },
+        { "requirement": "Vehicle Insurance Coverage – 1 photocopy", "source": "Any insurance company" },
+        { "requirement": "Motorized Tricycle Operator’s Franchise – 1 original copy", "source": "City Public Order and Safety Office" },
+        { "requirement": "Inspection Report – 1 original copy", "source": "City Engineering Office" }
       ],
       "steps": [
         {
@@ -302,19 +311,22 @@
           "person_responsible": "City Mayor (Lipa City Mayor’s Office)"
         }
       ],
-      "total_fees_to_be_paid": "P160.00",
-      "total_processing_time": "3 days and 43 minutes"
+      "total": {
+      "fees": "P160.00",
+      "processing_time": "3 days and 43 minutes"
+      }
     },
     {
       "id": 6,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Application for Renewal of Tricycle Franchise",
       "image": "/assets/document_background/Application for Renewal of Tricycle Franchise",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": "Tricycle operators with existing franchise",
       "checklist_of_requirements": [
-        { "requirement": "Proof of Residency, OR/CR, Insurance, Barangay Clearance", "where_to_secure": "Barangay / LTO / Insurance" },
-        { "requirement": "Driver’s License, CTC, MTOF, 2x2 ID Picture, Inspection Report", "where_to_secure": "Applicant / CPOS / Engineering Office" }
+        { "requirement": "Proof of Residency, OR/CR, Insurance, Barangay Clearance", "source": "Barangay / LTO / Insurance" },
+        { "requirement": "Driver’s License, CTC, MTOF, 2x2 ID Picture, Inspection Report", "source": "Applicant / CPOS / Engineering Office" }
       ],
       "steps": [
         {
@@ -367,18 +379,21 @@
           "person_responsible": "City Mayor (Lipa City Mayor’s Office)"
         }
       ],
-      "total_fees_to_be_paid": "P160.00",
-      "total_processing_time": "3 days and 43 minutes"
+      "total": {
+      "fees": "P160.00",
+      "processing_time": "3 days and 43 minutes"
+      }
     },
     {
       "id": 7,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Renewal of Mayor’s Permit for Tricycle",
       "image": "/assets/document_background/Renewal of Mayor’s Permit for Tricycle",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": "Tricycle operators with existing franchise",
       "checklist_of_requirements": [
-        { "requirement": "LTO OR/CR, MTOF, Cedula, ID of operator", "where_to_secure": "LTO / CPOS / Treasurer's Office" }
+        { "requirement": "LTO OR/CR, MTOF, Cedula, ID of operator", "source": "LTO / CPOS / Treasurer's Office" }
       ],
       "steps": [
         {
@@ -410,18 +425,21 @@
           "person_responsible": "Administrative Officer III / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
         }
       ],
-      "total_fees_to_be_paid": "P140.00",
-      "total_processing_time": "12 minutes"
+      "total": {
+      "fees": "P140.00",
+      "processing_time": "12 minutes"
+      }
     },
     {
       "id": 8,
+      "office": "Lipa City Public Order and Safety Office",
       "service_name": "Transfer of Ownership of Motorized Tricycle and Change Motor",
       "image": "/assets/document_background/Transfer of Ownership of Motorized Tricycle and Change Motor",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": "Tricycle operators with or without franchise",
       "checklist_of_requirements": [
-        { "requirement": "Form 04 / Form 05, OR/CR, Insurance, Brgy Clearance, Deed of Sale", "where_to_secure": "CPOS / LTO / Notary / Brgy" }
+        { "requirement": "Form 04 / Form 05, OR/CR, Insurance, Brgy Clearance, Deed of Sale", "source": "CPOS / LTO / Notary / Brgy" }
       ],
       "steps": [
         {
@@ -467,8 +485,10 @@
           "person_responsible": "City Mayor (Lipa City Mayor’s Office)"
         }
       ],
-      "total_fees_to_be_paid": "P160.00 (Change) / P2,500.00 (Transfer)",
-      "total_processing_time": "3 days and 43 minutes"
+      "total": {
+      "fees": "P160.00 (Change) / P2,500.00 (Transfer)",
+      "processing_time": "3 days and 43 minutes"
+      }
     }
   ]
 }

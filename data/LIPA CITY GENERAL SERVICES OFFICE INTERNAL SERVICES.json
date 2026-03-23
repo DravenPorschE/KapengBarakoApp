@@ -1,7 +1,9 @@
 {
+  "department":"Lipa City General Services Office",
   "external_services": [
     {
       "id": 1,
+      "office": "Lipa City General Services Office",
       "service_name": "Request for Inspection and Acceptance of Goods",
       "image": "/assets/document_background/Request for Inspection and Acceptance of Goods",
       "department": "Lipa City General Services Office",
@@ -41,13 +43,14 @@
           "person_responsible": "Administrative Officer III (Lipa City General Services Office)"
         }
       ],
-      "total_summary": {
-        "total_fees": "None",
-        "total_processing_time": "40 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "40 minutes"
       }
     },
     {
       "id": 2,
+      "office": "Lipa City General Services Office",
       "service_name": "Request for Property Accountability Clearance",
       "image": "/assets/document_background/Request for Property Accountability Clearance",
       "department": "Lipa City General Services Office",
@@ -90,13 +93,14 @@
           "person_responsible": "City General Services Officer (Lipa City General Services Office)"
         }
       ],
-      "total_summary": {
-        "total_fees": "None",
-        "total_processing_time": "2 days and 40 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "2 days and 40 minutes"
       }
     },
     {
       "id": 3,
+      "office": "Lipa City General Services Office",
       "service_name": "Request for Repair of Damaged/ Old LGU Facilities and Properties",
       "image": "/assets/document_background/Request for Repair of Damaged_Old LGU Facilities and Properties",
       "deparment": "Lipa City General Services Office",
@@ -143,9 +147,9 @@
           "person_responsible": "Administrative Aide III / Administrative Aide V / Administrative Aide VI (Lipa City General Services Office)"
         }
       ],
-      "total_summary": {
-        "total_fees": "None",
-        "total_processing_time": "2 days and 45 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "2 days and 45 minutes"
       }
     }
   ]

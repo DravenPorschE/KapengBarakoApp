@@ -11,11 +11,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Legal documents related to the matter to be heard before the Office of the Sangguniang Panlungsod",
-          "where_to_secure": "Lipa City Mayor’s Office and other government offices involved in the matter for consideration of the Office of the Sangguniang Panlungsod"
+          "source": "Lipa City Mayor’s Office and other government offices involved in the matter for consideration of the Office of the Sangguniang Panlungsod"
         },
         {
           "requirement": "Notice of Committee Hearing/ Session",
-          "where_to_secure": "Office of the Sangguniang Panlungsod"
+          "source": "Office of the Sangguniang Panlungsod"
         }
       ],
       "steps": [
@@ -48,9 +48,9 @@
           "person_responsible": "Acting Assistant City Legal Officer / City Legal Officer (Lipa City Legal Office)"
         }
       ],
-      "total_summary": {
-        "total_fees": "None",
-        "total_processing_time": "2 days and 2 hours"
+      "total": {
+        "fees": "None",
+        "processing_time": "2 days and 2 hours"
       }
     },
     {
@@ -64,7 +64,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Legal documents the client desires to incorporate in the legal instruments to be drafted – 1 original copy",
-          "where_to_secure": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod"
+          "source": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod"
         }
       ],
       "steps": [
@@ -111,9 +111,9 @@
           "person_responsible": "Administrative Aide IV (Lipa City Legal Office)"
         }
       ],
-      "total_summary": {
-        "total_fees": "None",
-        "total_processing_time": "5 days and 2 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "5 days and 2 minutes"
       }
     },
     {
@@ -127,11 +127,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Legal documents for review – 1 original copy",
-          "where_to_secure": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod or other government offices upon endorsement of the City Mayor"
+          "source": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod or other government offices upon endorsement of the City Mayor"
         },
         {
           "requirement": "Endorsement letter – 1 original copy",
-          "where_to_secure": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod"
+          "source": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod"
         }
       ],
       "steps": [
@@ -178,9 +178,9 @@
           "person_responsible": "Administrative Aide IV (Lipa City Legal Office)"
         }
       ],
-      "total_summary": {
-        "total_fees": "None",
-        "total_processing_time": "5 days and 2 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "5 days and 2 minutes"
       }
     },
     {
@@ -194,15 +194,15 @@
       "checklist_of_requirements": [
         {
           "requirement": "Legal documents related to the case (Documentary, object evidence)",
-          "where_to_secure": "Lipa City Mayor’s Office or Offices concerned in civil action/ special proceedings"
+          "source": "Lipa City Mayor’s Office or Offices concerned in civil action/ special proceedings"
         },
         {
           "requirement": "Endorsement letter",
-          "where_to_secure": "Lipa City Mayor’s Office"
+          "source": "Lipa City Mayor’s Office"
         },
         {
           "requirement": "Court (tribunal) notices",
-          "where_to_secure": "Courts"
+          "source": "Courts"
         }
       ],
       "steps": [
@@ -291,9 +291,9 @@
           "person_responsible": "Administrative Aide VI (Lipa City Legal Office)"
         }
       ],
-      "total_summary": {
-        "total_fees": "Fees to be paid to courts/ tribunals",
-        "total_processing_time": "11 days and 2 hours (plus average of 2 hours per hearing)"
+      "total": {
+        "fees": "Fees to be paid to courts/ tribunals",
+        "processing_time": "11 days and 2 hours (plus average of 2 hours per hearing)"
       }
     },
     {
@@ -307,11 +307,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Legal documents for review – 1 original copy",
-          "where_to_secure": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod or other government offices upon endorsement of the City Mayor"
+          "source": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod or other government offices upon endorsement of the City Mayor"
         },
         {
           "requirement": "Endorsement letter – 1 original copy",
-          "where_to_secure": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod"
+          "source": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod"
         }
       ],
       "steps": [
@@ -358,9 +358,9 @@
           "person_responsible": "Administrative Aide IV (Lipa City Legal Office)"
         }
       ],
-      "total_summary": {
-        "total_fees": "None",
-        "total_processing_time": "5 days and 2 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "5 days and 2 minutes"
       }
     }
   ]
