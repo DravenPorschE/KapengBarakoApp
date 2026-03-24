@@ -252,14 +252,14 @@
            id="layer4"
            inkscape:label="rooms"><path
              class="rooms"
-             data-floorlocation="Third Floor"
+             data-floorlocation="Third Floor" data-roomname="Lipa City Planning and Development Office"
              style="opacity:1;fill:#59ff59;fill-opacity:0.5;stroke:#9a9a9a;stroke-width:4.53543;stroke-opacity:0"
              d="m 655.40447,479.42736 v 122.66285 h 124.66715 v -46.49964 h 17.23694 v 46.49964 h 92.19757 v -87.78812 h 23.24982 v 87.78812 H 1031.8111 V 479.42736 H 843.83101 V 407.87404 H 641.72741 V 463.1575 H 742.5913 v -34.03793 h 16.63565 v 50.30779 z"
              id="path17"
              inkscape:label="city planning"
              transform="translate(-4.5861793e-6)" /><path
              class="rooms"
-             data-floorlocation="Third Floor"
+             data-floorlocation="Third Floor" data-roomname="Lipa City Personnel Office"
              style="opacity:1;fill:#59ff59;fill-opacity:0.5;stroke:#b9b9b9;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:0"
              d="M 179.70737,604.88254 V 478.74724 H 480.1645 v 126.1353 z"
              id="path158"
@@ -504,7 +504,7 @@
            id="layer5"
            inkscape:label="rooms"><path
              class="rooms"
-             data-floorlocation="Third Floor"
+             data-floorlocation="Third Floor" data-roomname="Lipa City Administrator_s Office"
              style="fill:#59ff59;fill-opacity:0.5;stroke:#b9b9b9;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:0"
              d="M 718.1389,536.75019 H 460.18613 v 55.91983 H 718.1389 Z"
              id="path143"

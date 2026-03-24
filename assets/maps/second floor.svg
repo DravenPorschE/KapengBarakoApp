@@ -267,13 +267,13 @@
            id="layer3"
            inkscape:label="rooms"><path
              class="rooms"
-             data-floorlocation="Second Floor"
-             style="opacity:1;fill:#6bec56;fill-opacity:0.5;stroke:#b9b9b9;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:0"
+             data-floorlocation="Second Floor" data-roomname="Lipa City Assesor_s Office"
+             style="opacity:1;fill:#6bec56;fill-opacity:0.5;stroke:#b9b9b9;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:0" 
              d="M 431.69452,370.61103 H 328.94385 v 99.91616 h 119.47423 v 16.44009 H 308.39372 V 370.61103 H 157.59826 V 535.7207 H 72.563229 v 61.22522 H 467.69269 V 452.38638 h -35.99817 z"
              id="path123"
              inkscape:label="city assesor" /><path
              class="rooms"
-             data-floorlocation="Second Floor"
+             data-floorlocation="Second Floor" data-roomname="Lipa City Civil Registrar_s Office"
              style="opacity:1;fill:#6bec56;fill-opacity:0.5;stroke:#b9b9b9;stroke-width:1.88866189;stroke-dasharray:none;stroke-opacity:0"
              d="m 675.24697,468.60416 h 99.61346 v -55.31853 h -81.17394 v -15.6335 H 795.90553 V 601.88977 H 957.05085 V 369.79243 H 675.24697 Z"
              id="path132"
@@ -455,7 +455,7 @@
            id="layer3-0"
            inkscape:label="rooms"><path
              class="rooms"
-             data-floorlocation="Second Floor"
+             data-floorlocation="Second Floor" data-roomname="Lipa City Community Affairs Office"
              style="fill:#59ff59;fill-opacity:0.5;stroke:#b9b9b9;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:0"
              d="M 634.96066,669.43453 H 849.42022 V 557.194 H 634.96066 Z"
              id="path115"

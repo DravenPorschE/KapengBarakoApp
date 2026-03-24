@@ -232,11 +232,17 @@
              id="path107" /></g><g
            id="layer3"
            inkscape:label="rooms"
-           style="display:inline"><path class="rooms" data-floorlocation="First Floor" data-roomname="Lipa City Treasurer_s Office"
+           style="display:inline"><path
+             class="rooms"
+             data-floorlocation="First Floor"
+             data-roomname="Lipa City Treasurer_s Office"
              style="fill:#6bec56;fill-opacity:0.5;stroke:#b9b9b9;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:0"
              d="m 151.36236,379.82316 h 268.71071 v 46.48582 h 37.98232 V 507.3757 H 151.36236 Z"
              id="path101"
-             inkscape:label="city treasurer 1" /><path class="rooms" data-floorlocation="First Floor" data-roomname="Lipa City Treasurer_s Office"
+             inkscape:label="city treasurer 1" /><path
+             class="rooms"
+             data-floorlocation="First Floor"
+             data-roomname="Lipa City Treasurer_s Office"
              style="fill:#6bec56;fill-opacity:0.5;stroke:#b9b9b9;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:0"
              d="m 700.12179,379.82316 v 46.48582 h -35.71471 v 81.06672 h 213.72138 v -51.02101 h 94.67234 v -76.53153 z"
              id="path106"
@@ -478,15 +484,17 @@
              d="m 766.3422,412.98498 v 25.7552 h 25.65497 v -25.15391"
              id="path155" /></g><g
            id="layer3-3"
-           inkscape:label="rooms"><path class="rooms" data-floorlocation="First Floor" data-roomname="Lipa City Permits and Licensing Office"
+           inkscape:label="rooms"><path
+             class="rooms"
+             data-floorlocation="First Floor"
+             data-roomname="Lipa City Permits and Licensing Office"
              style="fill:#59ff59;fill-opacity:0.5;stroke:#b9b9b9;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:0"
              d="M 279.79958,599.68505 H 164.35219 V 424.91054 h 115.44739 z"
              id="path144"
-             inkscape:label="city permits" /><path class="rooms" data-floorlocation="First Floor" data-roomname=""
-             style="fill:#59ff59;fill-opacity:0.5;stroke:#b9b9b9;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:0"
-             d="M 299.04081,665.82679 H 507.88835 V 591.8683 H 432.92772 V 387.63066 H 299.04081 Z"
-             id="path149"
-             inkscape:label="business one stop shop" /><path class="rooms" data-floorlocation="First Floor" data-roomname="Lipa City Treasurer_s Office"
+             inkscape:label="city permits" /><path
+             class="rooms"
+             data-floorlocation="First Floor"
+             data-roomname="Lipa City Treasurer_s Office"
              style="fill:#59ff59;fill-opacity:0.5;stroke:#b9b9b9;stroke-width:1.88976;stroke-dasharray:none;stroke-opacity:0"
              d="m 225.08233,285.81247 76.36364,90.3937 153.32856,-126.07015 -76.36364,-89.39157 z"
              id="path150"

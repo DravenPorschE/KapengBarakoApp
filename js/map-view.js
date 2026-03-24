@@ -15,6 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const floorDisplay = document.getElementById("floor-display");
 
+    const mapDepartmentName = document.querySelector(".map-department-name");
+
+    const serviceItems = document.querySelectorAll(".service-item");
+
     let activeRoom = null;
     let currentFloor = 1;
 
@@ -128,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 content.innerHTML = "";
                 floorLocation.textContent = "No Data";
-                servicesOffered.textContent = "No Data";
+                // servicesOffered.textContent = "No Data";
 
                 content.appendChild(svgElement);
 
@@ -156,6 +160,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 selected.style.fillOpacity = 1;
                 activeRoom = selected;
 
+                let departmentName = activeRoom.dataset.roomname.replace('_', "'");
+                mapDepartmentName.textContent = departmentName;
                 floorLocation.textContent = activeRoom.dataset.floorlocation;
                 getServiceList(activeRoom.dataset.roomname);
             });
@@ -178,11 +184,18 @@ document.addEventListener("DOMContentLoaded", () => {
             if (isJson(externalRes)) {
                 console.log("external available");
 
+                let nextAction = "Click for more details";
+
                 let filename = `${roomName} External Services`;
+                filename = filename.replace('_', "'");
 
                 let serviceItem = document.createElement("li");
                 serviceItem.classList.add("service-item");
-                serviceItem.textContent = filename;
+                serviceItem.appendChild(document.createTextNode(filename));
+                serviceItem.appendChild(document.createElement("br"));
+                serviceItem.appendChild(document.createElement("br"));
+                serviceItem.appendChild(document.createTextNode(nextAction));
+
 
                 servicesListContainer.appendChild(serviceItem);
             } else {
@@ -192,11 +205,18 @@ document.addEventListener("DOMContentLoaded", () => {
             if (isJson(internalRes)) {
                 console.log("internal available");
 
+                let nextAction = "Click for more details";
+
                 let filename = `${roomName} Internal Services`;
+                filename = filename.replace('_', "'");
 
                 let serviceItem = document.createElement("li");
                 serviceItem.classList.add("service-item");
-                serviceItem.textContent = filename;
+
+                serviceItem.appendChild(document.createTextNode(filename));
+                serviceItem.appendChild(document.createElement("br"));
+                serviceItem.appendChild(document.createElement("br"));
+                serviceItem.appendChild(document.createTextNode(nextAction));
 
                 servicesListContainer.appendChild(serviceItem);
             } else {
@@ -209,5 +229,63 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     changeFloor(currentFloor);
-    // getServiceList(roomName);
+    
+    servicesListContainer.addEventListener("click", (e) => {
+        const li = e.target.closest(".service-item");
+
+        if (li) {
+            let itemName = li.textContent;
+
+            itemName = itemName.replace("Click for more details", "").trim();
+
+            updateTotalVisitor(itemName);
+
+            window.location.href = `/pages/document-selector.html?view=${itemName}`;
+        }
+    });
+
+    function updateTotalVisitor(visited) {
+        let data = JSON.parse(localStorage.getItem("visitors"));
+
+        if (!data) {
+            data = {
+                "Lipa City Accounting Office External Services": 0,
+                "Lipa City Accounting Office Internal Services": 0,
+                "Lipa City Administrator_s Office External Services": 0,
+                "Lipa City Agriculture Office External Services": 0,
+                "Lipa City Assesor_s Office External Services": 0,
+                "Lipa City Budget Office External Services": 0,
+                "Lipa City Civil Registrar_s Office External Services": 0,
+                "Lipa City Community Affairs Office External Services": 0,
+                "Lipa City Cooperatives Office External Services": 0,
+                "Lipa City Engineering Office External Services": 0,
+                "Lipa City Environment and Natural Resources Office External Services": 0,
+                "Lipa City General Services Office Internal Services": 0,
+                "Lipa City Health Office External Services": 0,
+                "Lipa City Legal Office External Services": 0,
+                "Lipa City Mayor_s Office External Services": 0,
+                "Lipa City Mayor_s Office Internal Services": 0,
+                "Lipa City Permits and Licensing Office External Services": 0,
+                "Lipa City Personnel Office External Services": 0,
+                "Lipa City Personnel Office Internal Services": 0,
+                "Lipa City Planning and Development Office External Services": 0,
+                "Lipa City Public Order and Safety Office External Services": 0,
+                "Lipa City Social Welfare and Development Office External Services": 0,
+                "Lipa City Treasurer_s Office External Services": 0,
+                "Lipa City Treasurer_s Office Internal Services": 0,
+                "Lipa City Veterinary Office External Services": 0,
+                "Kolehiyo ng Lungsod ng Lipa External Services": 0,
+                "Ospital ng Lipa External Services": 0,
+                "Ospital ng Lipa Internal Services": 0,
+                "Office of the Sangguniang Panglungsod External Services": 0,
+                "Lipa City Vice Mayor_s Office External Services": 0
+            };
+        }
+
+        data[visited] = (data[visited] || 0) + 1;
+
+        localStorage.setItem("visitors", JSON.stringify(data));
+
+        console.log("Updated:", visited, "=", data[visited]);
+    }
 });
