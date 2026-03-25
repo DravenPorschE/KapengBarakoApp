@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const noticeContainer = document.querySelector(".notice-container");
 
     const mapContainerOuter = document.querySelector(".map-container-outer");
-    const showMapButton = document.querySelector(".show-map");
+    // const showMapButton = document.querySelector(".show-map");
     const closeMapButton = document.querySelector(".close-map-btn");
 
     const zoomIn = document.querySelector(".zoomIn");
@@ -343,90 +343,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     } else {
         console.log("No search parameter in URL");
     }
-
-    showMapButton.addEventListener("click", () => {
-        mapContainerOuter.classList.add("show");
-
-        // 1. Define your boundaries
-        const MIN_ZOOM = 0.5;
-        const MAX_ZOOM = 3.0;
-        const ZOOM_STEP = 0.5; // Smaller steps feel smoother
-
-        let zoomVal = 1; 
-        let currentX = 0; 
-        let currentY = 0;
-        let startX = 0, startY = 0;
-
-        function updateDisplay() {
-            content.style.transform = `translate(${currentX}px, ${currentY}px) scale(${zoomVal})`;
-        }
-
-        // --- Zoom In with Limit ---
-        zoomIn.addEventListener('click', () => {
-            // Math.min ensures the value never goes ABOVE the Max
-            zoomVal = Math.min(MAX_ZOOM, zoomVal + ZOOM_STEP);
-            updateDisplay();
-        });
-
-        // --- Zoom Out with Limit ---
-        zoomOut.addEventListener('click', () => {
-            // Math.max ensures the value never goes BELOW the Min
-            zoomVal = Math.max(MIN_ZOOM, zoomVal - ZOOM_STEP);
-            updateDisplay();
-        });
-
-        // --- Panning Logic (Remains the same) ---
-        wrapper.addEventListener('touchstart', (e) => {
-            startX = e.touches[0].clientX;
-            startY = e.touches[0].clientY;
-            content.style.transition = 'none';
-        }, { passive: false });
-
-        wrapper.addEventListener('touchmove', (e) => {
-            e.preventDefault();
-            const deltaX = e.touches[0].clientX - startX;
-            const deltaY = e.touches[0].clientY - startY;
-
-            let moveX = currentX + deltaX;
-            let moveY = currentY + deltaY;
-
-            content.style.transform = `translate(${moveX}px, ${moveY}px) scale(${zoomVal})`;
-        }, { passive: false });
-
-        wrapper.addEventListener('touchend', (e) => {
-            const deltaX = e.changedTouches[0].clientX - startX;
-            const deltaY = e.changedTouches[0].clientY - startY;
-
-            currentX += deltaX;
-            currentY += deltaY;
-            content.style.transition = 'transform 0.2s ease-out';
-        });
-    
-    });
-    
-    closeMapButton.addEventListener("click", () => {
-        mapContainerOuter.classList.remove("show");
-
-        let zoomVal = 1;
-        let currentX = 0;
-        let currentY = 0;
-
-        // 2. Add a smooth transition for the "fly back" effect
-        content.style.transition = 'transform 0.5s ease-in-out';
-
-        function updateDisplay() {
-            content.style.transform = `translate(${currentX}px, ${currentY}px) scale(${zoomVal})`;
-        }
-
-        // 3. Update the display
-        updateDisplay();
-
-        // 4. Important: Remove the transition after it finishes 
-        // so it doesn't interfere with the "instant" feel of dragging later
-        setTimeout(() => {
-            content.style.transition = 'none';
-        }, 500);
-    });
 
     rooms.forEach(room => {
         room.addEventListener("click", (e) => {
