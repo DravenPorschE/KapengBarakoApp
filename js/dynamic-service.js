@@ -33,6 +33,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     const wrapper = document.querySelector('.map-view');
     const content = document.querySelector('.map-size');
 
+    const showMap = document.querySelector(".show-map");
+
     // 1. "Home" coordinates (where the map sits when NOT being dragged)
     let currentX = 0; 
     let currentY = 0;
@@ -106,7 +108,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             service.service_name.toLowerCase().trim() === val.toLowerCase().trim()
         );
 
-        console.log(matchedService);
+        // console.log(matchedService);
         // currentDepartment = matchedService.department;
 
         if (matchedService) {
@@ -356,10 +358,16 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     });
 
-    document.getElementById("navigate-document-selector").addEventListener("click", () => {
-        if(!departmentName) {
-            return;
-        }
-        window.location.href = `/pages/document-selector.html?view=${encodeURIComponent(departmentName)}`;
+    showMap.addEventListener("click", () => {
+        let departmentName = serviceName.textContent;
+
+        // create regex to match both phrases
+        let regex = /External Services|Internal Services/g;
+
+        // replace them with empty string
+        departmentName = departmentName.replace(regex, '').trim();
+
+        
+        window.location.href = `/pages/map-view.html?view=${departmentName}`;
     });
 });

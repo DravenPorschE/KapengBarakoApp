@@ -3,7 +3,7 @@
     {
       "service_name": "Approval of Legislative Measures",
       "image": "/assets/document_background/Approval of Legislative Measures",
-      "office": "Lipa City Mayor’s Office",
+      "office": "Lipa City Mayor's Office",
       "classification": "Complex",
       "type_of_transaction": "G2G – Government to Government",
       "who_may_avail": "Sangguniang Panlungsod",
@@ -23,21 +23,21 @@
           "agency_action": "1.1. Receive the copies of resolutions and ordinances",
           "fees": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Senior Administrative Assistant III (Lipa City Mayor’s Office)"
+          "person_responsible": "Senior Administrative Assistant III (Lipa City Mayor's Office)"
         },
         {
           "client_step": "1. Endorse copies of resolutions and ordinances",
           "agency_action": "1.2. If approved, affix the signature on each and every page of the ordinance. If disapproved, veto the ordinance and return to the Sangguniang Panlungsod with his objections",
           "fees": "None",
           "processing_time": "10 days",
-          "person_responsible": "City Mayor (Lipa City Mayor’s Office)"
+          "person_responsible": "City Mayor (Lipa City Mayor's Office)"
         },
         {
           "client_step": "2. Claim the resolutions and ordinances",
           "agency_action": "2. Release the resolutions and ordinances",
           "fees": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Senior Administrative Assistant III (Lipa City Mayor’s Office)"
+          "person_responsible": "Senior Administrative Assistant III (Lipa City Mayor's Office)"
         }
       ],
       "total": {

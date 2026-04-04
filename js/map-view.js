@@ -5,6 +5,69 @@ document.addEventListener("DOMContentLoaded", () => {
     const wrapper = document.querySelector('.map-view');
     const content = document.querySelector('.map-size');
 
+    const urlParams = new URLSearchParams(window.location.search);
+    let val = urlParams.get("view");
+
+    let pulsatingRoom;
+
+    if (val) {
+        // decode any URL-encoded characters like %20 or %92
+        val = decodeURIComponent(val);
+
+        // replace any single quotes or smart quotes with _
+        val = val.replace(/['’‘\u2018\u2019]/g, "_");
+    }
+
+    console.log("Normalized val:", val);
+
+    let currentFloor = 1;
+    let autoRoute = false;
+
+    findRoomFloorFromSVG(val);
+
+    function findRoomFloorFromSVG(val) {
+        const floorMap = {
+            "Ground Floor": 1,
+            "First Floor": 1,
+            "Second Floor": 2,
+            "Third Floor": 3,
+            "Fourth Floor": 4,
+            "Fifth Floor": 5
+        };
+
+        const floorFiles = [
+            "ground floor",
+            "second floor",
+            "third floor",
+            "fourth floor",
+            "fifth floor"
+        ];
+
+        floorFiles.forEach(floorName => {
+            fetch(`/assets/maps/${floorName}.svg`)
+                .then(res => res.ok ? res.text() : Promise.reject("SVG not found"))
+                .then(svgText => {
+                    const parser = new DOMParser();
+                    const svgDoc = parser.parseFromString(svgText, "image/svg+xml");
+                    const rooms = svgDoc.querySelectorAll(".rooms");
+
+                    const targetRoom = Array.from(rooms).find(r => r.dataset.roomname === val);
+                    if (targetRoom) {
+                        const locationName = targetRoom.dataset.floorlocation;
+                        const floorNumber = floorMap[locationName];
+                        console.log(`Room "${val}" is on floor number:`, floorNumber, `(from "${locationName}")`);
+                        // You can now call changeFloor(floorNumber) here if you want to auto-load it
+                        currentFloor = floorNumber;
+                        changeFloor(floorNumber);
+                        autoRoute = true;
+                    }
+                })
+                .catch(err => console.warn(`Error loading ${floorName}:`, err));
+        });
+    }
+
+    // findRoomFloorFromSVG(val);
+
     // const rooms = document.querySelectorAll(".rooms");
 
     const floorUpBtn = document.querySelector(".floor-up");
@@ -20,7 +83,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const serviceItems = document.querySelectorAll(".service-item");
 
     let activeRoom = null;
-    let currentFloor = 1;
 
     const MIN_ZOOM = 0.5;
     const MAX_ZOOM = 3.0;
@@ -36,6 +98,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const MAX_FLOOR = 5;
 
     const servicesListContainer = document.querySelector(".services-list");
+
+    const availableBulidings = [];
+
+    const floorMap = {
+        "Ground Floor": 1,
+        "First Floor": 1,
+        "Second Floor": 2,
+        "Third Floor": 3,
+        "Fourth Floor": 4,
+        "Fifth Floor": 5
+    };
 
     function updateDisplay() {
         content.style.transform = `translate(${currentX}px, ${currentY}px) scale(${zoomVal})`;
@@ -130,6 +203,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const svgElement = svgDoc.querySelector('svg');
 
+                // 🛑 stop all running pulses before clearing
+                content.querySelectorAll(".rooms").forEach(room => stopPulse(room));
+
                 content.innerHTML = "";
                 floorLocation.textContent = "No Data";
                 // servicesOffered.textContent = "No Data";
@@ -153,6 +229,7 @@ document.addEventListener("DOMContentLoaded", () => {
         rooms.forEach(room => {
             room.style.fillOpacity = 0.5;
 
+            // click event for all rooms
             room.addEventListener("click", (e) => {
                 if (activeRoom) activeRoom.style.fillOpacity = 0.5;
 
@@ -160,11 +237,30 @@ document.addEventListener("DOMContentLoaded", () => {
                 selected.style.fillOpacity = 1;
                 activeRoom = selected;
 
-                let departmentName = activeRoom.dataset.roomname.replace('_', "'");
+                // update department info
+                const departmentName = activeRoom.dataset.roomname.replace('_', "'");
                 mapDepartmentName.textContent = departmentName;
                 floorLocation.textContent = activeRoom.dataset.floorlocation;
+
                 getServiceList(activeRoom.dataset.roomname);
+                stopPulse(pulsatingRoom);
+                pulsatingRoom = null;
             });
+
+            console.log(room.dataset.roomname);
+            console.log(val);
+
+            // auto-activate room if it matches val
+            if (val && room.dataset.roomname === val) {
+                pulsatingRoom = room;
+                activeRoom = room;                   // set activeRoom
+                room.style.fillOpacity = 1;          // highlight it
+                mapDepartmentName.textContent = room.dataset.roomname.replace('_', "'");
+                floorLocation.textContent = room.dataset.floorlocation;
+                getServiceList(activeRoom.dataset.roomname);
+
+                startPulse(room);                    // start pulsing
+            }
         });
     }
 
@@ -228,7 +324,9 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    changeFloor(currentFloor);
+    if(!autoRoute) {
+        changeFloor(currentFloor);
+    }
     
     servicesListContainer.addEventListener("click", (e) => {
         const li = e.target.closest(".service-item");
@@ -287,5 +385,62 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("visitors", JSON.stringify(data));
 
         console.log("Updated:", visited, "=", data[visited]);
+    }
+
+    function createPulse(element) {
+    const clone = element.cloneNode(true);
+
+    // insert clone behind original
+    element.parentNode.insertBefore(clone, element);
+
+    // make sure it's behind
+    clone.style.pointerEvents = "none";
+
+    let start = null;
+    const duration = 1200;
+
+    function animate(timestamp) {
+        if (!start) start = timestamp;
+            let progress = (timestamp - start) / duration;
+
+            if (progress >= 1) {
+                clone.remove();
+                return;
+            }
+
+            // scale outward
+            let scale = 1 + progress - 0.1;
+
+            // fade out
+            let opacity = 1 - progress;
+
+            clone.style.transformOrigin = "center";
+            clone.style.transformBox = "fill-box";
+            clone.style.transform = `scale(${scale})`;
+            clone.style.opacity = opacity;
+
+            requestAnimationFrame(animate);
+        }
+
+        requestAnimationFrame(animate);
+    }
+    function startPulse(element) {
+        if (element._pulseRunning) return; // prevent duplicates
+
+        element._pulseRunning = true;
+
+        function loop() {
+            if (!element._pulseRunning) return;
+
+            createPulse(element);
+
+            element._pulseTimeout = setTimeout(loop, 1000); // controls frequency
+        }
+
+        loop();
+    }
+    function stopPulse(element) {
+        element._pulseRunning = false;
+        clearTimeout(element._pulseTimeout);
     }
 });

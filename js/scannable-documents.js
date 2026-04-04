@@ -19,11 +19,12 @@ qrOpeners.forEach(qrOpener =>{
         const docname = mouse.target.closest("a").querySelector(".doc-name").textContent;
 
             // change doc name
-           qrDocName.textContent = docname
+           qrDocName.textContent = docname;
             // change sub name
             
             // change src qr 
-            qrImage.src = `/assets/qr codes/${docname}.png`;
+            let sanitizedDocName = docname.replace("/", "or");
+            qrImage.src = `/assets/qr codes/${sanitizedDocName}.png`;
         
        }
 

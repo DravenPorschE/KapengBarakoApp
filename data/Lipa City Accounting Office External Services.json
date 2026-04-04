@@ -37,8 +37,10 @@
           "person_responsible": "Admin Assistant III (Lipa City Accounting Office)"
         }
       ],
-      "total_processing_time": "1 day and 4 minutes",
-      "total_fees": "None"
+	"total": {
+		"fees": "1 day and 4 minutes",
+		"processing_time": "None"
+	}
     },
     {
       "service_name": "Review and Approval of Barangay Transactions",
@@ -84,8 +86,10 @@
           "person_responsible": "Administrative Aide VI (Lipa City Accounting Office)"
         }
       ],
-      "total_processing_time": "Simple: 1 day & 5 mins; Complex: 2 days & 5 mins; Discrepancy: +1 day & 5 mins",
-      "total_fees": "None"
+	"total": {
+		"fees": "Simple: 1 day & 5 mins; Complex: 2 days & 5 mins; Discrepancy: +1 day & 5 mins",
+		"processing_time": "None"
+	}
     }
   ]
 }

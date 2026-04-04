@@ -384,3 +384,19 @@ html, body {
     border-left-color: var(--red-mid);
     color: var(--text-dark);
 }
+
+.pulse {
+  animation: pulseFill 1.5s ease-in-out infinite;
+}
+
+@keyframes pulseFill {
+  0% {
+    fill-opacity: 1;
+  }
+  50% {
+    fill-opacity: 0.3;
+  }
+  100% {
+    fill-opacity: 1;
+  }
+}

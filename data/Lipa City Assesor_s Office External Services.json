@@ -1,17 +1,17 @@
 {
-  "department": "Lipa City Assessor’s Office",
+  "department": "Lipa City Assessor's Office",
   "external_services": [
     {
       "id": 1,
       "service_name": "Application for Certification of Property Holdings/ No Property Holdings/ No Improvement",
       "image": "/assets/document_background/Application for Certification of Property Holdings _No Property Holdings_ No",
-      "office": "Lipa City Assessor’s Office",
+      "office": "Lipa City Assessor's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Request Slip (1 original copy)", "source": "Lipa City Assessor’s Office" },
-        { "requirement": "Official Receipt (1 original copy)", "source": "Lipa City Treasurer’s Office" },
+        { "requirement": "Request Slip (1 original copy)", "source": "Lipa City Assessor's Office" },
+        { "requirement": "Official Receipt (1 original copy)", "source": "Lipa City Treasurer's Office" },
         { "requirement": "Authorization Letter and Valid ID (if representative)", "source": "Owner" }
       ],
       "steps": [
@@ -23,7 +23,7 @@
           "person_responsible": "Assessment Clerk"
         },
         {
-          "client_step": "2. Pay the fee at the Treasurer’s Office",
+          "client_step": "2. Pay the fee at the Treasurer's Office",
           "agency_action": "2. Receive payment and issue Official Receipt",
           "fees": "P50.00",
           "processing_time": "10 minutes",
@@ -43,7 +43,7 @@
       "id": 2,
       "service_name": "Application for Transfer of Land Ownership (Consolidation and Subdivision)",
       "image": "/assets/document_background/Application for Transfer of Land Ownership (Consolidation and",
-      "office": "Lipa City Assessor’s Office",
+      "office": "Lipa City Assessor's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
@@ -52,7 +52,7 @@
         { "requirement": "Certified True Copy of Title", "source": "Registry of Deeds" },
         { "requirement": "Approved Subdivision / Consolidation Plan", "source": "DENR/LRA" },
         { "requirement": "Deed of Conveyance & CAR", "source": "BIR" },
-        { "requirement": "Transfer Tax Receipt and Clearance", "source": "City Treasurer’s Office" }
+        { "requirement": "Transfer Tax Receipt and Clearance", "source": "City Treasurer's Office" }
       ],
       "steps": [
         {
@@ -63,7 +63,7 @@
           "person_responsible": "Tax Mapper / Records Officer"
         },
         {
-          "client_step": "2. Pay the fee at the Treasurer’s Office",
+          "client_step": "2. Pay the fee at the Treasurer's Office",
           "agency_action": "2. Issue Official Receipt",
           "fees": "P50.00",
           "processing_time": "11 minutes",
@@ -83,7 +83,7 @@
       "id": 3,
       "service_name": "Application for Transfer of Land Ownership (Simple)",
       "image": "/assets/document_background/Application for Transfer of Land Ownership (Simple)",
-      "office": "Lipa City Assessor’s Office",
+      "office": "Lipa City Assessor's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
@@ -91,7 +91,7 @@
         { "requirement": "Certified True Copy of Title", "source": "Registry of Deeds" },
         { "requirement": "Deed of Absolute Sale", "source": "Notary Public" },
         { "requirement": "eCAR", "source": "BIR" },
-        { "requirement": "Transfer Tax Receipt/Clearance", "source": "City Treasurer’s Office" }
+        { "requirement": "Transfer Tax Receipt/Clearance", "source": "City Treasurer's Office" }
       ],
       "steps": [
         {
@@ -122,7 +122,7 @@
       "id": 4,
       "service_name": "Request for Appraisal and Assessment (Cancelled Buildings/Dismantled Machineries)",
       "image": "/assets/document_background/Request for Appraisal and Assessment of Real Property for Cancelled",
-      "office": "Lipa City Assessor’s Office",
+      "office": "Lipa City Assessor's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
@@ -160,7 +160,7 @@
       "id": 5,
       "service_name": "Request for Appraisal and Assessment (New Building/Machineries)",
       "image": "/assets/document_background/Request for Appraisal and Assessment of Real Property with New Building",
-      "office": "Lipa City Assessor’s Office",
+      "office": "Lipa City Assessor's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
@@ -198,13 +198,13 @@
       "id": 6,
       "service_name": "Request for Certified True Copies of Tax Declaration",
       "image": "/assets/document_background/Request for Certified True Copies of Tax Declaration",
-      "office": "Lipa City Assessor’s Office",
+      "office": "Lipa City Assessor's Office",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Request Slip", "source": "Assessor’s Office" },
-        { "requirement": "Updated RPT Receipt", "source": "Treasurer’s Office" },
+        { "requirement": "Request Slip", "source": "Assessor's Office" },
+        { "requirement": "Updated RPT Receipt", "source": "Treasurer's Office" },
         { "requirement": "Valid ID", "source": "Owner" }
       ],
       "steps": [
@@ -236,12 +236,12 @@
       "id": 7,
       "service_name": "Request for Certified true Copy of Tax Declaration (Manual)",
       "image": "/assets/document_background/Request for Certified true Copy of Tax Declaration (Manual)",
-      "office": "Lipa City Assessor’s Office",
+      "office": "Lipa City Assessor's Office",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Request Slip", "source": "Assessor’s Office" },
+        { "requirement": "Request Slip", "source": "Assessor's Office" },
         { "requirement": "Previous TD or Title", "source": "Owner" }
       ],
       "steps": [
@@ -273,12 +273,12 @@
       "id": 8,
       "service_name": "Request for issuance of Photocopy/ Digital Pictures of Tax Map",
       "image": "/assets/document_background/Request for issuance of Photocopy_Digital Pictures of Tax Map",
-      "office": "Lipa City Assessor’s Office",
+      "office": "Lipa City Assessor's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Request Slip", "source": "Assessor’s Office" },
+        { "requirement": "Request Slip", "source": "Assessor's Office" },
         { "requirement": "Tax Declaration or Title", "source": "Owner" }
       ],
       "steps": [
@@ -310,7 +310,7 @@
       "id": 9,
       "service_name": "Request for Order of Payment for Cadastral Cost",
       "image": "/assets/document_background/Request for Order of Payment for Cadastral Cost",
-      "office": "Lipa City Assessor’s Office",
+      "office": "Lipa City Assessor's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
@@ -340,14 +340,14 @@
       "id": 10,
       "service_name": "Request for Reclassification of Lot for Taxation Purposes",
       "image": "/assets/document_background/Request for Reclassification of Lot for Taxation Purposes",
-      "office": "Lipa City Assessor’s Office",
+      "office": "Lipa City Assessor's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
         { "requirement": "Zoning Certification", "source": "City Planning Office" },
         { "requirement": "Reclassification Ordinance", "source": "Sangguniang Panlungsod" },
-        { "requirement": "Updated Tax Receipt", "source": "Treasurer’s Office" }
+        { "requirement": "Updated Tax Receipt", "source": "Treasurer's Office" }
       ],
       "steps": [
         {
@@ -378,12 +378,12 @@
       "id": 11,
       "service_name": "Request for Tax Mapping Certification",
       "image": "/assets/document_background/Request for Tax Mapping Certification",
-      "office": "Lipa City Assessor’s Office",
+      "office": "Lipa City Assessor's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": ["All property owners and all authorized representatives"],
       "checklist_of_requirements": [
-        { "requirement": "Request Slip", "source": "Assessor’s Office" },
+        { "requirement": "Request Slip", "source": "Assessor's Office" },
         { "requirement": "Latest Tax Declaration", "source": "Owner" },
         { "requirement": "Certified Survey Plan", "source": "LRA/DENR" }
       ],
