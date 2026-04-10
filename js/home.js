@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const toggleBtn = document.getElementById('burger');
     const closeBtn = document.getElementById('close-button');
 
+    const ribbon = document.querySelector(".ribbon");
+
     const input = document.getElementById("search-input");
     const texts = ["Business Permit", "Mayor's Permit", "Marriage Certificate", "Birth Certificate"];
     let textIndex = 0;
@@ -234,4 +236,69 @@ document.addEventListener("DOMContentLoaded", function() {
         // Return the matched text, or null if nothing is found
         return found || null;
     }
+
+    function makeVerticalRibbonDraggable(element, maxDistance = 80) {
+        let isDragging = false;
+        let startY = 0;
+        let currentY = 0;
+
+        element.style.transition = "transform 0.3s ease";
+
+        function onStart(clientY) {
+            isDragging = true;
+            startY = clientY;
+            element.style.transition = "none";
+        }
+
+        function onMove(clientY) {
+            if (!isDragging) return;
+
+            let deltaY = clientY - startY;
+
+            if (deltaY < 0) deltaY = 0;
+            if (deltaY > maxDistance) deltaY = maxDistance;
+
+            currentY = deltaY;
+            element.style.transform = `translateY(${currentY}px)`;
+        }
+
+        function onEnd() {
+            if (!isDragging) return;
+            isDragging = false;
+
+            if (currentY >= maxDistance) {
+                console.log("Ribbon reached max distance!");
+                window.location.href = "/pages/credits.html";
+            }
+
+            element.style.transition = "transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1)";
+            element.style.transform = "translateY(0px)";
+            currentY = 0;
+        }
+
+        // Mouse events
+        element.addEventListener("mousedown", (e) => {
+            onStart(e.clientY);
+            e.preventDefault();
+        });
+        document.addEventListener("mousemove", (e) => onMove(e.clientY));
+        document.addEventListener("mouseup", onEnd);
+
+        // Touch events
+        element.addEventListener("touchstart", (e) => {
+            onStart(e.touches[0].clientY);
+            e.preventDefault(); // prevents scroll while dragging ribbon
+        }, { passive: false });
+
+        document.addEventListener("touchmove", (e) => {
+            if (isDragging) {
+                onMove(e.touches[0].clientY);
+                e.preventDefault(); // prevents page scroll interfering
+            }
+        }, { passive: false });
+
+        document.addEventListener("touchend", onEnd);
+    }
+
+    makeVerticalRibbonDraggable(ribbon, 80);
 });

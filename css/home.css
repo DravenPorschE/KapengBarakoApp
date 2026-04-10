@@ -53,7 +53,7 @@ body {
     inset: 0;
     pointer-events: none;
     z-index: 0;
-    background-image: url('/assets/background/background.png');
+    background-image: url('/assets/background/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@ body {
 
 
 #avatar {
-    width: 65%;
+    width: 55%;
     height: auto;
     max-height: 85vh;
     object-fit: contain;
@@ -645,4 +645,18 @@ body {
     background: #1a0000;
     border-color: #4a0000;
     border-bottom-color: #000;
+}
+
+.credit-pull-container {
+    position: absolute;
+    z-index: 999;
+
+    /* display: none; */
+
+    height: 40vh;
+}
+.ribbon {
+    height: 30vh;
+    margin-top: -20vh;
+    margin-left: 50px;
 }
