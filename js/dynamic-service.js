@@ -9,42 +9,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     const totalTime = document.getElementById("total-time");
     const totalSteps = document.getElementById("total-steps");
 
-    const serviceNotice =  document.querySelector(".service-notice");
+    const serviceNotice = document.querySelector(".service-notice");
     const showNotice = document.querySelector(".show-notice");
 
     const urlParams = new URLSearchParams(window.location.search);
     const val = urlParams.get("search");
 
-    //alert(val);
-
-    //map clickables
-    const rooms = document.querySelectorAll('.rooms');
+    const rooms = document.querySelectorAll(".rooms");
 
     const tableClose = document.querySelector(".table-close");
     const noticeContainer = document.querySelector(".notice-container");
 
-    const mapContainerOuter = document.querySelector(".map-container-outer");
-    // const showMapButton = document.querySelector(".show-map");
-    const closeMapButton = document.querySelector(".close-map-btn");
-
-    const zoomIn = document.querySelector(".zoomIn");
-    const zoomOut = document.querySelector(".zoomOut");
-
-    const wrapper = document.querySelector('.map-view');
-    const content = document.querySelector('.map-size');
-
     const showMap = document.querySelector(".show-map");
 
-    // 1. "Home" coordinates (where the map sits when NOT being dragged)
-    let currentX = 0; 
-    let currentY = 0;
-
-    // 2. The starting point of the finger for the CURRENT drag session
-    let startX = 0;
-    let startY = 0;
-
     let departmentName = "";
-    // let currentDepartment = "";
 
     const jsonFiles = [
         "/data/Lipa City Environment and Natural Resources Office External Services.json",
@@ -80,128 +58,167 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/LIPA CITY PUBLIC ORDER AND SAFETY OFFICE EXTERNAL SERVICES.json"
     ];
 
-    
+    async function fetchJsonSafe(file) {
+        try {
+            const res = await fetch(file);
 
-    async function loadAllServices() {
-        const responses = await Promise.all(
-            jsonFiles.map(file => fetch(file).then(res => res.json()))
-        );
+            if (!res.ok) {
+                console.warn(`Skipped file: ${file} (${res.status})`);
+                return null;
+            }
 
-        return responses.flatMap(dept =>
-            (dept.external_services || dept.internal_services || []).map(service => ({
-                ...service,
-                department: dept.department
-            }))
-        );
+            const contentType = res.headers.get("content-type") || "";
+            if (!contentType.includes("application/json")) {
+                console.warn(`Not JSON: ${file}`);
+                return null;
+            }
+
+            return await res.json();
+        } catch (error) {
+            console.warn(`Failed to load ${file}:`, error);
+            return null;
+        }
     }
 
-    const allServices = await loadAllServices();
+    async function loadAllServices() {
+        const responses = await Promise.all(jsonFiles.map(fetchJsonSafe));
 
-    backBtn.addEventListener("click", () => {
+        return responses
+            .filter(Boolean)
+            .flatMap(dept =>
+                (dept.external_services || dept.internal_services || []).map(service => ({
+                    ...service,
+                    department: dept.department || service.office || ""
+                }))
+            );
+    }
+
+    function clearUI() {
+        serviceName.textContent = "Service Name";
+        documentName.textContent = "";
+        classInfo.textContent = "info";
+        typeInfo.textContent = "info";
+        totalFees.textContent = "P0.00";
+        totalTime.textContent = "0 min";
+        totalSteps.textContent = "0";
+
+        const checklistContainer = document.querySelector(".checklist-container");
+        const processInfoContainer = document.querySelector(".process-info");
+        const tableBody = document.querySelector(".data-container");
+
+        if (checklistContainer) checklistContainer.innerHTML = "";
+        if (processInfoContainer) processInfoContainer.innerHTML = "";
+        if (tableBody) tableBody.innerHTML = "";
+
+        if (serviceNotice) serviceNotice.style.display = "none";
+        if (showNotice) showNotice.style.display = "none";
+    }
+
+    backBtn?.addEventListener("click", () => {
         window.history.back();
     });
+
+    clearUI();
 
     if (val) {
         const allServices = await loadAllServices();
 
+        console.log("Search value:", val);
+        console.log("Loaded services:", allServices);
+
         const matchedService = allServices.find(service =>
-            service.service_name.toLowerCase().trim() === val.toLowerCase().trim()
+            (service.service_name || "").toLowerCase().trim() === val.toLowerCase().trim()
         );
 
-        // console.log(matchedService);
-        // currentDepartment = matchedService.department;
+        console.log("Matched service:", matchedService);
 
         if (matchedService) {
-            // Set header info
-            serviceName.textContent = matchedService.office;
-            documentName.textContent = matchedService.service_name;
-            classInfo.textContent = matchedService.classification;
-            typeInfo.textContent = matchedService.type_of_transaction;
+            serviceName.textContent = matchedService.office || matchedService.department || "Service Name";
+            documentName.textContent = matchedService.service_name || "No service name";
+            classInfo.textContent = matchedService.classification || "N/A";
+            typeInfo.textContent = matchedService.type_of_transaction || "N/A";
 
-            if(matchedService.service_notice != null) {
+            if (matchedService.service_notice) {
                 serviceNotice.style.display = "block";
                 showNotice.style.display = "block";
             }
 
             const fees =
-    matchedService.total?.fees ||
-    matchedService.total_fees_to_be_paid ||
-    "N/A";
-            const time = matchedService.total?.processing_time || matchedService.total_processing_time;
+                matchedService.total?.fees ||
+                matchedService.total_fees_to_be_paid ||
+                "None";
+
+            const time =
+                matchedService.total?.processing_time ||
+                matchedService.total_processing_time ||
+                "N/A";
 
             totalFees.textContent = fees;
             totalTime.textContent = time;
 
-            if (fees && fees.length > 15) {
-                totalFees.style.fontSize = "12px";
-            }
+            if (fees.length > 15) totalFees.style.fontSize = "12px";
+            if (time.length > 15) totalTime.style.fontSize = "12px";
 
-            if (time && time.length > 15) {
-                totalTime.style.fontSize = "12px";
-            }
-            
             const totalClientStep = (matchedService.steps || []).filter(step => {
-    const clientStep = step.client_step || step.client_steps;
-    return clientStep && clientStep !== "N/A";
-});
+                const clientStep = step.client_step || step.client_steps;
+                return clientStep && clientStep !== "N/A";
+            });
 
             totalSteps.textContent = totalClientStep.length;
 
-            // ===== Checklist =====
-            const checklist_container = document.querySelector(".checklist-container");
-            checklist_container.innerHTML = "";
+            const checklistContainer = document.querySelector(".checklist-container");
+            checklistContainer.innerHTML = "";
 
             (matchedService.checklist_of_requirements || []).forEach((list, index) => {
                 const checklistCollection = document.createElement("div");
                 checklistCollection.className = "checklist";
 
-                const requirementNumber_p = document.createElement("p");
-                requirementNumber_p.className = "requirement-number";
-                requirementNumber_p.textContent = "#" + (index + 1);
+                const requirementNumber = document.createElement("p");
+                requirementNumber.className = "requirement-number";
+                requirementNumber.textContent = "#" + (index + 1);
 
-                const requirementInfo_p = document.createElement("p");
-                requirementInfo_p.className = "requirement-info";
-                requirementInfo_p.textContent = list.requirement;
+                const requirementInfo = document.createElement("p");
+                requirementInfo.className = "requirement-info";
+                requirementInfo.textContent = list.requirement || "N/A";
 
-                const requirementSource_p = document.createElement("p");
-                requirementSource_p.className = "requirement-source";
-                requirementSource_p.textContent = list.source;
+                const requirementSource = document.createElement("p");
+                requirementSource.className = "requirement-source";
+                requirementSource.textContent = list.source || "N/A";
 
-                checklistCollection.appendChild(requirementNumber_p);
-                checklistCollection.appendChild(requirementInfo_p);
-                checklistCollection.appendChild(requirementSource_p);
+                checklistCollection.appendChild(requirementNumber);
+                checklistCollection.appendChild(requirementInfo);
+                checklistCollection.appendChild(requirementSource);
 
-                checklist_container.appendChild(checklistCollection);
+                checklistContainer.appendChild(checklistCollection);
             });
 
-            // ===== Steps =====
             const processInfoContainer = document.querySelector(".process-info");
-            processInfoContainer.innerHTML = ""; // clear once before generating
+            processInfoContainer.innerHTML = "";
 
-            showNotice.addEventListener("click", () => {
+            showNotice?.addEventListener("click", () => {
                 noticeContainer.classList.add("show");
             });
-            tableClose.addEventListener("click", () => {
+
+            tableClose?.addEventListener("click", () => {
                 noticeContainer.classList.remove("show");
             });
 
-            const tableContainer = document.querySelector(".table-notice");
             const tableBody = document.querySelector(".data-container");
+            tableBody.innerHTML = "";
 
             const serviceNoticeData = matchedService.service_notice;
-            
-            if(serviceNoticeData) {
-                serviceNoticeData.forEach((data, index) => {
+            if (serviceNoticeData) {
+                serviceNoticeData.forEach((data) => {
                     const row = document.createElement("tr");
 
-                    let serviceInfoData = document.createElement("td");
-                    serviceInfoData.innerHTML = data.service_name;
+                    const serviceInfoData = document.createElement("td");
+                    serviceInfoData.innerHTML = data.service_name || "";
 
-                    let processFeeData = document.createElement("td");
-                    processFeeData.innerHTML = data.processing_fee;
+                    const processFeeData = document.createElement("td");
+                    processFeeData.innerHTML = data.processing_fee || "";
 
-                    let processTimeData = document.createElement("td");
-                    processTimeData.innerHTML = data.processing_time;
+                    const processTimeData = document.createElement("td");
+                    processTimeData.innerHTML = data.processing_time || "";
 
                     row.appendChild(serviceInfoData);
                     row.appendChild(processFeeData);
@@ -213,20 +230,18 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             let currentStep = 0;
 
-            (matchedService.steps || []).forEach((step, index) => {
-    const clientStepValue = step.client_step || step.client_steps || "";
-    const feeValue = step.fees || step.fees_to_be_paid || "None";
-    const isClientStep = clientStepValue && clientStepValue !== "N/A";
+            (matchedService.steps || []).forEach((step) => {
+                const clientStepValue = step.client_step || step.client_steps || "";
+                const feeValue = step.fees || step.fees_to_be_paid || "None";
+                const isClientStep = clientStepValue && clientStepValue !== "N/A";
 
-    if (isClientStep) {
-        currentStep++;
-        let agencyStepNum = 0;
+                if (isClientStep) {
+                    currentStep++;
+                    let agencyStepNum = 0;
 
-                    // ===== Process Container =====
                     const processContainer = document.createElement("div");
                     processContainer.className = "process-container";
 
-                    // ===== Client Step Container =====
                     const clientStepContainer = document.createElement("div");
                     clientStepContainer.className = "client-step-container";
 
@@ -247,13 +262,12 @@ document.addEventListener("DOMContentLoaded", async () => {
                     const clientStepInfo = document.createElement("p");
                     clientStepInfo.className = "client-step-info";
                     clientStepInfo.textContent = clientStepValue
-    .replace(/^\d+[-.]?\d*\.\s*/, "")
-    .trim();
+                        .replace(/^\d+[-.]?\d*\.\s*/, "")
+                        .trim();
 
                     stepContainer.appendChild(stepNumber);
                     stepContainer.appendChild(clientStepInfo);
 
-                    // ===== Arrow SVG =====
                     const svgNS = "http://www.w3.org/2000/svg";
                     const svg = document.createElementNS(svgNS, "svg");
                     svg.classList.add("step-arrow");
@@ -272,7 +286,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                     clientStepContainer.appendChild(stepContainer);
                     clientStepContainer.appendChild(svg);
 
-                    // ===== Agency Container =====
                     const agencyContainer = document.createElement("div");
                     agencyContainer.className = "agency-action-container";
 
@@ -283,19 +296,17 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                     processContainer.appendChild(clientStepContainer);
                     processContainer.appendChild(agencyContainer);
-
                     processInfoContainer.appendChild(processContainer);
 
-                    // ===== Add Click Event (checkbox toggle + show/hide) =====
                     clientStepContainer.addEventListener("click", () => {
                         agencyContainer.classList.toggle("show");
                         clientStepContainer.classList.toggle("active");
                         checkbox.classList.toggle("checked");
                     });
 
-                    // ===== Add Agency Action(s) =====
                     if (step.agency_action) {
                         agencyStepNum++;
+
                         const agencyAction = document.createElement("div");
                         agencyAction.className = "agency-action";
 
@@ -312,18 +323,18 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                         const actionRole = document.createElement("p");
                         actionRole.className = "action-role";
-                        actionRole.textContent = step.person_responsible;
+                        actionRole.textContent = step.person_responsible || "N/A";
 
                         const otherInfo = document.createElement("div");
                         otherInfo.className = "other-info";
 
                         const actionTime = document.createElement("p");
                         actionTime.className = "action-time";
-                        actionTime.textContent = step.processing_time;
+                        actionTime.textContent = step.processing_time || "N/A";
 
                         const actionFee = document.createElement("p");
                         actionFee.className = "action-fee";
-                        actionFee.textContent = step.fees || "None";
+                        actionFee.textContent = feeValue;
 
                         actionResponsible.appendChild(actionInfo);
                         actionResponsible.appendChild(actionRole);
@@ -340,7 +351,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                 }
             });
         } else {
-            
+            console.warn("No matched service found for:", val);
+            documentName.textContent = "Service not found";
         }
     } else {
         console.log("No search parameter in URL");
@@ -348,26 +360,25 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     rooms.forEach(room => {
         room.addEventListener("click", (e) => {
-            const mapValue = e.target.closest(".rooms").dataset.mapvalue;
-            const floorLocation = e.target.closest(".rooms").dataset.floorlocation;
+            const selectedRoom = e.target.closest(".rooms");
+            if (!selectedRoom) return;
 
-            departmentName = e.target.closest(".rooms").dataset.fulldepartmentname;
+            const mapValue = selectedRoom.dataset.mapvalue;
+            const floorLocation = selectedRoom.dataset.floorlocation;
 
-            document.querySelector(".name-of-room").textContent = mapValue;
-            document.querySelector(".floor-information").textContent = floorLocation;
+            departmentName = selectedRoom.dataset.fulldepartmentname;
+
+            document.querySelector(".name-of-room").textContent = mapValue || "";
+            document.querySelector(".floor-information").textContent = floorLocation || "";
         });
     });
 
-    showMap.addEventListener("click", () => {
-        let departmentName = serviceName.textContent;
+    showMap?.addEventListener("click", () => {
+        let departmentName = serviceName.textContent || "";
 
-        // create regex to match both phrases
-        let regex = /External Services|Internal Services/g;
+        const regex = /External Services|Internal Services/g;
+        departmentName = departmentName.replace(regex, "").trim();
 
-        // replace them with empty string
-        departmentName = departmentName.replace(regex, '').trim();
-
-        
-        window.location.href = `/pages/map-view.html?view=${departmentName}`;
+        window.location.href = `/pages/map-view.html?view=${encodeURIComponent(departmentName)}`;
     });
 });
