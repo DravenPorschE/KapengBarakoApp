@@ -188,6 +188,22 @@ main {
     color: rgba(255,255,255,0.85);
 }
 
+.filter-date {
+    margin-left: auto;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(200, 169, 110, 0.6);
+}
+.filter-date span {
+    color: #c8a96e;
+    letter-spacing: 0.04em;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    text-transform: none;
+}
+
 .pill-dot {
     width: 7px;
     height: 7px;
