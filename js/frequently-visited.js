@@ -5,6 +5,16 @@ document.addEventListener("DOMContentLoaded", function () {
         window.history.back();
     });
 
+    /* ── Date display ── */
+    const dateEl = document.getElementById("filter-date");
+    if (dateEl) {
+        const now = new Date();
+        const formatted = now.toLocaleDateString('en-PH', {
+            year: 'numeric', month: 'long', day: 'numeric'
+        });
+        dateEl.innerHTML = `As of: <span>${formatted}</span>`;
+    }
+
     let storedData = JSON.parse(localStorage.getItem("visitors")) || {};
 
     const keyMap = {
