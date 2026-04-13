@@ -14,6 +14,9 @@
             </svg>
             Back
         </a>
+        <button class="home-button" onclick='window.location.href="/pages/home.html"'>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8cfa0"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
+            </button>
         <div class="nav-divider"></div>
         <img class="nav-logo" src="/assets/icons/cityhall_logo.png" alt="Lipa City Hall Logo" onerror="this.style.display='none'">
         <div class="nav-title-block">
@@ -24,7 +27,36 @@
 
     <main class="main-content">
         <div class="map-view-container">
-            <p id="floor-display">First Floor</p>
+            <div class="map-floor-info-and-search-container">
+                <p id="floor-display">First Floor</p>
+                <div class="search-map-container">
+                    <input class="search-input" type="text" list="offices" placeholder="City Civil Registrar's Office">
+                    <button class="search-button">Find</button>
+
+                    <datalist id="offices">
+                        <option value="Lipa City Civil Registrar's Office"></option>
+                        <option value="Lipa City Assessor's Office"></option>
+                        <option value="Lipa City Treasurer's Office"></option>
+                        <option value="Lipa City Personnel Office"></option>
+                        <option value="Lipa City Cooperatives Office"></option>
+                        <option value="Lipa City Accounting Office"></option>
+                        <option value="Lipa City Legal Office"></option>
+                        <option value="Commision On Audit"></option>
+                        <option value="Lipa City Budget Office"></option>
+                        <option value="Administrative Division"></option>
+                        <option value="Lipa City Permits and Licensing Office"></option>
+                        <option value="Business One Stop Shop (BOSS)"></option>
+                        <option value="Lipa City Community Affairs Office"></option>
+                        <option value="Lipa City Planning and Development Office"></option>
+                        <option value="Office of the Congressman"></option>
+                        <option value="Lipa City Mayor's Office"></option>
+                        <option value="Lipa City Administrator's Office"></option>
+                        <option value="Office of the Sangguniang Panglungsod"></option>
+                        <option value="Lipa City Vice Mayor's Office"></option>
+                    </datalist>
+                </div>
+            </div>
+
             <div class="map-view">
                 <div id="map" class="map-size"></div>
 

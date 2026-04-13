@@ -1,11 +1,11 @@
 {
-  "hospital": "Ospital ng Lipa",
+  "hospital": "Lipa City Hospital Systems Office",
   "external_services": [
     {
       "id": 1,
       "service_name": "Issuance of Patient’s Card",
       "image": "/assets/document_background/Issuance of Patient’s Card",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -49,7 +49,7 @@
       "id": 2,
       "service_name": "Emergency Room Consultation",
       "image": "/assets/document_background/Emergency Room Consultation",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -58,7 +58,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Admission Order (if applicable)",
@@ -118,7 +118,7 @@
       "id": 3,
       "service_name": "OPD Consultation",
       "image": "/assets/document_background/OPD Consultation",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -127,11 +127,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Result of Laboratories and other Diagnostic Exams, Referral slip if applicable",
-          "source": "Ospital ng Lipa or any other medical institutions"
+          "source": "Lipa City Hospital Systems Office or any other medical institutions"
         }
       ],
       "steps": [
@@ -193,7 +193,7 @@
     {
       "id": 4,
       "service_name": "Admission of Patients",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "image": "/assets/document_background/Admission of Patients",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -203,11 +203,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Patient Data Sheet",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         }
       ],
       "steps": [
@@ -242,7 +242,7 @@
       "id": 5,
       "service_name": "Discharge of Patients",
       "image": "/assets/document_background/Discharge of Patients",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -251,7 +251,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Discharge Slip from Nurses Station",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Medical Certificate",
@@ -259,7 +259,7 @@
         },
         {
           "requirement": "PhilHealth Requirements / PBEF",
-          "source": "PhilHealth / Ospital ng Lipa"
+          "source": "PhilHealth / Lipa City Hospital Systems Office"
         }
       ],
       "steps": [
@@ -293,7 +293,7 @@
     {
       "id": 6,
       "service_name": "Procedure for Minor Surgery (OPD)",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "image": "/assets/document_background/Procedure for Minor Surgery (OPD)",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
@@ -303,11 +303,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Approved Assessment for Eligibility Stub",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         }
       ],
       "steps": [
@@ -335,7 +335,7 @@
       "id": 7,
       "service_name": "Diagnostics/ Laboratory Examination",
       "image": "/assets/document_background/Diagnostics Laboratory Examination",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -344,7 +344,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Laboratory Request",
@@ -376,7 +376,7 @@
       "id": 8,
       "service_name": "X-Ray Procedure (except Special Radiologic Procedure)",
       "image": "/assets/document_background/X-Ray Procedure (except Special Radiologic Procedure)",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -385,11 +385,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "X ray Request",
-          "source": "Ospital ng Lipa Physician"
+          "source": "Lipa City Hospital Systems Office Physician"
         }
       ],
       "steps": [
@@ -417,7 +417,7 @@
       "id": 9,
       "service_name": "Procedure for Ultrasound – OPD Scheduling",
       "image": "/assets/document_background/Procedure for Ultrasound – OPD Scheduling",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -426,11 +426,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Request for Ultrasound",
-          "source": "Ospital ng Lipa physician"
+          "source": "Lipa City Hospital Systems Office physician"
         }
       ],
       "steps": [
@@ -451,7 +451,7 @@
       "id": 10,
       "service_name": "Ultrasound Procedure",
       "image": "/assets/document_background/Ultrasound Procedure",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -460,11 +460,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Request for Ultrasound",
-          "source": "Ospital ng Lipa physician"
+          "source": "Lipa City Hospital Systems Office physician"
         }
       ],
       "steps": [
@@ -492,7 +492,7 @@
       "id": 11,
       "service_name": "Procedure for CT Scan – OPD Scheduling",
       "image": "/assets/document_background/Procedure for CT Scan – OPD Scheduling",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -501,15 +501,15 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Request for CT Scan",
-          "source": "Ospital ng Lipa physician"
+          "source": "Lipa City Hospital Systems Office physician"
         },
         {
           "requirement": "Result of Creatinine (If contrast)",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         }
       ],
       "steps": [
@@ -530,7 +530,7 @@
       "id": 12,
       "service_name": "CT SCAN Procedure",
       "image": "/assets/document_background/CT SCAN Procedure",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -539,15 +539,15 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Request for CT Scan",
-          "source": "Ospital ng Lipa physician"
+          "source": "Lipa City Hospital Systems Office physician"
         },
         {
           "requirement": "Result of Creatinine (If contrast)",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         }
       ],
       "steps": [
@@ -575,7 +575,7 @@
       "id": 13,
       "service_name": "Availing of Out-Patient Electrocardiography (ECG)",
       "image": "/assets/document_background/Availing of Out-Patient Electrocardiography (ECG)",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -584,11 +584,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Request for ECG",
-          "source": "Ospital ng Lipa Physician"
+          "source": "Lipa City Hospital Systems Office Physician"
         }
       ],
       "steps": [
@@ -616,7 +616,7 @@
       "id": 14,
       "service_name": "Procedure for 2D-Echo – OPD Scheduling",
       "image": "/assets/document_background/Procedure for 2D-Echo – OPD Scheduling",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -625,11 +625,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Request for 2D Echo",
-          "source": "Ospital ng Lipa physician"
+          "source": "Lipa City Hospital Systems Office physician"
         }
       ],
       "steps": [
@@ -650,7 +650,7 @@
       "id": 15,
       "service_name": "Availing a 2D-Echo Procedure",
       "image": "/assets/document_background/Availing a 2D-Echo Procedure",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -659,11 +659,11 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Request for 2D Echo",
-          "source": "Ospital ng Lipa physician"
+          "source": "Lipa City Hospital Systems Office physician"
         }
       ],
       "steps": [
@@ -691,7 +691,7 @@
       "id": 16,
       "service_name": "Request for Medical Certificate (In-Patient)",
       "image": "/assets/document_background/Request for Medical Certificate (In-Patient)",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -700,7 +700,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Authorization Letter and ID (if applicable)",
@@ -725,7 +725,7 @@
       "id": 17,
       "service_name": "Request for Certificate of Confinement",
       "image": "/assets/document_background/Request for Certificate of Confinement",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -734,7 +734,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Authorization Letter and ID",
@@ -759,7 +759,7 @@
       "id": 18,
       "service_name": "Request for Medical Abstract",
       "image": "/assets/document_background/Request for Medical Abstract",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -768,7 +768,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Authorization Letter and ID",
@@ -793,7 +793,7 @@
       "id": 19,
       "service_name": "Request for Birth Certificate",
       "image": "/assets/document_background/Request for Birth Certificate",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -827,7 +827,7 @@
       "id": 20,
       "service_name": "Request for Death Certificate",
       "image": "/assets/document_background/Request for Death Certificate",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -861,7 +861,7 @@
       "id": 21,
       "service_name": "Request for Medical Certificate - OPD",
       "image": "/assets/document_background/Request for Medical Certificate - OPD",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -870,7 +870,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Authorization Letter and ID",
@@ -895,7 +895,7 @@
       "id": 22,
       "service_name": "Dental Consultation and Procedure",
       "image": "/assets/document_background/Dental Consultation and Procedure",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -904,7 +904,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         }
       ],
       "steps": [
@@ -925,7 +925,7 @@
       "id": 23,
       "service_name": "Pharmacy Services",
       "image": "/assets/document_background/Pharmacy Services",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -955,7 +955,7 @@
       "id": 24,
       "service_name": "Pharmacy Procedures for Non-Lipenos",
       "image": "/assets/document_background/Pharmacy Procedures for Non-Lipenos",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -985,7 +985,7 @@
       "id": 25,
       "service_name": "Rehabilitation Consultation",
       "image": "/assets/document_background/Rehabilitation Consultation",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -994,7 +994,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Laboratory Result / Referral slip",
@@ -1019,7 +1019,7 @@
       "id": 26,
       "service_name": "Rehabilitation Treatment Session",
       "image": "/assets/document_background/Rehabilitation Treatment Session",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -1028,7 +1028,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Laboratory Result / Referral slip",
@@ -1053,7 +1053,7 @@
       "id": 27,
       "service_name": "Availing of Dietary Services – Clinical Rounds and Bedside Counselling",
       "image": "/assets/document_background/Availing of Dietary Services – Clinical Rounds and Bedside Counselling",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -1062,7 +1062,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         }
       ],
       "steps": [
@@ -1083,7 +1083,7 @@
       "id": 28,
       "service_name": "Availing of Out-Patient Nutrition Counselling",
       "image": "/assets/document_background/Availing of Out-Patient Nutrition Counselling",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -1092,7 +1092,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient Card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         }
       ],
       "steps": [
@@ -1113,7 +1113,7 @@
       "id": 29,
       "service_name": "Application for Philhealth Reimbursement",
       "image": "/assets/document_background/Application for Philhealth Reimbursement",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -1122,7 +1122,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Official Receipt of medicines/lab bought outside",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "Notice of PhilHealth Payment",
@@ -1147,7 +1147,7 @@
       "id": 30,
       "service_name": "Phone Inquiry",
       "image": "/assets/document_background/Rehabilitation Consultation",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -1177,7 +1177,7 @@
       "id": 31,
       "service_name": "Availing of Industrial and Occupational Medicine",
       "image": "/assets/document_background/Availing of Industrial and Occupational Medicine",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -1186,7 +1186,7 @@
       "checklist_of_requirements": [
         {
           "requirement": "Patient card",
-          "source": "Ospital ng Lipa"
+          "source": "Lipa City Hospital Systems Office"
         },
         {
           "requirement": "List of diagnostic procedures",

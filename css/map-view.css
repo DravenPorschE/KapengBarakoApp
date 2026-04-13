@@ -74,7 +74,7 @@ html, body {
     box-shadow: 0 4px 32px rgba(138, 0, 0, 0.32);
 }
 
-.back-btn {
+.back-btn, .home-button {
     display: flex;
     align-items: center;
     gap: 7px;
@@ -235,9 +235,6 @@ html, body {
 
 /* ── Floor display badge — clearly not a button ── */
 #floor-display {
-    position: absolute;
-    z-index: 999;
-    margin-left: 10px;
     margin-top: 4px;
     padding: 6px 12px;
     background: rgba(26, 17, 8, 0.72);
@@ -391,6 +388,55 @@ html, body {
 .pulse {
   animation: pulseFill 1.5s ease-in-out infinite;
 }
+
+.map-floor-info-and-search-container {
+    position: absolute;
+    z-index: 999;
+    /* background: red; */
+
+    display: flex;
+    flex-direction: row;
+
+    width: calc(100% - 300px);
+    justify-content: space-between;
+
+    padding: 10px;
+    align-items: center;
+}
+.search-map-container {
+    display: flex;
+    flex-direction: row;
+
+    filter: drop-shadow(0 2px 8px rgba(100,0,0,0.45));
+}
+.search-input {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+
+    border: none;
+}
+.search-input:focus {
+    border: 1px solid #810000;
+    outline: none;
+}
+.search-button {
+    width: 80px;
+
+    background-color: #9f212c;
+    color: white;
+    font-family: 'RussoOne';
+
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+
+    border: none;
+}
+
+
 
 @keyframes pulseFill {
   0% {
