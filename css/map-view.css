@@ -235,6 +235,9 @@ html, body {
 
 /* ── Floor display badge — clearly not a button ── */
 #floor-display {
+    position: absolute;
+    z-index: 999;
+    margin-left: 10px;
     margin-top: 4px;
     padding: 6px 12px;
     background: rgba(26, 17, 8, 0.72);

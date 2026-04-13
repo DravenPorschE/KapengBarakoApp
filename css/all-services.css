@@ -94,7 +94,7 @@ html, body {
 #main-content {
     position: relative;
     height: calc(100vh - var(--nav-height));
-    background-image: url("/assets/background/background.png");
+    background-image: url("/assets/background/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
