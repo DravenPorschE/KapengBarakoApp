@@ -1,4 +1,29 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const findButton = document.querySelector(".search-button");
+    const searchInput = document.querySelector(".search-input");
+
+    const suggestions = [
+        "Lipa City Civil Registrar's Office", 
+        "Lipa City Assessor's Office",
+        "Lipa City Treasurer's Office",
+        "Lipa City Personnel Office",
+        "Lipa City Cooperatives Office",
+        "Lipa City Accounting Office",
+        "Lipa City Legal Office",
+        "Commision On Audit",
+        "Lipa City Budget Office",
+        "Administrative Division",
+        "Lipa City Permits and Licensing Office",
+        "Business One Stop Shop (BOSS)",
+        "Lipa City Community Affairs Office",
+        "Lipa City Planning and Development Office",
+        "Office of the Congressman",
+        "Lipa City Mayor's Office",
+        "Lipa City Administrator's Office",
+        "Office of the Sangguniang Panglungsod",
+        "Lipa City Vice Mayor's Office"
+    ];
+
     const zoomIn = document.querySelector(".zoom-in");
     const zoomOut = document.querySelector(".zoom-out");
 
@@ -443,4 +468,19 @@ document.addEventListener("DOMContentLoaded", () => {
         element._pulseRunning = false;
         clearTimeout(element._pulseTimeout);
     }
+
+    findButton.addEventListener("click", () => {
+        let searchInputValue = document.querySelector(".search-input").value;
+        
+        window.location.href = `/pages/map-view.html?view=${searchInputValue}`;
+
+    });
+
+    searchInput.addEventListener("input", () => {
+        const value = searchInput.value;
+
+        if(suggestions.includes(value)) {
+            window.location.href = `/pages/map-view.html?view=${value}`;
+        }
+    });
 });
