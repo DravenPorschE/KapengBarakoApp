@@ -316,7 +316,7 @@
     {
       "service_name": "Request for Calibration of Weights and Measures",
       "image": "/assets/document_background/Weights_Calibration",
-      "office": "Lipa City Treasurer’s Office",
+      "office": "Lipa City Treasurer's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C",
       "who_may_avail": "Private individuals using weights/measures for business",
@@ -350,12 +350,12 @@
     {
       "service_name": "Request for Real Property Tax Clearance",
       "image": "/assets/document_background/RPT_Tax_Clearance",
-      "office": "Lipa City Treasurer’s Office",
+      "office": "Lipa City Treasurer's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C, G2B",
       "who_may_avail": "Public and private individuals",
       "checklist_of_requirements": [
-        { "requirement": "Latest Tax Declaration (1 original copy)", "source": "Lipa City Assessor’s Office" },
+        { "requirement": "Latest Tax Declaration (1 original copy)", "source": "Lipa City Assessor's Office" },
         { "requirement": "Latest Official Receipt (OR) of RPT payment (1 original or 1 photocopy)", "source": "Requesting party" }
       ],
       "steps": [
@@ -386,20 +386,20 @@
     {
       "service_name": "Request for the Issuance of Transfer Tax Payment of Real Property and Certificate",
       "image": "/assets/document_background/Transfer_Tax_Certificate",
-      "office": "Lipa City Treasurer’s Office",
+      "office": "Lipa City Treasurer's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C",
       "who_may_avail": "Public/Private Individuals",
       "checklist_of_requirements": [
-        { "requirement": "Official Receipt of Transfer Tax and Certification Fee", "source": "Lipa City Treasurer’s Office" },
+        { "requirement": "Official Receipt of Transfer Tax and Certification Fee", "source": "Lipa City Treasurer's Office" },
         { "requirement": "Updated Real Property Tax Clearance (1 original copy)", "source": "Requesting party" },
-        { "requirement": "Updated Tax Declaration (Land, Building, Machineries) or Certificate of No Improvement", "source": "Lipa City Assessor’s Office" },
+        { "requirement": "Updated Tax Declaration (Land, Building, Machineries) or Certificate of No Improvement", "source": "Lipa City Assessor's Office" },
         { "requirement": "Deed of Absolute Sale, Donation, or Extra-Judicial Settlement (1 photocopy)", "source": "Notary Public" },
         { "requirement": "OCT / TCT (1 photocopy)", "source": "Register of Deeds" },
         { "requirement": "Certification Authorizing Registration (CAR) and BIR Tax Returns (CGT/Donor/Estate)", "source": "Bureau of Internal Revenue" },
         { "requirement": "Documentary Stamp Return", "source": "Bureau of Internal Revenue" },
         { "requirement": "Special Power of Attorney (if representative)", "source": "Notary Public" },
-        { "requirement": "Valid Mayor’s Permit (for Real Estate Developers/Operators)", "source": "Lipa City Permits and Licensing Office" }
+        { "requirement": "Valid Mayor's Permit (for Real Estate Developers/Operators)", "source": "Lipa City Permits and Licensing Office" }
       ],
       "steps": [
         {
@@ -430,7 +430,7 @@
     {
       "service_name": "Securing Accountable Forms (AF 51 and CTC) for the Barangays",
       "image": "/assets/document_background/Accountable_Forms_Barangay",
-      "office": "Lipa City Treasurer’s Office",
+      "office": "Lipa City Treasurer's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C",
       "who_may_avail": "Barangay Treasurers",

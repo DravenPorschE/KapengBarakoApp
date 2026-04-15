@@ -3,7 +3,7 @@
     {
       "service_name": "Collection of Legal Claims of Job Order and Casual Employees",
       "image": "/assets/document_background/Collection of Legal Claims of Job Order and Casual Employees",
-      "department": "Lipa City Treasurer’s Office",
+      "department": "Lipa City Treasurer's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C - Government to Citizens",
       "who_may_avail": "Job Order and Casual employees of the City Government of Lipa",
@@ -15,39 +15,39 @@
       ],
       "steps": [
         {
-          "client_step": "1. Submit all the requirements to the Lipa City Treasurer’s Office – Cash and Disbursement Division",
+          "client_step": "1. Submit all the requirements to the Lipa City Treasurer's Office – Cash and Disbursement Division",
           "agency_action": "1.1. Receive the approved voucher and check for completeness",
           "fees_to_be_paid": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Supervising Administrative Officer / Administrative Aide IV (Cash & Disbursement Division, Lipa City Treasurer’s Office)"
+          "person_responsible": "Supervising Administrative Officer / Administrative Aide IV (Cash & Disbursement Division, Lipa City Treasurer's Office)"
         },
         {
-          "client_step": "1. Submit all the requirements to the Lipa City Treasurer’s Office – Cash and Disbursement Division",
+          "client_step": "1. Submit all the requirements to the Lipa City Treasurer's Office – Cash and Disbursement Division",
           "agency_action": "1.2. Prepare the check or cash",
           "fees_to_be_paid": "None",
           "processing_time": "10 minutes",
-          "person_responsible": "Supervising Administrative Officer / Administrative Aide IV (Cash & Disbursement Division, Lipa City Treasurer’s Office)"
+          "person_responsible": "Supervising Administrative Officer / Administrative Aide IV (Cash & Disbursement Division, Lipa City Treasurer's Office)"
         },
         {
-          "client_step": "1. Submit all the requirements to the Lipa City Treasurer’s Office – Cash and Disbursement Division",
+          "client_step": "1. Submit all the requirements to the Lipa City Treasurer's Office – Cash and Disbursement Division",
           "agency_action": "1.3. Review and forward the check to the Administrative Division for Electronic Statement of Receipts and Expenditures (ESRE) encoding",
           "fees_to_be_paid": "None",
           "processing_time": "10 minutes",
-          "person_responsible": "Supervising Administrative Officer / Administrative Aide IV (Cash & Disbursement Division, Lipa City Treasurer’s Office)"
+          "person_responsible": "Supervising Administrative Officer / Administrative Aide IV (Cash & Disbursement Division, Lipa City Treasurer's Office)"
         },
         {
-          "client_step": "1. Submit all the requirements to the Lipa City Treasurer’s Office – Cash and Disbursement Division",
+          "client_step": "1. Submit all the requirements to the Lipa City Treasurer's Office – Cash and Disbursement Division",
           "agency_action": "1.4. Sign the check",
           "fees_to_be_paid": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "City Treasurer (Lipa City Treasurer’s Office)"
+          "person_responsible": "City Treasurer (Lipa City Treasurer's Office)"
         },
         {
           "client_step": "2. Receive check payment",
           "agency_action": "2. Release check or cash to the claimant",
           "fees_to_be_paid": "None",
           "processing_time": "15 minutes",
-          "person_responsible": "Administrative Assistant II / Administrative Assistant V (Cash & Disbursement Division, Lipa City Treasurer’s Office)"
+          "person_responsible": "Administrative Assistant II / Administrative Assistant V (Cash & Disbursement Division, Lipa City Treasurer's Office)"
         }
       ],
       "total_summary": {
