@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/Lipa City Social Welfare and Development Office External Services.json",
         "/data/LIPA CITY AGRICULTURE OFFICE EXTERNAL SERVICES.json",
         "/data/Lipa City Permits and Licensing Office External Services.json",
+        "/data/Lipa City Permits and Licensing Office Internal Services.json",
         "/data/Lipa City Assesor_s Office External Services.json",
         "/data/Lipa City Engineering Office External Services.json",
         "/data/Lipa City Cooperatives Office External Services.json",
@@ -37,7 +38,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/LIPA CITY ACCOUNTING OFFICE INTERNAL SERVICES.json",
         "/data/Lipa City Veterinary Office External Services.json",
         "/data/LIPA CITY GENERAL SERVICES OFFICE INTERNAL SERVICES.json",
-        "/data/LIPA CITY LEGAL OFFICE EXTERNAL SERVICES.json",
         "/data/LIPA CITY LEGAL OFFICE INTERNAL SERVICES.json",
         "/data/LIPA CITY MAYOR_S OFFICE EXTERNAL SERVICES.json",
         "/data/LIPA CITY MAYOR_S OFFICE INTERNAL SERVICES.json",
@@ -56,7 +56,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/Lipa City Treasurer_s Office External Services.json",
         "/data/LIPA CITY ADMINISTRATOR_S OFFICE EXTERNAL SERVICES.json",
         "/data/LIPA CITY TREASURER_S OFFICE INTERNAL SERVICES.json",
-        "/data/LIPA CITY PUBLIC ORDER AND SAFETY OFFICE EXTERNAL SERVICES.json"
+        "/data/LIPA CITY PUBLIC ORDER AND SAFETY OFFICE EXTERNAL SERVICES.json",
+        "/data/LIPA CITY TRAFFIC MANAGEMENT AND TRANSPORT OFFICE EXTERNAL SERVICES.json"
     ];
 
     async function fetchJsonSafe(file) {

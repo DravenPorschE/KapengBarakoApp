@@ -1,465 +1,557 @@
 {
-  "department": "Office of the Sangguniang Panlungsod",
-  "external_services": [
+  "internal_services": [
     {
       "id": 1,
-      "service_name": "Acting on Administrative Complaints",
-      "image": "/assets/document_background/Acting on Administrative Complaints",
-      "office": "Office of the Sangguniang Panlungsod",
+      "service_name": "Request for Reclassification of Property",
+      "image": "/assets/document_background/Request for Reclassification of Property",
+      "department": "Office of the Sangguniang Panlungsod",
       "classification": "Highly technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": [
-        "All"
-      ],
+      "type_of_transaction": "G2C – Government to Citizen, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "Executive departments, Government and non-government agencies and organizations, Individuals and groups",
       "checklist_of_requirements": [
         {
-          "requirement": "Complaint/ sworn letter complaint",
-          "source": "Complainant"
+          "requirement": "Letter of City Administrator to SP (1 original copy)",
+          "where_to_secure": "Lipa City Administrator’s Office"
         },
         {
-          "requirement": "Letter of complainant to SP/ CM",
-          "source": "Complainant"
+          "requirement": "Endorsement (1 original copy)",
+          "where_to_secure": "Lipa City Planning and Development Office"
         },
         {
-          "requirement": "Verification and certification of non-forum shopping",
-          "source": "Complainant"
+          "requirement": "Zoning Certification (1 original copy)",
+          "where_to_secure": "Lipa City Planning and Development Office"
         },
         {
-          "requirement": "Certification/s, supporting documents",
-          "source": "Complainant"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit the letter and pertinent documents",
-          "agency_action": "1.1. Accept the letter and other documents",
-          "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Local Legislative Staff Assistant I, Office of the Sangguniang Panlungsod"
+          "requirement": "Letter of Lot Owner/requester to City Mayor (1 original copy)",
+          "where_to_secure": "Requesting party/ applicant/ lot owner"
         },
         {
-          "client_step": "None",
-          "agency_action": "1.2. Scan all documents and encode in Legislative Tracking System",
-          "fees": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Local Legislative Staff Employee II, Local Legislative Staff Employee I, Local Legislative Staff Assistant II, Office of the Sangguniang Panlungsod"
+          "requirement": "Real Property Tax Receipt (1 photocopy)",
+          "where_to_secure": "Lipa City Treasurer’s Office"
         },
         {
-          "client_step": "None",
-          "agency_action": "1.3. Include in the session’s agenda",
-          "fees": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Administrative Officer II, Office of the Sangguniang Panlungsod"
+          "requirement": "Tax Clearance (1 photocopy)",
+          "where_to_secure": "Lipa City Treasurer’s Office"
         },
         {
-          "client_step": "None",
-          "agency_action": "1.4. Conduct session and refer subject to appropriate committees (1st reading)",
-          "fees": "None",
-          "processing_time": "2 hours",
-          "person_responsible": "Members of the Sangguniang Panlungsod, Office of the Sangguniang Panlungsod"
+          "requirement": "TCT (1 photocopy)",
+          "where_to_secure": "Lipa City Assessor’s Office or Register of Deeds"
         },
         {
-          "client_step": "None",
-          "agency_action": "1.5. Prepare letter requiring respondents to submit verified answer to the complaint within 10 days from receipt thereof to the Office of the SP",
-          "fees": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Board Secretary IV, Office of the Sangguniang Panlungsod"
+          "requirement": "DRPV (1 photocopy)",
+          "where_to_secure": "Lipa City Assessor’s Office"
         },
         {
-          "client_step": "2. Attend hearing",
-          "agency_action": "2.1. Conduct of pre-hearing conference, formal investigation, deliberation of committee, study, drafting and approval of final decision",
-          "fees": "None",
-          "processing_time": "6 hours",
-          "person_responsible": "SP Secretary, Members of the Sangguniang Panlungsod, Local Legislative Staff Officer V, Office of the Sangguniang Panlungsod"
-        },
-        {
-          "client_step": "None",
-          "agency_action": "2.2. Print resolution and forward to Administrative Division",
-          "fees": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Local Legislative Staff Officer III, Local Legislative Staff Assistant II, Administrative Assistant I, Office of the Sangguniang Panlungsod"
-        },
-        {
-          "client_step": "3. Provide signed copy of ordinance or resolution",
-          "agency_action": "3. Provide copy of signed resolutions to concerned offices/ agencies",
-          "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Administrative Assistant II, Administrative Officer II, Office of the Sangguniang Panlungsod"
-        }
-      ],
-      "total": {
-        "fees": "None",
-        "processing_time": "9 hours and 50 minutes"
-      }
-    },
-    {
-      "id": 2,
-      "service_name": "Acting on Land Use Related Requests",
-      "image": "/assets/document_background/Acting on Land Use Related Requests",
-      "office": "Office of the Sangguniang Panlungsod",
-      "classification": "Highly technical",
-      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Business, G2G – Government to Government",
-      "who_may_avail": [
-        "Executive departments",
-        "government and non-government agencies and organizations",
-        "individuals and groups"
-      ],
-      "checklist_of_requirements": [
-        {
-          "requirement": "Letter of City Administrator to SP (Reclassification)",
-          "source": "Lipa City Administrator’s Office"
-        },
-        {
-          "requirement": "Endorsement (Reclassification)",
-          "source": "Lipa City Planning and Development Office"
-        },
-        {
-          "requirement": "Zoning Certification (Reclassification)",
-          "source": "Lipa City Planning and Development Office"
-        },
-        {
-          "requirement": "Letter of Lot Owner/requester to City Mayor",
-          "source": "Requesting party/ applicant/ lot owner"
-        },
-        {
-          "requirement": "Real Property Tax Receipt",
-          "source": "Lipa City Treasurer’s Office"
-        },
-        {
-          "requirement": "Tax Clearance",
-          "source": "Lipa City Treasurer’s Office"
-        },
-        {
-          "requirement": "TCT",
-          "source": "Lipa City Assessor’s Office or Register of Deeds"
-        },
-        {
-          "requirement": "DRPV",
-          "source": "Lipa City Assessor’s Office"
-        },
-        {
-          "requirement": "Vicinity Map/Lot Plan",
-          "source": "Requesting party/ applicant/ lot owner"
-        },
-        {
-          "requirement": "Barangay Clearance/Permit/Resolution (Special Use)",
-          "source": "Barangay where the property is located"
-        },
-        {
-          "requirement": "Certification of No Objection from the City Mayor (Special Use)",
-          "source": "Lipa City Mayor’s Office"
-        },
-        {
-          "requirement": "Subdivision Plan Analysis",
-          "source": "Requesting party/ applicant/ lot owner"
+          "requirement": "Vicinity Map/Lot Plan (1 photocopy)",
+          "where_to_secure": "Requesting party/ applicant/ lot owner"
         }
       ],
       "steps": [
         {
           "client_step": "1. Submit the letter of request and pertinent documents",
-          "agency_action": "1.1. Accept the letter and other documents",
-          "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Local Legislative Staff Assistant I"
+          "agency_action": "1.1. Accept documents, scan, encode in Tracking System, and include in agenda",
+          "fees_to_be_paid": "None",
+          "processing_time": "50 minutes",
+          "person_responsible": "Journal and Minutes Division Staff"
         },
         {
-          "client_step": "None",
-          "agency_action": "1.6. Review the submitted documents",
-          "fees": "None",
-          "processing_time": "1 day",
-          "person_responsible": "Local Legislative Staff Officer IV, Administrative Officer III, Local Legislative Staff Officer II"
+          "client_step": "1. Submit the letter of request and pertinent documents",
+          "agency_action": "1.2. Conduct session, refer to committee, and review documents",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day, 2 hours, 5 minutes",
+          "person_responsible": "Members of the SP / Standing Committee Division Staff"
         },
         {
-          "client_step": "3. Attend the scheduled hearing and justify their request to the committee",
-          "agency_action": "3.1. Attend the proceedings and prepare the minutes",
-          "fees": "None",
-          "processing_time": "3 days",
-          "person_responsible": "Administrative Assistant V, Administrative Assistant I"
+          "client_step": "2. Receive invitation letter for committee hearing",
+          "agency_action": "2. Prepare invitation and necessary documents for hearing",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 hour, 30 minutes",
+          "person_responsible": "Standing Committee Division Staff"
+        },
+        {
+          "client_step": "3. Attend the scheduled hearing and justify request",
+          "agency_action": "3. Conduct hearing, evaluate, draft/finalize report, and approve on 3rd reading",
+          "fees_to_be_paid": "None",
+          "processing_time": "6 days, 2 hours, 45 minutes",
+          "person_responsible": "Chairperson and Members of the SP"
+        },
+        {
+          "client_step": "3. Attend the scheduled hearing and justify request",
+          "agency_action": "3.1. Draft, review, print, and sign ordinance/resolution for Mayor's approval",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 days, 4 hours, 57 minutes",
+          "person_responsible": "Ordinance & Resolution Division / SP Secretary / City Mayor"
+        },
+        {
+          "client_step": "4. Receive Order of Payment and pay at Treasurer’s Office",
+          "agency_action": "4. Issue Order of Payment and Official Receipt",
+          "fees_to_be_paid": "P10.00/sq. meter",
+          "processing_time": "6 minutes",
+          "person_responsible": "City Administrator’s Office / City Treasurer’s Office"
+        },
+        {
+          "client_step": "5. Present the Official Receipt to the SP",
+          "agency_action": "5. Verify the Official receipt",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Division Staff"
+        },
+        {
+          "client_step": "6. Receive signed copy of ordinance or resolution",
+          "agency_action": "6. Provide copy of signed ordinances to client",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Division Staff"
         }
       ],
-      "total": {
-        "fees": "None",
-        "processing_time": "9 days, 12 hours and 15 minutes"
+      "total_summary": {
+        "total_fees": "P10.00/sq. meter",
+        "total_processing_time": "9 days, 12 hours and 25 minutes"
+      }
+    },
+    {
+      "id": 2,
+      "service_name": "Request for Special Use Permit",
+      "image": "/assets/document_background/Request for Special Use Permit",
+      "department": "Office of the Sangguniang Panlungsod",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizen, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "Executive departments, Agencies, Individuals and groups",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of City Admin. to SP - 1 original copy",
+          "where_to_secure": "Lipa City Administrator’s Office"
+        },
+        {
+          "requirement": "Endorsement from CPDC - 1 original copy",
+          "where_to_secure": "Lipa City Planning and Development Office"
+        },
+        {
+          "requirement": "Letter of Intent/ owner - 1 original copy",
+          "where_to_secure": "Requesting party/ applicant/ lot owner"
+        },
+        {
+          "requirement": "Photocopies of reclassification requirements - 1 photocopy",
+          "where_to_secure": "Requesting party/ applicant/ lot owner"
+        },
+        {
+          "requirement": "Barangay Clearance/Permit/Resolution - 1 original copy",
+          "where_to_secure": "Concerned Barangay"
+        },
+        {
+          "requirement": "Minutes of Public Hearing - 1 photocopy",
+          "where_to_secure": "Concerned Barangay"
+        },
+        {
+          "requirement": "Certification of No Objection from City Mayor - 1 original copy",
+          "where_to_secure": "Lipa City Mayor’s Office"
+        },
+        {
+          "requirement": "Certification from National Agency - 1 photocopy",
+          "where_to_secure": "National agency concerned"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the letter of request and pertinent documents",
+          "agency_action": "1. Accept, scan, encode, and include in agenda; refer to committee and review",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day, 2 hours, 55 minutes",
+          "person_responsible": "SP Staff and Members"
+        },
+        {
+          "client_step": "2. Receive invitation letter for committee hearing",
+          "agency_action": "2. Prepare invitation and documents for hearing",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 hour, 30 minutes",
+          "person_responsible": "Standing Committee Division"
+        },
+        {
+          "client_step": "3. Attend hearing and justify request",
+          "agency_action": "3. Conduct proceedings, evaluate, draft report, session approval, and finalize ordinance",
+          "fees_to_be_paid": "None",
+          "processing_time": "8 days, 7 hours, 57 minutes",
+          "person_responsible": "SP Members / Secretary / City Mayor"
+        },
+        {
+          "client_step": "4. Receive Order of Payment and pay at Treasurer’s Office",
+          "agency_action": "4. Issue Order of Payment and Official Receipt",
+          "fees_to_be_paid": "Amount may vary",
+          "processing_time": "6 minutes",
+          "person_responsible": "Admin Officer IV / Revenue Collection Clerk I"
+        },
+        {
+          "client_step": "5. Present Official Receipt",
+          "agency_action": "5. Verify receipt and provide signed copy of ordinance",
+          "fees_to_be_paid": "None",
+          "processing_time": "12 minutes",
+          "person_responsible": "Administrative Division Staff"
+        }
+      ],
+      "total_summary": {
+        "total_fees": "Amount may vary",
+        "total_processing_time": "9 days, 12 hours and 25 minutes"
       }
     },
     {
       "id": 3,
-      "service_name": "Legislative Tracking Services",
-      "image": "/assets/document_background/Legislative Tracking Services",
-      "office": "Office of the Sangguniang Panlungsod",
+      "service_name": "Request for Subdivision Plan Approval",
+      "image": "/assets/document_background/Request for Subdivision Plan Approval",
+      "department": "Office of the Sangguniang Panlungsod",
       "classification": "Highly technical",
-      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Business, G2G – Government to Government",
-      "who_may_avail": [
-        "Executive departments",
-        "government and non-government agencies and organizations",
-        "individuals and groups"
-      ],
+      "type_of_transaction": "G2C, G2B, G2G",
+      "who_may_avail": "Executive departments, Agencies, Individuals and groups",
       "checklist_of_requirements": [
         {
-          "requirement": "Accomplished System Inquiry Form",
-          "source": "Office of the Sangguniang Panlungsod"
+          "requirement": "Letter of City Admin. to SP - 1 original copy",
+          "where_to_secure": "Lipa City Administrator’s Office"
         },
         {
-          "requirement": "Valid ID",
-          "source": "Issuing agency/ institution"
+          "requirement": "Endorsement from CPDC - 1 original copy",
+          "where_to_secure": "Lipa City Planning and Development Office"
         },
         {
-          "requirement": "Route Slip",
-          "source": "Office of the Sangguniang Panlungsod"
+          "requirement": "Subdivision Plan Analysis - 1 original copy",
+          "where_to_secure": "Requesting party"
+        },
+        {
+          "requirement": "Lot Plan/Vicinity Plan - 1 photocopy",
+          "where_to_secure": "Requesting party"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Accomplish the System Inquiry Form and submit the same to the LCSPO or e-mail to the Standing Committees Division regarding their request for status validation",
-          "agency_action": "1. Receive the System Inquiry Form, verify the status of subject and forward the same to the concerned division",
-          "fees": "None",
-          "processing_time": "10 - 20 minutes",
-          "person_responsible": "Administrative Aide IV, Local Legislative Staff Assistant I, Local Legislative Staff Assistant II, Administrative Assistant I, Administrative Assistant II, Administrative Officer II"
+          "client_step": "1. Submit the letter of request and pertinent documents",
+          "agency_action": "1. Administrative processing, session referral, and committee review",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day, 2 hours, 55 minutes",
+          "person_responsible": "SP Office Staff"
         },
         {
-          "client_step": "2. Receive the verified System Inquiry Form with the details requested and sign the Receipt Slip",
-          "agency_action": "2. Release the verified System Inquiry Form to the client and have them sign the Receipt Slip",
-          "fees": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Aide IV, Local Legislative Staff Assistant I"
+          "client_step": "3. Attend hearing and justify request",
+          "agency_action": "3. Hearing conduct, report drafting, SP session approval, and document signing",
+          "fees_to_be_paid": "None",
+          "processing_time": "8 days, 9 hours, 24 minutes",
+          "person_responsible": "SP Members / Secretary / Mayor"
+        },
+        {
+          "client_step": "4. Payment and receipt of documents",
+          "agency_action": "4. Payment processing and release of approved ordinance",
+          "fees_to_be_paid": "Amount may vary",
+          "processing_time": "21 minutes",
+          "person_responsible": "Treasurer's Office / SP Administrative Division"
         }
       ],
-      "total": {
-        "fees": "None",
-        "processing_time": "12 - 22 minutes"
+      "total_summary": {
+        "total_fees": "Amount may vary",
+        "total_processing_time": "9 days, 12 hours and 25 minutes"
       }
     },
     {
       "id": 4,
-      "service_name": "Request for Certifications",
-      "image": "/assets/document_background/Request for Certifications",
-      "office": "Office of the Sangguniang Panlungsod",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Business, G2G – Government to Government",
-      "who_may_avail": [
-        "Any individual, company, organization, institution or agency"
-      ],
+      "service_name": "Filing of Administrative Complaints",
+      "image": "/assets/document_background/Filing of Administrative Complaints",
+      "department": "Office of the Sangguniang Panlungsod",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "All",
       "checklist_of_requirements": [
         {
-          "requirement": "Document Request Form",
-          "source": "Office of the Sangguniang Panlungsod"
+          "requirement": "Complaint/ sworn letter complaint - 1 original copy",
+          "where_to_secure": "Complainant"
         },
         {
-          "requirement": "Any valid ID",
-          "source": "Issuing agency or institution"
+          "requirement": "Verification and certification of non-forum shopping - 1 original copy",
+          "where_to_secure": "Complainant"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Accomplish Document Request Form and submit the same to the LCSPO",
-          "agency_action": "1.1. Receive the certification request form",
-          "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Assistant II, Administrative Assistant I"
+          "client_step": "1. Submit the letter and pertinent documents",
+          "agency_action": "1. Accept, scan, agenda inclusion, and require respondent's answer",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 hours, 40 minutes",
+          "person_responsible": "Journal and Minutes Division"
         },
         {
-          "client_step": "None",
-          "agency_action": "1.2. Make/ print the requested certification and forward the same for signature to the SP Secretary",
-          "fees": "None",
+          "client_step": "2. Respondent submits Answer",
+          "agency_action": "2. Receive Answer and furnish Complainant with a copy",
+          "fees_to_be_paid": "None",
+          "processing_time": "50 minutes",
+          "person_responsible": "Journal and Minutes Division"
+        },
+        {
+          "client_step": "3. Receive Notice and Attend Pre-Conference",
+          "agency_action": "3. Prepare/send notice and conduct pre-hearing conference",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 hours, 45 minutes",
+          "person_responsible": "SP Secretary / SP Members"
+        },
+        {
+          "client_step": "6. Attend Administrative Hearing",
+          "agency_action": "6. Conduct investigation, evaluate, draft decision, and approve resolution",
+          "fees_to_be_paid": "None",
+          "processing_time": "36 days, 3 hours, 40 minutes",
+          "person_responsible": "SP Members / SP Secretary"
+        },
+        {
+          "client_step": "7. Receive copy of Resolution",
+          "agency_action": "7. Release signed resolution to concerned parties",
+          "fees_to_be_paid": "None",
           "processing_time": "10 minutes",
-          "person_responsible": "Administrative Assistant II, Supervising Administrative Officer, SP Secretary"
-        },
-        {
-          "client_step": "2. Receive the certification and sign the receipt slip",
-          "agency_action": "2. Release the certification to the client",
-          "fees": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Assistant II, Administrative Assistant I"
+          "person_responsible": "Administrative Division Staff"
         }
       ],
-      "total": {
-        "fees": "None",
-        "processing_time": "17 minutes"
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "36 days, 11 hours and 20 minutes"
       }
     },
     {
       "id": 5,
-      "service_name": "Request for Certified True Copy of Documents",
-      "image": "/assets/document_background/Request for Certified True Copy of Documents",
-      "office": "Office of the Sangguniang Panlungsod",
+      "service_name": "Legislative Tracking Services",
+      "image": "/assets/document_background/Legislative Tracking Services",
+      "department": "Office of the Sangguniang Panlungsod",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Business, G2G – Government to Government",
-      "who_may_avail": [
-        "Any individual, company, organization, institution or agency"
-      ],
+      "type_of_transaction": "G2C, G2B, G2G",
+      "who_may_avail": "Executive departments, Organizations, Individuals",
       "checklist_of_requirements": [
         {
-          "requirement": "Document Request Form",
-          "source": "Office of the Sangguniang Panlungsod"
+          "requirement": "Accomplished System Inquiry Form - 1 original copy",
+          "where_to_secure": "Office of the Sangguniang Panlungsod"
         },
         {
-          "requirement": "Any valid ID",
-          "source": "Issuing agency or institution"
+          "requirement": "Valid ID - 1 original copy",
+          "where_to_secure": "Issuing agency"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Accomplish Document Request Form and submit the same to the LCSPO",
-          "agency_action": "1.1. Receive the document request form and forward to concerned divisions",
-          "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Assistant II, Administrative Officer II, and division staff"
+          "client_step": "1. Submit System Inquiry Form",
+          "agency_action": "1. Receive form, verify status, and forward to concerned division",
+          "fees_to_be_paid": "None",
+          "processing_time": "10-20 minutes",
+          "person_responsible": "Standing Committee Division Staff"
         },
         {
-          "client_step": "3. Present the Order of Payment and pay the Secretary’s fee at the City Treasurer’s Office",
-          "agency_action": "3. Receive payment and issue Official Receipt",
-          "fees": "P50.00 per page",
-          "processing_time": "5 minutes",
-          "person_responsible": "Revenue Collection Clerk II, City Treasurer’s Office"
-        },
-        {
-          "client_step": "5. Receive the document and sign the Receipt Slip",
-          "agency_action": "5. Release the document to the client",
-          "fees": "None",
+          "client_step": "2. Receive verified form",
+          "agency_action": "2. Release form and sign Receipt Slip",
+          "fees_to_be_paid": "None",
           "processing_time": "2 minutes",
-          "person_responsible": "Administrative Assistant II, Administrative Officer II"
+          "person_responsible": "Standing Committee Division Staff"
         }
       ],
-      "total": {
-        "fees": "P50.00 per page",
-        "processing_time": "31 - 36 minutes"
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "12 - 22 minutes"
       }
     },
     {
       "id": 6,
-      "service_name": "Request for Legislative Measures",
-      "image": "/assets/document_background/Request for Legislative Measures",
-      "office": "Office of the Sangguniang Panlungsod",
-      "classification": "Highly technical",
-      "type_of_transaction": "G2C – Government to Citizens, G2G – Government to Government, G2B – Government to Business",
-      "who_may_avail": [
-        "Executive departments",
-        "government and non-government agencies and organizations",
-        "individuals and groups"
-      ],
+      "service_name": "Request for Certifications",
+      "image": "/assets/document_background/Request for Certifications",
+      "department": "Office of the Sangguniang Panlungsod",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B, G2G",
+      "who_may_avail": "Any individual or entity",
       "checklist_of_requirements": [
         {
-          "requirement": "Letter and Contract/ MOA/ MOU for Authority or Ratification",
-          "source": "Lipa City Mayor’s Office"
+          "requirement": "Any valid ID - 1 original copy",
+          "where_to_secure": "Issuing agency"
         },
         {
-          "requirement": "Deed of Donation with Technical Description",
-          "source": "Requesting party/ applicant"
-        },
-        {
-          "requirement": "Position Paper/ Organizational Structure (Creation of Position)",
-          "source": "Lipa City Mayor’s Office"
-        },
-        {
-          "requirement": "Duly accomplished application form (Accreditation)",
-          "source": "Requesting party/ applicant"
+          "requirement": "Document Request Form - 1 original copy",
+          "where_to_secure": "Office of the SP"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Submit the request letter and supporting documents",
-          "agency_action": "1.1. Receive and 1.2. Scan/Encode",
-          "fees": "None",
-          "processing_time": "35 minutes",
-          "person_responsible": "Local Legislative Staff assistants"
+          "client_step": "1. Submit Request Form",
+          "agency_action": "1. Receive request and print certification",
+          "fees_to_be_paid": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Admin Assistant / SP Secretary"
         },
         {
-          "client_step": "3. Attend the scheduled hearing and justify their request to the committee",
-          "agency_action": "3.1. Attend proceedings and 3.2. Evaluate request",
-          "fees": "None",
-          "processing_time": "8 days",
-          "person_responsible": "Chairperson and members of the Committee, Administrative staff"
+          "client_step": "2. Receive certification",
+          "agency_action": "2. Release certification to client",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Division Staff"
         }
       ],
-      "total": {
-        "fees": "None",
-        "processing_time": "12 days, 12 hours and 15 minutes"
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "17 minutes"
       }
     },
     {
       "id": 7,
-      "service_name": "Request for Photocopy or Soft Copy of Documents",
-      "image": "/assets/document_background/Request for Photocopy or Soft Copy of Documents",
-      "office": "Office of the Sangguniang Panlungsod",
+      "service_name": "Request for Certified True Copy of Documents",
+      "image": "/assets/document_background/Request for Certified True Copy of Documents",
+      "department": "Office of the Sangguniang Panlungsod",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens, G2G – Government to Government, G2B – Government to Business",
-      "who_may_avail": [
-        "Any individual, company, organization, institution or agency"
-      ],
+      "type_of_transaction": "G2C, G2B, G2G",
+      "who_may_avail": "Any individual or entity",
       "checklist_of_requirements": [
         {
-          "requirement": "Document Request Form",
-          "source": "Office of the Sangguniang Panlungsod"
+          "requirement": "Document Request Form - 1 original copy",
+          "where_to_secure": "Office of the SP"
         },
         {
-          "requirement": "Any valid ID",
-          "source": "Issuing agency or institution"
+          "requirement": "Any valid ID - 1 original copy",
+          "where_to_secure": "Issuing agency"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Accomplish Document Request Form and submit to LCSPO",
-          "agency_action": "1.1. Receive and forward to concerned divisions",
-          "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Assistant II, Administrative Assistant I, etc."
+          "client_step": "1. Submit Document Request Form",
+          "agency_action": "1. Receive form, validate, print/photocopy, and sign documents",
+          "fees_to_be_paid": "None",
+          "processing_time": "20-25 minutes",
+          "person_responsible": "Concerned Division / SP Secretary"
         },
         {
-          "client_step": "2. Receive the document and sign the Receipt Slip",
-          "agency_action": "2. Release the documents to the client",
-          "fees": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Assistant II, Administrative Officer II"
+          "client_step": "2. Receive Order of Payment and pay fee",
+          "agency_action": "2. Issue Order of Payment and Official Receipt",
+          "fees_to_be_paid": "P50.00 per page",
+          "processing_time": "7 minutes",
+          "person_responsible": "SP Staff / City Treasurer’s Office"
+        },
+        {
+          "client_step": "4. Present Receipt and Receive Document",
+          "agency_action": "4. Verify receipt and release document",
+          "fees_to_be_paid": "None",
+          "processing_time": "4 minutes",
+          "person_responsible": "Administrative Assistant II"
         }
       ],
-      "total": {
-        "fees": "None",
-        "processing_time": "17 - 22 minutes"
+      "total_summary": {
+        "total_fees": "P50.00 per page",
+        "total_processing_time": "31 - 36 minutes"
       }
     },
     {
       "id": 8,
-      "service_name": "Review of Barangay Legislation",
-      "image": "/assets/document_background/Review of Barangay Legislation",
-      "office": "Office of the Sangguniang Panlungsod",
+      "service_name": "Request for Legislative Measures",
+      "image": "/assets/document_background/Request for Legislative Measures",
+      "department": "Office of the Sangguniang Panlungsod",
       "classification": "Highly technical",
-      "type_of_transaction": "G2G – Government to Government",
-      "who_may_avail": [
-        "Barangay officials, Secretaries or Treasurers"
-      ],
+      "type_of_transaction": "G2C, G2G, G2B",
+      "who_may_avail": "Executive departments, Agencies, Individuals and groups",
       "checklist_of_requirements": [
         {
-          "requirement": "Copy of barangay ordinance/ resolution",
-          "source": "Requesting barangay"
-        },
-        {
-          "requirement": "Endorsement from City Budget Office (for Budgets)",
-          "source": "Lipa City Budget Office"
-        },
-        {
-          "requirement": "Certified Statement of Funding Sources",
-          "source": "Requesting barangay"
+          "requirement": "Letter of request and supporting documents (Contract/MOA/Donation/PDS/etc.)",
+          "where_to_secure": "Lipa City Mayor’s Office / Requesting Party"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Submit the request letter and pertinent documents",
-          "agency_action": "1.1. Receive and 1.2. Scan/Encode documents",
-          "fees": "None",
-          "processing_time": "35 minutes",
-          "person_responsible": "Local Legislative Staff assistants"
+          "client_step": "1. Submit request letter",
+          "agency_action": "1. Administrative processing, session referral, and committee review",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day, 2 hours, 55 minutes",
+          "person_responsible": "SP Office Staff"
         },
         {
-          "client_step": "3. Attend the scheduled hearing and justify their request",
-          "agency_action": "3.2. Evaluate request (Barangay Budget/Ordinance)",
-          "fees": "None",
-          "processing_time": "1 - 14 days",
-          "person_responsible": "Chairperson and members of the Committee"
+          "client_step": "3. Attend hearing and justify request",
+          "agency_action": "3. Hearing, evaluation, report drafting, SP session approval, and ordinance signing",
+          "fees_to_be_paid": "None",
+          "processing_time": "11 days, 9 hours, 12 minutes",
+          "person_responsible": "SP Members / Secretary / Mayor"
+        },
+        {
+          "client_step": "4. Receive signed copy",
+          "agency_action": "4. Provide signed copy to concerned offices",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Division Staff"
         }
       ],
-      "total": {
-        "fees": "None",
-        "processing_time": "8 days to 21 days, 6 hours and 15 minutes"
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "12 days, 12 hours and 17 minutes"
+      }
+    },
+    {
+      "id": 9,
+      "service_name": "Request for Photocopy or Soft Copy of Documents",
+      "image": "/assets/document_background/Request for Photocopy or Soft Copy of Documents",
+      "department": "Office of the Sangguniang Panlungsod",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2G, G2B",
+      "who_may_avail": "Any individual or entity",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Document Request Form - 1 original copy",
+          "where_to_secure": "Office of the SP"
+        },
+        {
+          "requirement": "Any valid ID - 1 original copy",
+          "where_to_secure": "Issuing agency"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit Document Request Form",
+          "agency_action": "1. Receive form, validate existence, and print/photocopy/email document",
+          "fees_to_be_paid": "None",
+          "processing_time": "15-20 minutes",
+          "person_responsible": "Concerned Division Staff"
+        },
+        {
+          "client_step": "2. Receive document",
+          "agency_action": "2. Release document and sign Receipt Slip",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Assistant II"
+        }
+      ],
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "17 - 22 minutes"
+      }
+    },
+    {
+      "id": 10,
+      "service_name": "Request for Review of Barangay Legislation",
+      "image": "/assets/document_background/Request for Review of Barangay Legislation",
+      "department": "Office of the Sangguniang Panlungsod",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2G – Government to Government",
+      "who_may_avail": "Barangay officials, Secretaries, Treasurers",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter to SP, Ordinance/Resolution copy, Supporting documents",
+          "where_to_secure": "Requesting Barangay / City Budget Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit request letter",
+          "agency_action": "1. Intake, tracking, agenda inclusion, and committee review",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day, 2 hours, 55 minutes",
+          "person_responsible": "SP Office Staff"
+        },
+        {
+          "client_step": "3. Attend hearing",
+          "agency_action": "3. Hearing conduct, evaluation (1-14 days), report drafting, session approval, and signing",
+          "fees_to_be_paid": "None",
+          "processing_time": "Budget: 7 days, 9 hours, 12 mins | Ord: 20 days, 9 hours, 12 mins",
+          "person_responsible": "SP Members / Secretary / Mayor"
+        },
+        {
+          "client_step": "4. Receive copy",
+          "agency_action": "4. Provide signed copy to clients",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Assistant II"
+        }
+      ],
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "Budget: ~8.5 days | Ord: ~21.5 days"
       }
     }
   ]

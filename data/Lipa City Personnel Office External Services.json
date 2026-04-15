@@ -2,209 +2,162 @@
   "department": "Lipa City Personnel Office",
   "external_services": [
     {
-      "id": 1,
-      "office": "Lipa City Personnel Office External Services",
+      "service_name": "Filing of GSIS Claims and other concerns",
+      "image": "/assets/document_background/Filing of GSIS Claims",
+      "office": "Lipa City Personnel Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2G",
+      "who_may_avail": "GSIS pensioners and active members",
+      "checklist_of_requirements": [
+        { "requirement": "GSIS UMID Card and BP Number", "source": "GSIS / Requesting Party" },
+        { "requirement": "Application Form", "source": "GSIS / Personnel Office" },
+        { "requirement": "Service Record and Certificate of LWOP", "source": "Personnel Office" },
+        { "requirement": "Birth/Marriage/Death Certificates (Certified True Copy)", "source": "Civil Registrar / PSA" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Request assistance at Personnel Office",
+          "agency_action": "1.1. Verify document completeness; 1.2. Provide copy of application and inform regarding status notification via text/email",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Administrative Officer V/IV/II"
+        }
+      ],
+      "total": { "fees": "None", "processing_time": "30 minutes" }
+    },
+    {
+      "service_name": "Filing of PAGIBIG Claims and Loans",
+      "image": "/assets/document_background/Filing of PAGIBIG Claims",
+      "office": "Lipa City Personnel Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2G",
+      "who_may_avail": "GSIS pensioners and active members",
+      "checklist_of_requirements": [
+        { "requirement": "Government-issued IDs (2 pieces)", "source": "Requesting party" },
+        { "requirement": "Application Form", "source": "PAG-IBIG / Personnel Office" },
+        { "requirement": "Service Record", "source": "Personnel Office" },
+        { "requirement": "GSIS retirement voucher", "source": "GSIS / Personnel Office" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Request assistance at Personnel Office",
+          "agency_action": "1.1. Verify document completeness; 1.2. Provide copy of application and status notification details",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Administrative Officer V/IV/II"
+        }
+      ],
+      "total": { "fees": "None", "processing_time": "30 minutes" }
+    },
+    {
+      "service_name": "GSIS Kiosk Assistance",
+      "image": "/assets/document_background/GSIS Kiosk Assistance",
+      "office": "Lipa City Personnel Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2G",
+      "who_may_avail": "GSIS pensioners and active members",
+      "checklist_of_requirements": [
+        { "requirement": "GSIS UMID Card", "source": "GSIS" },
+        { "requirement": "BP Numbers", "source": "Requesting party / CPO Personnel" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Request assistance at Personnel Office",
+          "agency_action": "1. Assist in Kiosk transactions or GSIS Touch app usage",
+          "fees": "None",
+          "processing_time": "40 minutes",
+          "person_responsible": "Administrative Officer V/IV/II"
+        }
+      ],
+      "total": { "fees": "None", "processing_time": "40 minutes" }
+    },
+    {
+      "service_name": "On the Job Training (OJT) Assistance",
+      "image": "/assets/document_background/OJT Assistance",
+      "office": "Lipa City Personnel Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Senior High and College Students",
+      "checklist_of_requirements": [
+        { "requirement": "Endorsement letter", "source": "School" },
+        { "requirement": "Resume with picture (2 copies)", "source": "Applicant" },
+        { "requirement": "Notarized Training and Liability Waiver", "source": "Personnel Office / School" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit complete requirements",
+          "agency_action": "1.1. Assess credentials; 1.2. Prepare endorsement letter to assigned department",
+          "fees": "None",
+          "processing_time": "25 minutes",
+          "person_responsible": "Administrative Officer IV/II"
+        },
+        {
+          "client_step": "2. Attend orientation",
+          "agency_action": "2. Conduct orientation prior to training",
+          "fees": "None",
+          "processing_time": "1 hour",
+          "person_responsible": "Assistant City Personnel Officer"
+        },
+        {
+          "client_step": "3. Submit DTR and Dept. Certification",
+          "agency_action": "3. Approve and issue Certificate of Completion",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Lipa City Personnel Officer"
+        }
+      ],
+      "total": { "fees": "None", "processing_time": "1 hour 30 minutes" }
+    },
+    {
       "service_name": "Screening of Walk-in Applicants",
-      "image": "/assets/document_background/Screening of Walk-in Applicants in the City Government of Lipa",
+      "image": "/assets/document_background/Screening of Walk-in Applicants",
+      "office": "Lipa City Personnel Office",
       "classification": "Complex",
-      "type_of_transaction": "G2C - Government to Citizens",
+      "type_of_transaction": "G2C",
       "who_may_avail": "All qualified applicants",
       "checklist_of_requirements": [
-        {
-          "requirement": "Application letter",
-          "source": "Requesting party/ applicant"
-        },
-        {
-          "requirement": "Resume/ Personal Data Sheet (PDS)",
-          "source": "Lipa City Personnel Office"
-        },
-        {
-          "requirement": "School credentials",
-          "source": "Schools/ universities where the applicant graduated"
-        }
+        { "requirement": "Application letter", "source": "Applicant" },
+        { "requirement": "Resume / Personal Data Sheet (PDS)", "source": "Personnel Office" },
+        { "requirement": "School credentials (Certified True Copy)", "source": "Schools / Universities" }
       ],
       "steps": [
         {
-          "client_step": "1. Submit application letter together with the requirements to the Lipa City Personnel Office",
-          "agency_action": "1.1. Receive application together with the Personal Data Sheet (PDS) and other credentials",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Officer V (Lipa City Personnel Officer)"
+          "client_step": "1. Submit application letter and requirements",
+          "agency_action": "1.1. Receive PDS/credentials; 1.2. Notify applicant to report via text/call",
+          "fees": "None",
+          "processing_time": "6 minutes",
+          "person_responsible": "Administrative Officer IV"
         },
         {
-          "client_step": "1. Submit application letter together with the requirements to the Lipa City Personnel Office",
-          "agency_action": "1.2. Notify the applicants to report to the office thru text or phone call",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Administrative Officer V (Lipa City Personnel Officer)"
-        },
-        {
-          "client_step": "2. Attend the interview",
-          "agency_action": "2.1. Interview applicants for preliminary assessment of qualification",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Officer V (Lipa City Personnel Officer)"
-        },
-        {
-          "client_step": "2. Attend the interview",
-          "agency_action": "2.2. Refer applicants to PESO when there is no vacancy",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Officer V (Lipa City Personnel Officer)"
-        },
-        {
-          "client_step": "2. Attend the interview",
-          "agency_action": "2.3. Inform the applicant of: Schedule of deliberation",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Administrative Officer V (Lipa City Personnel Officer)"
-        },
-        {
-          "client_step": "2. Attend the interview",
-          "agency_action": "2.4. Inform the applicant of: Approved applicant",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 day",
-          "person_responsible": "Administrative Officer V (Lipa City Personnel Officer)"
+          "client_step": "2. Attend interview",
+          "agency_action": "2.1. Preliminary interview; 2.2. Referral to PESO if no vacancy; 2.3. Inform regarding deliberation schedule",
+          "fees": "None",
+          "processing_time": "12 minutes (Interviews typically occur within 1 day window)",
+          "person_responsible": "Supervising Administrative Officer"
         }
       ],
-      "total": {
-      "fees": "None",
-      "processing_time": "1 day and 20 minutes"
-      }
+      "total": { "fees": "None", "processing_time": "1 day and 18 minutes" }
     },
     {
-      "id": 2,
-      "office": "Lipa City Personnel Office External Services",
-      "service_name": "On the Job Training (OJT) Assistance",
-      "image": "/assets/document_background/On-the-Job Training_Work Immersion for Students",
-      "classification": "Simple",
-      "type_of_transaction": "G2C - Government to Citizens",
-      "who_may_avail": "Students",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Endorsement letter",
-          "source": "School where the applicant is currently enrolled"
-        },
-        {
-          "requirement": "Resume with picture",
-          "source": "Requesting party/ applicant"
-        },
-        {
-          "requirement": "Training and Liability Waiver duly notarized",
-          "source": "Lipa City Personnel Office or Schools"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit complete requirements to the Lipa City Personnel Office",
-          "agency_action": "1.1. Receive complete requirements and assess student credentials to determine office assignment",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Human Resource Management Officer II / Human Resource Management Assistant / Lipa City Personnel Officer (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit complete requirements to the Lipa City Personnel Office",
-          "agency_action": "1.2. Prepare letter endorsing the student to respective department for actual on-the-job training",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Human Resource Management Officer II / Human Resource Management Assistant / Lipa City Personnel Officer (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "2. Attend the orientation",
-          "agency_action": "2. Conduct orientation prior to actual training",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 hour",
-          "person_responsible": "Assistant City Personnel Officer (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "3. Submit DTR and Certification from the Department Head for completion of training hours",
-          "agency_action": "3. Approve, sign and issue Certificate of Completion",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Human Resource Management Officer II / Human Resource Management Assistant / City Personnel Officer (Lipa City Personnel Office)"
-        }
-      ],
-      "total": {
-      "fees": "None",
-      "processing_time": "1 hour and 18 minutes"
-      }
-    },
-    {
-      "id": 3,
-      "office": "Lipa City Personnel Office External Services",
-      "service_name": "GSIS Kiosk Assistance for Pensioners and Active Members",
-      "image": "/assets/document_background/image_1_309",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens / G2G – Government to Government",
-      "who_may_avail": "All GSIS pensioners and active members",
-      "checklist_of_requirements": [
-        {
-          "requirement": "GSIS UMID Card",
-          "source": "Government Service Insurance System (GSIS)"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Proceed to the Lipa City Personnel Office to request for assistance",
-          "agency_action": "1. Assist pensioners/ active members in their GSIS kiosk transactions",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Human Resource Management Officer III / Human Resource Management Officer II / Human Resource Management Officer I (Lipa City Personnel Office)"
-        }
-      ],
-      "total": {
-      "fees": "None",
-      "processing_time": "10 minutes"
-      }
-    },
-    {
-      "id": 4,
-      "office": "Lipa City Personnel Office External Services",
       "service_name": "Submission of SALN of Barangay Officials",
-      "image": "/assets/document_background/image_2_309",
+      "image": "/assets/document_background/Submission of SALN",
+      "office": "Lipa City Personnel Office",
       "classification": "Complex",
-      "type_of_transaction": "G2G – Government to Government",
+      "type_of_transaction": "G2G",
       "who_may_avail": "Incumbent barangay officials",
       "checklist_of_requirements": [
-        {
-          "requirement": "Fully accomplished SALN form",
-          "source": "Requesting party/ applicant"
-        }
+        { "requirement": "Fully accomplished SALN form (3 original copies)", "source": "Applicant" }
       ],
       "steps": [
         {
           "client_step": "1. Submit fully-accomplished SALN form",
-          "agency_action": "1.1. Receive and review the submitted accomplished SALN form",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 days",
-          "person_responsible": "Human Resource Management Officer III / Administrative Assistant IV (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit fully-accomplished SALN form",
-          "agency_action": "1.2. Prepare transmittal letter to the Office of the Ombudsman",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Human Resource Management Officer III (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit fully-accomplished SALN form",
-          "agency_action": "1.3. Sign transmittal",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "City Personnel Officer (Lipa City Personnel Office)"
-        },
-        {
-          "client_step": "1. Submit fully-accomplished SALN form",
-          "agency_action": "1.4. Submit to the Office of the Ombudsman",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 day",
-          "person_responsible": "Human Resource Management Officer III / Administrative Assistant IV (Lipa City Personnel Office)"
+          "agency_action": "1.1. Review SALN; 1.2. Prepare Ombudsman transmittal; 1.3. Sign transmittal; 1.4. Submit to Ombudsman",
+          "fees": "None",
+          "processing_time": "4 days and 6 minutes",
+          "person_responsible": "City Personnel Officer / Administrative Assistant IV"
         }
       ],
-      "total": {
-      "fees": "None",
-      "processing_time": "6 days and 6 minutes"
-      }
+      "total": { "fees": "None", "processing_time": "4 days and 6 minutes" }
     }
   ]
 }

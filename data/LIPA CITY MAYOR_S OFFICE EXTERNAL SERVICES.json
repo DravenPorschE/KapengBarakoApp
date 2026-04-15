@@ -1,141 +1,244 @@
 {
-  "internal_services": [
+  "department": "Lipa City Mayor's Office",
+  "external_services": [
     {
-      "id": 1,
-      "office": "Lipa City Mayor's Office External Services",
       "service_name": "Issuance of Job Referral, Recommendation or Endorsement",
       "image": "/assets/document_background/Issuance of Job Referral, Recommendation or Endorsement",
-      "department": "Lipa City Mayor's Office",
+      "office": "Lipa City Mayor's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": "All",
       "checklist_of_requirements": [
         {
-          "requirement": "Recommendation for Employment: Biodata/ Personal Data Sheet – 1 original copy",
-          "source": "Requesting party/ applicant"
+          "requirement": "Letter requesting for recommendation/endorsement (1 original copy)",
+          "source": "Requesting party / applicant"
         },
         {
-          "requirement": "Referrals of Indigents: Certificate of Indigency",
+          "requirement": "Resume / Curriculum Vitae (1 original copy)",
+          "source": "Requesting party / applicant"
+        },
+        {
+          "requirement": "Personal Data Sheet, if applicable (1 original copy)",
+          "source": "Requesting party / applicant"
+        },
+        {
+          "requirement": "Fully-filled-out Action Slip (for Medical/Other referrals)",
+          "source": "Lipa City Mayor's Office"
+        },
+        {
+          "requirement": "Request letter from Barangay (for Medical/Other referrals)",
           "source": "Respective Barangay Captains"
-        },
-        {
-          "requirement": "Referrals of Indigents: Hospital Bill (if patient is/ was confined)",
-          "source": "Hospital where the patient is/ was confined"
-        },
-        {
-          "requirement": "DFA Assistance: Passport – 1 photocopy",
-          "source": "Requesting party/ applicant"
-        },
-        {
-          "requirement": "DFA Assistance: Any government issued ID – 1 photocopy",
-          "source": "Requesting party/ applicant or Any government agency (PSA, Comelec, LTO, DSWD, PhilPost, GSIS, SSS, etc.)"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Present complete requirements",
-          "agency_action": "1.1. Receive the requirements",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Executive Assistant IV (Lipa City Mayor's Office)"
+          "client_step": "1. Present complete requirements at the Information Desk and fill out Action Slip",
+          "agency_action": "1.1. Receive/check requirements; 1.2. Provide Action Slip if complete",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Executive Assistant I / III"
         },
         {
-          "client_step": "1. Present complete requirements",
-          "agency_action": "1.2. Prepare the endorsement letter",
-          "fees_to_be_paid": "None",
+          "client_step": "2. Present filled-out Action Slip to the City Mayor",
+          "agency_action": "2.1. Sign the Action Slip; 2.2. Prepare the endorsement/referral letter",
+          "fees": "None",
           "processing_time": "30 minutes",
-          "person_responsible": "Executive Assistant IV (Lipa City Mayor's Office)"
+          "person_responsible": "City Mayor / Executive Assistant IV"
         },
         {
-          "client_step": "1. Present complete requirements",
-          "agency_action": "1.3. Sign the endorsement letter",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "City Mayor (Lipa City Mayor's Office)"
-        },
-        {
-          "client_step": "2. Claim the requested document",
-          "agency_action": "2. Release the requested document",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Executive Assistant IV (Lipa City Mayor's Office)"
+          "client_step": "3. Claim the requested document",
+          "agency_action": "3.1. Sign and issue the endorsement letter",
+          "fees": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "City Mayor"
         }
       ],
       "total": {
         "fees": "None",
-        "processing_time": "45 minutes"
+        "processing_time": "33 minutes"
       }
     },
     {
-      "id": 2,
-      "office": "Lipa City Mayor's Office External Services",
       "service_name": "Request for Civil Wedding Schedule",
       "image": "/assets/document_background/Request for Civil Wedding Schedule",
-      "department": "Lipa City Mayor's Office",
+      "office": "Lipa City Mayor's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Couples, contracting parties or their immediate family members",
+      "who_may_avail": "Couples (contracting parties) of legal age",
       "checklist_of_requirements": [
         {
-          "requirement": "None",
-          "source": "N/A"
+          "requirement": "Completely filled-out application form (1 original copy)",
+          "source": "Lipa City Mayor's Office"
+        },
+        {
+          "requirement": "Certificate of No Marriage (CENOMAR) (1 original copy)",
+          "source": "Philippine Statistics Authority"
+        },
+        {
+          "requirement": "Marriage License (1 original copy)",
+          "source": "Lipa City Civil Registrar's Office"
+        },
+        {
+          "requirement": "Birth Certificate of contracting parties",
+          "source": "Philippine Statistics Authority"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Proceed to the Lipa City Mayor's Office and request for schedule",
-          "agency_action": "1. Set the schedule and advice the couple to be back on the scheduled date",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Senior Administrative Assistant III (Lipa City Mayor's Office)"
+          "client_step": "1. Submit complete requirements and fill out application form",
+          "agency_action": "1. Receive, check, and verify completeness of requirements",
+          "fees": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Executive Assistant I / III"
+        },
+        {
+          "client_step": "2. Request specific schedule date",
+          "agency_action": "2.1. Verify availability and sign fully filled-out form",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City Mayor"
+        },
+        {
+          "client_step": "3. Submit signed form to the information desk",
+          "agency_action": "3.1. Calendar the approved schedule",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Executive Assistant I / III"
         }
       ],
       "total": {
         "fees": "None",
-        "processing_time": "10 minutes"
+        "processing_time": "8 minutes"
       }
     },
     {
-      "id": 3,
-      "office": "Lipa City Mayor's Office External Services",  
-      "service_name": "Solemnization of Marriage",
-      "image": "/assets/document_background/Solemnization of Marriage",
-      "department": "Lipa City Mayor's Office",
+      "service_name": "Request for Extended Benefit Assistance - Burial Assistance",
+      "image": "/assets/document_background/Request for Extended Benefit Assistance - Burial Assistance",
+      "office": "Lipa City Mayor's Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Couples, contracting parties",
+      "who_may_avail": "Bonafide residents of Lipa City",
       "checklist_of_requirements": [
         {
-          "requirement": "Marriage license",
+          "requirement": "Death Certificate (1 original or certified true copy)",
+          "source": "Lipa City Civil Registrar's Office"
+        },
+        {
+          "requirement": "Funeral Contract (1 original copy)",
+          "source": "Funeral parlor"
+        },
+        {
+          "requirement": "Certificate of Barangay Indigency of informant (1 original copy)",
+          "source": "Barangay hall"
+        },
+        {
+          "requirement": "Valid ID of informant and deceased (1 photocopy each)",
+          "source": "Requesting party / Family"
+        },
+        {
+          "requirement": "Notarized authorization letter (if not immediate family)",
+          "source": "Notary Public"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit complete requirements for verification",
+          "agency_action": "1.1. Check completeness; 1.2. Provide Action Slip if complete",
+          "fees": "None",
+          "processing_time": "7 minutes",
+          "person_responsible": "Executive Assistant I / III"
+        },
+        {
+          "client_step": "2. Fill out Action Slip and submit for signing",
+          "agency_action": "2.1. Sign the Action Slip",
+          "fees": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "City Mayor"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "8 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Extended Benefit Assistance - Medical Assistance",
+      "image": "/assets/document_background/Request for Extended Benefit Assistance - Medical Assistance",
+      "office": "Lipa City Mayor's Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Bonafide residents of Lipa City",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Medical Certificate and Hospital Bill (1 original or certified copy)",
+          "source": "Hospital of confinement"
+        },
+        {
+          "requirement": "Barangay Certificate of Indigency of Patient (1 original copy)",
+          "source": "Barangay Hall"
+        },
+        {
+          "requirement": "Valid ID of patient and informant (1 photocopy each)",
+          "source": "Patient / Informant"
+        },
+        {
+          "requirement": "Birth Certificate (if patient is minor)",
+          "source": "Philippine Statistics Authority"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit complete requirements for verification",
+          "agency_action": "1.1. Check completeness/authenticity; 1.2. Provide Action Slip",
+          "fees": "None",
+          "processing_time": "7 minutes",
+          "person_responsible": "Executive Assistant I / III"
+        },
+        {
+          "client_step": "2. Fill out Action Slip and submit for signing",
+          "agency_action": "2.1. Sign the Action Slip",
+          "fees": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "City Mayor"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "8 minutes"
+      }
+    },
+    {
+      "service_name": "Solemnization of Marriage",
+      "image": "/assets/document_background/Solemnization of Marriage",
+      "office": "Lipa City Mayor's Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Couples (contracting parties)",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Marriage license (1 original copy)",
           "source": "Lipa City Civil Registrar's Office"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Proceed to the Lipa City Mayor's Office for the briefing before the ceremony",
-          "agency_action": "1. Confirm the schedule of the City Mayor",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Senior Administrative Assistant III (Lipa City Mayor's Office)"
-        },
-        {
-          "client_step": "2. Participate in the ceremony",
-          "agency_action": "2.1. Officiate the civil wedding ceremony",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "City Mayor (Lipa City Mayor's Office)"
-        },
-        {
-          "client_step": "2. Participate in the ceremony",
-          "agency_action": "2.2. Affix signature on the marriage contract/ certificate",
-          "fees_to_be_paid": "None",
+          "client_step": "1. Proceed to venue for briefing",
+          "agency_action": "1. Assist with briefing and photo-taking",
+          "fees": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "City Mayor (Lipa City Mayor's Office)"
+          "person_responsible": "Executive Assistant I / Registration Officer IV"
+        },
+        {
+          "client_step": "2. Participate in the ceremony and sign marriage contract",
+          "agency_action": "2.1. Officiate ceremony and sign marriage contract/certificate",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "City Mayor"
         }
       ],
       "total": {
         "fees": "None",
-        "processing_time": "45 minutes"
+        "processing_time": "35 minutes"
       }
     }
   ]

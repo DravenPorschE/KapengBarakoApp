@@ -1,1071 +1,468 @@
 {
+  "department": "Lipa City Treasurer's Office",
   "external_services": [
     {
-      "id": 1,
-       "office": "Lipa City Treasurer's Office External Services",
-      "service_name": "Computation and Collection of Real Property Tax and Issuance of Real Property Tax Clearance",
-      "image": "/assets/document_background/Computation and Collection of Real Property Tax and Issuance of Real",
-      "department": "Lipa City Treasurer's Office External Services",
+      "service_name": "Assessment and Collection of Additional Business Tax (Tax Audit)",
+      "image": "/assets/document_background/Business_Tax_Audit",
+      "office": "Lipa City Treasurer's Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C - Government to Citizens",
-      "who_may_avail": "Public/ private individuals",
+      "type_of_transaction": "G2C, G2B",
+      "who_may_avail": "Private Individuals (Business owners with doubtful declarations)",
       "checklist_of_requirements": [
+        { "requirement": "Financial Statements (Original)", "source": "Requesting party" },
+        { "requirement": "Income Tax Return (Filed copy)", "source": "Requesting party" },
+        { "requirement": "Books of Accounts (Original)", "source": "Requesting party" },
+        { "requirement": "Official Receipts / Sales Invoice (Duplicate copy)", "source": "Requesting party" },
+        { "requirement": "Lease contract (if place of business is rented)", "source": "Requesting party" },
+        { "requirement": "Other Financial Records", "source": "Requesting party" }
+      ],
+      "steps": [
         {
-          "requirement": "Declaration of Real Property Value (DRPV)/ Tax Declaration for newly transferred or declared – 1 original copy",
-          "source": "City Assessor's Office"
+          "client_step": "1. Submit all requirements to TORD",
+          "agency_action": "1.1. Examine books and records; 1.2. Prepare Statement of Account for deficiencies",
+          "fees": "None",
+          "processing_time": "2 days",
+          "person_responsible": "Local Treasury Operations Officer IV / II / I"
         },
         {
-          "requirement": "Latest Official Receipt (OR) of RPT payment – 1 original copy or photocopy",
-          "source": "Requesting party/ applicant"
+          "client_step": "2. Pay business tax deficiency, fees, and charges",
+          "agency_action": "Receive payment and issue Official Receipt",
+          "fees": "Business Tax (per Table A-S) + P50.00 Certification Fee",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Cash Receipts Division)"
         },
         {
-          "requirement": "Tax Clearance/ Certification fee – Official Receipt – 1 original copy",
-          "source": "City Treasurer's Office"
+          "client_step": "3. Receive Certificate of Tax Clearance",
+          "agency_action": "Issue Certificate of Audit Compliance",
+          "fees": "None",
+          "processing_time": "None specified",
+          "person_responsible": "Local Treasury Operations Officer IV / I"
+        }
+      ],
+      "total": { "fees": "Business Tax + P50.00", "processing_time": "2 days, 30 minutes" }
+    },
+    {
+      "service_name": "Collection of Legal Claims thru Cash",
+      "image": "/assets/document_background/Legal_Claims_Cash",
+      "office": "Lipa City Treasurer's Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B",
+      "who_may_avail": "Public/Private Individuals, Contractors, and Suppliers",
+      "checklist_of_requirements": [
+        { "requirement": "Approved payroll and voucher (Original)", "source": "Requesting party or Accounting Office" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements to Cash and Disbursement Division",
+          "agency_action": "Receive and check approved payroll and vouchers",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Supervising Administrative Officer / Admin Officer III / Admin Assistant II / V"
+        },
+        {
+          "client_step": "2. Receive cash payment",
+          "agency_action": "Pay claimant",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Admin Officer III / Admin Assistant II / V"
+        }
+      ],
+      "total": { "fees": "None", "processing_time": "40 minutes" }
+    },
+    {
+      "service_name": "Collection of Legal Claims thru Checks",
+      "image": "/assets/document_background/Legal_Claims_Check",
+      "office": "Lipa City Treasurer's Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B",
+      "who_may_avail": "Public/Private Individuals, Contractors, and Suppliers",
+      "checklist_of_requirements": [
+        { "requirement": "Approved payroll and voucher (Original)", "source": "Requesting party or Accounting Office" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements to Cash and Disbursement Division",
+          "agency_action": "1.1. Prepare check; 1.2. Review and ESRE encoding; 1.3. Sign the check",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "City Treasurer / Admin Officer III / Aide IV"
+        },
+        {
+          "client_step": "2. Receive check payment",
+          "agency_action": "Release check to claimant",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Administrative Aide IV / Admin Assistant V"
+        }
+      ],
+      "total": { "fees": "None", "processing_time": "45 minutes" }
+    },
+    {
+      "service_name": "Payment of Business Taxes, Fees and Other Charges",
+      "image": "/assets/document_background/Business_Tax_Payment",
+      "office": "Lipa City Treasurer's Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B",
+      "who_may_avail": "Public and private individuals, corporations",
+      "checklist_of_requirements": [
+        { "requirement": "Accomplished application form (BPLO encoded)", "source": "Business Permits and Licensing Office" },
+        { "requirement": "Certification of Real Property Tax Payment (Original)", "source": "Lipa City Treasurer's Office" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements and secure Statement of Account",
+          "agency_action": "1.1. Check completeness; 1.2. Compute taxes and fees; 1.3. Review and issue Tax Order of Payment (TOP)",
+          "fees": "None",
+          "processing_time": "1 hour, 30 minutes",
+          "person_responsible": "Local Treasury Operations Officer III/IV/I, Admin Assistants, Revenue Collection Officer III"
+        },
+        {
+          "client_step": "2. Pay the business tax, fees, and charges",
+          "agency_action": "Receive payment based on SOA and issue Official Receipt",
+          "fees": "See Table of Fees",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk III/II"
+        }
+      ],
+      "total": { "fees": "Variable (Tax Table)", "processing_time": "2 hours" }
+    },
+    {
+      "service_name": "Payment of Business Taxes, Fees and Other Charges from Business Retirement",
+      "image": "/assets/document_background/Business_Retirement_Payment",
+      "office": "Lipa City Treasurer's Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B",
+      "who_may_avail": "Public/private individuals retiring their business",
+      "checklist_of_requirements": [
+        { 
+          "requirement": "Accomplished Application Form for Retirement (BPLO encoded, includes Tax Declaration)", 
+          "source": "Lipa City Business Permits and Licensing Office" 
         }
       ],
       "steps": [
         {
-          "client_step": "1. Submit all the requirements and secure the Statement of Account/Order of Payment",
-          "agency_action": "1.1. Receive the required documents and check the completeness",
+          "client_step": "1. Submit requirements to the Business Tax & Fees Division",
+          "agency_action": "1.1. Check completeness; 1.2. Verify RPT settlement; 1.3. Compute taxes/fees; 1.4. Review and 1.5. Issue Tax Order of Payment (TOP)",
           "fees": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Local Treasury Operations Officer III / Assistant / Administrative Assistant IV / Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+          "processing_time": "1 hour, 20 minutes",
+          "person_responsible": "Local Treasury Operations Officer III/IV/I, Admin Assistants, Revenue Collections Officer III"
         },
         {
-          "client_step": "1. Submit all the requirements and secure the Statement of Account/Order of Payment",
-          "agency_action": "1.2. Compute Real Property Tax and issue Statement of Account",
-          "fees": "None",
-          "processing_time": "4 minutes",
-          "person_responsible": "Local Treasury Operations Officer III / Assistant / Administrative Assistant IV / Revenue Collection Clerk II (Lipa City Treasurer's Office)"
-        },
+          "client_step": "2. Pay business tax, fees, and charges",
+          "agency_action": "Receive payment and issue Official Receipt",
+          "fees": "Business Tax (Table A-S) + P100.00 Retirement fee (if no declared sales)",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collections Clerk III/II (Cash Receipts Division)"
+        }
+      ],
+      "total": { 
+        "fees": "Variable (Tax Table A-S) + P100.00 (if applicable)", 
+        "processing_time": "1 hour, 50 minutes" 
+      },
+      "note": "Applications must be filed within 30 days of closure to avoid tax accumulation and penalties."
+    },
+    {
+      "service_name": "Payment of Fees from Building Permits, Occupancy Certificates and Building Repair Permits",
+      "image": "/assets/document_background/Building_Construction_Permits",
+      "office": "Lipa City Treasurer's Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Private Individuals",
+      "checklist_of_requirements": [
+        { 
+          "requirement": "Order of Payment with summary of fees (Electrical, Mechanical, Plumbing, etc.)", 
+          "source": "Lipa City Engineering Office" 
+        }
+      ],
+      "steps": [
         {
-          "client_step": "1. Submit all the requirements and secure the Statement of Account/Order of Payment",
-          "agency_action": "1.3. Issue Order of Payments for Tax Clearance Fee",
+          "client_step": "1. Submit the required documents to the Cash Receipts Division",
+          "agency_action": "Receive the Order of Payment and check for completeness",
           "fees": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Local Treasury Operations Officer III / Assistant / Administrative Assistant IV / Revenue Collection Clerk II (Lipa City Treasurer's Office)"
-        },
-        {
-          "client_step": "2. Pay the required RPT/Fee by showing the SOA/Order of Payment",
-          "agency_action": "2.1. Accept the payment based on SOA/ Order of Payment and issue Official Receipt",
-          "fees": "See Article A of the Revised Revenue Code of the City of Lipa 1993 (below transfer tax – P50.00)",
           "processing_time": "5 minutes",
-          "person_responsible": "Revenue Collection Clerk III / II / I (Lipa City Treasurer's Office)"
+          "person_responsible": "Revenue Collection Clerk II"
         },
         {
-          "client_step": "3. Return to windows 1 – 3 for the processing of Tax Clearance",
-          "agency_action": "3.1. Check the Official Receipt",
+          "client_step": "2. Pay the required tax/fee and wait for the Official Receipt",
+          "agency_action": "Receive payment and issue Official Receipt",
+          "fees": "Based on Order of Payment from CEO",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk III/II"
+        }
+      ],
+      "total": { "fees": "Based on Engineering Order of Payment", "processing_time": "35 minutes" }
+    },
+    {
+      "service_name": "Payment of Fines on Violations of Ordinances",
+      "image": "/assets/document_background/Ordinance_Violation_Payment",
+      "office": "Lipa City Treasurer's Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Violators of national and local ordinances",
+      "checklist_of_requirements": [
+        { "requirement": "Citation Ticket or Order of Payment (Original)", "source": "Requesting party" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the required document to the Cash Receipts Division",
+          "agency_action": "Receive the document and encode the details",
           "fees": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Local Treasury Operations Officer IV / III / Assistant / Administrative Assistant IV / Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+          "processing_time": "5 minutes",
+          "person_responsible": "Revenue Collection Clerk III/II"
         },
         {
-          "client_step": "3. Return to windows 1 – 3 for the processing of Tax Clearance",
-          "agency_action": "3.2. Issue Tax Clearance to the Client",
+          "client_step": "2. Pay the required fine and secure the Official Receipt",
+          "agency_action": "Receive payment, issue Official Receipt, and advise client to report to issuing office",
+          "fees": "Refer to Citation Ticket/Order of Payment",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk III/II"
+        }
+      ],
+      "total": { "fees": "Refer to Citation Ticket", "processing_time": "35 minutes" }
+    },
+    {
+      "service_name": "Payment of Professional Tax / Calling Fee",
+      "image": "/assets/document_background/Professional_Tax_Lipa",
+      "office": "Lipa City Treasurer's Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "All registered professionals (excluding government-exclusive employees)",
+      "checklist_of_requirements": [
+        { "requirement": "PRC ID (Original or Photocopy)", "source": "Professional Regulation Commission" },
+        { "requirement": "Valid ID (Original or Photocopy)", "source": "Requesting party" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit all requirements",
+          "agency_action": "Receive documents and encode taxpayer data",
           "fees": "None",
-          "processing_time": "7 minutes",
-          "person_responsible": "Local Treasury Operations Officer IV / III / Assistant / Administrative Assistant IV / Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+          "processing_time": "5 minutes",
+          "person_responsible": "Revenue Collection Clerk III/II"
+        },
+        {
+          "client_step": "2. Pay the required professional tax/calling fee",
+          "agency_action": "Receive payment and issue Official Receipt",
+          "fees": "See table of fees",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk III/II"
+        }
+      ],
+      "total": { "fees": "Variable (per schedule)", "processing_time": "35 minutes" }
+    },
+    {
+      "service_name": "Payment of Real Property Tax (RPT)",
+      "image": "/assets/document_background/Real_Property_Tax_Payment",
+      "office": "Lipa City Treasurer's Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B",
+      "who_may_avail": "All real property owners",
+      "checklist_of_requirements": [
+        { "requirement": "Declaration of Real Property Value (DRPV) or Tax Declaration", "source": "Lipa City Assessor's Office" },
+        { "requirement": "Latest Official Receipt (OR) of RPT payment", "source": "Requesting party" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements to the Land Tax Division and secure SOA",
+          "agency_action": "1.1. Check completeness; 1.2. Compute RPT and issue Statement of Account (SOA)",
+          "fees": "None",
+          "processing_time": "25 minutes",
+          "person_responsible": "Local Treasury Operations Officer III/II/Assistant, Admin Assistant IV"
+        },
+        {
+          "client_step": "2. Pay the RPT by showing the SOA and wait for the Official Receipt",
+          "agency_action": "Receive payment and issue Official Receipt",
+          "fees": "1% of total assessed value",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk III/II"
+        }
+      ],
+      "total": { "fees": "1% of total assessed value", "processing_time": "55 minutes" }
+    },
+    {
+      "service_name": "Payment of Tax on Delivery Truck/Van and Issuance of Sticker",
+      "image": "/assets/document_background/Delivery_Truck_Sticker",
+      "office": "Lipa City Treasurer's Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B",
+      "who_may_avail": "Public/private individuals or corporations distributing goods",
+      "checklist_of_requirements": [
+        { "requirement": "Motor Vehicle Registration (Photocopy)", "source": "LTO / Requesting Party" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit motor vehicle registration",
+          "agency_action": "Receive and encode taxpayer data",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Revenue Collection Clerk III/II"
+        },
+        {
+          "client_step": "2. Pay tax and fees",
+          "agency_action": "Receive payment and issue Official Receipt",
+          "fees": "Variable (P355.00 to P630.00 - See Table)",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
+        },
+        {
+          "client_step": "3. Claim sticker at TORD",
+          "agency_action": "Check OR and issue delivery truck sticker",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Local Treasury Operations Officer II/I"
+        }
+      ],
+      "total": { "fees": "P355.00 - P630.00", "processing_time": "45 minutes" }
+    },
+    {
+      "service_name": "Request for Calibration of Weights and Measures",
+      "image": "/assets/document_background/Weights_Calibration",
+      "office": "Lipa City Treasurer’s Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Private individuals using weights/measures for business",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Weights or measures to be calibrated (Physical) OR Letter Request",
+          "source": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present weights for calibration or request on-site calibration for gasoline pumps",
+          "agency_action": "1.1. Calibrate weights/gasoline pumps and affix sticker; 1.2. Issue Order of Payment",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Local Treasury Operations Assistant / Administrative Aide IV"
+        },
+        {
+          "client_step": "2. Pay the required calibration fee and sticker fee",
+          "agency_action": "Receive payment and issue Official Receipt",
+          "fees": "Based on fee table + P30.00 Calibration sticker",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk III/II"
         }
       ],
       "total": {
-        "fees": "See Article A of the Revised Revenue Code of the City of Lipa 1993 (below transfer tax – P50.00)",
-        "processing_time": "25 minutes"
+        "fees": "Variable (per fee table) + P30.00",
+        "processing_time": "1 hour"
       }
     },
     {
-    "id": 2,
-     "office": "Lipa City Treasurer's Office External Services",
-    "service_name": "Collection of Business Taxes, Fees and Other Charges",
-    "image": "/assets/document_background/Collection of Business Taxes, Fees and Other Charges",
-    "department": "Lipa City Treasurer's Office External Services",
-    "classification": "Simple",
-    "type_of_transaction": "G2C - Government to Citizens, G2B – Government to Businesses",
-    "who_may_avail": "Public/ private individuals",
-    "checklist_of_requirements": [
+      "service_name": "Request for Real Property Tax Clearance",
+      "image": "/assets/document_background/RPT_Tax_Clearance",
+      "office": "Lipa City Treasurer’s Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B",
+      "who_may_avail": "Public and private individuals",
+      "checklist_of_requirements": [
+        { "requirement": "Latest Tax Declaration (1 original copy)", "source": "Lipa City Assessor’s Office" },
+        { "requirement": "Latest Official Receipt (OR) of RPT payment (1 original or 1 photocopy)", "source": "Requesting party" }
+      ],
+      "steps": [
         {
-        "requirement": "Accomplished application form with complete supporting documents/ requirements and properly encoded in Business Permits and Licensing Office – 1 original copy",
-        "source": "Lipa City Permits and Licensing Office"
+          "client_step": "1. Submit requirements and secure Order of Payment",
+          "agency_action": "1.1. Receive and check completeness; 1.2. Issue Order of Payment for Tax Clearance fee",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Local Treasury Operations Officer III/II, Treasury Operations Assistant, Admin Assistant IV"
         },
         {
-        "requirement": "Certification of Real Property Tax Payment – 1 original copy",
-        "source": "Lipa City Treasurer's Office"
+          "client_step": "2. Pay the required fee",
+          "agency_action": "Receive payment and issue Official Receipt",
+          "fees": "P50.00",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk III/II (Cash Receipt Division)"
+        },
+        {
+          "client_step": "3. Return to Windows 1-3 to claim Tax Clearance",
+          "agency_action": "3.1. Check Official Receipt and prepare Tax Clearance; 3.2. Issue Tax Clearance",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Local Treasury Operations Officer III/II, Treasury Operations Assistant, Admin Assistant IV"
         }
-    ],
-    "steps": [
+      ],
+      "total": { "fees": "P50.00", "processing_time": "1 hour, 10 minutes" }
+    },
+    {
+      "service_name": "Request for the Issuance of Transfer Tax Payment of Real Property and Certificate",
+      "image": "/assets/document_background/Transfer_Tax_Certificate",
+      "office": "Lipa City Treasurer’s Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Public/Private Individuals",
+      "checklist_of_requirements": [
+        { "requirement": "Official Receipt of Transfer Tax and Certification Fee", "source": "Lipa City Treasurer’s Office" },
+        { "requirement": "Updated Real Property Tax Clearance (1 original copy)", "source": "Requesting party" },
+        { "requirement": "Updated Tax Declaration (Land, Building, Machineries) or Certificate of No Improvement", "source": "Lipa City Assessor’s Office" },
+        { "requirement": "Deed of Absolute Sale, Donation, or Extra-Judicial Settlement (1 photocopy)", "source": "Notary Public" },
+        { "requirement": "OCT / TCT (1 photocopy)", "source": "Register of Deeds" },
+        { "requirement": "Certification Authorizing Registration (CAR) and BIR Tax Returns (CGT/Donor/Estate)", "source": "Bureau of Internal Revenue" },
+        { "requirement": "Documentary Stamp Return", "source": "Bureau of Internal Revenue" },
+        { "requirement": "Special Power of Attorney (if representative)", "source": "Notary Public" },
+        { "requirement": "Valid Mayor’s Permit (for Real Estate Developers/Operators)", "source": "Lipa City Permits and Licensing Office" }
+      ],
+      "steps": [
         {
-        "client_step": "1. Submit all the requirements and secure the Statement of Account/Order of Payment",
-        "agency_action": "1.1. Receive the required documents and check for completeness",
-        "fees": "None",
-        "processing_time": "10 minutes",
-        "person_responsible": "Local Treasury Operations Officer IV / Assistant / Officer I, Revenue Collection Clerk III, Administrative Assistant IV, Admin Aide, Cash Clerk II (Business Tax & Fees Division - Lipa City Treasurer's Office)"
+          "client_step": "1. Submit requirements to Business Tax and Fees Division",
+          "agency_action": "1.1. Compute and prepare Transfer Tax Order of Payment; 1.2. Computation for Simple Transfer or Extra Judicial Settlement",
+          "fees": "None",
+          "processing_time": "5 hours",
+          "person_responsible": "Local Treasury Operations Officer III/II, Revenue Collections Clerk III"
         },
         {
-        "client_step": "1. Submit all the requirements and secure the Statement of Account/Order of Payment",
-        "agency_action": "1.2. Compute Business Tax and other regulatory fee and charges and issue reviewed Tax Order Payment.",
-        "fees": "None",
-        "processing_time": "10 minutes",
-        "person_responsible": "Admin Aide IV, Local Revenue Collection Officer III, Local Treasury Operations Assistant (Treasury Operations Review - Lipa City Treasurer's Office)"
+          "client_step": "2. Pay transfer tax, fees and charges",
+          "agency_action": "Receive payment and issue Official Receipt",
+          "fees": "50% of 1% of total consideration/FMV + P50.00 Certification Fee",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collections Clerk II (Cash Receipts Division)"
         },
         {
-        "client_step": "2. Pay Business Tax, Fees and Charges and secure Official Receipt",
-        "agency_action": "2. Accept payment based on the Order of Payments and issue Official Receipt",
-        "fees": "See table of fees below",
-        "processing_time": "5 minutes",
-        "person_responsible": "Revenue Collection Clerk III / II / I (Cash Receipts Division - Lipa City Treasurer's Office)"
+          "client_step": "3. Receive Transfer Tax Certificate",
+          "agency_action": "Verify transfer tax documents, prepare and issue certification of transfer tax payment",
+          "fees": "None",
+          "processing_time": "40 minutes",
+          "person_responsible": "Local Treasury Operations Officer III, Admin Assistant IV, Acting Assistant City Treasurer"
         }
-    ],
-    "total": {
-        "fees": "See table of fees below",
-        "processing_time": "25 minutes"
-    },
-    "service_notice": [
-    {
-        "service_name": "A. Manufacturers/Processors: Gross Sales Less than P10,000.00",
-        "processing_fee": "P 225.00",
-        "processing_time": "N/A"
+      ],
+      "total": { "fees": "0.5% of Consideration/FMV + P50.00", "processing_time": "6 hours, 10 minutes" },
+      "note": "Late payment incurs 25% surcharge + 2% monthly interest (max 36 months)."
     },
     {
-        "service_name": "A. Manufacturers/Processors: P10,000.00 to P15,000.00",
-        "processing_fee": "P 300.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P15,000.00 to P20,000.00",
-        "processing_fee": "P 412.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P20,000.00 to P30,000.00",
-        "processing_fee": "P 600.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P30,000.00 to P40,000.00",
-        "processing_fee": "P 900.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P40,000.00 to P50,000.00",
-        "processing_fee": "P 1,125.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P50,000.00 to P75,000.00",
-        "processing_fee": "P 1,800.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P75,000.00 to P100,000.00",
-        "processing_fee": "P 2,250.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P100,000.00 to P150,000.00",
-        "processing_fee": "P 3,000.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P150,000.00 to P200,000.00",
-        "processing_fee": "P 3,750.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P200,000.00 to P300,000.00",
-        "processing_fee": "P 5,250.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P300,000.00 to P500,000.00",
-        "processing_fee": "P 7,500.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P500,000.00 to P750,000.00",
-        "processing_fee": "P 11,250.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P750,000.00 to P1,000,000.00",
-        "processing_fee": "P 15,000.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P1,000,000.00 to P2,000,000.00",
-        "processing_fee": "P 20,625.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P2,000,000.00 to P3,000,000.00",
-        "processing_fee": "P 24,750.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P3,000,000.00 to P4,000,000.00",
-        "processing_fee": "P 29,750.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P4,000,000.00 to P5,000,000.00",
-        "processing_fee": "P 31,650.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P5,000,000.00 to P6,500,000.00",
-        "processing_fee": "P 36,562.50",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "A. Manufacturers/Processors: P6,500,000.00 or more",
-        "processing_fee": "45% of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "B. Wholesalers/Distributors: Less than P1,000.00",
-        "processing_fee": "P 22.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "B. Wholesalers/Distributors: P1,000.00 to P2,000.00",
-        "processing_fee": "P 45.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "B. Wholesalers/Distributors: P100,000.00 to P150,000.00",
-        "processing_fee": "P 2,550.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "B. Wholesalers/Distributors: P750,000.00 to P1,000,000.00",
-        "processing_fee": "P 12,000.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "B. Wholesalers/Distributors: P1,000,000.00 or more",
-        "processing_fee": "50% of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "C. Manufacturers of Essential Commodities: Less than P10,000.00",
-        "processing_fee": "P 82.50",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "C. Manufacturers of Essential Commodities: P6,500,000.00 or more",
-        "processing_fee": "18 1/2% of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "D. Wholesalers of Essential Commodities: Less than P1,000.00",
-        "processing_fee": "P 11.25",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "D. Wholesalers of Essential Commodities: P1,000,000.00 to P2,000,000.00",
-        "processing_fee": "P 6,750.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "D. Wholesalers of Essential Commodities: P2,000,000.00 or more",
-        "processing_fee": "25% of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "E. Retailers of Essential Commodities: P400,000.00 or less",
-        "processing_fee": "1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "E. Retailers of Essential Commodities: More than P400,000.00",
-        "processing_fee": "1/2 of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "F. Retailers of All Other Commodities: P400,000.00 or less",
-        "processing_fee": "2%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "F. Retailers of All Other Commodities: More than P400,000.00",
-        "processing_fee": "1%",
-        "processing_time": "N/A"
-    },
-    {
-    "service_name": "G. Contractors/Independent Contractors: Less than P5,000.00",
-    "processing_fee": "P 37.50",
-    "processing_time": "N/A"
-    },
-    {
-        "service_name": "G. Contractors/Independent Contractors: P750,000.00 to P1,000,000.00",
-        "processing_fee": "P 15,000.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "G. Contractors/Independent Contractors: P2,000,000.00 or more",
-        "processing_fee": "50% of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "H. Other Contractors/Service Providers: Less than P5,000.00",
-        "processing_fee": "P 27.50",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "H. Other Contractors/Service Providers: P1,000,000.00 to P2,000,000.00",
-        "processing_fee": "P 11,500.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "H. Other Contractors/Service Providers: P2,000,000.00 or more",
-        "processing_fee": "50% of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "I. Financial Institutions: P1 Million or less",
-        "processing_fee": "50% of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "I. Financial Institutions: More than P1 Million",
-        "processing_fee": "48% of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "J. Subdivision Operators/Developers: Less than P1 Million",
-        "processing_fee": "P 1,000.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "J. Subdivision Operators/Developers: Every P100,000.00 in excess of P1M",
-        "processing_fee": "P 200.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "K. Lessors of Real Estate: Less than P5,000.00",
-        "processing_fee": "P 100.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "K. Lessors of Real Estate: Excess of P50k (Residential)",
-        "processing_fee": "P 10.00 per P5,000.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "K. Lessors of Real Estate: Excess of P50k (Other)",
-        "processing_fee": "P 20.00 per P5,000.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "L. Private Cemeteries/Memorial Parks: Less than P5,000.00",
-        "processing_fee": "P 100.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "L. Private Cemeteries/Memorial Parks: Excess of P50k",
-        "processing_fee": "P 20.00 per P5,000.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "M. Boarding House Operators: P20,000.00 or more",
-        "processing_fee": "P 200.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "N. Amusement Places (Active): Less than P5,000.00",
-        "processing_fee": "P 50.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "N. Amusement Places (Active): P1,000,000.00 or more",
-        "processing_fee": "1/2 of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "O. Theaters and Cinema Houses: Less than P5,000.00",
-        "processing_fee": "P 50.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "O. Theaters and Cinema Houses: P500,000.00 or more",
-        "processing_fee": "1/2 of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "P. Amusement Devices: P10,000.00 or less",
-        "processing_fee": "2%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "P. Amusement Devices: More than P10,000.00",
-        "processing_fee": "1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "Q. Restaurants/Cafeterias: Less than P2,000.00",
-        "processing_fee": "P 50.00",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "Q. Restaurants/Cafeterias: P100,000.00 or more",
-        "processing_fee": "1/2 of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "R. Retailers in Liquors/Wines: Less than P5,000.00",
-        "processing_fee": "P 27.50",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "R. Retailers in Liquors/Wines: P1,000,000.00 or more",
-        "processing_fee": "1/2 of 1%",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "S. Tobacco or Snuff: Less than P5,000.00",
-        "processing_fee": "P 27.50",
-        "processing_time": "N/A"
-    },
-    {
-        "service_name": "S. Tobacco or Snuff: P1,000,000.00 or more",
-        "processing_fee": "1/2 of 1%",
-        "processing_time": "N/A"
-    }
-    ]
-    },
-    {
-    "id": 3,
-     "office": "Lipa City Treasurer's Office External Services",
-    "service_name": "Collection of Business Taxes, Fees and Other Charges from Business Retirement",
-    "image": "/assets/document_background/Collection of Business Taxes, Fees and Other Charges from Business",
-    "department": "Lipa City Treasurer's Office External Services",
-    "classification": "Simple",
-    "type_of_transaction": "G2C - Government to Citizens",
-    "who_may_avail": "Public/ private individuals",
-    "checklist_of_requirements": [
+      "service_name": "Securing Accountable Forms (AF 51 and CTC) for the Barangays",
+      "image": "/assets/document_background/Accountable_Forms_Barangay",
+      "office": "Lipa City Treasurer’s Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Barangay Treasurers",
+      "checklist_of_requirements": [
+        { "requirement": "Bond risk number (1 original or 1 photocopy)", "source": "Bureau of Treasury" },
+        { "requirement": "Clearance for previous requisitions (1 original or 1 photocopy)", "source": "Lipa City Accounting Office" }
+      ],
+      "steps": [
         {
-        "requirement": "Accomplished application form for retirement with complete supporting documents/ requirements and properly encoded in Lipa City Permits and Licensing Office",
-        "source": "Lipa City Permits and Licensing Office"
+          "client_step": "1. Submit requirements to TORD and secure Order of Payment",
+          "agency_action": "1.1. Check completeness; 1.2. Issue Requisition Slip and Order of Payment",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Local Treasury Operations Officer IV/II/I, Local Revenue Collections Officer III"
+        },
+        {
+          "client_step": "2. Pay the required fees",
+          "agency_action": "Receive payment and issue Official Receipt",
+          "fees": "AF 51 - P200.00; CTC - P150.00",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk III (Cash Receipts Division)"
+        },
+        {
+          "client_step": "3. Return to TORD for the issuance of Accountable Form",
+          "agency_action": "Check Official Receipt and issue the accountable forms",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Local Treasury Operations Officer IV/II/I, Local Revenue Collections Officer III"
         }
-    ],
-    "steps": [
-        {
-        "client_step": "1. Submit all the requirements and secure the Statement of Account/ Order of Payment",
-        "agency_action": "1. Compute business tax and other regulatory fees and charges and issue reviewed Tax Order of Payment based on submitted documents",
-        "fees": "None",
-        "processing_time": "20 minutes",
-        "person_responsible": "Business Tax & Fees Division Personnel / Real Property Tax Division Personnel / Treasury Operations Review (Lipa City Treasurer's Office)"
-        },
-        {
-        "client_step": "2. Pay Business Tax, Fees and Charges and secure Official Receipt",
-        "agency_action": "2. Accept payment and issue Official Receipt",
-        "fees": "Retirement fee – P100.00 if no declared assets (See table of fees for other charges)",
-        "processing_time": "2 minutes",
-        "person_responsible": "Revenue Collections Clerk II (Cash Receipts Division - Lipa City Treasurer's Office)"
-        }
-    ],
-    "total": {
-        "fees": "Retirement fee – P100.00 (if no declared assets) + applicable Business Taxes",
-        "processing_time": "22 minutes"
-    },
-    "service_notice": [
-        { "service_name": "A. Manufacturers: Less than P10,000.00", "processing_fee": "P 225.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P10,000.00 to P15,000.00", "processing_fee": "P 300.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P15,000.00 to P20,000.00", "processing_fee": "P 412.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P20,000.00 to P30,000.00", "processing_fee": "P 600.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P30,000.00 to P40,000.00", "processing_fee": "P 900.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P40,000.00 to P50,000.00", "processing_fee": "P 1,125.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P50,000.00 to P75,000.00", "processing_fee": "P 1,800.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P75,000.00 to P100,000.00", "processing_fee": "P 2,250.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P100,000.00 to P150,000.00", "processing_fee": "P 3,000.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P150,000.00 to P200,000.00", "processing_fee": "P 3,750.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P200,000.00 to P300,000.00", "processing_fee": "P 5,250.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P300,000.00 to P500,000.00", "processing_fee": "P 7,500.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P500,000.00 to P750,000.00", "processing_fee": "P 11,250.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P750,000.00 to P1,000,000.00", "processing_fee": "P 15,000.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P1,000,000.00 to P2,000,000.00", "processing_fee": "P 20,625.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P2,000,000.00 to P3,000,000.00", "processing_fee": "P 24,750.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P3,000,000.00 to P4,000,000.00", "processing_fee": "P 29,750.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P4,000,000.00 to P5,000,000.00", "processing_fee": "P 31,650.00", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P5,000,000.00 to P6,500,000.00", "processing_fee": "P 36,562.50", "processing_time": "N/A" },
-        { "service_name": "A. Manufacturers: P6,500,000.00 or more", "processing_fee": "45% of 1%", "processing_time": "N/A" },
-
-        { "service_name": "B. Wholesalers: Less than P1,000.00", "processing_fee": "P 22.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P1,000.00 to P2,000.00", "processing_fee": "P 45.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P2,000.00 to P3,000.00", "processing_fee": "P 67.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P3,000.00 to P4,000.00", "processing_fee": "P 97.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P4,000.00 to P5,000.00", "processing_fee": "P 135.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P5,000.00 to P6,000.00", "processing_fee": "P 165.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P6,000.00 to P7,000.00", "processing_fee": "P 195.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P7,000.00 to P8,000.00", "processing_fee": "P 225.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P8,000.00 to P10,000.00", "processing_fee": "P 255.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P10,000.00 to P15,000.00", "processing_fee": "P 300.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P15,000.00 to P20,000.00", "processing_fee": "P 375.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P20,000.00 to P30,000.00", "processing_fee": "P 450.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P30,000.00 to P40,000.00", "processing_fee": "P 600.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P40,000.00 to P50,000.00", "processing_fee": "P 900.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P50,000.00 to P75,000.00", "processing_fee": "P 1,350.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P75,000.00 to P100,000.00", "processing_fee": "P 1,800.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P100,000.00 to P150,000.00", "processing_fee": "P 2,550.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P150,000.00 to P200,000.00", "processing_fee": "P 3,300.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P200,000.00 to P300,000.00", "processing_fee": "P 4,500.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P300,000.00 to P500,000.00", "processing_fee": "P 6,000.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P500,000.00 to P750,000.00", "processing_fee": "P 9,000.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P750,000.00 to P1,000,000.00", "processing_fee": "P 12,000.00", "processing_time": "N/A" },
-        { "service_name": "B. Wholesalers: P1,000,000.00 or more", "processing_fee": "50% of 1%", "processing_time": "N/A" },
-
-        { "service_name": "C. Essential Mfr: Less than P10,000.00", "processing_fee": "P 82.50", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P10,000.00 to P15,000.00", "processing_fee": "P 110.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P15,000.00 to P20,000.00", "processing_fee": "P 151.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P20,000.00 to P30,000.00", "processing_fee": "P 220.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P30,000.00 to P40,000.00", "processing_fee": "P 330.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P40,000.00 to P50,000.00", "processing_fee": "P 412.50", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P50,000.00 to P75,000.00", "processing_fee": "P 660.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P75,000.00 to P100,000.00", "processing_fee": "P 825.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P100,000.00 to P150,000.00", "processing_fee": "P 1,100.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P150,000.00 to P200,000.00", "processing_fee": "P 1,375.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P200,000.00 to P300,000.00", "processing_fee": "P 1,925.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P300,000.00 to P500,000.00", "processing_fee": "P 2,750.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P500,000.00 to P750,000.00", "processing_fee": "P 4,000.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P750,000.00 to P1,000,000.00", "processing_fee": "P 5,000.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P1,000,000.00 to P2,000,000.00", "processing_fee": "P 6,875.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P2,000,000.00 to P3,000,000.00", "processing_fee": "P 8,250.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P3,000,000.00 to P4,000,000.00", "processing_fee": "P 9,900.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P4,000,000.00 to P5,000,000.00", "processing_fee": "P 11,550.00", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P5,000,000.00 to P6,500,000.00", "processing_fee": "P 12,187.50", "processing_time": "N/A" },
-        { "service_name": "C. Essential Mfr: P6,500,000.00 or more", "processing_fee": "18.5% of 1%", "processing_time": "N/A" },
-
-        { "service_name": "D. Essential Wholesaler: Less than P1,000.00", "processing_fee": "P 11.25", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P1,000.00 to P2,000.00", "processing_fee": "P 22.50", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P2,000.00 to P3,000.00", "processing_fee": "P 33.50", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P3,000.00 to P4,000.00", "processing_fee": "P 48.50", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P4,000.00 to P5,000.00", "processing_fee": "P 67.50", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P5,000.00 to P6,000.00", "processing_fee": "P 82.50", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P6,000.00 to P7,000.00", "processing_fee": "P 97.50", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P7,000.00 to P8,000.00", "processing_fee": "P 112.50", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P8,000.00 to P10,000.00", "processing_fee": "P 127.50", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P10,000.00 to P15,000.00", "processing_fee": "P 150.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P15,000.00 to P20,000.00", "processing_fee": "P 187.50", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P20,000.00 to P30,000.00", "processing_fee": "P 225.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P30,000.00 to P40,000.00", "processing_fee": "P 300.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P40,000.00 to P50,000.00", "processing_fee": "P 450.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P50,000.00 to P75,000.00", "processing_fee": "P 675.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P75,000.00 to P100,000.00", "processing_fee": "P 900.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P100,000.00 to P150,000.00", "processing_fee": "P 1,250.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P150,000.00 to P200,000.00", "processing_fee": "P 1,650.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P200,000.00 to P300,000.00", "processing_fee": "P 2,250.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P300,000.00 to P500,000.00", "processing_fee": "P 3,000.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P500,000.00 to P750,000.00", "processing_fee": "P 4,500.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P750,000.00 to P1,000,000.00", "processing_fee": "P 6,000.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P1,000,000.00 to P2,000,000.00", "processing_fee": "P 6,750.00", "processing_time": "N/A" },
-        { "service_name": "D. Essential Wholesaler: P2,000,000.00 or more", "processing_fee": "25% of 1%", "processing_time": "N/A" },
-
-        { "service_name": "E. Retailer (Essential): P400,000.00 or less", "processing_fee": "1%", "processing_time": "N/A" },
-        { "service_name": "E. Retailer (Essential): More than P400,000.00", "processing_fee": "1/2 of 1%", "processing_time": "N/A" },
-        { "service_name": "F. Retailer (Other): P400,000.00 or less", "processing_fee": "2%", "processing_time": "N/A" },
-        { "service_name": "F. Retailer (Other): More than P400,000.00", "processing_fee": "1%", "processing_time": "N/A" },
-
-        { "service_name": "G. Contractor: Less than P5,000.00", "processing_fee": "P 37.50", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P5,000.00 to P10,000.00", "processing_fee": "P 84.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P10,000.00 to P15,000.00", "processing_fee": "P 142.50", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P15,000.00 to P20,000.00", "processing_fee": "P 225.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P20,000.00 to P30,000.00", "processing_fee": "P 375.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P30,000.00 to P40,000.00", "processing_fee": "P 525.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P40,000.00 to P50,000.00", "processing_fee": "P 750.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P50,000.00 to P75,000.00", "processing_fee": "P 1,200.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P75,000.00 to P100,000.00", "processing_fee": "P 1,800.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P100,000.00 to P150,000.00", "processing_fee": "P 2,700.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P150,000.00 to P200,000.00", "processing_fee": "P 3,600.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P200,000.00 to P250,000.00", "processing_fee": "P 4,950.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P250,000.00 to P300,000.00", "processing_fee": "P 6,300.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P300,000.00 to P400,000.00", "processing_fee": "P 8,400.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P400,000.00 to P500,000.00", "processing_fee": "P 11,250.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P500,000.00 to P750,000.00", "processing_fee": "P 13,125.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P750,000.00 to P1,000,000.00", "processing_fee": "P 15,000.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P1,000,000.00 to P2,000,000.00", "processing_fee": "P 17,250.00", "processing_time": "N/A" },
-        { "service_name": "G. Contractor: P2,000,000.00 or more", "processing_fee": "50% of 1%", "processing_time": "N/A" },
-
-        { "service_name": "H. Other Services: Less than P5,000.00", "processing_fee": "P 27.50", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P5,000.00 to P10,000.00", "processing_fee": "P 61.60", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P10,000.00 to P15,000.00", "processing_fee": "P 104.50", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P15,000.00 to P20,000.00", "processing_fee": "P 165.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P20,000.00 to P30,000.00", "processing_fee": "P 275.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P30,000.00 to P40,000.00", "processing_fee": "P 385.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P40,000.00 to P50,000.00", "processing_fee": "P 550.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P50,000.00 to P75,000.00", "processing_fee": "P 880.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P75,000.00 to P100,000.00", "processing_fee": "P 1,320.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P100,000.00 to P150,000.00", "processing_fee": "P 1,980.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P150,000.00 to P200,000.00", "processing_fee": "P 2,640.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P200,000.00 to P250,000.00", "processing_fee": "P 3,630.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P250,000.00 to P300,000.00", "processing_fee": "P 4,620.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P300,000.00 to P400,000.00", "processing_fee": "P 6,160.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P400,000.00 to P500,000.00", "processing_fee": "P 8,250.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P500,000.00 to P750,000.00", "processing_fee": "P 9,250.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P750,000.00 to P1,000,000.00", "processing_fee": "P 10,250.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P1,000,000.00 to P2,000,000.00", "processing_fee": "P 11,500.00", "processing_time": "N/A" },
-        { "service_name": "H. Other Services: P2,000,000.00 or more", "processing_fee": "50% of 1%", "processing_time": "N/A" },
-
-        { "service_name": "I. Financial Inst: P1M or less", "processing_fee": "50% of 1%", "processing_time": "N/A" },
-        { "service_name": "I. Financial Inst: More than P1M", "processing_fee": "48% of 1%", "processing_time": "N/A" },
-        { "service_name": "J. Subdivision Developers: Less than P1M", "processing_fee": "P 1,000.00", "processing_time": "N/A" },
-        { "service_name": "J. Subdivision Developers: Every P100k in excess of P1M", "processing_fee": "P 200.00", "processing_time": "N/A" },
-        { "service_name": "K. Lessor: Less than P5,000.00", "processing_fee": "P 100.00", "processing_time": "N/A" },
-        { "service_name": "K. Lessor: P5,000.00 to P10,000.00", "processing_fee": "P 200.00", "processing_time": "N/A" },
-        { "service_name": "K. Lessor: P10,000.00 to P20,000.00", "processing_fee": "P 500.00", "processing_time": "N/A" },
-        { "service_name": "K. Lessor: P20,000.00 to P30,000.00", "processing_fee": "P 700.00", "processing_time": "N/A" },
-        { "service_name": "K. Lessor: P30,000.00 to P40,000.00", "processing_fee": "P 900.00", "processing_time": "N/A" },
-        { "service_name": "K. Lessor: P40,000.00 to P50,000.00", "processing_fee": "P 1,100.00", "processing_time": "N/A" },
-        { "service_name": "K. Lessor (Res/Apartment): Every P5k in excess of P50k", "processing_fee": "P 10.00", "processing_time": "N/A" },
-        { "service_name": "K. Lessor (Other): Every P5k in excess of P50k", "processing_fee": "P 20.00", "processing_time": "N/A" },
-        { "service_name": "L. Private Cemetery: Every P5k in excess of P50k", "processing_fee": "P 20.00", "processing_time": "N/A" },
-        { "service_name": "M. Boarding House: P20,000.00 or more", "processing_fee": "P 200.00", "processing_time": "N/A" },
-
-        { "service_name": "Q. Restaurant: Less than P2,000.00", "processing_fee": "P 50.00", "processing_time": "N/A" },
-        { "service_name": "Q. Restaurant: P2,000.00 to P3,000.00", "processing_fee": "P 70.00", "processing_time": "N/A" },
-        { "service_name": "Q. Restaurant: P3,000.00 to P4,000.00", "processing_fee": "P 90.00", "processing_time": "N/A" },
-        { "service_name": "Q. Restaurant: P4,000.00 to P5,000.00", "processing_fee": "P 100.00", "processing_time": "N/A" },
-        { "service_name": "Q. Restaurant: P9,000.00 to P10,000.00", "processing_fee": "P 200.00", "processing_time": "N/A" },
-        { "service_name": "Q. Restaurant: P35,000.00 to P40,000.00", "processing_fee": "P 650.00", "processing_time": "N/A" },
-        { "service_name": "Q. Restaurant: P80,000.00 to P90,000.00", "processing_fee": "P 1,000.00", "processing_time": "N/A" },
-        { "service_name": "Q. Restaurant: P100,000.00 or more", "processing_fee": "1/2 of 1%", "processing_time": "N/A" },
-
-        { "service_name": "R. Liquor Retail: Less than P5,000.00", "processing_fee": "P 27.50", "processing_time": "N/A" },
-        { "service_name": "R. Liquor Retail: P100k to P1M", "processing_fee": "1%", "processing_time": "N/A" },
-        { "service_name": "R. Liquor Retail: P1,000,000.00 or more", "processing_fee": "1/2 of 1%", "processing_time": "N/A" },
-        { "service_name": "S. Tobacco Retail: Less than P5,000.00", "processing_fee": "P 27.50", "processing_time": "N/A" },
-        { "service_name": "S. Tobacco Retail: P100k to P1M", "processing_fee": "1%", "processing_time": "N/A" },
-        { "service_name": "S. Tobacco Retail: P1,000,000.00 or more", "processing_fee": "1/2 of 1%", "processing_time": "N/A" }
-        ]
-    },
-    {
-        "id": 4,
-         "office": "Lipa City Treasurer's Office External Services",
-        "service_name": "Issuance of Transfer Tax Payment of Real Property and Certificate",
-        "image": "/assets/document_background/Issuance of Transfer Tax Payment of Real Property and Certificate",
-        "department": "Lipa City Treasurer's Office External Services",
-        "classification": "Simple",
-        "type_of_transaction": "G2C - Government to Citizens",
-        "who_may_avail": "Public/Private Individuals",
-        "checklist_of_requirements": [
-            {
-            "requirement": "Official Receipt of Transfer Tax payment and Certification Fee payment",
-            "source": "Lipa City Treasurer's Office"
-            },
-            {
-            "requirement": "Updated Real Property Tax Clearance and Updated Tax Declaration (Land, Building, Machineries, etc.) or Certificate of No Improvement",
-            "source": "Lipa City Assessor's Office"
-            },
-            {
-            "requirement": "Deed of Absolute Sale/ Donation/ Assignment/ Extra-Judicial Settlement or other document of Transfer or Conveyance",
-            "source": "Requesting party/ applicant"
-            },
-            {
-            "requirement": "Original Certificate of Title (OCT)/ Transfer Certificate of Title (TCT) and Certification Authorizing Registration (CAR) from BIR",
-            "source": "Bureau of Internal Revenue"
-            },
-            {
-            "requirement": "Capital Gains Tax Return/ Donor's Tax Return/ Estate Tax Return and Documentary Stamp Return from BIR",
-            "source": "Bureau of Internal Revenue"
-            },
-            {
-            "requirement": "Special Power of Attorney (SPA) if representative",
-            "source": "Notary Public"
-            },
-            {
-            "requirement": "Valid Mayor's Permit in Lipa (for Real Estate Developer/ Subdivision/ Operator)",
-            "source": "Real Estate Developer/ Subdivision/ Operator"
-            }
-        ],
-        "steps": [
-            {
-            "client_step": "1. Submit all the requirements",
-            "agency_action": "1. Compute and prepare real property transfer tax order of payment based on complete transfer documents",
-            "fees": "None",
-            "processing_time": "20 minutes",
-            "person_responsible": "Revenue Collection Clerk III, Local Treasury Operations Officer I, Administrative Assistant IV (Business Tax & Fees Division - Lipa City Treasurer's Office)"
-            },
-            {
-            "client_step": "2. Pay Transfer Tax, Fees and Charges and secure Official Receipt",
-            "agency_action": "2. Accept payment and issue Official Receipt",
-            "fees": "Transfer tax (See table below), Certification fee - PHP 50.00",
-            "processing_time": "5 minutes",
-            "person_responsible": "Revenue Collection Clerk III / II (Cash Receipts Division - Lipa City Treasurer's Office)"
-            },
-            {
-            "client_step": "3. Receive Transfer Tax Certificate",
-            "agency_action": "3. Verify transfer tax documents, prepare and issue certification of transfer tax payment",
-            "fees": "None",
-            "processing_time": "40 minutes",
-            "person_responsible": "Local Treasury Operations Officer III / I, Revenue III, Administrative Assistant IV, City Treasurer, Asst. City Treasurer (Business Tax & Fees Division - Lipa City Treasurer's Office)"
-            }
-        ],
-        "total": {
-            "fees": "Transfer Tax (Table U) + PHP 50.00 Certification Fee",
-            "processing_time": "1 hour and 5 minutes"
-        },
-        "service_notice": [
-            {
-            "service_name": "U. Transfer of Real Property Ownership",
-            "processing_fee": "75% of 1% of the total consideration or the fair market value, whichever is higher",
-            "processing_time": "N/A"
-            },
-            {
-            "service_name": "Certification Fee",
-            "processing_fee": "PHP 50.00",
-            "processing_time": "N/A"
-            }
-        ]
-    },
-    {
-    "id": 5,
-     "office": "Lipa City Treasurer's Office External Services",
-    "service_name": "Assessment and Collection of Additional Business Tax, Fees and Charges through Examination of Books of Accounts and Issuance of Certificate of Tax Clearance",
-    "department": "Lipa City Treasurer's Office External Services",
-    "image": "/assets/document_background/Assessment and Collection of Additional Business Tax, Fees and Charges",
-    "classification": "Simple",
-    "type_of_transaction": "G2C - Government to Citizens",
-    "who_may_avail": "Public/Private Individuals",
-    "checklist_of_requirements": [
-        {
-        "requirement": "Official Receipt of Transfer Tax payment and Certification Fee payment",
-        "source": "Lipa City Treasurer's Office"
-        },
-        {
-        "requirement": "Updated Real Property Tax Clearance, Updated Tax Declaration (Land, Building, Machineries, and other improvements), or Certificate of No Improvement",
-        "source": "Lipa City Assessor's Office"
-        },
-        {
-        "requirement": "Deed of Absolute Sale/ Donation/ Assignment/ Extra-Judicial Settlement or other document of Transfer or Conveyance",
-        "source": "Requesting party/ applicant"
-        },
-        {
-        "requirement": "Original Certificate of Title (OCT)/ Transfer Certificate of Title (TCT)",
-        "source": "Requesting party/ applicant"
-        },
-        {
-        "requirement": "Certification Authorizing Registration (CAR) from BIR",
-        "source": "Bureau of Internal Revenue"
-        },
-        {
-        "requirement": "Capital Gains Tax Return/ Donor's Tax Return/ Estate Tax Return from BIR, and Documentary Stamp Return from BIR",
-        "source": "Bureau of Internal Revenue"
-        },
-        {
-        "requirement": "Special Power of Attorney (SPA) if representative",
-        "source": "Notary Public"
-        },
-        {
-        "requirement": "Real Estate Developer/ Subdivision/ Operator (Valid Mayor's Permit in Lipa)",
-        "source": "Real Estate Developer/ Subdivision/ Operator"
-        }
-    ],
-    "steps": [
-        {
-        "client_step": "1. Submit all the requirements",
-        "agency_action": "1. Compute and prepare real property transfer tax order of payment based on complete transfer documents",
-        "fees": "None",
-        "processing_time": "20 minutes",
-        "person_responsible": "Revenue Collection Clerk III, Local Treasury Operations Officer I, Administrative Assistant IV (Business Tax & Fees Division - Lipa City Treasurer's Office)"
-        },
-        {
-        "client_step": "2. Pay Transfer Tax, Fees and Charges and secure Official Receipt",
-        "agency_action": "2. Accept payment and issue Official Receipt",
-        "fees": "Transfer tax (see table U), Certification fee – PHP 50.00",
-        "processing_time": "5 minutes",
-        "person_responsible": "Revenue Collection Clerk III/II (Cash Receipts Division - Lipa City Treasurer's Office)"
-        },
-        {
-        "client_step": "3. Receive Transfer Tax Certificate",
-        "agency_action": "3. Verify transfer tax documents, prepare and issue certification of transfer tax payment",
-        "fees": "None",
-        "processing_time": "40 minutes",
-        "person_responsible": "Local Treasury Operations Officer III/I, Revenue III, Administrative Assistant IV, City Treasurer, Asst. City Treasurer (Business Tax & Fees Division - Lipa City Treasurer's Office)"
-        }
-    ],
-    "total": {
-        "fees": "Transfer tax (Table U) + PHP 50.00 Certification fee",
-        "processing_time": "1 hour and 5 minutes"
-    }
-    },
-    {
-    "id": 6,
-     "office": "Lipa City Treasurer's Office External Services",
-    "service_name": "Assessment and Collection of Additional Business Tax, Fees and Charges through Examination of Books of Accounts and Issuance of Certificate of Tax Clearance",
-    "department": "Lipa City Treasurer's Office External Services",
-    "image": "/assets/document_background/Assessment and Collection of Additional Business Tax, Fees and Charges",
-    "classification": "Simple",
-    "type_of_transaction": "G2C - Government to Citizens",
-    "who_may_avail": "Private Individuals",
-    "checklist_of_requirements": [
-        {
-        "requirement": "Citation Ticket",
-        "source": "Lipa City Public Order and Safety Office (LCPOS) or Lipa City Environment and Natural Resources Office (LCENRO)"
-        }
-    ],
-    "steps": [
-        {
-        "client_step": "1. Submit the required document",
-        "agency_action": "1. Receive the required document and encode the details specified therein",
-        "fees": "None",
-        "processing_time": "2 minutes",
-        "person_responsible": "Revenue Collections Clerk III / II (Lipa City Treasurer's Office)"
-        },
-        {
-        "client_step": "2. Pay the required fine and secure Official Receipt",
-        "agency_action": "2. Accept payment and issue Official Receipt",
-        "fees": "Based on Citation Ticket from LCPOS/ LCENRO",
-        "processing_time": "5 minutes",
-        "person_responsible": "Revenue Collections Clerk III / II (Lipa City Treasurer's Office)"
-        },
-        {
-        "client_step": "3. Go to CPOS/CENRO for clearance",
-        "agency_action": "None",
-        "fees": "None",
-        "processing_time": "N/A",
-        "person_responsible": "N/A"
-        }
-    ],
-    "total": {
-        "fees": "With citation ticket from LCPOS/ LCENRO",
-        "processing_time": "7 minutes"
-    }
-    },
-    {
-    "id": 7,
-     "office": "Lipa City Treasurer's Office External Services",
-    "service_name": "Collection of Fees from Building Permits, Occupancy Certificates and Building Repair Permits",
-    "image": "/assets/document_background/Collection of Fees from Building Permits, Occupancy Certificates and",
-    "department": "Lipa City Treasurer's Office External Services",
-    "classification": "Simple",
-    "type_of_transaction": "G2C - Government to Citizens",
-    "who_may_avail": "Private Individuals",
-    "checklist_of_requirements": [
-        {
-        "requirement": "Order of payment with summary of fees from Engineering Office (electrical, mechanical, plumbing, electronic, accessories of the building structures, and other related fees)",
-        "source": "City Engineer's Office"
-        }
-    ],
-    "steps": [
-        {
-        "client_step": "1. Submit the required document",
-        "agency_action": "1. Receive the Order of Payment for building permit fee, contractor's tax, occupancy certificate fee and building repair permit fee from CEO",
-        "fees": "None",
-        "processing_time": "1 minute",
-        "person_responsible": "Revenue Collection Clerk III / II / I (Cash Receipts Division - Lipa City Treasurer's Office)"
-        },
-        {
-        "client_step": "2. Pay the required tax/fee and secure Official Receipt",
-        "agency_action": "2. Accept payment. Issue Official Receipt",
-        "fees": "Based on Order of payment from CEO",
-        "processing_time": "3 minutes",
-        "person_responsible": "Revenue Collection Clerk III / II / I (Cash Receipts Division - Lipa City Treasurer's Office)"
-        }
-    ],
-    "total": {
-        "fees": "Based on Order of payment from CEO",
-        "processing_time": "4 minutes"
-    }
-    },
-    {
-    "id": 8,
-     "office": "Lipa City Treasurer's Office External Services",
-    "service_name": "Collection of Tax on Delivery Truck/Van and Issuance of Delivery Truck/Van Sticker",
-    "image": "/assets/document_background/Collection of Tax on Delivery Truck_Van and Issuance of Delivery",
-    "department": "Lipa City Treasurer's Office External Services",
-    "classification": "Simple",
-    "type_of_transaction": "G2C - Government to Citizens",
-    "who_may_avail": "Public/private individuals/corporations",
-    "checklist_of_requirements": [
-        {
-        "requirement": "Registration of motor vehicle (1 xerox copy)",
-        "source": "Land Transportation Office"
-        }
-    ],
-    "steps": [
-        {
-        "client_step": "1. Submit the required document",
-        "agency_action": "1. Receive the required document and encode the data provided by the taxpayer",
-        "fees": "See table of fees below",
-        "processing_time": "2 minutes",
-        "person_responsible": "Revenue Collections Clerk III / II / I (Lipa City Treasurer's Office)"
-        }
-    ],
-    "total": {
-        "fees": "See table of fees below",
-        "processing_time": "2 minutes"
-    }
-    },
-    {
-    "id": 9,
-     "office": "Lipa City Treasurer's Office External Services",
-    "service_name": "Issuance of Community Tax Certificate",
-    "image": "/assets/document_background/Issuance of Community Tax Certificate",
-    "department": "Lipa City Treasurer's Office External Services",
-    "classification": "Simple",
-    "type_of_transaction": "G2C - Government to Citizens",
-    "who_may_avail": "Public/ private individuals/corporations",
-    "checklist_of_requirements": [
-        {
-        "requirement": "Withholding tax certificate (1 original copy/ xerox copy)",
-        "source": "BIR/employer"
-        },
-        {
-        "requirement": "Certification of gross receipts (1 original copy/ xerox copy)",
-        "source": "Company"
-        }
-    ],
-    "steps": [
-        {
-        "client_step": "1. Submit all the required documents and fill-up form",
-        "agency_action": "1. Accept the required documents and filled-up form and encode the date provided by the taxpayer",
-        "fees": "None",
-        "processing_time": "5 minutes",
-        "person_responsible": "Revenue Collection Clerk III / II (Lipa City Treasurer's Office)"
-        },
-        {
-        "client_step": "2. Pay the required community tax and secure Community Tax Certificate (CTC)",
-        "agency_action": "2. Accept payment and issue Community Tax Certificate",
-        "fees": "See computation below",
-        "processing_time": "5 minutes",
-        "person_responsible": "Revenue Collection Clerk III / II (Lipa City Treasurer's Office)"
-        }
-    ],
-    "total": {
-        "fees": "See computation below",
-        "processing_time": "10 minutes"
-    }
-    },
-    {
-    "id": 10,
-     "office": "Lipa City Treasurer's Office External Services",
-    "service_name": "Issuance of Accountable Forms (AF 51 and CTC) to Barangays",
-    "image": "/assets/document_background/Issuance of Accountable Forms (AF 51 and CTC) to Barangays",
-    "department": "Lipa City Treasurer's Office External Services",
-    "classification": "Simple",
-    "type_of_transaction": "G2G - Government to Government",
-    "who_may_avail": "Barangay treasurers",
-    "checklist_of_requirements": [
-        {
-        "requirement": "Bond risk number (1 original copy/ xerox copy)",
-        "source": "Bureau of Treasury"
-        },
-        {
-        "requirement": "Clearance from Accounting Dept. for previous requisitions (1 original copy/ xerox copy)",
-        "source": "Lipa City Accounting Office"
-        }
-    ],
-    "steps": [
-        {
-        "client_step": "1. Submit all the requirements to TORD and secure the Order of Payment",
-        "agency_action": "1.1. Receive the required documents and check for completeness; 1.2. Issue the Requisition Slip and Order of Payment if all the required documents were given",
-        "fees": "None",
-        "processing_time": "10 minutes",
-        "person_responsible": "Local Treasury Operations Officer II, Local Treasury Operations Assistant, Local Revenue Collection Officer III (Lipa City Treasurer's Office)"
-        },
-        {
-        "client_step": "2. Pay the required fees by showing the Order of Payment and secure Official Receipt",
-        "agency_action": "2. Accept payment based on Order of Payment and issue Official Receipt",
-        "fees": "AF 51 - PHP 140.00, CTC - PHP 100.00",
-        "processing_time": "5 minutes",
-        "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
-        },
-        {
-        "client_step": "3. Return to TORD for the issuance of Accountable Form",
-        "agency_action": "3. Check the OR and issue the Accountable Form",
-        "fees": "None",
-        "processing_time": "5 minutes",
-        "person_responsible": "Local Treasury Operations Officer II, Local Treasury Operations Assistant, Local Revenue Collection Officer III (Lipa City Treasurer's Office)"
-        }
-    ],
-    "total": {
-        "fees": "AF 51 - PHP 140.00 + CTC - PHP 100.00",
-        "processing_time": "20 minutes"
-    }
-    },
-    {
-    "id": 11,
-     "office": "Lipa City Treasurer's Office External Services",
-    "service_name": "Issuance of Professional Tax Receipt/ Collection of Calling Fee",
-    "image": "/assets/document_background/Issuance of Professional Tax Receipt_Collection of Calling Fee",
-    "department": "Lipa City Treasurer's Office External Services",
-    "classification": "Simple",
-    "type_of_transaction": "G2C - Government to Citizen",
-    "who_may_avail": "Private individuals",
-    "checklist_of_requirements": [
-        {
-        "requirement": "PRC ID (1 original copy/ xerox copy)",
-        "source": "Professional Regulations Commission"
-        },
-        {
-        "requirement": "Valid ID (1 original/xerox)",
-        "source": "Requesting party/ applicant"
-        }
-    ],
-    "steps": [
-        {
-        "client_step": "1. Submit all the requirements",
-        "agency_action": "1. Receive the required documents and encode the data provided by the taxpayer",
-        "fees": "None",
-        "processing_time": "5 minutes",
-        "person_responsible": "Revenue Collection Clerk II / I (Lipa City Treasurer's Office)"
-        },
-        {
-        "client_step": "2. Pay the required professional tax/calling fee and secure Official Receipt",
-        "agency_action": "2. Accept the payment and issue Official Receipt",
-        "fees": "See table of fees below",
-        "processing_time": "5 minutes",
-        "person_responsible": "Revenue Collection Clerk II / I (Lipa City Treasurer's Office)"
-        }
-    ],
-    "total": {
-        "fees": "See table of fees below",
-        "processing_time": "10 minutes"
-    }
-    },
-    {
-    "id": 12,
-     "office": "Lipa City Treasurer's Office External Services",
-    "service_name": "Calibration of Weights",
-    "image": "/assets/document_background/Calibration of Weights",
-    "department": "Lipa City Treasurer's Office External Services",
-    "classification": "Simple",
-    "type_of_transaction": "G2C - Government to Citizens",
-    "who_may_avail": "Private individuals",
-    "checklist_of_requirements": [
-        {
-        "requirement": "Weights or measures to be calibrated",
-        "source": "Requesting party/ applicant"
-        }
-    ],
-    "steps": [
-        {
-        "client_step": "1. Present weights to be calibrated",
-        "agency_action": "1.1. Calibrate weights; 1.2. Affix calibration sticker; 1.3. Issue Order of Payment",
-        "fees": "None",
-        "processing_time": "32 minutes",
-        "person_responsible": "Local Treasury Operations Assistant, Administrative Aide VI (Lipa City Treasurer's Office)"
-        },
-        {
-        "client_step": "2. Pay the required calibration fee and sticker and secure Official Receipt",
-        "agency_action": "2. Accept the payment and issue Official Receipt",
-        "fees": "See table of fees below",
-        "processing_time": "5 minutes",
-        "person_responsible": "Revenue Collection Clerk II / I (Lipa City Treasurer's Office)"
-        }
-    ],
-    "total": {
-        "fees": "See table of fees below",
-        "processing_time": "37 minutes"
-    },
-    "service_notice": [
-        { "service_name": "Calibration Sticker", "processing_fee": "30.00", "processing_time": "N/A" },
-        { "service_name": "Weights: Less than 30kg", "processing_fee": "50.00", "processing_time": "N/A" },
-        { "service_name": "Weights: 30kg to 50kg", "processing_fee": "100.00", "processing_time": "N/A" },
-        { "service_name": "Weights: 50kg to 100kg", "processing_fee": "200.00", "processing_time": "N/A" },
-        { "service_name": "Weights: 100kg to 500kg", "processing_fee": "300.00", "processing_time": "N/A" },
-        { "service_name": "Weights: 500kg to 1,000kg", "processing_fee": "500.00", "processing_time": "N/A" },
-        { "service_name": "Weights: 1,000kg or more", "processing_fee": "1,000.00", "processing_time": "N/A" },
-        { "service_name": "Truck Scale", "processing_fee": "5,000.00", "processing_time": "N/A" },
-        { "service_name": "Apothecary/Precision Balance", "processing_fee": "Double of weight rates", "processing_time": "N/A" }
-    ]
+      ],
+      "total": { "fees": "AF 51: P200.00 | CTC: P150.00", "processing_time": "50 minutes" },
+      "note": "Barangay clearance is a prerequisite for city-level licenses. Barangay Treasurers are deputized to collect community tax, with 50% of proceeds accruing to the barangay."
     }
   ]
 }

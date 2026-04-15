@@ -1,0 +1,39 @@
+{
+  "department": "Lipa City Permits and Licensing Office",
+  "external_services": [
+    {
+      "service_name": "Request for Certification and Business Data",
+      "image": "/assets/document_background/Request for Certification and Business Data",
+      "office": "Lipa City Permits and Licensing Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2G - Government to Government",
+      "who_may_avail": "Lipa City Government Officials & Employees / Other Government Agencies",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter Request (1 original copy)",
+          "source": "Requesting Government Official / Agency"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit request to Lipa City Permits and Licensing Office",
+          "agency_action": "1.1. Receive and verify/validate request in BPLS; 1.2. Forward to Head of Office; 1.3. Prepare certification/data and transmittal letter; 1.4. Sign documents",
+          "fees": "None",
+          "processing_time": "1 day",
+          "person_responsible": "Licensing Officer I/IV, Information Systems Analyst I, City Permits and Licensing Officer"
+        },
+        {
+          "client_step": "2. Claim certification / business data",
+          "agency_action": "2.1. Release certification / business data",
+          "fees": "None",
+          "processing_time": "Included in Step 1",
+          "person_responsible": "Licensing Officer I/IV, Information Systems Analyst I"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "1 day"
+      }
+    }
+  ]
+}

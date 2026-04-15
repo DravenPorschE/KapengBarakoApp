@@ -1,0 +1,183 @@
+{
+  "department": "Lipa City Traffic Management and Transport Office (TMTO)",
+  "external_services": [
+    {
+      "service_name": "Application for New Tricycle Franchise",
+      "image": "/assets/document_background/New Tricycle Franchise",
+      "office": "TMTO - Tricycle Franchising Division",
+      "classification": "Complex",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Tricycle operators/drivers wanting to legitimize operations",
+      "checklist_of_requirements": [
+        { "requirement": "Updated Voter’s Certification (Original)", "source": "COMELEC" },
+        { "requirement": "LTO OR/CR (Photocopy)", "source": "LTO" },
+        { "requirement": "Professional Driver’s License (Restriction 1)", "source": "LTO" },
+        { "requirement": "Certificate of Award", "source": "TMTO" },
+        { "requirement": "Police & Barangay Clearance (Original)", "source": "Lipa PNP / Barangay" },
+        { "requirement": "Vehicle Insurance Coverage", "source": "LTO-recognized insurer" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit eligibility requirements",
+          "agency_action": "Check docs and prepare Certificate of Award for Mayor's approval",
+          "fees": "None",
+          "processing_time": "3 days, 8 minutes",
+          "person_responsible": "Traffic Operations Officer I / City Mayor"
+        },
+        {
+          "client_step": "2. Present tricycle for inspection",
+          "agency_action": "Check road worthiness and issue Order of Payment",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Administrative Aide IV"
+        },
+        {
+          "client_step": "3. Pay fees at Treasurer's Office",
+          "agency_action": "Receive payment and issue Official Receipt",
+          "fees": "P2,800.00",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
+        },
+        {
+          "client_step": "4. Final MTOF Approval",
+          "agency_action": "Prepare and encode MTOF for final Mayor's signature",
+          "fees": "None",
+          "processing_time": "3 days, 6 minutes",
+          "person_responsible": "Officer-in-Charge / City Mayor"
+        }
+      ],
+      "total": { "fees": "P2,800.00", "processing_time": "6 days, 50 minutes" }
+    },
+    {
+      "service_name": "Application for Renewal of Tricycle Franchise",
+      "image": "/assets/document_background/Tricycle Franchise Renewal",
+      "office": "TMTO",
+      "classification": "Complex",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Tricycle operators with existing franchise (due every 5 years)",
+      "total": { "fees": "P160.00", "processing_time": "3 days, 43 minutes" }
+    },
+    {
+      "service_name": "Releasing of Clamped Vehicles",
+      "image": "/assets/document_background/Clamped Vehicle Release",
+      "office": "TMTO",
+      "classification": "Simple",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Illegal parking violators",
+      "steps": [
+        {
+          "client_step": "1. Present Traffic Citation Ticket (TCT)",
+          "agency_action": "Receive TCT copy",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Traffic Aide II"
+        },
+        {
+          "client_step": "2. Pay penalty at Treasurer's Office",
+          "agency_action": "Issue Official Receipt",
+          "fees": "P5,000.00",
+          "processing_time": "35 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
+        },
+        {
+          "client_step": "3. Present OR to TMTO",
+          "agency_action": "Dismantle wheel clamp",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Traffic Aide II"
+        }
+      ],
+      "total": { "fees": "P5,000.00", "processing_time": "40 minutes" },
+      "note": "Redeem within 2 hours or the vehicle will be towed. Towing fees start at P1,500 (4-wheels) / P3,000 (6-8 wheels) / P6,000 (10+ wheels)."
+    },
+    {
+      "service_name": "Releasing of Confiscated Driver’s License",
+      "image": "/assets/document_background/License Release",
+      "office": "TMTO",
+      "classification": "Simple",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Traffic violators",
+      "total": { "fees": "Varies by violation (P350 - P1,000)", "processing_time": "40 minutes" }
+    },
+    {
+      "service_name": "Releasing of Impounded Vehicles",
+      "image": "/assets/document_background/Impound Release",
+      "office": "TMTO",
+      "classification": "Simple",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Illegal parking violators whose vehicles were impounded",
+      "checklist_of_requirements": [
+        { "requirement": "Traffic Citation Ticket (Duplicate)", "source": "Requesting party" },
+        { "requirement": "Driver’s License (Original & Photocopy)", "source": "Requesting party" },
+        { "requirement": "LTO Certificate of Registration & Official Receipt (Photocopy)", "source": "LTO / Requesting party" },
+        { "requirement": "Authorization Letter & Valid ID (if representative)", "source": "Violator / Representative" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present TCT, ID, and proof of ownership",
+          "agency_action": "1.1. Receive docs; 1.2. Retrieve keys and issue Order of Payment",
+          "fees": "None",
+          "processing_time": "4 minutes",
+          "person_responsible": "Traffic Aide II / Administrative Aide II"
+        },
+        {
+          "client_step": "2. Pay penalty at Treasurer's Office",
+          "agency_action": "Receive payment and issue Official Receipt",
+          "fees": "See Impounding/Towing Fees",
+          "processing_time": "35 minutes",
+          "person_responsible": "Revenue Collection Clerk II/III"
+        },
+        {
+          "client_step": "3. Claim vehicle at impounding area",
+          "agency_action": "3.1. Turnover keys; 3.2. Photo documentation and release",
+          "fees": "None",
+          "processing_time": "6 minutes",
+          "person_responsible": "Traffic Aide II / Administrative Aide II"
+        }
+      ],
+      "total": { "fees": "Varies", "processing_time": "45 minutes" },
+      "note": "Impounding fees: P500-P1,500 for first 72 hours depending on vehicle size, plus P200 per succeeding day."
+    },
+    {
+      "service_name": "Renewal of Mayor’s Permit for Tricycle",
+      "image": "/assets/document_background/Tricycle Mayor Permit",
+      "office": "TMTO - Tricycle Franchising Division",
+      "classification": "Simple",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Tricycle operators with existing franchise",
+      "total": { "fees": "P140.00", "processing_time": "34 minutes" },
+      "note": "Must be renewed annually on or before January 31st."
+    },
+    {
+      "service_name": "Settlement of Complaints",
+      "image": "/assets/document_background/Complaint Settlement",
+      "office": "TMTO",
+      "classification": "Simple",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Complainants",
+      "total": { 
+        "fees": "None", 
+        "processing_time": "20 minutes (Minor) to 1 hour (Major)" 
+      }
+    },
+    {
+      "service_name": "Transfer of Ownership and Change Motor (Tricycle)",
+      "image": "/assets/document_background/Tricycle Transfer",
+      "office": "TMTO - Tricycle Franchising Division",
+      "classification": "Complex",
+      "type_of_transaction": "G2C",
+      "who_may_avail": "Tricycle operators with existing franchise",
+      "checklist_of_requirements": [
+        { "requirement": "Notarized Petition for Dropping/Transfer (Form 04/05)", "source": "TMTO / POSO" },
+        { "requirement": "Notarized Deed of Sale or Donation (Original with Dry Seal)", "source": "Notary Public" },
+        { "requirement": "LTO OR/CR and Vehicle Insurance", "source": "LTO / Insurer" },
+        { "requirement": "Barangay Clearance & Recommendation", "source": "Respective Barangay" },
+        { "requirement": "Death Cert / Extra-Judicial Settlement (if previous owner is deceased)", "source": "LCR" }
+      ],
+      "total": { 
+        "fees": "P2,500 (Transfer) / P150 (Change Motor)", 
+        "processing_time": "3 days, 45 minutes" 
+      }
+    }
+  ]
+}

@@ -1,550 +1,860 @@
 {
-  "department": "Lipa City Veterinary Office",
   "external_services": [
     {
       "id": 1,
-      "service_name": "Request for Animal Vaccination",
-      "image": "/assets/document_background/Request for Animal Vaccination",
-      "office": "Lipa City Veterinary Office",
+      "service_name": "Request for Blood Collection for BAI Farm Accreditation/ Livestock Transport Permits",
+      "image": "/assets/document_background/Request for Blood Collection for BAI Farm Accreditation_ Livestock Transport Permits",
+      "department": "Lipa City Veterinary Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C- Government to Citizens",
-      "who_may_avail": [
-        "Farmers",
-        "Pet Owners",
-        "Barangay"
-      ],
+      "type_of_transaction": "G2B – Government to Business",
+      "who_may_avail": "Farmers",
       "checklist_of_requirements": [
         {
-          "requirement": "Mass Vaccination: Letter of request from barangay officials concerned - 1 original, 2 photocopies",
-          "source": "Barangay"
+          "requirement": "Letter of request – 1 original copy",
+          "where_to_secure": "Requesting party"
         },
         {
-          "requirement": "Individual Request/ Walk-in: Valid ID - 1 original, 2 photocopies",
-          "source": "Lipa City Veterinary Office"
-        },
-        {
-          "requirement": "Vaccination record – 1 original, 2 photocopies",
-          "source": "Lipa City Veterinary Office"
-        },
-        {
-          "requirement": "Certificate of Registration, if any – 1 original, 2 photocopies",
-          "source": "Lipa City Veterinary Office"
+          "requirement": "Verbal request (phone calls/ SMS)",
+          "where_to_secure": "Requesting party"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Log-in in the client log book",
-          "agency_action": "1. Provide the log book to the client",
-          "fees": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Officer of the Day"
+          "client_step": "1. Submit a letter of request addressed to the Lipa City Veterinary Office or relay the request through verbal communication (phone call/ SMS)",
+          "agency_action": "1.1. Receive the submitted requirement and check its completeness or send a reply to the requesting party",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Assistant City Veterinarian (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "2. Submit the documents and undergo interview",
-          "agency_action": "2. Receive and evaluate the documents; conduct interview",
-          "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Admin Aide IV/VI"
-        },
-        {
-          "client_step": "3. Wait for the schedule (Mass) or the vaccination (Individual)",
-          "agency_action": "3. Set schedule (Mass) or perform the vaccination (Individual)",
-          "fees": "None",
-          "processing_time": "2 mins (Individual) / 7 mins (Mass)",
-          "person_responsible": "Livestock Inspector / Vet. Aid"
+          "client_step": "None",
+          "agency_action": "1.2. Provide schedule for blood collection",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Assistant City Veterinarian (Lipa City Veterinary Office)"
         }
       ],
-      "total_processing_time": "13 minutes (Mass) / 8 minutes (Individual)",
-      "total_fees": "None"
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "10 minutes"
+      }
     },
     {
       "id": 2,
-      "service_name": "Request for Blood Collection for BAI Farm Accreditation/ Livestock Transport Permits",
-      "image": "/assets/document_background/Request for Blood Collection for BAI Farm Accreditation_ Livestock",
-      "office": "Lipa City Veterinary Office",
+      "service_name": "Request for Certificate of Acceptance",
+      "image": "/assets/document_background/Request for Certificate of Acceptance",
+      "department": "Lipa City Veterinary Office",
       "classification": "Simple",
-      "type_of_transaction": "G2B – Government to Business",
-      "who_may_avail": [
-        "Farmers"
-      ],
+      "type_of_transaction": "G2C – Government to Citizen, G2B – Government to Business",
+      "who_may_avail": "Meat handlers",
       "checklist_of_requirements": [
         {
-          "requirement": "Written request/ verbal (phone call/ text messaging) – 1 original, 2 photocopies",
-          "source": "Requesting party"
+          "requirement": "For imported pork and pork products: SPS Import Clearance - 1 photocopy",
+          "where_to_secure": "Bureau of Animal Industry, Region IV-A, Department of Agriculture"
+        },
+        {
+          "requirement": "For imported pork and pork products: Shipping Permit - 1 photocopy",
+          "where_to_secure": "Bureau of Animal Industry, Region IV-A, Department of Agriculture"
+        },
+        {
+          "requirement": "For imported pork and pork products: Certificate of Meat Inspection - 1 photocopy",
+          "where_to_secure": "National Meat Inspection Service"
+        },
+        {
+          "requirement": "For imported pork and pork products: Veterinary Quarantine and Meat Inspection and Laboratory Certificate - 1 photocopy",
+          "where_to_secure": "Bureau of Animal Industry, Region IV-A, Department of Agriculture"
+        },
+        {
+          "requirement": "For local pork products: License to Operate of the meat establishment - 1 photocopy",
+          "where_to_secure": "National Meat Inspection Service, Region IV-A"
+        },
+        {
+          "requirement": "For local pork products: Meat Transport Vehicle Accreditation - 1 photocopy",
+          "where_to_secure": "National Meat Inspection Service, Region IV-A"
+        },
+        {
+          "requirement": "For local pork products: Veterinary Health Certificate - 1 photocopy",
+          "where_to_secure": "Private Veterinarian"
+        },
+        {
+          "requirement": "For local pork products: Certificate of Free Status from ASF - 1 photocopy",
+          "where_to_secure": "BAI-accredited laboratories or Regional Animal Disease Diagnostic Laboratory"
+        },
+        {
+          "requirement": "For pigs for slaughter: Veterinary Health Certificate - 1 photocopy",
+          "where_to_secure": "Private Veterinarian"
+        },
+        {
+          "requirement": "For pigs for slaughter: Animal Inspection Certificate - 1 photocopy",
+          "where_to_secure": "Municipal/ City Veterinarian"
+        },
+        {
+          "requirement": "For pigs for slaughter: Certificate of Free Status from ASF - 1 photocopy",
+          "where_to_secure": "BAI-accredited laboratories or Regional Animal Disease Diagnostic Laboratory"
+        },
+        {
+          "requirement": "For local pork: Veterinary Health Certificate – 1 photocopy",
+          "where_to_secure": "Source slaughterhouse"
+        },
+        {
+          "requirement": "For local pork: Animal Inspection Certificate - 1 photocopy",
+          "where_to_secure": "Source slaughterhouse"
+        },
+        {
+          "requirement": "For local pork: Certificate of Free Status from ASF - 1 photocopy",
+          "where_to_secure": "BAI-accredited laboratories or Regional Animal Disease Diagnostic Laboratory"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Log-in in the client log book",
-          "agency_action": "1. Provide the log book to the client",
-          "fees": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Officer of the Day"
+          "client_step": "1. Submit the complete requirements to the Lipa City Veterinary Office",
+          "agency_action": "1.1. Receive the submitted requirement and check its completeness",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "City Veterinarian / Assistant City Veterinarian / Veterinarian IV (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "2. Submit request",
-          "agency_action": "2. Receive request and conduct interview",
-          "fees": "None",
+          "client_step": "None",
+          "agency_action": "1.2. Issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Administrative Aide III (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "2. Pay the required fees (Wait for the Official Receipt that will be issued)",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "P50.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the City Veterinary Office and claim the Certificate of Acceptance",
+          "agency_action": "3. Prepare and release the Certificate of Acceptance",
+          "fees_to_be_paid": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Admin Aide IV/VI"
-        },
-        {
-          "client_step": "3. Wait for the schedule",
-          "agency_action": "3. Set schedule and perform blood collection",
-          "fees": "None",
-          "processing_time": "24 minutes",
-          "person_responsible": "Livestock Inspector / Vet. Aid"
+          "person_responsible": "City Veterinarian / Assistant City Veterinarian (Lipa City Veterinary Office)"
         }
       ],
-      "total_processing_time": "30 minutes",
-      "total_fees": "None"
+      "total_summary": {
+        "total_fees": "P50.00",
+        "total_processing_time": "25 minutes"
+      }
     },
     {
       "id": 3,
       "service_name": "Request for Meat Delivery Van Accreditation",
       "image": "/assets/document_background/Request for Meat Delivery Van Accreditation",
-      "office": "Lipa City Veterinary Office",
-      "classification": "Complex",
+      "department": "Lipa City Veterinary Office",
+      "classification": "Simple",
       "type_of_transaction": "G2B – Government to Business",
-      "who_may_avail": [
-        "Meat Dealers"
-      ],
+      "who_may_avail": "Meat dealers, Delivery Van drivers",
       "checklist_of_requirements": [
         {
-          "requirement": "Updated driver’s license – 1 original, 2 photocopies",
-          "source": "Meat Van Driver"
+          "requirement": "Vehicle for accreditation – for presentation",
+          "where_to_secure": "Requesting party"
         },
         {
-          "requirement": "Vehicle registration – 1 original, 2 photocopies",
-          "source": "Land Transportation Office (LTO)"
+          "requirement": "Driver’s License - 2 photocopies",
+          "where_to_secure": "Requesting party or Land Transportation Office"
+        },
+        {
+          "requirement": "Official Receipt of the vehicle – 2 photocopies",
+          "where_to_secure": "Requesting party or Land Transportation Office"
+        },
+        {
+          "requirement": "Certificate of Registration of the vehicle – 2 photocopies",
+          "where_to_secure": "Requesting party or Land Transportation Office"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Log-in in the client log book",
-          "agency_action": "1. Provide the log book to the client",
-          "fees": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Officer of the Day"
-        },
-        {
-          "client_step": "2. Submit request",
-          "agency_action": "2. Receive request and evaluate documents",
-          "fees": "None",
+          "client_step": "1. Submit the complete requirements to the Lipa City Veterinary Office",
+          "agency_action": "1.1. Receive the submitted requirement and check its completeness",
+          "fees_to_be_paid": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Admin Aide IV/VI"
+          "person_responsible": "City Veterinarian (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "3. Wait for the inspection",
-          "agency_action": "3. Conduct vehicle inspection",
-          "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Meat Inspector"
-        },
-        {
-          "client_step": "4. Pay to the City Treasurer",
-          "agency_action": "4. Receive payment and issue receipt",
-          "fees": "P300.00",
-          "processing_time": "8 minutes",
-          "person_responsible": "Revenue Collection Clerk"
-        },
-        {
-          "client_step": "5. Claim the sticker",
-          "agency_action": "5. Issue the accreditation sticker",
-          "fees": "None",
+          "client_step": "1. Submit the complete requirements to the Lipa City Veterinary Office",
+          "agency_action": "1.2. Check and assess vehicle compliance as per meat delivery van specifications",
+          "fees_to_be_paid": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Meat Inspector"
+          "person_responsible": "City Veterinarian / Assistant City Veterinarian (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "1. Submit the complete requirements to the Lipa City Veterinary Office",
+          "agency_action": "1.3. Take a photo of the vehicle and Issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "City Veterinarian / Assistant City Veterinarian (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "2. Present the Order of Payment and pay the required fees at the City Treasurer’s Office (Wait for the Official Receipt that will be issued)",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "P300.00",
+          "processing_time": "5 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
+        },
+        {
+          "client_step": "3. Claim the accreditation sticker",
+          "agency_action": "3. Present the Official Receipt to the City Veterinary Office and issue accreditation sticker",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City Veterinarian (Lipa City Veterinary Office)"
         }
       ],
-      "total_processing_time": "29 minutes",
-      "total_fees": "P300.00"
+      "total_summary": {
+        "total_fees": "P300.00",
+        "total_processing_time": "15 minutes"
+      }
     },
     {
       "id": 4,
-      "service_name": "Request for Meat Inspection Certificate",
-      "image": "/assets/document_background/Request for Meat Inspection Certificate",
-      "office": "Lipa City Veterinary Office",
-      "classification": "Complex",
-      "type_of_transaction": "G2B – Government to Business",
-      "who_may_avail": [
-        "Meat Dealers"
-      ],
+      "service_name": "Request for Meat Handler’s License",
+      "image": "/assets/document_background/Request for Meat Handler’s License",
+      "department": "Lipa City Veterinary Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Business",
+      "who_may_avail": "Meat handlers",
       "checklist_of_requirements": [
         {
-          "requirement": "Proof of inspection brands – 1 original, 2 photocopies",
-          "source": "Lipa City Veterinary Office"
+          "requirement": "Certificate of Attendance to Meat Handler’s Seminar – 1 photocopy",
+          "where_to_secure": "Lipa City Veterinary Office"
+        },
+        {
+          "requirement": "Health Certificate – 1 Photocopy",
+          "where_to_secure": "Lipa City Health Office"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Log-in in the client log book",
-          "agency_action": "1. Provide the log book to the client",
-          "fees": "None",
+          "client_step": "1. Submit the complete requirements to the Lipa City Veterinary Office",
+          "agency_action": "1.1. Receive the submitted requirement and check its completeness",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Veterinarian IV / Meat Inspector III / Meat Inspector II (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.2. Issue Order of Payment",
+          "fees_to_be_paid": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Officer of the Day"
+          "person_responsible": "Administrative Aide III (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "2. Submit request",
-          "agency_action": "2. Receive request and evaluate documents",
-          "fees": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Meat Inspector"
-        },
-        {
-          "client_step": "3. Present the animal/meat",
-          "agency_action": "3. Perform inspection (Ante-mortem and Post-mortem)",
-          "fees": "None",
+          "client_step": "2. Pay the required fees (Wait for the Official Receipt that will be issued)",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "P50.00",
           "processing_time": "10 minutes",
-          "person_responsible": "Meat Inspector"
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
         },
         {
-          "client_step": "4. Pay the fees",
-          "agency_action": "4. Receive payment and issue receipt",
-          "fees": "Varies based on species",
-          "processing_time": "8 minutes",
-          "person_responsible": "Revenue Collection Clerk"
-        },
-        {
-          "client_step": "5. Claim the certificate",
-          "agency_action": "5. Release the Meat Inspection Certificate",
-          "fees": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Meat Inspector"
+          "client_step": "3. Present the Official Receipt to the City Veterinary Office and claim the Meat Handler’s Certificate/ License",
+          "agency_action": "3. Prepare and release the Meat Handler’s Certificate/ License",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City Veterinarian / Assistant City Veterinarian / Veterinarian IV (Lipa City Veterinary Office)"
         }
       ],
-      "total_processing_time": "23 minutes",
-      "total_fees": "Depends on number of heads (Ante-mortem and Post-mortem fees apply)"
+      "total_summary": {
+        "total_fees": "P50.00 / certificate",
+        "total_processing_time": "18 minutes"
+      }
     },
     {
       "id": 5,
-      "service_name": "Request for Stray Animal Pound Service",
-      "image": "/assets/document_background/Request for Stray Animal Pound Service",
-      "office": "Lipa City Veterinary Office",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": [
-        "Barangay",
-        "Homeowners Associations",
-        "Individuals"
-      ],
+      "service_name": "Request for Meat Inspection Certificates",
+      "image": "/assets/document_background/Request for Meat Inspection Certificates",
+      "department": "Lipa City Veterinary Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2B – Government to Business",
+      "who_may_avail": "Meat dealers",
       "checklist_of_requirements": [
         {
-          "requirement": "Written or verbal request – 1 original, 2 photo copies",
-          "source": "Requesting party"
+          "requirement": "Proof of Inspection brands (Inspected and Passed Stamp CVO Lipa City Class AAA SH-989)",
+          "where_to_secure": "Requesting party"
+        },
+        {
+          "requirement": "Personal interview",
+          "where_to_secure": "Requesting party"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Log-in in the client log book",
-          "agency_action": "1. Provide the log book to the client",
-          "fees": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Officer of the Day"
-        },
-        {
-          "client_step": "2. Submit request",
-          "agency_action": "2. Receive request and conduct interview",
-          "fees": "None",
+          "client_step": "1. Submit the proof of inspection brands to the Lipa City Veterinary Office and answer query",
+          "agency_action": "1.1. Receive the submitted requirement and check its completeness",
+          "fees_to_be_paid": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Admin Aide IV/VI"
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "3. Wait for the operation",
-          "agency_action": "3. Perform pound operation",
-          "fees": "None",
-          "processing_time": "3 days and 10 minutes",
-          "person_responsible": "Dog Catcher/Pound Officer"
+          "client_step": "1. Submit the proof of inspection brands to the Lipa City Veterinary Office and answer query",
+          "agency_action": "1.2. Interview the requesting party to determine the destination of the carcass and the mode of transportation to the destination",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.3. Issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "2. Pay the required fees (Wait for the Official Receipt that will be issued)",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "See table of fees below",
+          "processing_time": "None",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the City Veterinary Office and claim the Meat Inspection Certificate",
+          "agency_action": "3. Prepare and release the Meat Inspection Certificate",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
         }
       ],
-      "total_processing_time": "3 days and 16 minutes",
-      "total_fees": "None"
+      "total_summary": {
+        "total_fees": "See table of fees below",
+        "total_processing_time": "10 minutes"
+      }
     },
     {
       "id": 6,
-      "service_name": "Request for the Release of Impounded Dogs/ Cats",
-      "image": "/assets/document_background/Request for the Release of Impounded Dogs_Cats",
-      "office": "Lipa City Veterinary Office",
-      "classification": "Complex",
+      "service_name": "Request for Registration of Animals",
+      "image": "/assets/document_background/Request for Registration of Animals",
+      "department": "Lipa City Veterinary Office",
+      "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": [
-        "Pet Owners"
-      ],
+      "who_may_avail": "Farmers, pet owners, barangays",
       "checklist_of_requirements": [
         {
-          "requirement": "Personal identification of animal – 1 original, 2 photocopies",
-          "source": "Lipa City Veterinary Office"
+          "requirement": "For walk-in applicants: Pet to be registered",
+          "where_to_secure": "Requesting party"
+        },
+        {
+          "requirement": "For registration in the barangays: Pet to be registered",
+          "where_to_secure": "Requesting party"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Log-in in the client log book",
-          "agency_action": "1. Provide the log book to the client",
-          "fees": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Officer of the Day"
-        },
-        {
-          "client_step": "2. Submit request",
-          "agency_action": "2. Receive request and evaluate documents",
-          "fees": "None",
+          "client_step": "1. Bring the pet to be registered to the Lipa City Veterinary Office or to the designated area in the barangay",
+          "agency_action": "1.1. Examine the pet to be registered",
+          "fees_to_be_paid": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Admin Aide IV/VI"
+          "person_responsible": "Assistant City Veterinarian / Veterinarian IV / Administrative Aide III (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "3. Pay the fine",
-          "agency_action": "3. Receive payment and issue receipt",
-          "fees": "P200.00 + Daily penalty",
-          "processing_time": "25 minutes",
-          "person_responsible": "Revenue Collection Clerk"
+          "client_step": "1. Bring the pet to be registered to the Lipa City Veterinary Office or to the designated area in the barangay",
+          "agency_action": "1.2. Prepare Order of Payment and advice the client to pay the registration fee",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Assistant City Veterinarian / Veterinarian IV / Administrative Aide III (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "4. Claim the animal",
-          "agency_action": "4. Release the dog/cat from the pound",
-          "fees": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Pound Officer"
+          "client_step": "2. Pay the corresponding registration fee (Wait for the Official Receipt that will be issued)",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "P50.00",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
+        },
+        {
+          "client_step": "3. Claim the Certificate of Registration",
+          "agency_action": "3.1. Prepare the Certificate of Registration",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Assistant City Veterinarian / Veterinarian IV / Administrative Aide III (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "3. Claim the Certificate of Registration",
+          "agency_action": "3.2. Issue the Certificate of Registration to the client",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Assistant City Veterinarian / Veterinarian IV / Administrative Aide III (Lipa City Veterinary Office)"
         }
       ],
-      "total_processing_time": "33 minutes",
-      "total_fees": "P200.00 (Same day) + Daily confinement penalty (P50-P100)"
+      "total_summary": {
+        "total_fees": "P50.00",
+        "total_processing_time": "40 minutes"
+      }
     },
     {
       "id": 7,
-      "service_name": "Request for Vaccination Certificates",
-      "image": "/assets/document_background/Request for Vaccination Certificates",
-      "office": "Lipa City Veterinary Office",
+      "service_name": "Request for Stray Animal Pound Service",
+      "image": "/assets/document_background/Request for Stray Animal Pound Service",
+      "department": "Lipa City Veterinary Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Business",
-      "who_may_avail": [
-        "Farmers",
-        "Pet Owners"
-      ],
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Barangays, Homeowners Association",
       "checklist_of_requirements": [
         {
-          "requirement": "Written request/ verbal (phone call/ text messaging) – 1 original, 2 photocopies",
-          "source": "Requesting party"
+          "requirement": "Letter of request – 1 original copy",
+          "where_to_secure": "Requesting party"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Log-in in the client log book",
-          "agency_action": "1. Provide the log book to the client",
-          "fees": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Officer of the Day"
+          "client_step": "1. Submit a letter of request addressed to the Lipa City Veterinary Office",
+          "agency_action": "1.1. Receive the submitted requirement and check its completeness",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "2. Submit request",
-          "agency_action": "2. Receive request and evaluate documents",
-          "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Admin Aide IV/VI"
+          "client_step": "1. Submit a letter of request addressed to the Lipa City Veterinary Office",
+          "agency_action": "1.2. Set a schedule for the impounding operations",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "3. Wait for the certificate",
-          "agency_action": "3. Prepare and release the Vaccination Certificate",
-          "fees": "None",
-          "processing_time": "16 minutes",
-          "person_responsible": "Admin Aide IV/VI"
+          "client_step": "None",
+          "agency_action": "1.3. Conduct the impounding operations",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
         }
       ],
-      "total_processing_time": "22 minutes",
-      "total_fees": "None"
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "10 minutes"
+      }
     },
     {
       "id": 8,
-      "service_name": "Request for Veterinary Clearance for Mayor’s Permit",
-      "image": "/assets/document_background/Request for Veterinary Clearance for Mayor’s Permit",
-      "office": "Lipa City Veterinary Office",
-      "classification": "Complex",
-      "type_of_transaction": "G2B – Government to Business",
-      "who_may_avail": [
-        "Veterinary-Related Establishments"
-      ],
+      "service_name": "Request for the Release of Impounded Dogs/ Cats",
+      "image": "/assets/document_background/Request for the Release of Impounded Dogs_ Cats",
+      "department": "Lipa City Veterinary Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Pet owners",
       "checklist_of_requirements": [
         {
-          "requirement": "Accomplished Information Sheet – 1 original, 2 photocopies",
-          "source": "Lipa City Veterinary Office"
-        },
-        {
-          "requirement": "BAI Farm Accreditation / Livestock Handler’s License / PRC ID of attending Veterinarian / Meat Inspection Certificate",
-          "source": "BAI / DA RFOIVA / Farm Veterinarian / NMIS"
+          "requirement": "Personal appearance",
+          "where_to_secure": "Requesting party"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Log-in in the client log book",
-          "agency_action": "1. Provide the log book to the client",
-          "fees": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Officer of the Day"
+          "client_step": "1. Proceed to the Lipa City Veterinary Office and positively identify the pet to be released",
+          "agency_action": "1.1. Accompany the requesting party to the Mini-Pound to identify the pet for release",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Assistant City Veterinarian (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "2. Submit the information sheet",
-          "agency_action": "2. Receive and evaluate the documents",
-          "fees": "None",
+          "client_step": "1. Proceed to the Lipa City Veterinary Office and positively identify the pet to be released",
+          "agency_action": "1.2. Issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "2. Pay the required fees (Wait for the Official Receipt that will be issued)",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "P550.00 – fine, Additional impounding fee - P50.00/day – maximum of 3 days",
           "processing_time": "5 minutes",
-          "person_responsible": "Admin Aide IV/VI"
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
         },
         {
-          "client_step": "3. Pay to the Treasurer",
-          "agency_action": "3. Receive payment and issue receipt",
-          "fees": "P300.00",
-          "processing_time": "12 minutes",
-          "person_responsible": "Revenue Collection Clerk"
-        },
-        {
-          "client_step": "4. Claim the clearance",
-          "agency_action": "4. Release the Veterinary Clearance",
-          "fees": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Admin Aide IV/VI"
+          "client_step": "3. Claim the impounded animal",
+          "agency_action": "3. Release the requested documents",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Pound keeper I (Lipa City Veterinary Office)"
         }
       ],
-      "total_processing_time": "20 minutes",
-      "total_fees": "P300.00"
+      "total_summary": {
+        "total_fees": "P550.00 – fine, Additional impounding fee - P50.00/day – maximum of 3 days",
+        "total_processing_time": "20 minutes"
+      }
     },
     {
       "id": 9,
-      "service_name": "Request for Veterinary Extension Services",
-      "image": "/assets/document_background/Request for Veterinary Extension Services",
-      "office": "Lipa City Veterinary Office",
-      "classification": "Highly Technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": [
-        "Farmers"
-      ],
+      "service_name": "Request for Vaccination Certificates",
+      "image": "/assets/document_background/Request for Vaccination Certificates",
+      "department": "Lipa City Veterinary Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Farmers, pet owners",
       "checklist_of_requirements": [
         {
-          "requirement": "Verbal/ written request (phone call/ text messaging) – 1 original, 2 photocopies",
-          "source": "Requesting party"
+          "requirement": "Letter of request – 1 original copy",
+          "where_to_secure": "Requesting party"
+        },
+        {
+          "requirement": "Verbal request (phone calls/ SMS)",
+          "where_to_secure": "Requesting party"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Log-in in the client log book",
-          "agency_action": "1. Provide the log book to the client",
-          "fees": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Officer of the Day"
+          "client_step": "1. Submit a letter of request addressed to the Lipa City Veterinary Office or relay the request through verbal communication (phone call/ SMS)",
+          "agency_action": "1.1. Receive the submitted requirement and check its completeness or send a reply to the requesting party",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "2. Submit request",
-          "agency_action": "2. Receive request and conduct interview",
-          "fees": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Admin Aide IV/VI"
+          "client_step": "1. Submit a letter of request addressed to the Lipa City Veterinary Office or relay the request through verbal communication (phone call/ SMS)",
+          "agency_action": "1.2. Verify record from the office’s vaccination database",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "3. Wait for the service",
-          "agency_action": "3. Perform extension services/consultation",
-          "fees": "None",
-          "processing_time": "24 minutes",
-          "person_responsible": "Livestock Inspector / Vet. Aid"
+          "client_step": "2. Claim Vaccination Certificate",
+          "agency_action": "2. Prepare and issue Vaccination Certificate",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
         }
       ],
-      "total_processing_time": "40 minutes",
-      "total_fees": "None"
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "15 minutes"
+      }
     },
     {
       "id": 10,
-      "service_name": "Request for Veterinary Health Certificate/ Shipping Permit",
-      "image": "/assets/document_background/Request for Veterinary Health Certificate_Shipping Permit",
-      "office": "Lipa City Veterinary Office",
-      "classification": "Complex",
-      "type_of_transaction": "G2B – Government to Business / G2C – Government to Citizens",
-      "who_may_avail": [
-        "Farmers",
-        "Pet Owners"
-      ],
+      "service_name": "Request for Vaccination of Animals",
+      "image": "/assets/document_background/Request for Vaccination of Animals",
+      "department": "Lipa City Veterinary Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Farmers, pet owners, barangays",
       "checklist_of_requirements": [
         {
-          "requirement": "BAI Livestock Handler’s License, Transport Carrier Accreditation, Farm accreditation, Lab Test Results, Vaccination Record",
-          "source": "BAI / DA / RADDL / Private Clinic"
+          "requirement": "For mass vaccination: Letter of request – 1 original copy",
+          "where_to_secure": "Respective barangay halls"
+        },
+        {
+          "requirement": "For individual request: Personal appearance of owner and animal to be vaccinated",
+          "where_to_secure": "Requesting party"
+        },
+        {
+          "requirement": "For individual request: Vaccination record – 1 original copy",
+          "where_to_secure": "Requesting party or Lipa City Veterinary Office"
+        },
+        {
+          "requirement": "For individual request: Certificate of registration, if there is any – 1 original copy",
+          "where_to_secure": "Requesting party or Lipa City Veterinary Office"
+        },
+        {
+          "requirement": "Certificate - 1 Original Copy",
+          "where_to_secure": "Lipa City Veterinary Office"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Log-in in the client log book",
-          "agency_action": "1. Provide the log book to the client",
-          "fees": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Officer of the Day"
-        },
-        {
-          "client_step": "2. Submit request",
-          "agency_action": "2. Receive request and evaluate documents",
-          "fees": "None",
+          "client_step": "1. Bring animal to be vaccinated to the Lipa City Veterinary Office or submit a letter of request addressed to the City Veterinarian for mass vaccination",
+          "agency_action": "1.1. Examine the pet to be registered or receive the complete requirements and check its completeness",
+          "fees_to_be_paid": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Admin Aide IV/VI"
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "3. Pay the fees",
-          "agency_action": "3. Receive payment and issue receipt",
-          "fees": "Depends on species",
-          "processing_time": "12 minutes",
-          "person_responsible": "Revenue Collection Clerk"
+          "client_step": "1. Bring animal to be vaccinated to the Lipa City Veterinary Office or submit a letter of request addressed to the City Veterinarian for mass vaccination",
+          "agency_action": "1.2.a. Coordinate with the requesting barangay for the schedule of mass vaccination",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "4. Claim the permit",
-          "agency_action": "4. Release the Health Certificate/Shipping Permit",
-          "fees": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Admin Aide IV/VI"
+          "client_step": "1. Bring animal to be vaccinated to the Lipa City Veterinary Office or submit a letter of request addressed to the City Veterinarian for mass vaccination",
+          "agency_action": "1.2.b. Administer vaccine to the animal for walk in applicants",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
         }
       ],
-      "total_processing_time": "20 minutes",
-      "total_fees": "Depends on species (e.g., Chicken P0.50, Hog P5.00, Dog/Cat P50.00)"
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "10 minutes"
+      }
     },
     {
       "id": 11,
-      "service_name": "Request for Veterinary Related Documents",
-      "image": "/assets/document_background/Request for Veterinary Related Documents",
-      "office": "Lipa City Veterinary Office",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": [
-        "All"
-      ],
+      "service_name": "Request for Veterinary Clearance for Mayor’s Permit",
+      "image": "/assets/document_background/Request for Veterinary Clearance for Mayor’s Permit",
+      "department": "Lipa City Veterinary Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2B – Government to Business",
+      "who_may_avail": "Veterinary-related establishments",
       "checklist_of_requirements": [
         {
-          "requirement": "Written request – 1 original, 2 photocopies",
-          "source": "Company or Institution"
+          "requirement": "Accomplished Information Sheet - 1 Original Copy",
+          "where_to_secure": "Requesting party"
         },
         {
-          "requirement": "Any valid ID – 1 original, 2 photocopies",
-          "source": "Company or Institution"
+          "requirement": "Farm Accreditation – 1 Original Copy",
+          "where_to_secure": "Bureau of Animal Industry, Region IV-A, Department of Agriculture"
         },
         {
-          "requirement": "USB or CD for voluminous documents – 1 USB or CD",
-          "source": "Requesting Party"
+          "requirement": "Livestock Handler’s License or Transport Carrier Accreditation - 1 Original Copy",
+          "where_to_secure": "Bureau of Animal Industry, Region IV-A, Department of Agriculture"
+        },
+        {
+          "requirement": "PRC ID of attending Veterinarian - 1 Original Copy",
+          "where_to_secure": "Farm Veterinarian"
+        },
+        {
+          "requirement": "Meat Inspection Certificate - 1 Original Copy",
+          "where_to_secure": "Lipa City Veterinary Office or NMIS-accredited slaughterhouse or cold storage facilities"
+        },
+        {
+          "requirement": "License to Operate - 1 Original Copy",
+          "where_to_secure": "Lipa City Veterinary Office or NMIS-accredited slaughterhouse or cold storage facilities"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Log-in in the client log book",
-          "agency_action": "1. Provide the log book to the client",
-          "fees": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Officer of the Day"
-        },
-        {
-          "client_step": "2. Submit request",
-          "agency_action": "2. Receive request and evaluate documents",
-          "fees": "None",
+          "client_step": "1. Submit the complete requirements to the Lipa City Veterinary Office",
+          "agency_action": "1.1. Receive the submitted requirement and check its completeness",
+          "fees_to_be_paid": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Admin Aide IV/VI"
+          "person_responsible": "City Veterinarian (Lipa City Veterinary Office)"
         },
         {
-          "client_step": "3. Wait for the documents",
-          "agency_action": "3. Prepare and release the requested documents",
-          "fees": "None",
-          "processing_time": "34 minutes",
-          "person_responsible": "Admin Aide IV/VI"
+          "client_step": "1. Submit the complete requirements to the Lipa City Veterinary Office",
+          "agency_action": "1.2. Check the submitted Information Sheet. If compliant, issue Order of Payment. If non-compliant, schedule re-inspection of establishment.",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "City Veterinarian (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "2. Pay the required fees (Wait for the Official Receipt that will be issued)",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "P300.00",
+          "processing_time": "5 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the City Veterinary Office and claim the Veterinary Clearance",
+          "agency_action": "3. Prepare and release Veterinary Clearance",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City Veterinarian (Lipa City Veterinary Office)"
         }
       ],
-      "total_processing_time": "40 minutes",
-      "total_fees": "None"
+      "total_summary": {
+        "total_fees": "P300.00",
+        "total_processing_time": "15 minutes"
+      }
+    },
+    {
+      "id": 12,
+      "service_name": "Request for Veterinary Extension Services",
+      "image": "/assets/document_background/Request for Veterinary Extension Services",
+      "department": "Lipa City Veterinary Office",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Farmers, pet owners, barangays",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of request – 1 original copy",
+          "where_to_secure": "Requesting party"
+        },
+        {
+          "requirement": "Verbal request",
+          "where_to_secure": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit a letter of request addressed to the Lipa City Veterinary Office or relay the request through verbal communication (phone call/ SMS)",
+          "agency_action": "1.1. Receive the complete requirements and check its completeness or send a reply to the requesting party",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Veterinarian II (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "1. Submit a letter of request addressed to the Lipa City Veterinary Office or relay the request through verbal communication (phone call/ SMS)",
+          "agency_action": "1.2. Assess the case of the animal and provide treatment",
+          "fees_to_be_paid": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Veterinarian II (Lipa City Veterinary Office)"
+        }
+      ],
+      "total_summary": {
+        "total_fees": "None",
+        "total_processing_time": "20 minutes"
+      }
+    },
+    {
+      "id": 13,
+      "service_name": "Request for Veterinary Health Certificate/ Shipping Permit",
+      "image": "/assets/document_background/Request for Veterinary Health Certificate_ Shipping Permit",
+      "department": "Lipa City Veterinary Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizen, G2B – Government to Business",
+      "who_may_avail": "Farmers, pet owners",
+      "checklist_of_requirements": [
+        {
+          "requirement": "For farms: Properly filled-up Veterinary Heath Certificate Application Form - 1 Original Copy",
+          "where_to_secure": "Private Veterinarian"
+        },
+        {
+          "requirement": "For farms: Livestock Handler’s License - 1 Original Copy",
+          "where_to_secure": "Bureau of Animal Industry, Region IV-A, Department of Agriculture"
+        },
+        {
+          "requirement": "For farms: Transport Carrier Accreditation - 1 Original Copy",
+          "where_to_secure": "Bureau of Animal Industry, Region IV-A, Department of Agriculture"
+        },
+        {
+          "requirement": "For farms: Farm Accreditation - 1 Original Copy",
+          "where_to_secure": "Bureau of Animal Industry, Region IV-A, Department of Agriculture"
+        },
+        {
+          "requirement": "For individuals: Laboratory Test Results - 1 Original Copy",
+          "where_to_secure": "BAI accredited laboratories or Regional Animal Disease Diagnostic Laboratory"
+        },
+        {
+          "requirement": "For individuals: Vaccination Record - 1 Original Copy",
+          "where_to_secure": "Private Clinic or Lipa City Veterinary Office"
+        },
+        {
+          "requirement": "For layers, game fowls, ducks and pigeons: Negative test result for Avian Influenza - 1 Original Copy",
+          "where_to_secure": "Regional Animal Disease Diagnostic Laboratory or Bureau of Animal Industry, Region IV-A, Department of Agriculture"
+        },
+        {
+          "requirement": "For layers, game fowls, ducks and pigeons: Newcastle Disease updated vaccination record - 1 Original Copy",
+          "where_to_secure": "Private Veterinarian or Lipa City Veterinary Office"
+        },
+        {
+          "requirement": "For breeder swine: Negative test result for porcine reproductive and respiratory syndrome, pseudorabies, brucellosis and leptospirosis - 1 Original Copy",
+          "where_to_secure": "Bureau of Animal Industry, Region IV-A, Department of Agriculture or Regional Animal Disease Diagnostic Laboratory or BAI accredited laboratory"
+        },
+        {
+          "requirement": "For breeder swine: Updated classical swine fever and swine influenza vaccination - 1 Original Copy",
+          "where_to_secure": "Farm Veterinarian"
+        },
+        {
+          "requirement": "Large ruminants intended for slaughter: Updated vaccination against hemorrhagic septicemia - 1 Original Copy",
+          "where_to_secure": "Farm Veterinarian or Lipa City Veterinary Office"
+        },
+        {
+          "requirement": "Breeder large ruminants: Negative test for tuberculosis, Surra and Brucellosis - 1 Original Copy",
+          "where_to_secure": "Regional Animal Disease Diagnostic Laboratory or Bureau of Animal Industry, Region IV-A, Department of Agriculture"
+        },
+        {
+          "requirement": "Breeder small ruminants: Negative result for Caprine Arthritis Encephalitis and Brucellosis - 1 Original Copy",
+          "where_to_secure": "Regional Animal Disease Diagnostic Laboratory or Bureau of Animal Industry, Region IV-A, Department of Agriculture"
+        },
+        {
+          "requirement": "Horses: Negative test for Equine Infectious Anemia and Surra - 1 Original Copy",
+          "where_to_secure": "Regional Animal Disease Diagnostic Laboratory or Bureau of Animal Industry, Region IV-A, Department of Agriculture"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the required documents to the Lipa City Veterinary Office",
+          "agency_action": "1.1. Receive the complete requirements and check its completeness",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "City Veterinarian / Assistant City Veterinarian (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "1. Submit the required documents to the Lipa City Veterinary Office",
+          "agency_action": "1.2. Sign concurrence on Veterinary Health Certificate",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "City Veterinarian / Assistant City Veterinarian (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.3. Issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Administrative Aide III (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "2. Pay the required fees (Wait for the Official Receipt that will be issued)",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "P50.00 / certificate",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Veterinary Office and claim the shipping permit",
+          "agency_action": "3. Issue the shipping permit",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "City Veterinarian / Assistant City Veterinarian (Lipa City Veterinary Office)"
+        }
+      ],
+      "total_summary": {
+        "total_fees": "P50.00 / certificate",
+        "total_processing_time": "30 minutes"
+      }
+    },
+    {
+      "id": 14,
+      "service_name": "Request for Veterinary-Related Documents",
+      "image": "/assets/document_background/Request for Veterinary-Related Documents",
+      "department": "Lipa City Veterinary Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of request – 1 original copy",
+          "where_to_secure": "Requesting party"
+        },
+        {
+          "requirement": "Valid government-issued ID - 1 photocopy",
+          "where_to_secure": "Requesting party"
+        },
+        {
+          "requirement": "USB or CD for voluminous documents",
+          "where_to_secure": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit a letter of request addressed to the Lipa City Veterinary Office and ID to the Lipa City Veterinary Office",
+          "agency_action": "1.1. Receive the submitted requirement and check its completeness",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Assistant City Veterinarian (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "1. Submit a letter of request addressed to the Lipa City Veterinary Office and ID to the Lipa City Veterinary Office",
+          "agency_action": "1.2. Reproduce required documents",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Assistant City Veterinarian (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "None",
+          "agency_action": "1.3. Issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "None",
+          "person_responsible": "Veterinarian IV (Lipa City Veterinary Office)"
+        },
+        {
+          "client_step": "2. Pay the required fees (Wait for the Official Receipt that will be issued)",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "P50.00",
+          "processing_time": "5 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
+        },
+        {
+          "client_step": "3. Claim the needed documents",
+          "agency_action": "3. Release the requested documents",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City Veterinarian (Lipa City Veterinary Office)"
+        }
+      ],
+      "total_summary": {
+        "total_fees": "P50.00",
+        "total_processing_time": "20 minutes"
+      }
     }
   ]
 }

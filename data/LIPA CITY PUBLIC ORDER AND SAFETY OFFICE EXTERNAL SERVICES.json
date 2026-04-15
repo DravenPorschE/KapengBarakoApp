@@ -2,492 +2,55 @@
   "department": "Lipa City Public Order and Safety Office",
   "external_services": [
     {
-      "id": 1,
+      "service_name": "Releasing of Confiscated Goods and/or Items",
+      "image": "/assets/document_background/Releasing of Confiscated Goods",
       "office": "Lipa City Public Order and Safety Office",
-      "service_name": "Releasing of Confiscated Goods/ Items Apprehended from Illegal Vendors",
-      "image": "/assets/document_background/Releasing of Confiscated Goods_Items Apprehended from Illegal Vendors",
       "classification": "Simple",
-      "type_of_transaction": "G2C - Government to Citizens",
-      "who_may_avail": "Market vendors who were apprehended for illegal transactions",
+      "type_of_transaction": "G2C - Government to Clients",
+      "who_may_avail": "Illegal Vendors whose goods were confiscated",
       "checklist_of_requirements": [
         {
-          "requirement": "Citation ticket – 1 duplicate copy",
-          "source": "Lipa City Public Order and Safety Office"
+          "requirement": "Identification Card",
+          "source": "Requesting Party"
+        },
+        {
+          "requirement": "Proof of ownership of goods confiscated",
+          "source": "Requesting Party"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Proceed to the Ordinance Compliance and Monitoring Division and present the duplicate copy of the Citation Ticket",
-          "agency_action": "1.1. Receive the duplicate copy of the Citation Ticket and advise the client to pay the fine/ penalty",
-          "fees_to_be_paid": "None",
+          "client_step": "1. Present ID and proof of ownership of confiscated goods",
+          "agency_action": "1.1. Receive documents; 1.2. Issue Order of Payment",
+          "fees": "None",
           "processing_time": "3 minutes",
-          "person_responsible": "Administrative Assistant III / Administrative Aide III (Lipa City Public Order and Safety Office)"
+          "person_responsible": "Administrative Aide VI / Administrative Aide II"
         },
         {
-          "client_step": "1. Proceed to the Ordinance Compliance and Monitoring Division and present the duplicate copy of the Citation Ticket",
-          "agency_action": "1.2. Coordinate with Lipa CPOS-OCMD to prepare the goods/ items confiscated",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Administrative Assistant III / Administrative Aide III (Lipa City Public Order and Safety Office)"
+          "client_step": "2. Proceed to the Lipa City Treasurer's Office and pay penalty",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees": "1st: P500.00 | 2nd: P1,000.00 | 3rd: P5,000.00 or imprisonment",
+          "processing_time": "35 minutes",
+          "person_responsible": "Revenue Collection Clerk II / III"
         },
         {
-          "client_step": "1. Proceed to the Ordinance Compliance and Monitoring Division and present the duplicate copy of the Citation Ticket",
-          "agency_action": "1.3. Issue Order of Payment",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Administrative Assistant III / Administrative Aide III (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "2. Present the citation ticket to the Lipa City Treasurer’s Extension Office and pay the corresponding fines or penalties",
-          "agency_action": "2.1. Receive payment and issue Official Receipt",
-          "fees_to_be_paid": "1st offense – P500.00; 2nd offense – P1,000.00; 3rd offense – P5,000.00 plus imprisonment of 10 days to 6 months",
-          "processing_time": "5 minutes",
-          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
-        },
-        {
-          "client_step": "3. Present the Official Receipt to Lipa CPOS-OCMD and claim the confiscated goods/ items",
-          "agency_action": "3.1. Release the confiscated goods/ items upon presentation of the Official Receipt",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Administrative Assistant III / Administrative Aide III (Lipa City Public Order and Safety Office)"
-        }
-      ],
-      "total": {
-      "fees": "Varies based on offense",
-      "processing_time": "17 minutes"
-      }
-    },
-    {
-      "id": 2,
-      "office": "Lipa City Public Order and Safety Office",
-      "service_name": "Settlement of Complaints",
-      "image": "/assets/document_background/Settlement of Complaints",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Clients with complaints",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Written complaint",
-          "source": "Complainant"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Proceed to any Lipa CPOS Office concerned (Admin, Traffic Management Division, Ordinance Compliance and Monitoring Division or Tricycle Franchising Division) and file formal complaints",
-          "agency_action": "1.1. For minor issues: Record, monitor, evaluate the issues lodged by the complainant and the defendant and settle with fair decision for minor issues",
-          "fees_to_be_paid": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Supervising Administrative Officer / Traffic Operation Officer IV / Special Operations Officer IV / Security Officer II / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "1. Proceed to any Lipa CPOS Office concerned (Admin, Traffic Management Division, Ordinance Compliance and Monitoring Division or Tricycle Franchising Division) and file formal complaints",
-          "agency_action": "1.2. For major issues: The division head concern initiates the investigation, refer to CPOS Officer for decision and/ or refer the same to the appropriate agency (PNP, LTO, Legal Office and other appropriate agencies)",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 hour",
-          "person_responsible": "Supervising Administrative Officer / Traffic Operation Officer IV / Special Operations Officer IV / Security Officer II / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
-        }
-      ],
-      "total": {
-      "fees": "None",
-      "processing_time": "1 hour for major issues / 20 minutes for minor issues"
-    }
-    },
-    {
-      "id": 3,
-      "office": "Lipa City Public Order and Safety Office",
-      "service_name": "Releasing of Confiscated Driver’s License",
-      "image": "/assets/document_background/Releasing of Confiscated Driver’s License",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Traffic violators with citation ticket",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Citation ticket – 1 duplicate copy",
-          "source": "Traffic Management Office"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Present the duplicate copy of the traffic citation ticket",
-          "agency_action": "1.1. Retrieve the original TCT with the confiscated driver’s license and advise the client to pay the violation fee",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Administrative Aide VI / III / IV (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "1. Present the duplicate copy of the traffic citation ticket",
-          "agency_action": "1.2. Issue Order of Payment",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Administrative Aide VI / III / IV (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "2. Proceed to the Lipa City Treasurer’s Office, Lipa City Treasurer’s Extension Office or Traffic Management Division and pay the corresponding fee",
-          "agency_action": "2.1. Receive payment and issue Official Receipt",
-          "fees_to_be_paid": "See table of fees",
-          "processing_time": "2 minutes",
-          "person_responsible": "Revenue Collection Clerk (Lipa City Treasurer’s Office)"
-        },
-        {
-          "client_step": "3. Present the Official Receipt to Lipa City Public Order and Safety Office and claim the confiscated driver’s license",
-          "agency_action": "3.1. Release the confiscated driver’s license upon presentation of the Official Receipt",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Aide VI / III / IV (Lipa City Public Order and Safety Office)"
-        }
-      ],
-      "fees": "See table of fees",
-      "processing_time": "10 minutes",
-      "service_notice": [
-        { "service_name": "Illegal parking", "processing_fee": "500.00" },
-        { "service_name": "Obstruction", "processing_fee": "400.00" },
-        { "service_name": "Overspeeding", "processing_fee": "400.00" },
-        { "service_name": "Disregarding traffic signs/ lights/ officers", "processing_fee": "400.00" },
-        { "service_name": "Reckless driving", "processing_fee": "500.00" },
-        { "service_name": "Driving under the influence of liquor", "processing_fee": "500.00" },
-        { "service_name": "Driving with delinquent/ invalid driver’s license", "processing_fee": "500.00" },
-        { "service_name": "Unregistered motor vehicles/ no plate", "processing_fee": "500.00" },
-        { "service_name": "Delinquent/ invalid, suspended registration", "processing_fee": "500.00" },
-        { "service_name": "Student driver not accompanied by duly licensed driver", "processing_fee": "400.00" },
-        { "service_name": "Colorum/ unfranchised operation", "processing_fee": "1,000.00" },
-        { "service_name": "Operating out of line", "processing_fee": "500.00" },
-        { "service_name": "Trip cutting", "processing_fee": "500.00" },
-        { "service_name": "Overloading", "processing_fee": "400.00" },
-        { "service_name": "Loading/ unloading on prohibited zone", "processing_fee": "400.00" },
-        { "service_name": "Refusal to convey passenger", "processing_fee": "500.00" },
-        { "service_name": "No body (plate) number for hire vehicle", "processing_fee": "500.00" },
-        { "service_name": "Truck ban", "processing_fee": "500.00" },
-        { "service_name": "Driving with sleeveless shirt and without shoes", "processing_fee": "350.00" },
-        { "service_name": "Original copy or xerox copy of Certificate of Registration/ Official Receipt and CPC not carried", "processing_fee": "350.00" },
-        { "service_name": "Illegal use of license, plate number or Certificate of Registration", "processing_fee": "500.00" },
-        { "service_name": "Illegal turn (left/right)", "processing_fee": "350.00" },
-        { "service_name": "Failure to give Right of Way to emergency vehicles", "processing_fee": "350.00" },
-        { "service_name": "Overcharging (tricycle)", "processing_fee": "700.00" },
-        { "service_name": "Overcharging (PUJ)", "processing_fee": "500.00" },
-        { "service_name": "Illegal overtaking", "processing_fee": "400.00" },
-        { "service_name": "Driving motor vehicle emitting excessive smoke/ odor noise", "processing_fee": "400.00" },
-        { "service_name": "Failure to sign driver’s license", "processing_fee": "350.00" },
-        { "service_name": "Allowing another person to use his license", "processing_fee": "350.00" },
-        { "service_name": "Fake license", "processing_fee": "500.00" },
-        { "service_name": "No early warning device", "processing_fee": "350.00" },
-        { "service_name": "No helmet for single motorcycle driver and rider", "processing_fee": "500.00" },
-        { "service_name": "Unauthorized bell, siren or exhaust whistle", "processing_fee": "400.00" },
-        { "service_name": "Color coding tricycle", "processing_fee": "400.00" },
-        { "service_name": "Reduction scheme PUJs/ van/ multicab/ tricycle", "processing_fee": "400.00" },
-        { "service_name": "No Mayor’s Permit (PUjs/Tricycle)", "processing_fee": "350.00" },
-        { "service_name": "Jaywalking – 1st offense", "processing_fee": "350.00" },
-        { "service_name": "Jaywalking – 2nd offense", "processing_fee": "500.00" },
-        { "service_name": "Jaywalking – 3rd offense", "processing_fee": "800.00" }
-      ]
-    },
-    {
-      "id": 4,
-      "office": "Lipa City Public Order and Safety Office",
-      "service_name": "Releasing of Impounded Motor Vehicles",
-      "image": "/assets/document_background/Releasing of Impounded Motor Vehicles",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Traffic violators, vehicle owners",
-      "checklist_of_requirements": [
-        { "requirement": "Citation ticket – 1 duplicate copy", "source": "Traffic Enforcer on duty" },
-        { "requirement": "Valid driver’s license of claimant – 1 photocopy", "source": "Tricycle operator or driver" },
-        { "requirement": "Certificate of Registration – 1 photocopy", "source": "Land Transportation Office" },
-        { "requirement": "Official Receipt – 1 photocopy", "source": "Land Transportation Office" },
-        { "requirement": "Authorization letter and ID of representative (If authorized representative)", "source": "Tricycle operator / Representative" }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Present the duplicate copy of the traffic citation ticket to Lipa CPOS Administrative Division",
-          "agency_action": "1.1. Receive duplicate copy of Citation Ticket",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Administrative Aide VI / III / IV (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "1. Present the duplicate copy of the traffic citation ticket to Lipa CPOS Administrative Division",
-          "agency_action": "1.2. Issue Order of Payment upon presentation of requirements",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Administrative Aide VI / III / IV (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "2. Proceed to Lipa City Treasurer’s Office, Lipa CTO Satellite Office at Public Market to pay the corresponding violation fee",
-          "agency_action": "2.1. Receive payment and issue Official Receipt",
-          "fees_to_be_paid": "See table of fees",
-          "processing_time": "5 minutes",
-          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
-        },
-        {
-          "client_step": "3. Return to Lipa CPOS-TMD Office to claim the impounded vehicle",
-          "agency_action": "3.1. Release the impounded vehicle upon presentation of the Official Receipt",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Aide VI / III / IV (Lipa City Public Order and Safety Office)"
-        }
-      ],
-      "fees": "See table of fees",
-      "processing_time": "16 minutes",
-      "service_notice": [
-        {
-          "service_name": "Impounding: Four-wheeled vehicles and below",
-          "processing_fee": "P500.00 for 72 hours and additional P200.00 on succeeding day",
-          "processing_time": "72 hours base"
-        },
-        {
-          "service_name": "Impounding: Six and eight-wheeled vehicles",
-          "processing_fee": "P1,000.00 for 72 hours and additional P200.00 on succeeding day",
-          "processing_time": "72 hours base"
-        },
-        {
-          "service_name": "Impounding: Ten-wheeled vehicles and above",
-          "processing_fee": "P1,500.00 for 72 hours and additional P200.00 on succeeding day",
-          "processing_time": "72 hours base"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "office": "Lipa City Public Order and Safety Office",
-      "service_name": "Renewal of Tricycle Franchise/ Motorized Tricycle Operator’s Permit",
-      "image": "/assets/document_background/Renewal of Tricycle Franchise Motorized Tricycle Operator’s Permit",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "All tricycle operators with franchise",
-      "checklist_of_requirements": [
-        { "requirement": "Official Receipt/Certificate of Registration – 1 photocopy", "source": "Land Transportation Office" },
-        { "requirement": "Barangay Clearance – 1 original copy", "source": "Barangay hall" },
-        { "requirement": "Vehicle Insurance Coverage – 1 photocopy", "source": "Any insurance company" },
-        { "requirement": "Motorized Tricycle Operator’s Franchise – 1 original copy", "source": "City Public Order and Safety Office" },
-        { "requirement": "Inspection Report – 1 original copy", "source": "City Engineering Office" }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit requirements to the Lipa CPOS - Tricycle Franchising Division",
-          "agency_action": "1.1. Receive and check the required document",
-          "fees_to_be_paid": "None",
-          "processing_time": "4 minutes",
-          "person_responsible": "Administrative Officer III / Public Utilities Regulation Officer II / Administrative Assistant II (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "2. Proceed to Lipa City Engineering Office for inspection of the unit",
-          "agency_action": "2.1. Check the roadworthiness and issue Official Receipt",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Motorpool Division (Lipa City Engineering Office)"
-        },
-        {
-          "client_step": "3. Proceed to Lipa City Treasurer’s Office for payment of corresponding fees",
-          "agency_action": "3.1. Accept payment and issue Official Receipt",
-          "fees_to_be_paid": "P160.00",
-          "processing_time": "5 minutes",
-          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
-        },
-        {
-          "client_step": "4. Proceed to Lipa CPOS - Tricycle Franchising Division",
-          "agency_action": "4.1. Accept application form and other documents for final checking",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Officer III / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "4. Proceed to Lipa CPOS - Tricycle Franchising Division",
-          "agency_action": "4.2. Prepare Motorized Tricycle Operator’s Franchise (MTOF)",
-          "fees_to_be_paid": "None",
+          "client_step": "3. Present Official Receipt to POSO",
+          "agency_action": "3. Record payment and inform OCMD/TMD to prepare items for release",
+          "fees": "None",
           "processing_time": "1 minute",
-          "person_responsible": "Supervising Administrative Officer IV / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
+          "person_responsible": "Administrative Aide VI / Administrative Aide II"
         },
         {
-          "client_step": "4. Proceed to Lipa CPOS - Tricycle Franchising Division",
-          "agency_action": "4.3. Final review of MTOF",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "City Public Order and Safety Officer (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "4. Proceed to Lipa CPOS - Tricycle Franchising Division",
-          "agency_action": "4.4. Final checking and approval of the MTOF by the Chairman of the LCTFRB",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 days",
-          "person_responsible": "City Mayor (Lipa City Mayor’s Office)"
+          "client_step": "4. Proceed to TMD Office and present proof of payment/ownership",
+          "agency_action": "4. Retrieve and release confiscated items/goods",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Traffic Aide III"
         }
       ],
       "total": {
-      "fees": "P160.00",
-      "processing_time": "3 days and 43 minutes"
-      }
-    },
-    {
-      "id": 6,
-      "office": "Lipa City Public Order and Safety Office",
-      "service_name": "Application for Renewal of Tricycle Franchise",
-      "image": "/assets/document_background/Application for Renewal of Tricycle Franchise",
-      "classification": "Complex",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Tricycle operators with existing franchise",
-      "checklist_of_requirements": [
-        { "requirement": "Proof of Residency, OR/CR, Insurance, Barangay Clearance", "source": "Barangay / LTO / Insurance" },
-        { "requirement": "Driver’s License, CTC, MTOF, 2x2 ID Picture, Inspection Report", "source": "Applicant / CPOS / Engineering Office" }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Proceed to Lipa CPOS - Tricycle Franchising Division",
-          "agency_action": "1.1. Receive and check the required document",
-          "fees_to_be_paid": "None",
-          "processing_time": "4 minutes",
-          "person_responsible": "Administrative Officer III / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "2. Proceed to Lipa City Engineering Office for the inspection of the unit",
-          "agency_action": "2.1. Check the road worthiness of the vehicle and issue Certificate of Road Worthiness",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Motorpool Division (Lipa City Engineering Office)"
-        },
-        {
-          "client_step": "3. Proceed to Lipa City Treasurer’s Office for payment of corresponding fees",
-          "agency_action": "3.1. Receive payment and issue Official Receipt",
-          "fees_to_be_paid": "P160.00",
-          "processing_time": "5 minutes",
-          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
-        },
-        {
-          "client_step": "4. Proceed to Lipa CPOS - Tricycle Franchising Office",
-          "agency_action": "4.1. Accept the application form and other documents for final checking",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Officer III / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "4. Proceed to Lipa CPOS - Tricycle Franchising Office",
-          "agency_action": "4.2. Prepare Motorized Tricycle Operator’s Franchise (MTOF)",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Supervising Administrative Officer IV (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "4. Proceed to Lipa CPOS - Tricycle Franchising Office",
-          "agency_action": "4.3. Review MTOF",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "City Public Order and Safety Office (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "4. Proceed to Lipa CPOS - Tricycle Franchising Office",
-          "agency_action": "4.4. Approve MTOF by the Chairman of LCTFRB",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 days",
-          "person_responsible": "City Mayor (Lipa City Mayor’s Office)"
-        }
-      ],
-      "total": {
-      "fees": "P160.00",
-      "processing_time": "3 days and 43 minutes"
-      }
-    },
-    {
-      "id": 7,
-      "office": "Lipa City Public Order and Safety Office",
-      "service_name": "Renewal of Mayor’s Permit for Tricycle",
-      "image": "/assets/document_background/Renewal of Mayor’s Permit for Tricycle",
-      "classification": "Complex",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Tricycle operators with existing franchise",
-      "checklist_of_requirements": [
-        { "requirement": "LTO OR/CR, MTOF, Cedula, ID of operator", "source": "LTO / CPOS / Treasurer's Office" }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Proceed to Lipa CPOS - Tricycle Franchising Division",
-          "agency_action": "1.1. Receive the required documents for initial checking",
-          "fees_to_be_paid": "None",
-          "processing_time": "4 minutes",
-          "person_responsible": "Administrative Officer III / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "1. Proceed to Lipa CPOS - Tricycle Franchising Division",
-          "agency_action": "1.2. Issue Order of Payment",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Administrative Officer III / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "2. Present the Order of Payment and pay the corresponding fee at the Lipa City Treasurer’s Office",
-          "agency_action": "2.1. Receive payment and issue Official Receipt",
-          "fees_to_be_paid": "P140.00",
-          "processing_time": "5 minutes",
-          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
-        },
-        {
-          "client_step": "3. Return to the Lipa CPOS - Tricycle Franchising Division, submit the documents and photocopy of Official Receipt",
-          "agency_action": "3.1. Record and have the client sign the receiving logbook and release the sticker",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Administrative Officer III / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
-        }
-      ],
-      "total": {
-      "fees": "P140.00",
-      "processing_time": "12 minutes"
-      }
-    },
-    {
-      "id": 8,
-      "office": "Lipa City Public Order and Safety Office",
-      "service_name": "Transfer of Ownership of Motorized Tricycle and Change Motor",
-      "image": "/assets/document_background/Transfer of Ownership of Motorized Tricycle and Change Motor",
-      "classification": "Complex",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Tricycle operators with or without franchise",
-      "checklist_of_requirements": [
-        { "requirement": "Form 04 / Form 05, OR/CR, Insurance, Brgy Clearance, Deed of Sale", "source": "CPOS / LTO / Notary / Brgy" }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit notarized application form together with the complete requirements",
-          "agency_action": "1.1. Receive the application form and check the completeness of the submitted documents and issue Order of Payment",
-          "fees_to_be_paid": "None",
-          "processing_time": "4 minutes",
-          "person_responsible": "Administrative Officer III / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "2. Proceed to the Lipa City Engineering Office for inspection of the unit",
-          "agency_action": "2.1. Inspect the motorcycle unit for road-worthiness and issue Certification of Road Worthiness",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Motorpool Division (Lipa City Engineering Office)"
-        },
-        {
-          "client_step": "3. Present the Order of Payment and pay the corresponding fee at the Lipa City Treasurer’s Office",
-          "agency_action": "3.1. Receive payment and issue Official Receipt",
-          "fees_to_be_paid": "P160.00 for Change Motor / P2,500.00 for transfer of ownership",
-          "processing_time": "5 minutes",
-          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer’s Office)"
-        },
-        {
-          "client_step": "4. Proceed to Lipa CPOS - Tricycle Franchising Division and submit final requirements",
-          "agency_action": "4.1. Prepare MTOF",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Supervising Administrative Officer IV / Public Utilities Regulation Officer II (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "4. Proceed to Lipa CPOS - Tricycle Franchising Division and submit final requirements",
-          "agency_action": "4.2. Final review of MTOF and documents",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "City Public Order and Safety Officer (Lipa City Public Order and Safety Office)"
-        },
-        {
-          "client_step": "4. Proceed to Lipa CPOS - Tricycle Franchising Division and submit final requirements",
-          "agency_action": "4.3. Approve MTOF by the Chairman of LCTFRB",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 days",
-          "person_responsible": "City Mayor (Lipa City Mayor’s Office)"
-        }
-      ],
-      "total": {
-      "fees": "P160.00 (Change) / P2,500.00 (Transfer)",
-      "processing_time": "3 days and 43 minutes"
+        "fees": "P500.00 to P5,000.00 (depending on offense count)",
+        "processing_time": "41 minutes"
       }
     }
   ]
