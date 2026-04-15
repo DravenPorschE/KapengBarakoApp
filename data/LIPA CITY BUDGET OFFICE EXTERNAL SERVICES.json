@@ -1,224 +1,78 @@
 {
-  "department": "Lipa City Budget Office External Services",
+  "department": "Lipa City Budget Office",
   "external_services": [
     {
-      "office": "Lipa City Budget Office External Services",
-      "service_name": "Request for Review and Approval of Annual and Supplemental Barangay Budget",
-      "image": "/assets/document_background/Request for Review and Approval of Annual and Supplemental Barangay",
+      "service_name": "Technical Assistance on the Preparation, Review and Approval of Barangay/ SK Annual and Supplemental Budget",
+      "image": "/assets/document_background/Technical Assistance on the Preparation_ Review and Approval of Barangay_ SK Annual and Supplemental Budget",
+      "office": "Lipa City Budget Office",
       "classification": "Highly technical",
       "type_of_transaction": "G2G - Government to Government",
       "who_may_avail": "Barangay Officials only",
       "checklist_of_requirements": [
         {
-          "requirement": "For Barangay Annual Budget: Transmittal letter – 2 original copies, 3 photocopies",
-          "source": "Respective Barangays (through the Barangay Treasurer, Secretary and Punong Barangay)"
-        },
-        {
-          "requirement": "Appropriation Ordinance – 2 original copies, 3 photocopies",
+          "requirement": "Barangay Annual Budget: Transmittal letter, Appropriation Ordinance, Budget Message, BBPF Nos. 01, 02, 02-A, 03, Expenditure Program, AIP (including BDRRMFIP, BDRRP, GAD Plan, BCPC Plan), Resolutions, and Annexes (Income Statement, Past Year Exp., Monetization, Free Resources, PPMP, APP, Nutrition Plan) – 2 original copies, 3 photocopies each",
           "source": "Respective Barangays"
         },
         {
-          "requirement": "Budget Message - 2 original copies, 3 photocopies",
+          "requirement": "SK Annual Budget: SK BBPF No. 02, 03, ABYIP, Resolutions (CBYDP, ABYIP approval, 10% SK Fund), PPMP, APP – 2 original copies, 3 photocopies each",
           "source": "Respective Barangays"
         },
         {
-          "requirement": "Certified Statement of Income - 2 original copies, 3 photocopies",
+          "requirement": "Barangay Supplemental Budget: Transmittal Letter, Appropriation Ordinance, Cover letter, BSBPF No. 01, 02, Supplemental AIP, Resolutions, PPMP, Supplemental APP – 2 original copies, 3 photocopies each",
           "source": "Respective Barangays"
         },
         {
-          "requirement": "BBPF No. 01 – Budget of Expenditures and Sources of Financing - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "BBPF No. 02 – Programmed Appropriation by PPA, Expense Class, Object of Expenditure and Expected Results - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "BBPF No. 02-A – List of Projects Chargeable Against the 20% Development Fund - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "BBPF No. 03 – Plantilla of Personnel - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "BBPF No. 04 – Statement of Indebtedness - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Barangay Expenditure Program - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Annual Investment Program (AIP) for the Budget Year - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Barangay Disaster Risk Reduction and Management Fund Investment Plan (BDRRMFIP) (with Certification from CDRRMO) - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Annual Barangay Disaster Risk Reduction Plan - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Barangay Annual Gender and Development Plan and Budget (with endorsement from CPDO and with certification from DILG) - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Barangay Council for the Protection of Children Work and Financial Plan - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Devolution Transition Plan",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Resolution creating the Barangay Development Plan and Annual Investment Program for Budget Year - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Resolution Approving the Barangay Development Plan and Annual Investment Program for Budget - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "For Sangguniang Kabataan (SK) Budget: SK BBPF No. 02 – Programmed Appropriation by PPA, Expense Class, Object of Expenditure and Expected Results – 2 original copies, 3 photocopies",
-          "source": "Respective Barangays (thru the Barangay Treasurer, Secretary and Punong Barangay)"
-        },
-        {
-          "requirement": "Annual Barangay Youth Investment Program (ABYIP) - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Resolution approving ABYIP - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Resolution approving 10% Sangguniang Kabataan Fund - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Actual Income and Expenditures for the Past Year - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Monetization of Earned Leave Credits - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Computation of Free Resources - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "For Barangay Supplemental Budget: Transmittal Letter - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays (thru the Barangay Treasurer, Secretary and Punong Barangay)"
-        },
-        {
-          "requirement": "Appropriation Ordinance - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Cover letter – 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Budget Message - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "BSBPF No. 01 – Statement of Funding Sources - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "BSBPF No. 02 – Statement of Supplemental Appropriations - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Approved Supplemental AIP, if any - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Resolution approving Supplemental AIP, if any - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "For Sangguniang Kabataan (SK) Supplemental Budget: SK BSBPF No. 02 – Statement of Supplemental Appropriations - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays (thru the Barangay Treasurer, Secretary and Punong Barangay)"
-        },
-        {
-          "requirement": "Approved Supplemental ABYIP, if any - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Resolution approving SK Supplemental Budget, if any - 2 original copies, 3 photocopies",
-          "source": "Respective Barangays"
-        },
-        {
-          "requirement": "Resolution approving Supplemental ABYIP, if any - 2 original copies, 3 photocopies",
+          "requirement": "SK Supplemental Budget: SK BSBPF No. 01, 02, Supplemental ABYIP, Resolutions, Annexes (Computation of Surplus, Summary of Expenses, PPMP, Supplemental APP) – 2 original copies, 3 photocopies each",
           "source": "Respective Barangays"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Secure Barangay Annual/ Supplemental Budget Appropriation Form at the Lipa City Budget Office or through the online platform",
-          "agency_action": "1. Provide Barangay Annual/ Supplemental Budget Preparation Forms to the requesting barangay officials",
+          "client_step": "1. Sign in the Client Logbook",
+          "agency_action": "1. Give the logbook to the client",
           "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Supervising Administrative Officer / Administrative Officer V / Senior Administrative Assistant II (Lipa City Budget Office)"
+          "processing_time": "2 minutes",
+          "person_responsible": "Supervising Administrative Officer, Administrative Officer V, Administrative Assistant II (Lipa City Budget Office)"
         },
         {
-          "client_step": "2. Accomplish the Annual/ Supplemental Budget Preparation Forms as required by RA 7160 *This process may take several days to be accomplished.",
-          "agency_action": "2. Render technical assistance to Barangay Officials",
+          "client_step": "2. Secure Barangay Annual/ Supplemental Budget Preparation Form at the City Budget Office or through digital platform",
+          "agency_action": "2. Provide forms to requesting barangay and SK officials",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Supervising Administrative Officer, Administrative Officer V, Administrative Assistant II (Lipa City Budget Office)"
+        },
+        {
+          "client_step": "3. Accomplish the Annual/ Supplemental Budget Preparation Forms as required by RA 7160",
+          "agency_action": "3. Renders technical assistance (Workshop, encoding guidance for Plantilla/AIP/APP/PPMP, computation of resources, coding of accounts, 20% Dev Fund, 5% BDRRM, etc.)",
           "fees": "None",
           "processing_time": "4 hours",
-          "person_responsible": "Supervising Administrative Officer / Administrative Officer V / Senior Administrative Assistant II (Lipa City Budget Office)"
+          "person_responsible": "Supervising Administrative Officer, Administrative Officer V, Administrative Assistant II (Lipa City Budget Office)"
         },
         {
-          "client_step": "3. Submit the approved Annual/ Supplemental Budget to the Sangguniang Panlungsod thru the Lipa City Budget Office for review",
-          "agency_action": "3. Receive the approved Annual/ Supplemental Budget of the barangay for review",
+          "client_step": "4. Submit the approved Annual/ Supplemental Budget to the Sangguniang Panlungsod thru the Lipa City Budget Office for review",
+          "agency_action": "4. Receive and verify completeness of documents and signatures (incomplete submissions are returned in writing)",
           "fees": "None",
           "processing_time": "10 minutes",
-          "person_responsible": "Supervising Administrative Officer / Senior Administrative Assistant II (Lipa City Budget Office)"
+          "person_responsible": "Supervising Administrative Officer, Administrative Officer V, Administrative Assistant II (Lipa City Budget Office)"
         },
         {
-          "client_step": "4. Wait for review action/ SP resolution",
-          "agency_action": "4.1.a. Review approved Annual Appropriation Ordinance, together with the attached supporting documents budget, and checks all the technical/ legal requirements: 1.1. Income 1.2. Expenditures 1.2.1. Personal Services 1.2.2. MOOE 1.2.3. Capital Outlays 1.3. Mandatory Obligation 1.3.1. 20% Development Fund 1.3.2. 10% Sangguniang Kabataan Fund 1.3.3. 5% BDRRM Fund 1.4. Other Appropriation 1.4.1. Gender and Development 1.4.2. BCPC 1.4.3. Assistance to Senior Citizens and PWD 1.5. Barangay Resolutions necessary for approval of the Appropriation Ordinance",
+          "client_step": "5. Wait for review action/ SP resolution of Barangay/SK Annual and Supplemental Budget",
+          "agency_action": "5.1.a/b. Review Annual Appropriation (Income, Expenditures, Mandatory Obligations, specialized funds); 5.2.a/b. Review Supplemental Budget (Funding sources, project alignment); 5.2.c. Transmit to SP; 5.2.d. Review and approve pursuant to Section 458 of LGC",
           "fees": "None",
-          "processing_time": "10 working days",
-          "person_responsible": "Senior Administrative Assistant II / Administrative Officer V / Supervising Administrative Officer / Asst. City Budget Officer / City Budget Officer (Lipa City Budget Office)"
+          "processing_time": "17 days, 12 hours and 32 minutes",
+          "person_responsible": "City Budget Officer, Asst. City Budget Officer, Administrative Officer V, Administrative Assistant II, SP Staff"
         },
         {
-          "client_step": "4. Wait for review action/ SP resolution",
-          "agency_action": "4.1.b. Review approved Supplemental Appropriation Ordinance, together with the attached supporting documents budget, and check all the technical/ legal requirements: 4.1. Funding Source 4.1.1. Income 1.2. For Supplemental Appropriation 1.2.1. Expenditures: - Personal Services - MOOE - Capital Outlay 1.3. Included in the Supplemental Annual Investment Program 1.4. Barangay resolutions necessary for the approval of the Supplemental Appropriation Ordinance",
-          "fees": "None",
-          "processing_time": "10 working days",
-          "person_responsible": "Senior Administrative Assistant II / Administrative Officer V / Supervising Administrative Officer / Asst. City Budget Officer / City Budget Officer (Lipa City Budget Office)"
-        },
-        {
-          "client_step": "4. Wait for review action/ SP resolution",
-          "agency_action": "4.2. Transmit the reviewed barangay Annual/ Supplemental Budget to the Sangguniang Panlungsod for approval",
-          "fees": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Administrative Aide II / Senior Administrative Assistant II (Lipa City Budget Office)"
-        },
-        {
-          "client_step": "4. Wait for review action/ SP resolution",
-          "agency_action": "4.3. Approve the Barangay Annual/ Supplemental Budget",
-          "fees": "None",
-          "processing_time": "None",
-          "person_responsible": "Sangguniang Panlungsod members (Office of the Sangguniang Panlungsod)"
-        },
-        {
-          "client_step": "5. Secure the copy of the SP Resolution at the Sangguniang Panlungsod",
-          "agency_action": "5. Issue the certified true copy of the SP resolution approving the Appropriation Ordinance to the Sangguniang Barangay",
+          "client_step": "6. Secure a copy of the SP resolution at the Sangguniang Panlungsod",
+          "agency_action": "6. Issue Certified True Copy of SP Resolution",
           "fees": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Secretary to the SP (Office of the Sangguniang Panlungsod)"
+          "person_responsible": "Secretary to the SP (Office of the Secretary to the Sangguniang Panlungsod)"
         }
       ],
       "total": {
         "fees": "None",
-        "processing_time": "10 working days, 4 hours and 35 minutes"
+        "processing_time": "19 working days, 1 hour and 19 minutes"
       }
     }
   ]

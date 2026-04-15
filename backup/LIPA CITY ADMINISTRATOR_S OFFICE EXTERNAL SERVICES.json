@@ -1,0 +1,966 @@
+{
+  "department": "Lipa City Administrator's Office",
+  "external_services": [
+    {
+      "id": 1,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Application for Authority to Travel/ Medical Clearance Certificate",
+      "image": "/assets/document_background/Application for Authority to Travel_ Medical Clearance Certificate",
+      "classification": "Simple",
+      "type_of_transaction": "G2C - Government to Citizens",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Valid ID with address in Lipa City, preferably Driver's License, Voter's ID or postal ID – 1 original, 1 photocopy",
+          "source": "Requesting party"
+        },
+        {
+          "requirement": "Barangay Certification",
+          "source": "Respective barangays where applicant resides"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Fill up the Client Information Sheet, attach the photocopy of valid ID and submit to the person in charge",
+          "agency_action": "1.1. Receive the accomplished Client Information Sheet and evaluate the submitted attachment",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Fill up the Client Information Sheet, attach the photocopy of valid ID and submit to the person in charge",
+          "agency_action": "1.2. Prepare the Authority to Travel/ Medical Clearance Certificate",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Administrative Assistant III, Administrative Officer II (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Fill up the Client Information Sheet, attach the photocopy of valid ID and submit to the person in charge",
+          "agency_action": "1.3. Forward the Authority to Travel/ Medical Clearance Certificate to the City Administrator for signature",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Senior Admin. Asst. II (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Fill up the Client Information Sheet, attach the photocopy of valid ID and submit to the person in charge",
+          "agency_action": "1.4. Sign the Authority to Travel/ Medical Clearance Certificate",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "City Administrator (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "2. Receive the approved Authority to Travel/ Medical Clearance Certificate",
+          "agency_action": "2. Release the Authority to Travel/ Medical Clearance Certificate",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Administrative Assistant III, Administrative Officer IV (Lipa City Administrator's Office)"
+        }
+      ],
+
+      "total": {
+        "fees": "None",
+        "processing_time": "12 minutes"
+      }
+    },
+    {
+      
+      
+      "id": 2,
+      "department": "Lipa City Administrator's Office",
+      "office":"Lipa City Administrator's Office",
+      "service_name": "Application for Mayor's Clearance",
+      "image": "/assets/document_background/Application for Mayor’s Clearance",
+      "classification": "Simple",
+      "type_of_transaction": "G2C - Government to Citizen",
+      "who_may_avail": "All Lipa City residents and non-Lipa residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Police Clearance – 1 original copy",
+          "source": "Lipa City Philippine National Police Admin Office"
+        },
+        {
+          "requirement": "NBI Clearance – 1 original copy",
+          "source": "National Bureau of Investigation (NBI)"
+        },
+        {
+          "requirement": "Barangay Clearance – 1 original copy",
+          "source": "Respective barangay halls"
+        },
+        {
+          "requirement": "Community Tax Certificate – 1 original copy",
+          "source": "Respective barangay halls or Lipa City Treasurer's Office"
+        },
+        {
+          "requirement": "Endorsement letter from City or Municipal Mayor (non-Lipa residents) – 1 original copy",
+          "source": "Respective City/ Municipal Mayor's Office"
+        },
+        {
+          "requirement": "Health permit (if food handler) – 1 original copy",
+          "source": "Lipa City Health Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit complete requirements to the person-in-charge",
+          "agency_action": "1.1 Receive, assess and evaluate the submitted requirements",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Submit complete requirements to the person-in-charge",
+          "agency_action": "1.2 Issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Administrative Officer II (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "2. Present the Order of Payment and pay the corresponding fee at the City Treasurer's Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "Lipa Residents: P50.00 / Non-Lipa: P75.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the City Administrator's Office",
+          "agency_action": "3.1 Prepare the Mayor's Clearance",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the City Administrator's Office",
+          "agency_action": "3.2 Endorse the Mayor's Clearance to the City Administrator for signature",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Administrative Officer II (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the City Administrator's Office",
+          "agency_action": "3.3 Sign the Mayor's Clearance",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "City Administrator (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "4. Receive the approved Mayor's Clearance",
+          "agency_action": "4. Record the document, put a dry seal, retain a duplicate copy and issue the clearance",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Officer IV / Administrative Officer II (Lipa City Administrator's Office)"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "20 minutes"
+      }
+    },
+    {
+      "id": 3,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Application for Special Mayor's Permit for Film Making, Group Activities and Fund-Raising Activities",
+      "image": "/assets/document_background/Application for Special Mayor’s Permit for Film Making, Group Activities",
+      "classification": "Simple",
+      "type_of_transaction": "G2C - Government to Citizen",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Request letter – 1 original, 1 photocopy",
+          "source": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the request letter to the person-in-charge",
+          "agency_action": "1.1. Receive the request letter and record on the logbook",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Administrative Officer IV / Administrative Assistant III (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Submit the request letter to the person-in-charge",
+          "agency_action": "1.2. Endorse the request to City Administrator for approval",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Administrative Assistant III (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Submit the request letter to the person-in-charge",
+          "agency_action": "1.3. Issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Administrative Officer IV / Administrative Assistant III (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "2. Present the Order of Payment and pay the corresponding fee at the Lipa City Treasurer's Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "See table of fees",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
+          "agency_action": "3.1. Prepare the permit",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
+          "agency_action": "3.2. Endorse the permit to the Assistant City Administrator for his initial",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Administrative Assistant III / Assistant City Administrator for Administration (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
+          "agency_action": "3.3 Sign the permit",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "City Administrator (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "4. Claim the permit",
+          "agency_action": "4. Issue the permit and retain a duplicate copy",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Administrative Officer IV / Administrative Assistant III (Lipa City Administrator's Office)"
+        }
+      ],
+
+      "total": {
+        "fees": "See table of fees",
+        "processing_time": "21 minutes"
+      },
+
+      "service_notice": [
+        {"service_name": "Film Making: Commercial movies (Urban Area)", "processing_fee": "P500.00/day", "processing_time": "1 day"},
+        {"service_name": "Film Making: Commercial movies (Rural Area)", "processing_fee": "P300.00/day", "processing_time": "1 day"},
+        {"service_name": "Film Making: Commercial advertisement (Urban Area)", "processing_fee": "P500.00/day", "processing_time": "1 day"},
+        {"service_name": "Film Making: Commercial advertisement (Rural Area)", "processing_fee": "P300.00/day", "processing_time": "1 day"},
+        {"service_name": "Film Making: Documentary film (Urban Area)", "processing_fee": "P300.00/day", "processing_time": "1 day"},
+        {"service_name": "Film Making: Documentary film (Rural Area)", "processing_fee": "P200.00/day", "processing_time": "1 day"},
+        {"service_name": "Film Making: Video tape coverage (Urban Area)", "processing_fee": "P200.00/day", "processing_time": "1 day"},
+        {"service_name": "Film Making: Video tape coverage (Rural Area)", "processing_fee": "P100.00/day", "processing_time": "1 day"},
+        {"service_name": "Group Activity: Conferences/ meetings/ rallies and demonstrations", "processing_fee": "P500.00/day", "processing_time": "1 day"},
+        {"service_name": "Group Activity: Dances", "processing_fee": "P500.00/day", "processing_time": "1 day"},
+        {"service_name": "Group Activity: Coronation and ball", "processing_fee": "P500.00/day", "processing_time": "1 day"},
+        {"service_name": "Group Activity: Promotional sales", "processing_fee": "P500.00/day", "processing_time": "1 day"},
+        {"service_name": "Group Activity: Other group activities", "processing_fee": "P500.00/day", "processing_time": "1 day"}
+      ]
+      
+    },
+
+
+
+    {
+      "id": 4,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Application for Special Mayor's Permit for the Use of Government Facilities",
+      "image": "/assets/document_background/Application for Special Mayor’s Permit for the Use of Government Facilities",
+      "classification": "Simple",
+      "type_of_transaction": "G2C - Government to Citizen",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Request letter stating government facility to be used, date, time and purpose – 1 original copy",
+          "source": "Requesting party/ applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit complete requirement/s to the person in charge",
+          "agency_action": "1.1 Receive and record into the logbook the client's request",
+          "fees_to_be_paid": "None",
+          "processing_time": "4 minutes",
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Submit complete requirement/s to the person in charge",
+          "agency_action": "1.2 Attach an action slip and check the availability of the venue",
+          "fees_to_be_paid": "None",
+          "processing_time": "Included in Step 1",
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Submit complete requirement/s to the person in charge",
+          "agency_action": "1.3 Forward the request for approval or inform client if not available",
+          "fees_to_be_paid": "None",
+          "processing_time": "Included in Step 1",
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Submit complete requirement/s to the person in charge",
+          "agency_action": "1.4 Issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "Included in Step 1",
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "2. Present the Order of Payment and pay at the Treasurer's Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "See table of fees",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
+          "agency_action": "3.1 Prepare the permit to use the venue",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
+          "agency_action": "3.2 Endorse the permit to the Asst. City Administrator",
+          "fees_to_be_paid": "None",
+          "processing_time": "Included in Step 3",
+          "person_responsible": "Administrative Assistant III (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
+          "agency_action": "3.3 Initial and sign the permit",
+          "fees_to_be_paid": "None",
+          "processing_time": "Included in Step 3",
+          "person_responsible": "Asst. City Administrator for Administration / City Administrator (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "4. Claim the approved permit",
+          "agency_action": "4.1 Record document and sign in logbook",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "4. Claim the approved permit",
+          "agency_action": "4.2 Issue the permit",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Administrative Assistant III (Lipa City Administrator's Office)"
+        }
+      ],
+      "total": {
+        "fees": "See table of fees",
+        "processing_time": "21 minutes"
+      },
+
+      "service_notice": [
+        {"service_name": "Audio Visual Room", "processing_fee": "Free", "processing_time": "Per use"},
+        {"service_name": "Lipa City Plaza Independencia", "processing_fee": "Free", "processing_time": "Per use"},
+        {"service_name": "Lipa City Youth and Cultural Center: Govt/Barangay affairs", "processing_fee": "P2,500.00", "processing_time": "Per use"},
+        {"service_name": "Lipa City Youth and Cultural Center: NGOs/Civic groups", "processing_fee": "P5,000.00", "processing_time": "Per use"},
+        {"service_name": "Lipa City Youth and Cultural Center: Shows with tickets", "processing_fee": "P20,000.00", "processing_time": "Per use"},
+        {"service_name": "Lipa City Community Park: Swimming pool (Adult)", "processing_fee": "P50.00", "processing_time": "Per head"},
+        {"service_name": "Lipa City Community Park: Swimming pool (Children)", "processing_fee": "P20.00", "processing_time": "Per head"}
+      ]
+    },
+    {
+      "id": 5,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Application for Permit for Motorcade/ Recorrida and Processions",
+      "image": "/assets/document_background/Application for Permit for Motorcade_Recorrida and Processions",
+      "classification": "Simple",
+      "type_of_transaction": "G2C - Government to Citizen",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Request letter indicating the date, time of the activity including the route – 1 original copy",
+          "source": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the request letter to the person-in-charge",
+          "agency_action": "1.1 Receive and coordinate with Traffic Management Division",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Submit the request letter to the person-in-charge",
+          "agency_action": "1.2 Endorse letter to City Administrator for approval",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Administrative Assistant III (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Submit the request letter to the person-in-charge",
+          "agency_action": "1.3 Approve the request and issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "City Administrator / Admin Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "2. Present the Order of Payment and pay at the Treasurer's Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "Motorcade/Recorrida: P300; w/ Escort: P500",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Administrator's Office",
+          "agency_action": "3.1 Prepare, initial, and sign the permit",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Admin Officer IV / Asst. City Admin / City Admin (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "4. Claim the permit",
+          "agency_action": "4. Release the permit and retain duplicate",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Administrative Officer IV / Administrative Assistant III (Lipa City Administrator's Office)"
+        }
+      ],
+    
+      "total": {
+        "fees": "See service notice",
+        "processing_time": "22 minutes"
+      },
+      "service_notice": [
+        {"service_name": "Motorcade", "processing_fee": "P300.00/day", "processing_time": "1 day"},
+        {"service_name": "Motorcade with police escort", "processing_fee": "P500.00/day", "processing_time": "1 day"},
+        {"service_name": "Recorrida", "processing_fee": "P300.00/day", "processing_time": "1 day"}
+      ]
+    },
+    {
+      "id": 6,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Responding to Other Incoming Communications",
+      "image": "/assets/document_background/Responding to Other Incoming Communications",
+      "classification": "Simple",
+      "type_of_transaction": "G2C - Government to Citizen",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letters of various concerns – 1 original, 1 photocopy",
+          "source": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the letter to the person-in-charge",
+          "agency_action": "1.1. Receive the letter, record and attach action slip",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Officer IV (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Submit the letter to the person-in-charge",
+          "agency_action": "1.2. Endorse and forward to City Administrator for action",
+          "fees_to_be_paid": "None",
+          "processing_time": "6 minutes",
+          "person_responsible": "Senior Admin. Asst. II / Asst. City Administrator (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "1. Submit the letter to the person-in-charge",
+          "agency_action": "1.4. Act on the matter",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "City Administrator (Lipa City Administrator's Office)"
+        },
+        {
+          "client_step": "2. Wait for the decision/ action",
+          "agency_action": "2. Notify the client of the decision/ action/ instruction",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Senior Admin. Asst. II / Administrative Officer IV (Lipa City Administrator's Office)"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "12 minutes"
+      }
+
+    },
+    {
+      "id": 7,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Emergency Response Services",
+      "image": "/assets/document_background/Emergency Response Services",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Residents of Lipa City",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Any valid ID",
+          "source": "Requesting party/ applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Report the incident through phone, radio, or personal request",
+          "agency_action": "1.1 Receive request, log information, process and verify",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Dispatch Officer on Duty (LCAdO - Disaster Risk Reduction and Management Division)"
+        },
+        {
+          "client_step": "1. Report the incident",
+          "agency_action": "1.2 Dispatch ambulance or coordinate with nearby hospitals/barangay",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "City Response Personnel (LCAdO - Disaster Risk Reduction and Management Division)"
+        },
+        {
+          "client_step": "2. Follow up the progress of the reported incident",
+          "agency_action": "2.1 Provide feedback to the requesting party",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Dispatch Officer on Duty (LCAdO - Disaster Risk Reduction and Management Division)"
+        },
+        {
+          "client_step": "2. Follow up progress",
+          "agency_action": "2.2 Monitor the status and action taken",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 hour",
+          "person_responsible": "Dispatch Officer on Duty (LCAdO - Disaster Risk Reduction and Management Division)"
+        }
+      ],
+
+         "total": {
+        "fees": "None",
+        "processing_time": "1 hour and 15 minutes"
+      }
+    },
+    {
+      "id": 8,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Request for the Conduct of Disaster Awareness and Management Seminar",
+      "image": "/assets/document_background/Request for the Conduct of Disaster Awareness and Management",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B, G2G",
+      "who_may_avail": "Govt agencies, private companies, schools, NGOs",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of request/ electronic mail addressed to the CDRRM Officer – 1 original copy",
+          "source": "Requesting party/ applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the letter of request to the person-in-charge",
+          "agency_action": "1.1 Receive and record into the logbook",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV (LCAdO - Disaster Risk Reduction and Management Division)"
+        },
+        {
+          "client_step": "1. Submit request",
+          "agency_action": "1.2 Forward and secure approval from City Administrator",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Admin Aide II / City Administrator (LCAdO-DRRM Division)"
+        },
+        {
+          "client_step": "3. Wait for the schedule of activity",
+          "agency_action": "2. Set the schedule of seminars/ trainings (inform client if disapproved)",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "DRRM Officer (LCAdO–Disaster Risk Reduction and Management Division)"
+        },
+        {
+          "client_step": "4. Attend the scheduled activity",
+          "agency_action": "3. Facilitate the conduct of activity",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 hours",
+          "person_responsible": "DRRM Officer / Nurse II (LCAdO–Disaster Risk Reduction and Management Division)"
+        }
+      ],
+
+       "total": {
+        "fees": "None",
+        "processing_time": "2 hours and 17 minutes"
+      }
+    },
+    {
+      "id": 9,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Request for Review of CCTV Recorded Incidents",
+      "image": "/assets/document_background/Request for Review of CCTV Recorded Incidents",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B, G2G",
+      "who_may_avail": "Government agencies, private companies, private individuals",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of request addressed to the CDRRM Officer – 1 original copy",
+          "source": "Requesting party/ applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the letter of request to the person-in-charge",
+          "agency_action": "1.1 Receive and record into the logbook",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV (LCAdO-DRRM Division)"
+        },
+        {
+          "client_step": "1. Submit request",
+          "agency_action": "1.2 Evaluate and approve/disapprove request",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Admin Aide II / City Administrator (LCAdO-DRRM Division)"
+        },
+        {
+          "client_step": "2. Wait for schedule and answer queries of personnel",
+          "agency_action": "2. Interview client and set schedule of review",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Dispatch Officer / Engineering Assistant (LCAdO-DRRM Division)"
+        },
+        {
+          "client_step": "3. Watch and review CCTV footages",
+          "agency_action": "3. Facilitate the review and assist client",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 hours",
+          "person_responsible": "Dispatch Officer / Admin Aide IV/I (LCAdO-DRRM Division)"
+        }
+      ],
+
+      "total": {
+        "fees": "None",
+        "processing_time": "5 hours and 17 minutes"
+      }
+    },
+    {
+      "id": 10,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Attending to Complaints against Defective Weights and Measures at Candido B.Lopez Memorial Public Market",
+      "image": "/assets/document_background/Attending to Complaints against Defective Weights and Measures at",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Purchased commodity",
+          "source": "Complainant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Report complaint to the person-in-charge",
+          "agency_action": "1.1 Receive and record complaint",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Market Supervisor / OIC-Market Administrator (LCAdO - Economic Enterprise Division)"
+        },
+        {
+          "client_step": "1. Report complaint",
+          "agency_action": "1.2 Weigh the commodity to validate",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Market Inspector II (LCAdO - Economic Enterprise Division)"
+        },
+        {
+          "client_step": "2. File a written complaint",
+          "agency_action": "2.1 Receive written complaint and order confiscation",
+          "fees_to_be_paid": "None",
+          "processing_time": "4 minutes",
+          "person_responsible": "Market Inspector / Market Supervisor (LCAdO - Economic Enterprise Division)"
+        },
+        {
+          "client_step": "2. File complaint",
+          "agency_action": "2.2 Confiscate defective weights and undertake action against stallholder",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Market Supervisor / Market Inspector (LCAdO – Economic Enterprise Division)"
+        }
+      ],
+
+      "total": {
+        "fees": "None",
+        "processing_time": "13 minutes"
+      }
+    },
+    {
+      "id": 11,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Request for Market Certification for Business Permit Application",
+      "image": "/assets/document_background/Request for Market Certification for Business Permit Application",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B",
+      "who_may_avail": "All registered market stallholders",
+      "checklist_of_requirements": [
+        { "requirement": "Community Tax Certificate - 1 original copy", "source": "Barangay hall or Lipa City Treasurer's Office" },
+        { "requirement": "Lease Contract - 1 original copy", "source": "Lessor" },
+        { "requirement": "Official receipt of rental fee – 1 original copy", "source": "Lipa City Treasurer's Extension Office" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit complete requirements to person in charge",
+          "agency_action": "1.1 Receive requirements and record request",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV (LCAdO - Economic Enterprise Division)"
+        },
+        {
+          "client_step": "1. Submit requirements",
+          "agency_action": "1.2 Issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV (LCAdO - Economic Enterprise Division)"
+        },
+        {
+          "client_step": "2. Pay fee at Lipa City Treasurer's Extension Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "P50.00",
+          "processing_time": "2 minutes",
+          "person_responsible": "Revenue Collection Officer II (Lipa City Treasurer's Extension Office)"
+        },
+        {
+          "client_step": "3. Process and Signing of Certification",
+          "agency_action": "3.1 Prepare and sign Market Certification",
+          "fees_to_be_paid": "None",
+          "processing_time": "7 minutes",
+          "person_responsible": "Market Supervisor / OIC-Market Admin / City Mayor (LCAdO - Economic Enterprise Division)"
+        },
+        {
+          "client_step": "4. Claim Market Certification",
+          "agency_action": "3.3 Issue Market Certification to client",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Admin Aide IV / Market Inspector II (LCAdO-Economic Enterprise Division)"
+        }
+      ],
+  
+
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "15 minutes"
+      }
+    },
+    {
+      "id": 12,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Request for Permit to Conduct Promotional Activities at Candido B. Lopez Memorial Public Market",
+      "image": "/assets/document_background/Request for Permit to Conduct Promotional Activities at Candido B. Lopez",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        { "requirement": "Request letter for promotional activities - 1 original copy", "source": "Requesting party" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit letter request to person-in-charge",
+          "agency_action": "1.1 Receive, record, check schedule and issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "7 minutes",
+          "person_responsible": "OIC-Market Administrator / Market Inspector II (LCAdO - Economic Enterprise Division)"
+        },
+        {
+          "client_step": "2. Pay corresponding fee at Treasurer's Office",
+          "agency_action": "2.1 Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "P500.00/day + P250.00 (elec)",
+          "processing_time": "2 minutes",
+          "person_responsible": "Revenue Collection Officer II (Lipa City Treasurer's Office Extension)"
+        },
+        {
+          "client_step": "3. Claim permit and conduct promotional activity",
+          "agency_action": "3.1 Approve and issue permit",
+          "fees_to_be_paid": "None",
+          "processing_time": "7 minutes",
+          "person_responsible": "Market Supervisor / OIC-Market Admin (LCAdO-Economic Enterprise Division)"
+        }
+      ],
+  
+
+      "total": {
+        "fees": "P500.00/day and P250.00 for electricity",
+        "processing_time": "16 minutes"
+      }
+    },
+    {
+      "id": 13,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Request to Transfer the Rights of Stalls to New Stall Owners",
+      "image": "/assets/document_background/Request to Transfer the Rights of Stalls to New Stall Owners",
+      "classification": "Simple",
+      "type_of_transaction": "G2C, G2B",
+      "who_may_avail": "All registered market stallholders",
+      "checklist_of_requirements": [
+        { "requirement": "Affidavit of Transfer – 1 original copy", "source": "Old stall owner" },
+        { "requirement": "Recent 2x2 picture – 1 copy", "source": "New Owner" },
+        { "requirement": "Barangay Clearance – 1 original copy", "source": "Respective barangay hall" },
+        { "requirement": "Letter request for transfer – 1 original copy", "source": "Requesting party" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit complete requirements to person in charge",
+          "agency_action": "1.1 Receive, evaluate and issue Order of Payment",
+          "fees_to_be_paid": "None",
+          "processing_time": "9 minutes",
+          "person_responsible": "Market Inspector / OIC-Market Admin / Admin Aide IV (LCAdO- Economic Enterprise Division)"
+        },
+        {
+          "client_step": "2. Pay transfer fee at Treasurer's Extension Office",
+          "agency_action": "2.1 Receive payment and issue Official Receipt",
+          "fees_to_be_paid": "P5,000.00",
+          "processing_time": "2 minutes",
+          "person_responsible": "Revenue Collection Officer II (Lipa City Treasurer's Extension Office)"
+        },
+        {
+          "client_step": "3. Present receipt and claim certification of ownership",
+          "agency_action": "3.1 Prepare and release certification and update master list",
+          "fees_to_be_paid": "None",
+          "processing_time": "4 minutes",
+          "person_responsible": "Market Inspector II / OIC-Market Administrator (LCAdO– Economic Enterprise Division)"
+        }
+      ],
+  
+
+       "total": {
+        "fees": "P5,000.00",
+        "processing_time": "15 minutes"
+      }
+    },
+    {
+      "id": 14,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Availing of Free Access to Internet Services (for Computer Desktop Users)",
+      "image": "/assets/document_background/Availing of Free Access to Internet Services (for Computer Desktop users)",
+      "classification": "Simple",
+      "type_of_transaction": "G2C - Government to Citizen",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        { "requirement": "School ID / Company ID / Govt ID – 1 original copy", "source": "School/Company/Govt Agency" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present ID, sign in logbook and proceed to computer room",
+          "agency_action": "1.1 Receive ID and usher client to computer room",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide IV (LCAdO- Library Services Section)"
+        },
+        {
+          "client_step": "1. Access online services",
+          "agency_action": "1.2 Explain computer room rules and regulations",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Administrative Aide IV (LCAdO- Library Services Section)"
+        }
+      ],
+
+      
+       "total": {
+        "fees": "None",
+        "processing_time": "8 minutes"
+      }
+    },
+    {
+      "id": 15,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Availing of Free Access to Internet Services (for Laptop/ Wi-fi Users)",
+      "image": "/assets/document_background/Availing of Free Access to Internet Services _for Laptop_ Wi-fi users",
+      "classification": "Simple",
+      "type_of_transaction": "G2C - Government to Citizen",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        { "requirement": "School ID / Company ID / Govt ID – 1 original copy", "source": "School/Company/Govt Agency" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present ID, sign in attendance sheet and logbook",
+          "agency_action": "1.1 Receive ID and ask user to sign in logbooks",
+          "fees_to_be_paid": "None",
+          "processing_time": "4 minutes",
+          "person_responsible": "Administrative Aide IV (LCAdO - Library Services Section)"
+        },
+        {
+          "client_step": "1. Use free wi-fi",
+          "agency_action": "1.2 Explain rules for the use of free wi-fi inside library",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide IV (LCAdO - Library Services Section)"
+        }
+      ],
+    
+      "total": {
+        "fees": "None",
+        "processing_time": "9 minutes"
+      }
+    },
+    {
+      "id": 16,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Availing of Library Lecture and Storytelling Activity",
+      "image": "/assets/document_background/Availing of Library Lecture and Storytelling Activity",
+      "classification": "Simple",
+      "type_of_transaction": "G2C - Government to Citizen",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        { "requirement": "School ID / Company ID / Govt ID – 1 original copy", "source": "School/Company/Govt Agency" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Request for an appointment with the librarian",
+          "agency_action": "1. Set the schedule for library lecture/storytelling",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Officer V (LCAdO- Library Services Section)"
+        },
+        {
+          "client_step": "2. Accompany pupils on the scheduled date",
+          "agency_action": "2. Tour pupils, give briefing and conduct lecture/storytelling",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 hour and 30 minutes",
+          "person_responsible": "Administrative Officer V (LCAdO - Library Services Section)"
+        }
+      ],
+
+      "total": {
+        "fees": "None",
+        "processing_time": "1 hour and 40 minutes"
+      }
+    },
+    {
+      "id": 17,
+      "office": "Lipa City Administrator's Office",
+      "service_name": "Lending of Books and Other Reading Materials",
+      "image": "/assets/document_background/Lending of Books and Other Reading Materials",
+      "classification": "Simple",
+      "type_of_transaction": "G2C - Government to Citizen",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        { "requirement": "School ID / Company ID / Govt ID – 1 original copy", "source": "School/Company/Govt Agency" }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Sign logbook and surrender ID card",
+          "agency_action": "1. Receive and validate ID card of library user",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV (LCAdO - Library Services Section)"
+        },
+        {
+          "client_step": "2. Deposit personal items (bag, envelope, etc.)",
+          "agency_action": "2. Issue a number card for deposited items",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Administrative Aide IV (LCAdO- Library Services Section)"
+        },
+        {
+          "client_step": "3. Proceed to the reading area",
+          "agency_action": "3. Assist library user or provide requested materials",
+          "fees_to_be_paid": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Officer V / Administrative Aide IV (LCAdO- Library Services Section)"
+        },
+        {
+          "client_step": "4. Return borrowed materials and number card",
+          "agency_action": "4. Retrieve materials, number card and return ID/personal items",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV (LCAdO- Library Services Section)"
+        }
+      ],
+
+      "total": {
+        "fees": "None",
+        "processing_time": "17 minutes"
+      }
+    }
+  ]
+}

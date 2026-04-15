@@ -2,589 +2,383 @@
   "department": "Lipa City Agriculture Office",
   "external_services": [
     {
-      "id": 1,
-      "service_name": "Request for Tree Planting Activity, Community or School Gardening Projects",
-      "image": "/assets/document_background/Request for Tree Planting Activity, Community or School Gardening",
+      "service_name": "Crop Production Assistance – Provision of Technical Assistance for Crop Production",
+      "image": "/assets/document_background/Crop Production Assistance – Provision of Technical Assistance for Crop Production",
       "office": "Lipa City Agriculture Office",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
-      "who_may_avail": "NGOs, schools, barangays",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "Farmers and any interested individuals",
       "checklist_of_requirements": [
         {
-          "requirement": "Letter of request – 1 original copy",
-          "source": "Requesting party / applicant"
+          "requirement": "Request letter – 1 original copy",
+          "source": "Requesting party/ applicant"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Submit letter of request",
-          "agency_action": "1.1. Accept request letter and refer client to Division Chief / Head of Office for interview",
+          "client_step": "1. Submit request letter to Lipa City Agriculture Office",
+          "agency_action": "1.1. Receive request letter and endorse to the Agricultural Extension Worker; 1.2.a. Validate and approve request by conducting table interview; 1.2.b. Validate and approve request by conducting actual site validation",
           "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Aide II / Administrative Aide VI"
+          "processing_time": "Regular: 8 mins; New: 1 day and 3 mins",
+          "person_responsible": "Supervising Agriculturist, Agriculturist I, Agriculturist II, Asst. City Agriculturist, City Agriculturist"
         },
         {
-          "client_step": "N/A",
-          "agency_action": "1.2. Interview client and schedule ocular inspection (if needed)",
+          "client_step": "2. Be present at the conduct of the activity",
+          "agency_action": "2. Provide technical assistance from land preparation to harvesting and marketing",
           "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Supervising Agriculturist / Assistant City Agriculturist / City Agriculturist"
-        },
-        {
-          "client_step": "2. Accompany inspectors to the target area",
-          "agency_action": "2.1. Inspect area and determine suitability and quantity of planting materials",
-          "fees": "None",
-          "processing_time": "3 hours",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "2.2. Prepare seedlings (if approved)",
-          "fees": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Farm Supervisor"
-        },
-        {
-          "client_step": "3. Receive planting materials and sign logbook",
-          "agency_action": "4. Release seedlings and receive signed feedback form",
-          "fees": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Agricultural Extension Worker"
+          "processing_time": "1 day",
+          "person_responsible": "Agriculturist I, Agriculturist II, Farm Worker II (Lipa City Agriculture Office)"
         }
       ],
       "total": {
         "fees": "None",
-        "processing_time": "3 hours and 50 minutes"
+        "processing_time": "Regular: 1 day and 8 minutes; New: 2 days and 3 minutes"
       }
     },
     {
-      "id": 2,
-      "service_name": "Request for Seedlings Dispersal",
-      "image": "/assets/document_background/Request for Seedlings Dispersal",
+      "service_name": "Crop Production Assistance - Request for Inputs for Gardening",
+      "image": "/assets/document_background/Crop Production Assistance - Request for Inputs for Gardening",
       "office": "Lipa City Agriculture Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "All",
+      "type_of_transaction": "G2C – Government to Citizen, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "All farmers and any interested individuals",
       "checklist_of_requirements": [
         {
-          "requirement": "Letter of request",
-          "source": "Requesting party / applicant"
-        },
-        {
-          "requirement": "Verbal request",
-          "source": "Requesting party / applicant"
+          "requirement": "Request letter – 1 original copy",
+          "source": "Requesting party/ applicant"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Submit letter or verbal request",
-          "agency_action": "1.1. Receive request and record in logbook",
+          "client_step": "1. Submit letter of request to the Lipa City Agriculture Office",
+          "agency_action": "1.1. Receive request letter and endorse; 1.2.a/b. Validate and approve request (table interview or site validation); 1.3. Approve request and provide recommendation",
           "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Administrative Aide IV"
+          "processing_time": "Regular: 18 mins; New: 1 day and 13 mins",
+          "person_responsible": "Supervising Agriculturist, Agriculturist I, Agriculturist II, Asst. City Agriculturist, City Agriculturist"
         },
         {
-          "client_step": "N/A",
-          "agency_action": "1.2. Prepare seeds / seedlings",
+          "client_step": "2. Claim the inputs",
+          "agency_action": "2. Distribute inputs (provide seeds, seedlings, fertilizers, tools, etc.)",
           "fees": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Administrative Aide IV / Farm Supervisor"
-        },
-        {
-          "client_step": "2. Receive planting materials and sign logbook",
-          "agency_action": "2. Release planting materials and receive feedback form",
-          "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Administrative Aide VI"
+          "processing_time": "30 minutes",
+          "person_responsible": "Administrative Aide IV, Agriculturist I, Agriculturist II (Lipa City Agriculture Office)"
         }
       ],
       "total": {
         "fees": "None",
-        "processing_time": "40 minutes"
+        "processing_time": "Regular: 48 minutes; New: 1 day and 43 minutes"
       }
     },
     {
-      "id": 3,
-      "service_name": "Request for Certification for Non-Bearing / Unproductive Trees",
-      "image": "/assets/document_background/Request for Certification for Non-Bearing_Unproductive Trees",
+      "service_name": "Farmers and Fisher folks Registry Assistance (RSBSA, PCA, PCIC, etc)",
+      "image": "/assets/document_background/Farmers and Fisher folks Registry Assistance",
       "office": "Lipa City Agriculture Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Lipa City residents",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Farmers, fisher folks and interested individuals",
       "checklist_of_requirements": [
         {
-          "requirement": "Letter of request – 1 original copy",
+          "requirement": "Accomplished registration form – 1 original copy",
           "source": "Requesting party"
         },
         {
-          "requirement": "Barangay certification stating type, quantity and condition of trees – 1 original copy",
-          "source": "Respective Barangay Hall"
+          "requirement": "Barangay certification – 1 original copy",
+          "source": "Respective barangay halls"
         },
         {
-          "requirement": "Proof of land ownership – 1 original copy",
-          "source": "Owner"
-        },
-        {
-          "requirement": "Tax declaration – 1 original copy",
-          "source": "Lipa City Assessor’s Office"
-        },
-        {
-          "requirement": "Authorization – 1 original copy",
-          "source": "Land owner"
-        },
-        {
-          "requirement": "Special Power of Attorney – 1 original copy",
-          "source": "Notary Public"
+          "requirement": "Government issued ID (with birthday and Lipa City address) – 1 photocopy",
+          "source": "Requesting party"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Submit complete requirements and fill up Clearance Form",
-          "agency_action": "1.1. Accept documents and check completeness",
+          "client_step": "1. Submit accomplished registration form",
+          "agency_action": "1.1. Receive, review and conduct interview; 1.2. Encode into the system; 1.3. Endorse to APCO, PCA, PCIC, etc.; 1.4. Verify entries at the registry system",
           "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Aide VI"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "1.2. Interview client, validate documents and schedule inspection",
-          "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "2. Accompany inspector to site",
-          "agency_action": "2.1. Conduct inspection of area",
-          "fees": "None",
-          "processing_time": "3 hours",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "2.2. Prepare inspection report and certification",
-          "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "2.3. Sign certification for non-bearing / unproductive tree",
-          "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Assistant City Agriculturist / City Agriculturist"
-        },
-        {
-          "client_step": "3. Claim certification",
-          "agency_action": "3. Release certification",
-          "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Aide VI"
+          "processing_time": "1 day, 4 hours and 20 minutes",
+          "person_responsible": "Agriculturist I, Agriculturist II, Supervising Agriculturist (Lipa City Agriculture Office)"
         }
       ],
       "total": {
         "fees": "None",
-        "processing_time": "3 hours and 40 minutes"
+        "processing_time": "1 day, 4 hours and 20 minutes"
       }
     },
     {
-      "id": 4,
-      "service_name": "Request for Clearance for Tree Cutting",
-      "image": "/assets/document_background/Request for Clearance for Tree Cutting",
+      "service_name": "Immersion Activity",
+      "image": "/assets/document_background/Immersion Activity",
       "office": "Lipa City Agriculture Office",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
-      "who_may_avail": "All",
-      "checklist_of_requirements": [
-        { "requirement": "Tax declaration", "source": "Lipa City Assessor’s Office" },
-        { "requirement": "Certificate of Ownership", "source": "Respective Barangay Hall" },
-        { "requirement": "Tree Cutting Clearance Form", "source": "Lipa City Agriculture Office" }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit requirements to the Lipa City Agriculture Office",
-          "agency_action": "1.1. Receive and check completeness and refer to Agricultural Extension Worker",
-          "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Aide VI"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "1.2. Interview client and prepare clearance",
-          "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "2. Claim clearance",
-          "agency_action": "2. Issue clearance and advise client to proceed to DENR or PhilCOA",
-          "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Aide VI"
-        }
-      ],
-      "total": { "fees": "None", "processing_time": "20 minutes" }
-    },
-    {
-      "id": 5,
-      "service_name": "Request for Information and/or Technical Assistance in Livestock and Crops Production",
-      "image": "/assets/document_background/Request for Information and_Technical Assistance in Livestock and",
-      "office": "Lipa City Agriculture Office",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
-      "who_may_avail": "All interested livestock and crop producers",
-      "checklist_of_requirements": [
-        { "requirement": "Letter of request", "source": "Requesting party / applicant" }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit letter of request",
-          "agency_action": "1.1. Receive letter and refer to Division Chief or Agricultural Extension Worker",
-          "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Aide VI"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "1.2. Answer queries and provide recommendations",
-          "fees": "None",
-          "processing_time": "45 minutes",
-          "person_responsible": "Agricultural Extension Worker / Supervising Agriculturist"
-        }
-      ],
-      "total": { "fees": "None", "processing_time": "50 minutes" }
-    },
-    {
-      "id": 6,
-      "service_name": "Request for Input Assistance",
-      "image": "/assets/document_background/Request for Input Assistance",
-      "office": "Lipa City Agriculture Office",
-      "classification": "Simple",
+      "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "All",
+      "who_may_avail": "Farmers and interested individuals",
       "checklist_of_requirements": [
-        { "requirement": "Letter of request or verbal request", "source": "Requesting party / applicant" },
-        { "requirement": "2x2 ID picture (for RSBSA)", "source": "Requesting party / applicant" },
-        { "requirement": "Government-issued ID", "source": "Various government agencies" },
-        { "requirement": "Transfer Certificate of Title or Farmer-land owner agreement", "source": "Assessor’s Office / Land owner" }
+        {
+          "requirement": "Request letter – 1 original copy",
+          "source": "Requesting party"
+        }
       ],
       "steps": [
         {
-          "client_step": "1. Submit letter or verbal request",
-          "agency_action": "1.1. Accept request and refer for interview and approval",
+          "client_step": "1. Submit request letter",
+          "agency_action": "1.1. Receive request letter and conduct interview; 1.2. Approve the request; 1.3. Schedule the activity",
           "fees": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Administrative Aide VI / Administrative Aide II"
+          "processing_time": "1 hour and 15 minutes",
+          "person_responsible": "Supervising Agriculturist, Assistant City Agriculturist, City Agriculturist, Agriculturist I, Agriculturist II"
         },
         {
-          "client_step": "N/A",
-          "agency_action": "1.2. Interview client for approval/release of inputs",
+          "client_step": "2. Be present at the conduct of immersion",
+          "agency_action": "2. Conduct actual immersion activity",
           "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Supervising Agriculturist"
-        },
-        {
-          "client_step": "2. Fill up RSBSA form and submit requirements",
-          "agency_action": "2. Validate documents and advise signatures for approval",
-          "fees": "None",
-          "processing_time": "32 minutes",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "3. Submit signed RSBSA form",
-          "agency_action": "3. Prepare requested inputs",
-          "fees": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Farm Supervisor"
-        },
-        {
-          "client_step": "4. Receive farm inputs and sign logbook",
-          "agency_action": "4. Release requested inputs",
-          "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Aide VI"
+          "processing_time": "10 days",
+          "person_responsible": "Agriculturist I, Agriculturist II (Lipa City Agriculture Office)"
         }
       ],
-      "total": { "fees": "None", "processing_time": "1 hour and 20 minutes" }
+      "total": {
+        "fees": "None",
+        "processing_time": "10 days, 1 hour and 15 minutes"
+      }
     },
     {
-      "id": 7,
-      "service_name": "Request for Assistance in Insurance Application",
-      "image": "/assets/document_background/Request for Assistance in Insurance Application",
+      "service_name": "Issuance of Certification for Unproductive Fruit Trees (for cutting of trees)",
+      "image": "/assets/document_background/Issuance of Certification for Unproductive Fruit Trees",
       "office": "Lipa City Agriculture Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Farmers enrolled in RSBSA",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "Farmers and interested individuals",
       "checklist_of_requirements": [
-        { "requirement": "Letter of request or verbal request", "source": "Requesting party" },
-        { "requirement": "Picture with crops/livestock to be insured", "source": "Requesting party" },
-        { "requirement": "Proof of livestock ownership", "source": "Requesting party" }
+        {
+          "requirement": "Request letter – 1 original copy",
+          "source": "Requesting party"
+        },
+        {
+          "requirement": "Land title – 1 photocopy; Photos of fruit trees for cutting – 1 original copy; Vicinity map – 1 photocopy; Barangay certification – 1 original copy",
+          "source": "Requesting party"
+        }
       ],
       "steps": [
         {
-          "client_step": "1. Submit request",
-          "agency_action": "1.1. Receive request and refer to Agricultural Extension Worker",
+          "client_step": "1. Submit request letter and its attachments to the Lipa City Agriculture Office",
+          "agency_action": "1.1. Receive, check completeness and endorse; 1.2. Conduct site visitation and give recommendation",
           "fees": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Administrative Aide VI / Administrative Aide II"
+          "processing_time": "4 hours and 3 minutes",
+          "person_responsible": "Supervising Agriculturist, Agriculturist I, Agriculturist II (Lipa City Agriculture Office)"
         },
         {
-          "client_step": "N/A",
-          "agency_action": "1.2. Interview client and provide application form",
+          "client_step": "2. Claim the certification",
+          "agency_action": "2. Process documents and issue certification",
           "fees": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "2. Fill up form",
-          "agency_action": "2.1. Validate and submit documents to PCIC via email",
-          "fees": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Agricultural Extension Worker"
+          "processing_time": "15 minutes",
+          "person_responsible": "Supervising Agriculturist, Asst. City Agriculturist, City Agriculturist (Lipa City Agriculture Office)"
         }
       ],
-      "total": { "fees": "None", "processing_time": "43 minutes" }
+      "total": {
+        "fees": "None",
+        "processing_time": "4 hours and 18 minutes"
+      }
     },
     {
-      "id": 8,
-      "service_name": "Request for Insurance Claim Assistance",
-      "image": "/assets/document_background/Request for Insurance Claim Assistance",
-      "office": "Lipa City Agriculture Office",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Farmers enrolled in RSBSA",
-      "checklist_of_requirements": [
-        { "requirement": "Letter of request or verbal request", "source": "Requesting party" },
-        { "requirement": "Picture of damaged crops or deceased animal", "source": "Requesting party" },
-        { "requirement": "Autopsy report (for livestock)", "source": "City Veterinary Office" }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit request/report",
-          "agency_action": "1.1. Receive report of damage or loss",
-          "fees": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "1.2. Interview client and provide application form",
-          "fees": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "2. Fill up form",
-          "agency_action": "2.1. Validate and submit documents to PCIC and advise client to wait for check",
-          "fees": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Agricultural Extension Worker"
-        }
-      ],
-      "total": { "fees": "None", "processing_time": "43 minutes" }
-    },
-    {
-      "id": 9,
-      "service_name": "Request for Land Preparation Assistance (Tractor Services)",
-      "image": "/assets/document_background/Request for Land Preparation Assistance (Tractor Services)",
+      "service_name": "Land Preparation - Tractor Service Assistance",
+      "image": "/assets/document_background/Land Preparation - Tractor Service Assistance",
       "office": "Lipa City Agriculture Office",
       "classification": "Complex",
       "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
-      "who_may_avail": "All interested farmers",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Letter of request – 1 original copy",
-          "source": "Requesting party / applicant"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit letter of request",
-          "agency_action": "1. Accept request, record in logbook and refer to Division Chief",
-          "fees": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Designated Administrative Officer"
-        },
-        {
-          "client_step": "2. Fill up tractor request form and sign tractor use agreement",
-          "agency_action": "2.1. Interview client and prepare tractor request form",
-          "fees": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Designated Administrative Officer"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "2.2. Conduct ocular inspection of land",
-          "fees": "None",
-          "processing_time": "1 day",
-          "person_responsible": "Farm Worker / Tractor Operator"
-        },
-        {
-          "client_step": "3. Be present during land preparation",
-          "agency_action": "3. Conduct tractor operation",
-          "fees": "None",
-          "processing_time": "2 days",
-          "person_responsible": "Farm Worker / Tractor Operator"
-        }
-      ],
-      "total": {
-        "fees": "None (Farmer shoulders fuel and minor maintenance)",
-        "processing_time": "3 days and 23 minutes"
-      }
-    },
-    {
-      "id": 10,
-      "service_name": "Request for Seedlings Dispersal (Residents Only)",
-      "image": "/assets/document_background/Request for Seedlings Dispersal",
-      "office": "Lipa City Agriculture Office",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Lipa City residents only",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Letter of request – 1 original copy or verbal request",
-          "source": "Requesting party / applicant"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit letter or verbal request",
-          "agency_action": "1.1. Accept request and record in logbook",
-          "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Administrative Aide IV"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "1.2. Prepare seeds / seedlings",
-          "fees": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Administrative Aide IV / Farm Supervisor"
-        },
-        {
-          "client_step": "2. Receive planting materials and sign logbook",
-          "agency_action": "2. Release requested seeds/seedlings and receive signed feedback form",
-          "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Administrative Aide VI"
-        }
-      ],
-      "total": {
-        "fees": "None",
-        "processing_time": "40 minutes"
-      }
-    },
-    {
-      "id": 11,
-      "service_name": "Request for Soil Sampling and Analysis Assistance",
-      "image": "/assets/document_background/Request for Soil Sampling and Analysis Assistance",
-      "office": "Lipa City Agriculture Office",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses",
-      "who_may_avail": "Individuals, businesses, NGOs and FAs",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Letter of request – 1 original copy",
-          "source": "Requesting party / applicant"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit letter of request",
-          "agency_action": "1.1. Receive letter and refer to Agricultural Extension Worker",
-          "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Aide II / Administrative Aide VI"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "1.2. Interview client and schedule soil sampling",
-          "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "2. Accompany staff in collecting soil sample",
-          "agency_action": "2.1. Assist in collecting soil sample",
-          "fees": "None",
-          "processing_time": "4 hours",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "2.2. Prepare soil sample and deliver to Regional Soil Laboratory",
-          "fees": "None",
-          "processing_time": "5 days and 30 minutes",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "3. Claim soil analysis result",
-          "agency_action": "3. Present and explain results and provide recommendations",
-          "fees": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Agricultural Extension Worker"
-        }
-      ],
-      "total": {
-        "fees": "None",
-        "processing_time": "5 days, 5 hours and 5 minutes"
-      }
-    },
-    {
-      "id": 12,
-      "service_name": "Request for Technology Transfer: Demos, Trainings, Seminars and Lectures",
-      "image": "/assets/document_background/Request for Technology Transfer_ Demos_Trainings_ Seminars and",
-      "office": "Lipa City Agriculture Office",
-      "classification": "Highly technical",
-      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses, G2G – Government to Government",
       "who_may_avail": "All",
       "checklist_of_requirements": [
         {
-          "requirement": "Letter of request (digital or written) – 1 original copy",
-          "source": "Requesting party / applicant"
+          "requirement": "Request letter – 1 original copy",
+          "source": "Requesting party"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Submit letter of request",
-          "agency_action": "1.1. Accept letter and refer for interview",
+          "client_step": "1. Submit request letter to the Lipa City Agriculture Office",
+          "agency_action": "1.1 Receive and record; 1.2.a/b. Validate and approve request (table interview or site validation); 1.3 Schedule the land preparation activity",
           "fees": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Administrative Aide VI / Administrative Aide II"
+          "processing_time": "Old: 13 mins; New: 1 day and 8 mins",
+          "person_responsible": "Engineer II (Agricultural and Biosystems Engineer) (Lipa City Agriculture Office)"
         },
         {
-          "client_step": "N/A",
-          "agency_action": "1.2. Interview client and set schedule",
+          "client_step": "2. Be present at the site during land preparation activity",
+          "agency_action": "2. Deploy personnel/ conduct of tractor operation for land preparation",
           "fees": "None",
-          "processing_time": "1 hour",
-          "person_responsible": "Assistant City Agriculturist / Supervising Agriculturist / Agricultural Extension Worker"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "1.3. Process procurement of materials",
-          "fees": "None",
-          "processing_time": "18 days and 55 minutes",
-          "person_responsible": "Administrative Aide IV"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "1.4. Prepare training materials",
-          "fees": "None",
-          "processing_time": "3 days",
-          "person_responsible": "Agricultural Extension Worker"
-        },
-        {
-          "client_step": "2. Attend scheduled training",
-          "agency_action": "2. Conduct training",
-          "fees": "None",
-          "processing_time": "8 hours",
-          "person_responsible": "Agricultural Extension Worker"
+          "processing_time": "1 day (1-2 hectares)",
+          "person_responsible": "Farm Worker II (Lipa City Agriculture Office)"
         }
       ],
       "total": {
         "fees": "None",
-        "processing_time": "22 days and 2 hours"
+        "processing_time": "Old: 1 day and 13 minutes; New: 2 days and 8 minutes"
+      }
+    },
+    {
+      "service_name": "Pest and Diseases Management",
+      "image": "/assets/document_background/Pest and Diseases Management",
+      "office": "Lipa City Agriculture Office",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "Farmers and interested individuals",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Request letter – 1 original copy",
+          "source": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit request letter to the Lipa City Agriculture Office",
+          "agency_action": "1.1. Receive and endorse; 1.2. Collect samples; 1.3. Recommend and apply initial management; 1.4. Endorse to DA-RCPC; 1.5. Laboratory testing; 1.6. Claim results",
+          "fees": "None",
+          "processing_time": "25 days, 10 hours and 3 minutes",
+          "person_responsible": "Supervising Agriculturist, Agriculturist I, Agriculturist II, DA - Regional Crop Protection Center"
+        },
+        {
+          "client_step": "2. Claim the result of laboratory analysis",
+          "agency_action": "2. Release and explain the result to the requesting party",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Agriculturist I, Agriculturist II (Lipa City Agriculture Office)"
+        },
+        {
+          "client_step": "3. Prepare materials and area for recommended management",
+          "agency_action": "3. Assist farmer to perform recommended management control",
+          "fees": "None",
+          "processing_time": "4 hours",
+          "person_responsible": "Agriculturist I, Agriculturist II (Lipa City Agriculture Office)"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "26 days, 6 hours and 13 minutes"
+      }
+    },
+    {
+      "service_name": "Provision of Fruit Bearing and Forest Trees Seedlings for Tree Planting Activities",
+      "image": "/assets/document_background/Provision of Fruit Bearing and Forest Trees Seedlings for Tree Planting Activities",
+      "office": "Lipa City Agriculture Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "Farmers and all interested individuals",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Request letter – 1 original copy",
+          "source": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit request letter to the Lipa City Agriculture Office",
+          "agency_action": "1.1. Receive and conduct interview; 1.2. Schedule pick-up of seedlings",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Supervising Agriculturist, Administrative Aide IV"
+        },
+        {
+          "client_step": "2. Claim the seedlings",
+          "agency_action": "2. Release the seedlings",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Administrative Aide VI (Crops Division, Lipa City Agriculture Office)"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "30 minutes"
+      }
+    },
+    {
+      "service_name": "Soil Sampling and Analysis Assistance",
+      "image": "/assets/document_background/Soil Sampling and Analysis Assistance",
+      "office": "Lipa City Agriculture Office",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Farmers and interested individuals",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Request letter – 1 original copy",
+          "source": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit request letter to Lipa City Agriculture Office",
+          "agency_action": "1.1. Receive and endorse; 1.2. Collect samples; 1.3. Endorse to Regional Soil Laboratory; 1.4. Actual testing; 1.5. Claim result",
+          "fees": "None (P2,300 if no endorsement)",
+          "processing_time": "10 days, 7 hours and 3 minutes",
+          "person_responsible": "Supervising Agriculturist, Agriculturist I, Agriculturist II, DA-Regional Soils Laboratory"
+        },
+        {
+          "client_step": "2. Claim the result of laboratory analysis",
+          "agency_action": "2. Release and explain the result to the requesting party",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Agriculturist I, Agriculturist II (Lipa City Agriculture Office)"
+        }
+      ],
+      "total": {
+        "fees": "None (P2,300 if no endorsement)",
+        "processing_time": "10 days, 7 hours and 13 minutes"
+      }
+    },
+    {
+      "service_name": "Support Services for Livestock Production",
+      "image": "/assets/document_background/Support Services for Livestock Production",
+      "office": "Lipa City Agriculture Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "Farmers and any interested individuals",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Report – 1 original copy",
+          "source": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit report to Lipa City Agriculture Office",
+          "agency_action": "1.1. Receive report and inform AEW; 1.2. Monitor existing dispersal project; 1.3. Prepare and submit recommendation/ monitoring report",
+          "fees": "None",
+          "processing_time": "4 hours and 33 minutes",
+          "person_responsible": "Supervising Agriculturist, Agriculturist I (Lipa City Agriculture Office)"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "4 hours and 33 minutes"
+      }
+    },
+    {
+      "service_name": "Technology Transfer (Lecture, Seminar, Training)",
+      "image": "/assets/document_background/Technology Transfer (Lecture, Seminar, Training on Agricultural, Fisheries, Livestock Production and Product Development)",
+      "office": "Lipa City Agriculture Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "Farmers and interested individuals",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Request letter – 1 original copy",
+          "source": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit request letter to Lipa City Agriculture Office",
+          "agency_action": "1.1. Receive and endorse; 1.2. Validate and approve request",
+          "fees": "None",
+          "processing_time": "18 minutes",
+          "person_responsible": "Supervising Agriculturist, Agriculturist I, Agriculturist II, Asst. City Agriculturist, City Agriculturist"
+        },
+        {
+          "client_step": "2. Be present at the actual conduct of activity",
+          "agency_action": "2. Schedule and conduct the activity",
+          "fees": "None",
+          "processing_time": "1 day",
+          "person_responsible": "Agriculturist I, Agriculturist II (Lipa City Agriculture Office)"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "1 day and 18 minutes"
       }
     }
-
   ]
 }

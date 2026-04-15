@@ -1,11 +1,11 @@
 {
-  "department": "Ospital ng Lipa",
+  "department": "Lipa City Hospital Systems Office",
   "internal_services": [
     {
       "id": 1,
       "service_name": "Filing of Application for Employment",
       "image": "/assets/document_background/Filing of Application for Employment",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
@@ -78,11 +78,11 @@
       "id": 2,
       "service_name": "Request for Exit Clearance for Resigned, Retired or Terminated Employees",
       "image": "/assets/document_background/Request for Exit Clearance for Resigned, Retired or Terminated",
-      "office": "Ospital ng Lipa",
+      "office": "Lipa City Hospital Systems Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": [
-        "Ospital ng Lipa employees"
+        "Lipa City Hospital Systems Office employees"
       ],
       "checklist_of_requirements": [
         {

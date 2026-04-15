@@ -2,94 +2,45 @@
   "department": "Lipa City Accounting Office",
   "external_services": [
     {
-      "service_name": "Issuance of BIR Form 2306 and/or 2307 to Suppliers/ Contractors/ Service Providers",
-      "image": "/assets/document_background/Issuance of BIR Form 2306 and_or 2307 to Job Order_ Contract of Service",
+      "service_name": "Review and Approval of Barangay Disbursement Vouchers",
+      "image": "/assets/document_background/Review and Approval of Barangay Disbursement Vouchers",
       "office": "Lipa City Accounting Office",
-      "classification": "Simple",
-      "type_of_transaction": "G2B – Government to Businesses",
-      "who_may_avail": "Suppliers, contractors and service providers",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Fully accomplished and duly signed Disbursement Voucher/s – 1 original copy",
-          "source": "Lipa City Treasurer’s Office"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Provide the photocopy of Disbursement Vouchers to the Lipa City Accounting Office- Accounting Division *Wait for the processing of BIR Form 2306 and/or 2307",
-          "agency_action": "1.1. Receive the photocopy of the Disbursement Vouchers; 1.2. Verify correctness; 1.3. Generate BIR Form 2306 and/or 2307",
-          "fees": "None",
-          "processing_time": "1 day and 2 minutes",
-          "person_responsible": "Admin Assistant III (Lipa City Accounting Office)"
-        },
-        {
-          "client_step": "N/A",
-          "agency_action": "1.4. Sign the BIR Form 2306 and/or 2307",
-          "fees": "None",
-          "processing_time": "Within the 1 day period",
-          "person_responsible": "City Accountant (Lipa City Accounting Office)"
-        },
-        {
-          "client_step": "2. Claim BIR Form 2306 and/or 2307",
-          "agency_action": "2. Issue BIR Form 2306 and/or 2307",
-          "fees": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Admin Assistant III (Lipa City Accounting Office)"
-        }
-      ],
-	"total": {
-		"fees": "1 day and 4 minutes",
-		"processing_time": "None"
-	}
-    },
-    {
-      "service_name": "Review and Approval of Barangay Transactions",
-      "office": "Lipa City Accounting Office – Barangay Division",
-      "image": "/assets/document_background/Review and Approval of Barangay Transactions",
       "classification": "Simple",
       "type_of_transaction": "G2G – Government to Government",
       "who_may_avail": "Barangay Treasurers/ Functionaries",
       "checklist_of_requirements": [
         {
-          "requirement": "Purchase or Projects below P50,000.00 - 1 original and 2 photocopies",
-          "source": "Respective barangays"
-        },
-        {
-          "requirement": "Purchase or Projects above P50,000.00 - 1 original and 2 photocopies",
-          "source": "Respective barangays"
-        },
-        {
-          "requirement": "Monetization Checklist - 1 original and 2 photocopies",
+          "requirement": "Disbursement Vouchers and supporting documents – 1 original and 2 photocopies",
           "source": "Respective barangays"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Proceed to the Lipa City Accounting Office – Barangay Division to request for the appropriate checklist",
-          "agency_action": "1. Receive and acknowledge the request",
+          "client_step": "1. Submit complete requirements to the City Accounting Office – Barangay Division for review and approval",
+          "agency_action": "1.1. Receive and check submitted documents for completeness and acknowledge receipt",
           "fees": "None",
           "processing_time": "3 minutes",
-          "person_responsible": "Administrative Aide VI (Lipa City Accounting Office)"
+          "person_responsible": "Administrative Assistant III (Lipa City Accounting Office)"
         },
         {
-          "client_step": "2. Prepare the required documents and submit to the City Accounting Office – Barangay Division",
-          "agency_action": "2.1 Review information; 2.2 Return for revision if incomplete; 2.3 Sign off as preparer and approver if in order",
+          "client_step": "N/A",
+          "agency_action": "1.2. Conduct pre-audit of documents: a. If with incomplete information, return to the bearer; b. If with complete information, sign as preparer and as approver in the Disbursement Voucher",
           "fees": "None",
-          "processing_time": "Simple: 1 day; Complex: 2 days; Incomplete: +1 day",
-          "person_responsible": "Administrative Aide VI, Administrative Officer II, Accountant IV"
+          "processing_time": "2 days",
+          "person_responsible": "Administrative Aide VI, Accountant III (Lipa City Accounting Office)"
         },
         {
-          "client_step": "3. Claim the Disbursement Voucher and supporting documents",
-          "agency_action": "3. Release the signed documents",
+          "client_step": "2. Claim the Disbursement Voucher and supporting documents",
+          "agency_action": "2. Release the signed documents",
           "fees": "None",
           "processing_time": "2 minutes",
-          "person_responsible": "Administrative Aide VI (Lipa City Accounting Office)"
+          "person_responsible": "Administrative Assistant III (Lipa City Accounting Office)"
         }
       ],
-	"total": {
-		"fees": "Simple: 1 day & 5 mins; Complex: 2 days & 5 mins; Discrepancy: +1 day & 5 mins",
-		"processing_time": "None"
-	}
+      "total": {
+        "fees": "None",
+        "processing_time": "2 days and 5 minutes"
+      }
     }
   ]
 }

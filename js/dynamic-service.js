@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         "/data/Lipa City Assesor_s Office External Services.json",
         "/data/Lipa City Engineering Office External Services.json",
         "/data/Lipa City Cooperatives Office External Services.json",
+        "/data/Lipa City Disaster Risk Reduction and Management Office External Services.json",
         "/data/Lipa City Accounting Office External Services.json",
         "/data/LIPA CITY ACCOUNTING OFFICE INTERNAL SERVICES.json",
         "/data/Lipa City Veterinary Office External Services.json",

@@ -2,1154 +2,577 @@
   "department": "Lipa City Health Office",
   "external_services": [
     {
-      "id": 1,
+      "service_name": "Application for Health Certificates for Food Handlers",
+      "image": "/assets/document_background/Application for Health Certificates for Food Handlers",
       "office": "Lipa City Health Office",
-      "service_name": "Application for Cadaver Transfer Permit/ Burial Permit / Cremation Permit / Exhumation Permit",
-      "image": "/assets/document_background/Application for Cadaver Transfer Permit_Burial Permit_Cremation Permit",
+      "classification": "Highly Technical",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Certificate of Attendance to Basic Food Safety Training (for new/lost replacements)",
+          "source": "Lipa City Health Office"
+        },
+        {
+          "requirement": "Chest X-Ray (1 yr validity), Stool Exam (3 mos validity), and Urinalysis (3 mos validity) results",
+          "source": "DOH-accredited laboratory"
+        },
+        {
+          "requirement": "Latest 1x1 ID picture (1 piece)",
+          "source": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Attend Basic Food Safety Training (New Applicants) or Submit requirements to Environmental Sanitation Division (Renewal)",
+          "agency_action": "1.1-1.2: Facilitate training, receive/check requirements, and advise client to pay at Cashier",
+          "fees": "None",
+          "processing_time": "1 hour 30 minutes",
+          "person_responsible": "Sanitary Inspector II"
+        },
+        {
+          "client_step": "2. Pay the required fees at the Lipa City Treasurer's Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees": "P50.00",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II/III"
+        },
+        {
+          "client_step": "3. Present Official Receipt and fill out Information Sheet",
+          "agency_action": "3. Process request; provide Information Sheet (Medical Officer review if lab findings exist)",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Sanitary Inspector II, Medical Officer"
+        },
+        {
+          "client_step": "4. Submit Information Sheet and claim Health Certificate",
+          "agency_action": "4.1-5.0: Encode and release the Health Certificate",
+          "fees": "None",
+          "processing_time": "12 minutes",
+          "person_responsible": "Sanitary Inspector II"
+        }
+      ],
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "New: 1hr 30m / Renewal: 2hrs 42m"
+      }
+    },
+    {
+      "service_name": "Application for Permit to Transfer Cadaver / Burial Permit / Cremation Permit / Exhumation Permit",
+      "image": "/assets/document_background/Application for Permit to Transfer Cadaver / Burial Permit / Cremation Permit / Exhumation Permit",
+      "office": "Lipa City Health Office",
       "classification": "Highly Technical",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": "Nearest kin of the deceased person",
       "checklist_of_requirements": [
         {
-          "requirement": "Death Certificate from hospital, if none Death Certificate and other Death Permits by the City Health Officer",
-          "source": "Hospital where the patient expired"
+          "requirement": "Death Certificate from hospital",
+          "source": "Hospital where patient expired"
         },
         {
           "requirement": "Death Certificate of remains to be exhumed",
-          "source": "Lipa City Civil Registrar Office or Personal File"
+          "source": "Lipa City Civil Registrar's Office"
         },
         {
-          "requirement": "Exhumation Permit shall only be approved after a lapse of 5-year burial period",
-          "source": "Lipa City Health Office"
+          "requirement": "Exhumation Permit (valid only after 5-year burial lapse)",
+          "source": "Lipa City Civil Registrar's Office"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Approach the Lipa City Health Office through the transaction window and present the death certificate",
-          "agency_action": "1. Receive death certificate and interview the client to validate information and request permit",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Midwife II (Lipa City Health Office)"
+          "client_step": "1. Present Death Certificate at the CHO transaction window",
+          "agency_action": "1.1-1.3: Interview client, prepare permit/payment slip, review and sign permit",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Midwife II, City Health Officer"
         },
         {
-          "client_step": "2. Pay the corresponding fee to the Lipa City Treasurer’s Office",
-          "agency_action": "2.1. Prepare requested permit and give the client the corresponding payment slip",
-          "fees_to_be_paid": "Transfer permit: P100 (within the city), P50 (outside the city); Burial permit: P50; Cremation permit: P200; Exhumation Permit: P100 per tomb",
-          "processing_time": "10 minutes",
-          "person_responsible": "Midwife II (Lipa City Health Office)"
+          "client_step": "2. Pay the corresponding fee at the Lipa City Treasurer's Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees": "Transfer(City): P100; Transfer(Outside): P50; Burial: P50; Cremation: P200; Exhumation: P100/tomb",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
         },
         {
-          "client_step": "2. Pay the corresponding fee to the Lipa City Treasurer’s Office",
-          "agency_action": "2.2. Review and signs the permit",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "City Health Officer / Medical Officer on duty (Lipa City Health Office)"
-        },
-        {
-          "client_step": "3. Present the official receipt to Lipa City Health Office to claim the requested permit",
-          "agency_action": "3. Issue requested permit together with the death certificate upon presentation of receipt",
-          "fees_to_be_paid": "None",
+          "client_step": "3. Present official receipt and claim the permit",
+          "agency_action": "3. Issue requested permit and return Death Certificate",
+          "fees": "None",
           "processing_time": "2 minutes",
-          "person_responsible": "Midwife II (Lipa City Health Office)"
+          "person_responsible": "Midwife II"
         }
       ],
-      "total":{
-      "fees": "Transfer permit: P100 (within the city), P50 (outside the city); Burial permit: P50; Cremation permit: P200; Exhumation Permit: P100 per tomb",
-      "processing_time": "20 minutes"
+      "total": {
+        "fees": "Varies (P50.00 - P200.00)",
+        "processing_time": "52 minutes"
       }
     },
     {
-      "id": 2,
-      "office": "Lipa City Health Office",
       "service_name": "Application for Sanitary Permit",
       "image": "/assets/document_background/Application for Sanitary Permit",
-      "classification": "Highly technical",
-      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Business",
-      "who_may_avail": "Business establishment operators",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Water analysis for water refilling station",
-          "source": "DOH accredited laboratories"
-        },
-        {
-          "requirement": "Health certificate for food handlers",
-          "source": "DOH accredited hospitals/ laboratories"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Approach the Sanitary Division through the transaction window and present all requirements",
-          "agency_action": "1. Receive business permit application together with the receipt of payment, requirements and inspection report",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 hours",
-          "person_responsible": "Sanitation Inspector II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Wait for the sanitary permit",
-          "agency_action": "2.1. Prepare the sanitary permit",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Sanitation Inspector II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Wait for the sanitary permit",
-          "agency_action": "2.2. Approve and sign the sanitary permit and sign the endorsement",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Sanitation Inspector VII / City Health Officer (Lipa City Health Office)"
-        },
-        {
-          "client_step": "3. Claim the approved Health Certificate and sanitary permit",
-          "agency_action": "3. Issue the sanitary permit together with the health certificate",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Sanitation Inspector II (Lipa City Health Office)"
-        }
-      ],
-      "total":{
-      "fees": "None",
-      "processing_time": "2 hours and 15 minutes"
-      }
-    },
-    {
-      "id": 3,
-      "office": "Lipa City Health Office",
-      "service_name": "Availing of Adolescent Health Program",
-      "image": "/assets/document_background/Availing of Adolescent Health Program",
+      "office": "Lipa City Health Office – Sanitation Division",
       "classification": "Highly Technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Adolescents (10-19 years old)",
+      "type_of_transaction": "G2B – Government to Business",
+      "who_may_avail": "Business Establishments Operators (bars, restaurants, food chains, etc.)",
       "checklist_of_requirements": [
         {
-          "requirement": "Referral",
-          "source": "Midwife / Peer Educator"
+          "requirement": "Water Analysis (for water refilling stations)",
+          "source": "DOH-accredited laboratories"
         },
         {
-          "requirement": "Laboratory Results (U/A, CBC, HBSAg & UTZ) if available",
-          "source": "Midwife"
+          "requirement": "Health Certificate (Stool, urine, x-ray) and 1x1 pictures (for food handlers)",
+          "source": "DOH-accredited laboratories / Requesting Party"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Secure number in the front desk",
-          "agency_action": "1. Takes patients Vital Signs",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "BHW on Duty (Lipa City Health Office)"
+          "client_step": "1. Present requirements and inspection report at the Sanitary Division window",
+          "agency_action": "1. Receive business permit application and supporting documents",
+          "fees": "None",
+          "processing_time": "2 hours",
+          "person_responsible": "Sanitary Inspector II"
         },
         {
-          "client_step": "2. Wait for queue # to be called and proceed to counseling room",
-          "agency_action": "2. Prepares Individual Treatment Record and secure vital information",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Nurse II (Lipa City Health Office)"
+          "client_step": "2. Wait for preparation and approval",
+          "agency_action": "2.1-2.2: Prepare, approve, and sign Sanitary Permit and Business Permit endorsement",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Sanitary Inspector VII, City Health Officer"
         },
         {
-          "client_step": "3. Proceed to Counseling Room",
-          "agency_action": "3.1. RPRH Counseling",
-          "fees_to_be_paid": "None",
-          "processing_time": "20 minutes",
-          "person_responsible": "Nurse II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "3. Proceed to Counseling Room",
-          "agency_action": "3.2. Provision of FP Services",
-          "fees_to_be_paid": "None",
+          "client_step": "3. Claim the approved documents",
+          "agency_action": "3. Issue Sanitary Permit and employee Health Certificates",
+          "fees": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Nurse II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "4. Proceed to Counseling room",
-          "agency_action": "4.1. Medical Consultation / Counseling",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Medical Officer III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "4. Proceed to Counseling room",
-          "agency_action": "4.2. Refer to other agencies for Complicated patients",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Medical Officer III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "5. Back to counseling room",
-          "agency_action": "5. Schedule of follow up and explains doctor’s order",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Nurse II (Lipa City Health Office)"
+          "person_responsible": "Sanitary Inspector II"
         }
       ],
-      "total":{
-      "fees": "None",
-      "processing_time": "1 hour and 6 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "2 hours and 15 minutes"
       }
     },
     {
-      "id": 4,
-      "office": "Lipa City Health Office",
       "service_name": "Availing of Dental Services",
       "image": "/assets/document_background/Availing of Dental Services",
+      "office": "Lipa City Health Office",
       "classification": "Highly technical",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": "Lipeños of all ages",
       "checklist_of_requirements": [
         {
-          "requirement": "None",
+          "requirement": "Personal appearance",
           "source": "N/A"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Get queue number and fill out patient record/ health declaration form legibly",
+          "client_step": "1. Get queue number and fill out patient record",
           "agency_action": "1. Sterilize dental instruments",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "40 minutes",
-          "person_responsible": "Dental Aide (Lipa City Health Office)"
+          "person_responsible": "Dental Aide"
         },
         {
-          "client_step": "2. Wait for queue number to be called and proceed to vital signs corner",
-          "agency_action": "2. Interview and record vital signs of patients",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Dental Aide (Lipa City Health Office)"
+          "client_step": "2. Proceed to vital signs corner and dental room",
+          "agency_action": "2-3: Record vital signs; conduct chairside education and oral examination",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Dental Aide, Dentist II"
         },
         {
-          "client_step": "3. Proceed to dental room for chairside oral health education and consultation",
-          "agency_action": "3. Conduct oral examination",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Dentist II / Dentist III (Lipa City Health Office)"
+          "client_step": "3. Undergo treatment and receive prescription/referral",
+          "agency_action": "4-6: Perform tooth extraction (if needed), prescribe meds, or refer complicated cases",
+          "fees": "None",
+          "processing_time": "45 minutes",
+          "person_responsible": "Dentist II"
         },
         {
-          "client_step": "4. Follow advice for preventive or curative treatment",
-          "agency_action": "4. Performs tooth extraction, if necessary",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Dentist II / Dentist III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "5. Wait for prescribed medicines",
-          "agency_action": "5. Prescribe medicines",
-          "fees_to_be_paid": "None",
+          "client_step": "4. Proceed to pharmacy section",
+          "agency_action": "7. Dispense medicines to patient",
+          "fees": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Dentist II / Dentist III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "6. Wait for referral slip",
-          "agency_action": "6. Refers complicated cases",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Dentist II / Dentist III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "7. Proceed to pharmacy",
-          "agency_action": "7. Dispense medicines",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Pharmacist I / II / IV (Lipa City Health Office)"
-        }
-      ],
-      "total":{
-      "fees": "None",
-      "processing_time": "1 hour and 50 minutes"
-      }
-    },
-    {
-      "id": 5,
-      "office": "Lipa City Health Office",
-      "service_name": "Availing of Laboratory Services",
-      "image": "/assets/document_background/Availing of Laboratory Services",
-      "classification": "Highly Technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Individuals with laboratory request from Medical Officers",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Properly filled up request slip from the requesting physician",
-          "source": "City Health and District Health Centers"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit filled-up request slip",
-          "agency_action": "1.1. Receive the request, identify the patient",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Laboratory Aide II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Submit filled-up request slip",
-          "agency_action": "1.2. Instruct proper specimen collection",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Medical Technologist III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Submit filled-up request slip",
-          "agency_action": "1.3. Collect specimen according to request examination",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Medical Technologist III / II / I (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Submit filled-up request slip",
-          "agency_action": "1.4. Processing of specimen (in batches)",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 hours",
-          "person_responsible": "Medical Technologist III / II / I (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Claim the result",
-          "agency_action": "2. Releasing of Result",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Medical Technologist III / II / I (Lipa City Health Office)"
-        }
-      ],
-      "total":{
-      "fees": "None",
-      "processing_time": "2 hours and 19 minutes"
-      }
-    },
-    {
-      "id": 6,
-      "office": "Lipa City Health Office",
-      "service_name": "Availing of Medical Treatment Services/ Consultation - Urban District",
-      "image": "/assets/document_background/Availing of Medical Treatment Services_Consultation _ Urban District",
-      "classification": "Highly technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Lipenos of all ages",
-      "checklist_of_requirements": [
-        {
-          "requirement": "None",
-          "source": "N/A"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Get queue number and fill out patient record / health declaration form",
-          "agency_action": "1. Prepare Individual Treatment Record and interview patients",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Nursing Attendant (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Wait for queue # to be called and proceed to vital signs corner",
-          "agency_action": "2. Take patients Vital Signs",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "BHW on Duty (Lipa City Health Office)"
-        },
-        {
-          "client_step": "3. Proceed to primary Health Care Corner",
-          "agency_action": "3. Conduct Primary Health Care Consultation",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Nurse IV / Midwife III / II / I (Lipa City Health Office)"
-        },
-        {
-          "client_step": "4. Proceed to Medical Officer",
-          "agency_action": "4. Medical Consultation Management and treatment of patient",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Medical Officer IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "5. Wait for Referral",
-          "agency_action": "5. Refer Complicated Cases to other facilities",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Medical Officer IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "6. Wait for prescribed Medicine",
-          "agency_action": "6. Prescribed medicines",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Medical Officer IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "7. Proceed to Pharmacy section",
-          "agency_action": "7. Dispense Medicines to patient",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Pharmacist III (Lipa City Health Office)"
+          "person_responsible": "Pharmacist I, Nurse/Midwife"
         }
       ],
       "total": {
-      "fees": "None",
-      "processing_time": "1 hour"
+        "fees": "None",
+        "processing_time": "1 hour and 50 minutes"
       }
     },
     {
-      "id": 7,
-      "office": "Lipa City Health Office",
-      "service_name": "Availing of Medical Treatment Services/ Consultation – East District",
-      "image": "/assets/document_background/Availing of Medical Treatment Services_Consultation _ Urban District",
+      "service_name": "Availing of Fogging/ Misting Services",
+      "image": "/assets/document_background/Availing of Fogging/ Misting Services",
+      "office": "Lipa City Health Office – Sanitation Division",
       "classification": "Highly Technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Individuals who need medical attention and immunization/ vaccination",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Different Barangays Affected by Dengue",
       "checklist_of_requirements": [
         {
-          "requirement": "Referral (for patients coming from BHS)",
-          "source": "Midwife"
-        },
-        {
-          "requirement": "Laboratory Results (U/A, CBC, HBSAg & UTZ) if available",
-          "source": "Midwife"
+          "requirement": "Request letter addressed to the City Health (1 original copy)",
+          "source": "Request Letter from barangay"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Secure number in the front desk",
-          "agency_action": "1. Take patient’s Vital Signs",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "BHW on duty (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Wait for queue",
-          "agency_action": "2. Prepare Individual Treatment Record and history taking",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "BHW on duty (Lipa City Health Office)"
-        },
-        {
-          "client_step": "3. Proceed to PHC area",
-          "agency_action": "3.1. Perform Primary Health Care (PHC)",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Midwife III / II / I (Lipa City Health Office)"
-        },
-        {
-          "client_step": "3. Proceed to PHC area",
-          "agency_action": "3.2. Prenatal Check up",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Midwife III / II / I (Lipa City Health Office)"
-        },
-        {
-          "client_step": "3. Proceed to PHC area",
-          "agency_action": "3.3. Refer to RHU/ hospital for complicated cases",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Midwife III / II / I (Lipa City Health Office)"
-        },
-        {
-          "client_step": "4. Get immunized/ vaccinated",
-          "agency_action": "4.1. Immunize/ vaccinate",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Midwife III / II / I (Lipa City Health Office)"
-        },
-        {
-          "client_step": "4. Get immunized/ vaccinated",
-          "agency_action": "4.2. Assist and provide FP services",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Midwife III / II / I (Lipa City Health Office)"
+          "client_step": "1. Submit request letter to the Lipa City Health Office",
+          "agency_action": "1.1-1.3: Receive letter, conduct inspection/set schedule, and perform fogging/misting services",
+          "fees": "None",
+          "processing_time": "4 hours 1 minute",
+          "person_responsible": "Sanitary Inspectors on duty"
         }
       ],
-      "total":{
-      "fees": "None",
-      "processing_time": "58 minutes"
+      "total": {
+        "fees": "None",
+        "processing_time": "4 hours and 1 minute"
       }
     },
     {
-      "id": 8,
+      "service_name": "Availing of Medical Treatment/ Consultation",
+      "image": "/assets/document_background/Availing of Medical Treatment/ Consultation",
       "office": "Lipa City Health Office",
-      "service_name": "Availing of Medical Treatment Services/ Consultation - West District",
-      "image": "/assets/document_background/Availing of Medical Treatment Services_Consultation _ Urban District",
-      "classification": "Highly Technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Lipenos of all ages",
-      "checklist_of_requirements": [
-        {
-          "requirement": "None",
-          "source": "N/A"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Get queue number and fill out patient record / health declaration form",
-          "agency_action": "1. Prepare Individual Treatment Record and interview patients",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Utility Worker II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Wait for queue # to be called and proceed to Vital signs corner",
-          "agency_action": "2. Take patients Vital Signs",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "BHW on Duty (Lipa City Health Office)"
-        },
-        {
-          "client_step": "3. Proceed to primary Health Care Corner",
-          "agency_action": "3. Conduct Primary Health Care Consultation",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Nurse III / Midwife III / II / I (Lipa City Health Office)"
-        },
-        {
-          "client_step": "4. Proceed to Medical Officer",
-          "agency_action": "4. Medical Consultation Management and treatment of patient",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Medical Officer IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "5. Wait for Referral",
-          "agency_action": "5. Refer Complicated Cases to other facilities",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Medical Officer IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "6. Wait for prescribed Medicine",
-          "agency_action": "6. Prescribed medicines",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Medical Officer IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "7. Proceed to Pharmacy section",
-          "agency_action": "7. Dispense Medicines to patient",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Pharmacist III (Lipa City Health Office)"
-        }
-      ],
-       "total":{
-      "fees": "None",
-      "processing_time": "1 hour"
-       }
-    },
-    {
-      "id": 9,
-      "office": "Lipa City Health Office",
-      "service_name": "Availing of Medical Treatment Services – South District Health Center",
-      "image": "/assets/document_background/Availing of Medical Treatment Services_Consultation _ Urban District",
-      "classification": "Highly Technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Lipenos of all ages",
-      "checklist_of_requirements": [
-        {
-          "requirement": "None",
-          "source": "N/A"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Get queue number and fill out patient record / health declaration form",
-          "agency_action": "1. Prepare Individual Treatment Record and interview patients",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Midwife on Duty (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Wait for queue # to be called and proceed to Vital signs corner",
-          "agency_action": "2. Take patients Vital Signs",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Midwife on Duty (Lipa City Health Office)"
-        },
-        {
-          "client_step": "3. Proceed to primary Health Care Corner",
-          "agency_action": "3. Conduct Primary Health Care Consultation",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Nurse III / II / Midwife II / I (Lipa City Health Office)"
-        },
-        {
-          "client_step": "4. Proceed to Medical Officer",
-          "agency_action": "4. Medical Consultation Management and treatment of patient",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Medical Officer IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "5. Wait for Referral",
-          "agency_action": "5. Refer Complicated Cases to other facilities",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Medical Officer IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "6. Wait for prescribed Medicine",
-          "agency_action": "6. Prescribed medicines",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Medical Officer IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "7. Proceed to Pharmacy section",
-          "agency_action": "7. Dispense Medicines to patient",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Pharmacist III (Lipa City Health Office)"
-        }
-      ],
-       "total":{
-      "fees": "None",
-      "processing_time": "1 hour"
-       }
-    },
-    {
-      "id": 10,
-      "office": "Lipa City Health Office",
-      "service_name": "Availing of Primary Health Care – East District Health Center",
-      "image": "/assets/document_background/Availing of Primary Health Care Services – East District Health Center",
       "classification": "Highly technical",
       "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Individuals who need medical attention",
+      "who_may_avail": "All Lipeños needing medical attention",
       "checklist_of_requirements": [
         {
-          "requirement": "Referral (for patients coming from BHS)",
-          "source": "Midwife"
+          "requirement": "Referral (1 original copy)",
+          "source": "Barangay Health Stations / Midwife"
         },
         {
-          "requirement": "Laboratory Results (U/A, CBC, HBSAg & UTZ) if available",
+          "requirement": "Laboratory Results (U/A, CBC, HBSAg & UTZ), if available",
           "source": "Midwife"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Secure number in the front desk",
-          "agency_action": "1. Take patient’s Vital Signs",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Midwife / Nurse / Lipa City Health Office staff"
+          "client_step": "1. Secure queue number and proceed to vital signs corner",
+          "agency_action": "1.1-1.2: Check requirements, prepare record, and record vital signs",
+          "fees": "None",
+          "processing_time": "8 minutes",
+          "person_responsible": "BHW on duty"
         },
         {
-          "client_step": "2. Wait for queue",
-          "agency_action": "2. Prepare Individual Treatment Record and history taking",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Midwife / Nurse / Lipa City Health Office staff"
-        },
-        {
-          "client_step": "3. Proceed to PHC area",
-          "agency_action": "3. Primary Health Care (PHC)",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Midwife / Nurse / Lipa City Health Office staff"
-        },
-        {
-          "client_step": "4. Proceed to Consultation area",
-          "agency_action": "4.1. Medical Consultation",
-          "fees_to_be_paid": "None",
+          "client_step": "2. Medical Consultation",
+          "agency_action": "2.1-2.5: Examine patient, refer to lab/specialist, prescribe meds, or give hospital referral",
+          "fees": "None",
           "processing_time": "15 minutes",
-          "person_responsible": "Medical Officer III (Lipa City Health Office)"
+          "person_responsible": "Medical Officer on Duty"
         },
         {
-          "client_step": "4. Proceed to Consultation area",
-          "agency_action": "4.2. Refer to hospital / specialist for Complicated patients",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Medical Officer III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "5. Proceed to Pharmacy",
-          "agency_action": "5. Provide available medicines",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Pharmacist I / Midwife / Nurse / Lipa City Health Office staff"
+          "client_step": "3. Proceed to Laboratory and Pharmacy",
+          "agency_action": "3-4: Perform tests (CBC, UA, Dengue) and dispense available medicines",
+          "fees": "None",
+          "processing_time": "N/A (Included in Total)",
+          "person_responsible": "Medical Technologist, Pharmacist"
         }
       ],
-       "total":{
-      "fees": "None",
-      "processing_time": "35 minutes"
-       }
+      "total": {
+        "fees": "None",
+        "processing_time": "23 minutes"
+      }
     },
     {
-      "id": 11,
+      "service_name": "Availing of Medical Treatment/ Consultation at the Animal Bite Treatment Center",
+      "image": "/assets/document_background/Availing of Medical Treatment/ Consultation at the Animal Bite Treatment Center",
       "office": "Lipa City Health Office",
-      "service_name": "Availing of Pre-Marriage Counselling Services",
-      "image": "/assets/document_background/Availing of Pre-Marriage Counselling Services",
+      "classification": "Highly Technical",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Victims of animal bites/scratches or rabid animal exposure",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Biting Animal Form (1 original copy)",
+          "source": "Respective Barangay Health Center"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Get queue number and record vital signs",
+          "agency_action": "1-2: Interview patient, prepare record, and take vital signs",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Rural Health Midwife II/I"
+        },
+        {
+          "client_step": "2. Consultation and Treatment",
+          "agency_action": "3-5: Conduct consultation, refer complicated cases, and administer ARV, ERIG, or Tetanus Toxoid",
+          "fees": "None",
+          "processing_time": "70 minutes",
+          "person_responsible": "Medical Officer III, Nurse III"
+        },
+        {
+          "client_step": "3. Claim medicines at Pharmacy",
+          "agency_action": "6. Dispense medicines",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Pharmacist I"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "1 hour and 25 minutes"
+      }
+    },
+    {
+      "service_name": "Availing of Primary Care",
+      "image": "/assets/document_background/Availing of Primary Care",
+      "office": "Lipa City Health Office – East District Health Center",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All individuals needing medical attention/immunization",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Referral and Laboratory Results (if available)",
+          "source": "Barangay Health Stations / Midwives"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure number and provide vital info",
+          "agency_action": "1.1-1.2: Record vital signs, medical history, and treatment record",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "BHW on duty"
+        },
+        {
+          "client_step": "2. Proceed to PHC area",
+          "agency_action": "2.1-2.5: Provide Primary Care, Pre-natal check-up, vaccination, or FP services; refer if complicated",
+          "fees": "None",
+          "processing_time": "53 minutes (maximum cumulative)",
+          "person_responsible": "Midwife on duty"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "58 minutes"
+      }
+    },
+    {
+      "service_name": "Availing of TB DOTS Treatment",
+      "image": "/assets/document_background/Availing of TB DOTS Treatment",
+      "office": "Lipa City Health Office – TB DOTS Clinic",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Any patient suspected to have tuberculosis",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Chest X-Ray result and GenExpert Test result (1 original each)",
+          "source": "DOH-accredited laboratory / Lipa CHO TB DOTS Clinic"
+        },
+        {
+          "requirement": "Referral, if available",
+          "source": "Private doctor"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure number and submit requirements",
+          "agency_action": "1.1-1.3: Prepare record, take vital signs, and provide TB education",
+          "fees": "None",
+          "processing_time": "14 minutes",
+          "person_responsible": "Nurse IV"
+        },
+        {
+          "client_step": "2. Conduct medical consultation",
+          "agency_action": "1.4. Review case and provide treatment plan",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Medical Officer IV"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "29 minutes"
+      }
+    },
+    {
+      "service_name": "Availing of Teen Health Kiosk Services",
+      "image": "/assets/document_background/Availing of Teen Health Kiosk Services",
+      "office": "Lipa City Health Office",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Adolescents aged 10-19 years old",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Referral and Laboratory Results (if available)",
+          "source": "Midwife / Peer Educator"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Get queue number and proceed to Counseling Room",
+          "agency_action": "1.1-2.2: Record vital signs/info; provide RPRH Counseling and FP Services",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "BHW, Nurse II"
+        },
+        {
+          "client_step": "2. Proceed to Consultation room",
+          "agency_action": "3.1-3.2: Conduct medical consultation; refer if complicated",
+          "fees": "None",
+          "processing_time": "33 minutes",
+          "person_responsible": "Medical Officer III"
+        },
+        {
+          "client_step": "3. Back to Counseling Room",
+          "agency_action": "4. Schedule follow-up and explain doctor's orders",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Nurse II"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "1 hour and 6 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Certificate of Death",
+      "image": "/assets/document_background/Request for Certificate of Death",
+      "office": "Lipa City Health Office",
+      "classification": "Highly Technical",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Nearest kin of the deceased person",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Medical Abstract (if died at home after confinement) or Filled-up Death Certificate signed by attending physician",
+          "source": "Hospital last attended"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Fill out Information Sheet at CHO transaction window",
+          "agency_action": "1.1-1.4: Receive sheet, interview client, process certificate/payment slip, and sign certificate",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Midwife II, City Health Officer"
+        },
+        {
+          "client_step": "2. Pay fee at the City Treasurer's Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees": "P50.00",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
+        },
+        {
+          "client_step": "3. Present receipt to claim certificate",
+          "agency_action": "3. Release signed Death Certificate and advise on Civil Registrar registration",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Midwife II"
+        }
+      ],
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "55 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Medical Certificate for Employment",
+      "image": "/assets/document_background/Request for Medical Certificate for Employment",
+      "office": "Lipa City Health Office",
+      "classification": "Highly Technical",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Individuals seeking for employment",
+      "checklist_of_requirements": [
+        {
+          "requirement": "CSC Form 211 – Medical Certificate for Employment (1 original copy)",
+          "source": "Lipa City Personnel Office"
+        },
+        {
+          "requirement": "Chest X-ray result (not more than 6 months old)",
+          "source": "Any Diagnostic Laboratory"
+        },
+        {
+          "requirement": "Blood test, Urinalysis, Drug test, and Neuro-psychiatric exam results",
+          "source": "Any Diagnostic Laboratory"
+        },
+        {
+          "requirement": "Other requirements stated in the CIVIL SERVICE CHECKLIST (if government application)",
+          "source": "Civil Service Commission"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Approach the CHO through the transaction window and state the request",
+          "agency_action": "1. Acknowledges the client, assesses the request, and gives the payment slip",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Midwife II"
+        },
+        {
+          "client_step": "2. Pay the medical fee at City Treasurer's Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees": "P50.00",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
+        },
+        {
+          "client_step": "3. Present the official receipt to CHO to claim the medical certificate",
+          "agency_action": "3-4: Process the request and issue the requested medical certificate",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "City Health Officer, Medical Officer on duty, Midwife II"
+        }
+      ],
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "45 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Pre-Marriage Counseling Certificates",
+      "image": "/assets/document_background/Request for Pre-Marriage Counseling Certificates",
+      "office": "Lipa City Health Office",
       "classification": "Highly Technical",
       "type_of_transaction": "G2C – Government to Citizens",
       "who_may_avail": "Couples applying for Marriage License",
       "checklist_of_requirements": [
         {
-          "requirement": "Marriage claim slip",
-          "source": "At the Local Civil Registrar"
+          "requirement": "Marriage claim slip (1 original copy)",
+          "source": "Lipa City Civil Registrar's Office"
         }
       ],
       "steps": [
         {
-          "client_step": "1. Download viber app and send application number/date of release to 09069079874",
-          "agency_action": "1. Thru viber couples will receive PMC videos and activities",
-          "fees_to_be_paid": "None",
+          "client_step": "1. Download Viber, search 09069079874, and send application number and release date",
+          "agency_action": "1. Send PMC videos and activities to the couples via Viber",
+          "fees": "None",
           "processing_time": "20 minutes",
-          "person_responsible": "Population Program Worker II (Lipa City Health Office)"
+          "person_responsible": "Population Program Worker II"
         },
         {
-          "client_step": "2. Send the answered activities required",
+          "client_step": "2. Send the answered activities to the Lipa City Health Office",
           "agency_action": "2. Check and evaluate the answers of the couples",
-          "fees_to_be_paid": "None",
+          "fees": "None",
           "processing_time": "10 minutes",
-          "person_responsible": "Population Program Worker II (Lipa City Health Office)"
+          "person_responsible": "Population Program Worker II"
         },
         {
           "client_step": "3. Receive the date of the actual seminar",
-          "agency_action": "3. Schedule the date of seminar of the couples",
-          "fees_to_be_paid": "None",
+          "agency_action": "3. Schedule the date of seminar for the couples",
+          "fees": "None",
           "processing_time": "5 minutes",
-          "person_responsible": "Population Program Worker II (Lipa City Health Office)"
+          "person_responsible": "Population Program Worker II"
         },
         {
-          "client_step": "4. Attend seminar",
-          "agency_action": "4. Conduct PMC seminar",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 hours",
-          "person_responsible": "Population Program Worker II (Lipa City Health Office)"
+          "client_step": "4. Attend the seminar and fill up information forms",
+          "agency_action": "4-5: Conduct PMC seminar and record attendee information",
+          "fees": "None",
+          "processing_time": "3 hours 30 minutes",
+          "person_responsible": "Population Program Worker II"
         },
         {
-          "client_step": "5. Fill up information forms",
-          "agency_action": "5. Record names and information of the couple attendees",
-          "fees_to_be_paid": "None",
+          "client_step": "5. Claim the PMC certificates",
+          "agency_action": "6. Release the PMC Certificates and refer the couples to the DSWD",
+          "fees": "None",
           "processing_time": "30 minutes",
-          "person_responsible": "Population Program Worker II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "6. Claim PMC certificates",
-          "agency_action": "6. Distribute PMC Certificates and refer couples to the DSWD",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Population Program Worker II (Lipa City Health Office)"
+          "person_responsible": "Population Program Worker II"
         }
       ],
-       "total":{
-      "fees": "None",
-      "processing_time": "4 Hours and 35 Minutes"
-       }
-    },
-    {
-      "id": 12,
-      "office": "Lipa City Health Office",
-      "service_name": "Availing of Social Hygiene Services",
-      "image": "/assets/document_background/Availing of Social Hygiene Service",
-      "classification": "Highly technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "High risk individuals (pregnant, LGBT group)",
-      "checklist_of_requirements": [
-        {
-          "requirement": "None",
-          "source": "N/A"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Patient will get queue number and wait to be called",
-          "agency_action": "1. Interview patient and prepare patient’s information/ record",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Nurse III / Midwife III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Proceed to vital sign corner",
-          "agency_action": "2. Get patient’s vital signs",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Nurse III / Midwife III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "3. Proceed to Medical Room for consultation",
-          "agency_action": "3. Conduct medical examination",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Medical Officer IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "4. Proceed to laboratory room",
-          "agency_action": "4. Execute laboratory procedure (HIV testing, Hepa B, Syphilis, gram stain)",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Medical Technologist I (Lipa City Health Office)"
-        },
-        {
-          "client_step": "5. Proceed to counselling room",
-          "agency_action": "5. Counselling of patients regarding results",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Medical Officer IV / Midwife III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "6. Proceed to the Medical Room",
-          "agency_action": "6. Facilitate management and treatment of patient. Refer if needed",
-          "fees_to_be_paid": "None",
-          "processing_time": "40 minutes",
-          "person_responsible": "Medical Officer IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "7. Proceed to pharmacy",
-          "agency_action": "7. Dispense medicines",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Pharmacist I (Lipa City Health Office)"
-        }
-      ],
-       "total":{
-      "fees": "None",
-      "processing_time": "1 hour and 50 minutes"
-       }
-    },
-    {
-      "id": 13,
-      "office": "Lipa City Health Office",
-      "service_name": "Availing of TB DOTS Services",
-      "image": "/assets/document_background/Availing of TB DOTS Services",
-      "classification": "Highly Technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Individual With Tuberculosis",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Chest Xray Result",
-          "source": "Any Public and Private Hospitals and Clinics"
-        },
-        {
-          "requirement": "Genexpert",
-          "source": "TB DOTS"
-        },
-        {
-          "requirement": "Referral From Private Doctor, if available",
-          "source": "Any Private Hospitals and Clinics"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Secure number from the desk",
-          "agency_action": "1.1. Prepare Individual Treatment Record and get vital information",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 minutes",
-          "person_responsible": "Job Order (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Secure number from the desk",
-          "agency_action": "1.2. Take patient’s Vital Signs",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "BHW on duty (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Secure number from the desk",
-          "agency_action": "1.3. Health Education regarding TB disease and treatment",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Nurse IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Secure number from the desk",
-          "agency_action": "1.4. Medical Consultation",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Medical Officer IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Secure number from the desk",
-          "agency_action": "1.5. Enrollment and Issuance of TB Drugs",
-          "fees_to_be_paid": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Nurse IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Secure number from the desk",
-          "agency_action": "1.6. Providers Initiated Counsel and Testing for TB HIV patient",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Medical Technologist III / Nurse IV (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Secure number from the desk",
-          "agency_action": "1.7. Collect Specimen (sputum) for DSSM follow up",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Job Order (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Secure number from the desk",
-          "agency_action": "1.8. Processing of Specimen (sputum) Microscopic examination",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 hours",
-          "person_responsible": "Medical Technologist III / Laboratory Aide II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Secure number from the desk",
-          "agency_action": "1.9. Processing of specimen for GENERXPERT ASSAY TESTING",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 hours",
-          "person_responsible": "Medical Technologist III (Lipa City Health Office)"
-        }
-      ],
-       "total":{
-      "fees": "None",
-      "processing_time": "7 hours and 7 minutes"
-       }
-    },
-    {
-      "id": 14,
-      "office": "Lipa City Health Office",
-      "service_name": "Request for Certification of Death",
-      "image": "/assets/document_background/Request for Certification of Death",
-      "classification": "Highly Technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Nearest kin of the deceased person",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Medical Abstract for Death Certificate request (if died at home but previously confined)",
-          "source": "Hospital last attended prior to death"
-        },
-        {
-          "requirement": "Filled up Death Certificate Forms signed by attending physician (if died in hospital)",
-          "source": "Hospital last attended prior to death"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Approach transaction window and fill up deceased Information Sheet",
-          "agency_action": "1.1. Receive filled-up deceased Information Sheet",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Midwife II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Approach transaction window and fill up deceased Information Sheet",
-          "agency_action": "1.2. Interview client",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "City Health Officer / Medical Officer on duty (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Approach transaction window and fill up deceased Information Sheet",
-          "agency_action": "1.3. Process Death Certificate form and hand in payment slip",
-          "fees_to_be_paid": "P 50.00",
-          "processing_time": "10 minutes",
-          "person_responsible": "Midwife II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Pay fee at Treasurer’s Office, present OR at CHO and claim certificate",
-          "agency_action": "2.1. Validate data, sign and release the Death Certificate",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "CHO / Medical Officer / Midwife II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Pay fee at Treasurer’s Office, present OR at CHO and claim certificate",
-          "agency_action": "2.2. Advise client to proceed to Civil Registrar’s Office",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Midwife II (Lipa City Health Office)"
-        }
-      ],
-       "total":{
-      "fees": "P 50.00",
-      "processing_time": "30 minutes"
-       }
-    },
-    {
-      "id": 15,
-      "office": "Lipa City Health Office",
-      "service_name": "Request for Fogging/ Misting Services",
-      "image": "/assets/document_background/Request for Fogging_ Misting Services",
-      "classification": "Highly technical",
-      "type_of_transaction": "G2C – Citizens, G2B – Business, G2G – Government",
-      "who_may_avail": "All institutions affected by dengue",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Letter of request addressed to City Health Officer – 1 original copy",
-          "source": "Requesting party/ applicant"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit letter of request for fogging/ misting",
-          "agency_action": "1.1. Receive letter of request",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Sanitary Inspector II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Submit letter of request for fogging/ misting",
-          "agency_action": "1.2. Conduct inspection and set schedule",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 hours",
-          "person_responsible": "Sanitary Inspectors on duty (Lipa City Health Office)"
-        },
-        {
-          "client_step": "1. Submit letter of request for fogging/ misting",
-          "agency_action": "1.3. Conduct fogging/ misting activity",
-          "fees_to_be_paid": "None",
-          "processing_time": "2 hours",
-          "person_responsible": "Sanitary Inspectors on duty (Lipa City Health Office)"
-        }
-      ],
-       "total":{
-      "fees": "None",
-      "processing_time": "4 hours and 1 minute"
-       }
-    },
-    {
-      "id": 16,
-      "office": "Lipa City Health Office",
-      "service_name": "Request for Free Medicines",
-      "image": "/assets/document_background/Request for Free Medicines",
-      "classification": "Simple",
-      "type_of_transaction": "G2C- Government to Citizens",
-      "who_may_avail": "Lipeños of all ages",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Dated doctor’s prescription",
-          "source": "District Health Centers"
-        },
-        {
-          "requirement": "Nurses’ and midwives’ prescription after conducting primary health care",
-          "source": "District Health Centers"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Approach the pharmacy window and give the prescription",
-          "agency_action": "1. Receive valid prescription",
-          "fees_to_be_paid": "None",
-          "processing_time": "1 minute",
-          "person_responsible": "Pharmacist II / Job Order (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Wait for the medicines to be dispensed",
-          "agency_action": "2.1. Read and check prescription",
-          "fees_to_be_paid": "None",
-          "processing_time": "3 minutes",
-          "person_responsible": "Pharmacist II / Job Order (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Wait for the medicines to be dispensed",
-          "agency_action": "2.2. Prepare and label the medicines",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Pharmacist II / Job Order (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Wait for the medicines to be dispensed",
-          "agency_action": "2.3. Dispense and give instruction",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Pharmacist II / Job Order (Lipa City Health Office)"
-        }
-      ],
-       "total":{
-      "fees": "None",
-      "processing_time": "14 minutes"
-       }
-    },
-    {
-      "id": 17,
-      "office": "Lipa City Health Office",
-      "service_name": "Request for Medical Certificate for Employment Purposes",
-      "image": "/assets/document_background/Request for Medical Certificate for Employment Purposes",
-      "classification": "Highly Technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Individuals seeking for employment",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Chest Xray (not more than 6 months)",
-          "source": "Any Diagnostic Laboratory"
-        },
-        {
-          "requirement": "Other requirements stated in CIVIL SERVICE CHECKLIST (if government)",
-          "source": "Any Diagnostic Laboratory"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Approach CHO window and state request",
-          "agency_action": "1. Acknowledge client, assess request and give payment slip",
-          "fees_to_be_paid": "P50.00",
-          "processing_time": "5 minutes",
-          "person_responsible": "Midwife II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Pay medical fee at City Treasurer’s Office",
-          "agency_action": "2. Process the request",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "CHO / Medical Officer / Midwife II (Lipa City Health Office)"
-        },
-        {
-          "client_step": "3. Present official receipt to CHO and claim certificate",
-          "agency_action": "3. Issue the requested medical certificate",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Midwife II (Lipa City Health Office)"
-        }
-      ],
-       "total":{
-      "fees": "P50.00",
-      "processing_time": "15 minutes"
-       }
-    },
-    {
-      "id": 18,
-      "office": "Lipa City Health Office",
-      "service_name": "Treatment of Animal Bite Cases",
-      "image": "/assets/document_background/Treatment of Animal Bite Cases",
-      "classification": "Highly technical",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": "Victim of animal bites/scratches or individual exposed to rabid animals",
-      "checklist_of_requirements": [
-        {
-          "requirement": "Biting Animal Form",
-          "source": "Respective Barangay Health Centers"
-        }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Get queue number and fill out patient’s data form",
-          "agency_action": "1. Interview patient and prepare information/record",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Midwife II / Midwife I (Lipa City Health Office)"
-        },
-        {
-          "client_step": "2. Wait for queue # to be called and proceed to vital signs corner",
-          "agency_action": "2. Get patient’s vital signs",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Midwife II / Midwife I (Lipa City Health Office)"
-        },
-        {
-          "client_step": "3. Proceed to medical consultation",
-          "agency_action": "3. Conduct medical consultation/Facilitates Treatment",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Medical Officer III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "4. Wait for referral",
-          "agency_action": "4. Refer CAT III (if ERIG is not available)/complicated cases",
-          "fees_to_be_paid": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Medical Officer III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "5. Proceed to treatment room/area",
-          "agency_action": "5. Administer ARV, ERIG and Tetanus Toxoid",
-          "fees_to_be_paid": "None",
-          "processing_time": "30 minutes",
-          "person_responsible": "Nurse III (Lipa City Health Office)"
-        },
-        {
-          "client_step": "6. Proceed to Pharmacy section",
-          "agency_action": "6. Dispense medicines",
-          "fees_to_be_paid": "None",
-          "processing_time": "5 minutes",
-          "person_responsible": "Pharmacist I (Lipa City Health Office)"
-        }
-      ],
-       "total":{
-      "fees": "None",
-      "processing_time": "1 hour and 25 minutes"
-       }
+      "total": {
+        "fees": "None",
+        "processing_time": "4 hours and 35 minutes"
+      }
     }
   ]
 }

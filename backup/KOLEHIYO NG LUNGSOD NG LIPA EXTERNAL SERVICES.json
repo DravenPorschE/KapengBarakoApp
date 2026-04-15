@@ -1,0 +1,477 @@
+{
+  "department": "Kolehiyo ng Lungsod ng Lipa",
+  "external_services": [
+    {
+      "id": 1,
+      "service_name": "Issuance of Certificate of Good Moral Character",
+      "image": "/assets/document_background/Issuance of Certificate of Good Moral Character",
+      "office": "Kolehiyo ng Lungsod ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Enrolled KLL students and graduates"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Clearance duly signed by the Dean, Librarian and Accounting Officer",
+          "source": "Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "requirement": "Official receipt of payment",
+          "source": "Kolehiyo ng Lungsod ng Lipa"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure clearance duly signed by the Dean, Librarian and Accounting Office",
+          "agency_action": "1.1. Receive Official Receipt of payments and verify records of the student",
+          "fees": "P10.00",
+          "processing_time": "15 minutes",
+          "person_responsible": "College Librarian, Accounting Officer, Dean - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "1. Secure clearance duly signed by the Dean, Librarian and Accounting Office",
+          "agency_action": "1.2. Prepare the document",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Administrative Aide V - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "1. Secure clearance duly signed by the Dean, Librarian and Accounting Office",
+          "agency_action": "1.3. Review and sign the document",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Administrative Aide V - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Claim the Certificate of Good Moral Character",
+          "agency_action": "2. Issue the Certificate of Good Moral Character to the student",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Guidance and Counselling Officer - Kolehiyo ng Lungsod ng Lipa"
+        }
+      ],
+      "total": {
+        "fees": "P10.00",
+        "processing_time": "23 minutes"
+      }
+    },
+    {
+      "id": 2,
+      "service_name": "Enrollment Procedure for New Students at the Kolehiyo ng Lungsod ng Lipa",
+      "image": "/assets/document_background/Enrollment Procedure for New Students at the Kolehiyo ng Lungsod",
+      "office": "Kolehiyo ng Lungsod ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Senior high school completers from any public or private schools who qualified in the admission requirements of KLL"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Admission slip – 1 original copy",
+          "source": "Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "requirement": "Birth Certificate – 1 original copy",
+          "source": "Philippine Statistics Authority"
+        },
+        {
+          "requirement": "High School Card – 1 original copy",
+          "source": "Secondary school attended"
+        },
+        {
+          "requirement": "Transcript of Records (for transferees) – 1 original copy",
+          "source": "Secondary school attended"
+        },
+        {
+          "requirement": "2 copies of recent 2x2 picture (optional)",
+          "source": "Student applicant"
+        },
+        {
+          "requirement": "Certification of Good Moral Character – 1 original copy",
+          "source": "Secondary school attended"
+        },
+        {
+          "requirement": "Business envelope with mailing stamp",
+          "source": "Student applicant"
+        },
+        {
+          "requirement": "1 brown envelope",
+          "source": "Student applicant"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit complete requirements",
+          "agency_action": "1.1. Check the original credentials and admission slip",
+          "fees": "None",
+          "processing_time": "4 minutes",
+          "person_responsible": "OIC-Registrar / Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "1. Submit complete requirements",
+          "agency_action": "1.2. Give registration form with list of subjects",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "OIC-Registrar / Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "1. Submit complete requirements",
+          "agency_action": "1.3. Approve and sign filled-up registration form",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Claim class cards and registration form",
+          "agency_action": "2. Stamp ENROLLED and give class cards to newly enrolled students",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "14 minutes"
+      }
+    },
+    {
+      "id": 3,
+      "service_name": "Enrolment Procedure for Old Students at Kolehiyo ng Lungsod ng Lipa",
+      "image": "/assets/document_background/Enrolment Procedure for Old Students at Kolehiyo ng Lungsod ng Lipa",
+      "office": "Kolehiyo ng Lungsod ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Students who were able to pass the preceding semester"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Registration Form from the previous semester",
+          "source": "Student applicant or Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "requirement": "Class cards",
+          "source": "Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "requirement": "Evaluation of grades",
+          "source": "Kolehiyo ng Lungsod ng Lipa"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present class cards and clearance for evaluation",
+          "agency_action": "1. Evaluate the presented documents, issue list of subjects to be enrolled and official registration form",
+          "fees": "None",
+          "processing_time": "4 minutes",
+          "person_responsible": "OIC-Registrar / Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Fill-out registration form",
+          "agency_action": "2. Approve and sign the duly accomplished registration form",
+          "fees": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "3. Claim class cards and registration form",
+          "agency_action": "3. Stamp ENROLLED and issue class cards based on the number of subjects enrolled",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "10 minutes"
+      }
+    },
+    {
+      "id": 4,
+      "service_name": "Issuance of Transcript of Records (TOR) for Graduates",
+      "image": "/assets/document_background/Issuance of Transcript of Records (TOR) for Graduates",
+      "office": "Kolehiyo ng Lungsod ng Lipa",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "KLL graduates"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Clearance duly signed by the Dean, Librarian and Accounting Office",
+          "source": "Office of the College Registrar"
+        },
+        {
+          "requirement": "Official Receipt of payment",
+          "source": "Office of the College Registrar"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure and present duly signed clearance",
+          "agency_action": "1. Verify records of the applicant",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "OIC-Registrar / Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Pay the corresponding fees",
+          "agency_action": "2.1. Issue Official Receipt",
+          "fees": "1st copy – free, 2nd copy - P50.00 per page",
+          "processing_time": "3 minutes",
+          "person_responsible": "Accounting Officer - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Pay the corresponding fees",
+          "agency_action": "2.2. Prepare the requested document",
+          "fees": "None",
+          "processing_time": "6 days",
+          "person_responsible": "OIC-Registrar / Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Pay the corresponding fees",
+          "agency_action": "2.3. Check, review and sign the documents",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Administrative Aide IV / Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Pay the corresponding fees",
+          "agency_action": "2.4. Sign the documents",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "OIC-Registrar / Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "3. Claim the requested documents",
+          "agency_action": "3. Release the documents",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        }
+      ],
+      "total": {
+        "fees": "P50.00 per page",
+        "processing_time": "6 days and 43 minutes"
+      }
+    },
+    {
+      "id": 5,
+      "service_name": "Issuance of Transfer Credentials and Transcript of Records (TOR) for Transferees",
+      "image": "/assets/document_background/Issuance of Transfer Credentials and Transcript of Records (TOR) for",
+      "office": "Kolehiyo ng Lungsod ng Lipa",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "KLL students who want to transfer to another school"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Clearance duly signed by the Dean, Librarian and Accounting Officer",
+          "source": "Office of the College Registrar"
+        },
+        {
+          "requirement": "Official Receipt of payment",
+          "source": "Office of the College Registrar"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure and present duly signed clearance",
+          "agency_action": "1. Verify records of the submitted requirements of the applicants",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "OIC-Registrar / Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Pay the corresponding fees",
+          "agency_action": "2.1. Issue Official Receipt",
+          "fees": "P10.00 (transfer credential), P50.00/page (TOR), P25.00 (certification)",
+          "processing_time": "3 minutes",
+          "person_responsible": "Accounting Officer - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Pay the corresponding fees",
+          "agency_action": "2.2. Prepare the requested document",
+          "fees": "None",
+          "processing_time": "6 days",
+          "person_responsible": "Administrative Aide IV / Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Pay the corresponding fees",
+          "agency_action": "2.3. Check, review and countersign the document",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "OIC-Registrar - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Pay the corresponding fees",
+          "agency_action": "2.4. Sign the document",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "OIC-Registrar / College Administrator - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "3. Claim the requested documents",
+          "agency_action": "3. Release the documents",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        }
+      ],
+      "total": {
+        "fees": "P10.00 (Transfer), P50.00/page (TOR), P25.00 (Cert)",
+        "processing_time": "6 days and 38 minutes"
+      }
+    },
+    {
+      "id": 6,
+      "service_name": "Issuance of Diploma",
+      "image": "/assets/document_background/Issuance of Diploma",
+      "office": "Kolehiyo ng Lungsod ng Lipa",
+      "classification": "Complex",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "KLL graduates"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Clearance duly signed by the Dean, Librarian and Accounting Officer",
+          "source": "Office of the College Registrar"
+        },
+        {
+          "requirement": "Official Receipt of Payment",
+          "source": "Office of the College Registrar"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Secure and present duly signed clearance",
+          "agency_action": "1. Verify records of the applicants",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Pay corresponding fee (for 2nd copy only)",
+          "agency_action": "2.1. Issue Official Receipt",
+          "fees": "P150.00 (second copy)",
+          "processing_time": "3 minutes",
+          "person_responsible": "Accounting Officer"
+        },
+        {
+          "client_step": "2. Pay corresponding fee (for 2nd copy only)",
+          "agency_action": "2.1. Prepare requested documents",
+          "fees": "None",
+          "processing_time": "4 days",
+          "person_responsible": "Administrative Aide IV - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Pay corresponding fee (for 2nd copy only)",
+          "agency_action": "2.2. Check and review the document",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "OIC-Registrar - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Pay corresponding fee (for 2nd copy only)",
+          "agency_action": "2.3. Sign the document",
+          "fees": "None",
+          "processing_time": "2 days",
+          "person_responsible": "OIC-Registrar, College Administrator, City Mayor"
+        },
+        {
+          "client_step": "3. Claim the requested documents",
+          "agency_action": "3. Release the document",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide II - Kolehiyo ng Lungsod ng Lipa"
+        }
+      ],
+      "total": {
+        "fees": "P150.00 (second copy)",
+        "processing_time": "6 days and 23 minutes"
+      }
+    },
+    {
+      "id": 7,
+      "service_name": "Application for Admission and Entrance Examination",
+      "image": "/assets/document_background/Application for Admission and Entrance Examination",
+      "office": "Kolehiyo ng Lungsod ng Lipa",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": [
+        "Applicants currently enrolled in Grade 12 for the Second Semester",
+        "Transferee from another college/university",
+        "Alternative Learning System (ALS) Passers",
+        "High School Graduates on or before March 2015"
+      ],
+      "checklist_of_requirements": [
+        {
+          "requirement": "Application Form (Form 1)",
+          "source": "Testing and Admission Office"
+        },
+        {
+          "requirement": "Grades Form (Form 2)",
+          "source": "Testing and Admission Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Accomplish the Online Application Form for Admission",
+          "agency_action": "1. Check the submitted application form of the applicant",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide V / II - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "2. Submit the accomplished scanned copy/ies of Application Form",
+          "agency_action": "2. Check the submitted form/s of the applicant",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide V - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "3. Visit the KLL official Facebook page for schedule",
+          "agency_action": "3. Schedule the date and time of the entrance examination",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Admission Officer - Kolehiyo ng Lungsod ng Lipa"
+        },
+        {
+          "client_step": "4. Take the College Admission Test",
+          "agency_action": "4.1. Conduct College Admission Test",
+          "fees": "None",
+          "processing_time": "1 hour",
+          "person_responsible": "Testing and Admission Officer of the Day"
+        },
+        {
+          "client_step": "4. Take the College Admission Test",
+          "agency_action": "4.2. Check the test papers",
+          "fees": "None",
+          "processing_time": "2 hours (per 100 students)",
+          "person_responsible": "Testing and Admission Officer of the Day"
+        },
+        {
+          "client_step": "5. Qualified applicants proceed to Registrar for enrollment",
+          "agency_action": "5.1. Release/ post the results via KLL Facebook page",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Admission Officer / Director, Student Programs"
+        },
+        {
+          "client_step": "5. Qualified applicants proceed to Registrar for enrollment",
+          "agency_action": "5.2. Visit Office of the Student Affairs for queries",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Admission Officer / Director, Student Programs"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "3 hours and 20 minutes (for first 100 students)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1131 @@
+{
+  "department": "Lipa City Hospital Systems Office",
+  "external_services": [
+    {
+      "service_name": "Accessing Computed Tomography (CT) Scan Services",
+      "image": "/assets/document_background/Accessing Computed Tomography (CT) Scan Services",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card after registration (1 original copy)",
+          "source": "Lipa City Hospital System Information"
+        },
+        {
+          "requirement": "CT Scan Request (1 original copy)",
+          "source": "Attending physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present Patient Card at Information and state service to avail",
+          "agency_action": "1. Verify and register patient's transaction in HIMS",
+          "fees": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Information / Admitting Clerk"
+        },
+        {
+          "client_step": "2. Present Request and Patient Card at CT Scan section",
+          "agency_action": "2. Encode hospital charges; issue charge slips for Non-Lipeños",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Radiology Clerk"
+        },
+        {
+          "client_step": "3. Proceed to Billing/Cashier for payment or stamping",
+          "agency_action": "3. Print slip, stamp 'Benefits of Lipeño' (for Lipeños), or process payment and issue receipt (Non-Lipeños)",
+          "fees": "Lipeños: None; Non-Lipeños: Based on approved rates",
+          "processing_time": "4 minutes",
+          "person_responsible": "Billing Clerk / Cash Clerk"
+        },
+        {
+          "client_step": "4. Return to CT Scan with stamped request or receipt",
+          "agency_action": "4-5: Perform CT Scan procedure",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Radiologic Technologist"
+        },
+        {
+          "client_step": "5. Return on scheduled date for results",
+          "agency_action": "6-7: Interpret images and release official reading",
+          "fees": "None",
+          "processing_time": "1 day (within day for ER)",
+          "person_responsible": "Radiologist / Radiology Clerk"
+        }
+      ],
+      "total": {
+        "fees": "Lipeños: None; Non-Lipeños: Approved rates",
+        "processing_time": "1 day and 28 minutes (Within day for ER)"
+      }
+    },
+    {
+      "service_name": "Admission of Patients",
+      "image": "/assets/document_background/Admission of Patients",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño patients",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card, Patient Data Sheet",
+          "source": "Lipa City Hospital Information"
+        },
+        {
+          "requirement": "Doctor's Order, OPD Record, Medical exam results, CP Clearance",
+          "source": "Attending Physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Fill out Patient Data Sheet",
+          "agency_action": "1. Assist client, write admitting diagnosis, and note isolation needs",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "ER Nurse on Duty"
+        },
+        {
+          "client_step": "2. Present accomplished forms at Information/Admitting",
+          "agency_action": "2. Check room availability, verify Philhealth, secure consent, and register in HIMS",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Admitting Clerk"
+        },
+        {
+          "client_step": "3. Cooperate with Medical Social Service interview",
+          "agency_action": "3. Assess socio-economic status and categorize patient",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Medical Social Service"
+        },
+        {
+          "client_step": "4. Wait for transfer to assigned room",
+          "agency_action": "4. Prepare patient and facilitate transfer",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "ER Nurse"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "35 minutes"
+      }
+    },
+    {
+      "service_name": "Availing Laboratory Procedures",
+      "image": "/assets/document_background/Availing Laboratory Procedures",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño patients",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card (1 original copy)",
+          "source": "Lipa City Hospital Systems Office"
+        },
+        {
+          "requirement": "Laboratory Request (1 original copy)",
+          "source": "Requesting party / Lipa City Hospital"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present Patient Card at Information",
+          "agency_action": "1. Verify and register transaction to system",
+          "fees": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Information / Admitting Clerk"
+        },
+        {
+          "client_step": "2. Proceed to Industrial Clinic",
+          "agency_action": "2. Print transaction slip and stamp request with 'with pay'",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Industrial staff"
+        },
+        {
+          "client_step": "3. Proceed to Billing/Cashier",
+          "agency_action": "3. Process payment/stamping and stamp 'PAID'",
+          "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+          "processing_time": "2 minutes",
+          "person_responsible": "Cash Clerk"
+        },
+        {
+          "client_step": "4. Submit request at Laboratory and undergo procedure",
+          "agency_action": "4-6: Receive/extract specimen and process laboratory test",
+          "fees": "None",
+          "processing_time": "4 hours and 8 minutes",
+          "person_responsible": "Medical Technologist / Phlebotomist"
+        },
+        {
+          "client_step": "5. Receive results at Industrial section",
+          "agency_action": "7-8: Release result and conduct PE assessment if required",
+          "fees": "None",
+          "processing_time": "6 minutes",
+          "person_responsible": "Industrial staff / Doctor on duty"
+        }
+      ],
+      "total": {
+        "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+        "processing_time": "4 hours and 19 minutes"
+      }
+    },
+    {
+      "service_name": "Availing Minor Surgery Procedure (OPD)",
+      "image": "/assets/document_background/Availing Minor Surgery Procedure (OPD)",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño patients",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card after registration (1 original copy)",
+          "source": "Lipa City Hospital System Information"
+        },
+        {
+          "requirement": "Approved Assessment for Eligibility Stub (1 original copy)",
+          "source": "Medical Social Service"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present Patient Card at Information",
+          "agency_action": "1. Verify and register transaction in HIMS",
+          "fees": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Information / Admitting Clerk"
+        },
+        {
+          "client_step": "2. Present stub at Operating Room and cooperate with procedure",
+          "agency_action": "2-4: Prepare instruments, secure consent, and perform surgery",
+          "fees": "None",
+          "processing_time": "2 hours 10 minutes",
+          "person_responsible": "Attending Surgeon / OR Nurse"
+        },
+        {
+          "client_step": "3. Process Philhealth and Billing",
+          "agency_action": "5-6: Print PBEF, audit charges, and prepare Billing Statement",
+          "fees": "None",
+          "processing_time": "22 minutes",
+          "person_responsible": "Billing Clerk / Philhealth Coordinator"
+        },
+        {
+          "client_step": "4. Clear medical social services or pay at Cashier",
+          "agency_action": "7. Process Lipeno Health Benefit or receive payment; sign gate pass",
+          "fees": "Non-Lipeño: Approved rates",
+          "processing_time": "10 minutes (MSS) / 2 minutes (Cashier)",
+          "person_responsible": "Medical Social Worker / Cash Clerk"
+        },
+        {
+          "client_step": "5. Claim home instructions and exit",
+          "agency_action": "8-9: Provide instructions, record in logbook, and check baggage",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Nurse on Duty / Security Guard"
+        }
+      ],
+      "total": {
+        "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+        "processing_time": "2 hours and 50 minutes (approx.)"
+      }
+    },
+    {
+      "service_name": "Availing of 2D Echo Procedure",
+      "image": "/assets/document_background/Availing of 2D Echo Procedure",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card",
+          "source": "Lipa City Hospital System Information"
+        },
+        {
+          "requirement": "Request for 2D Echo (1 original copy)",
+          "source": "Lipa City Hospital Physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present Patient Card at Information",
+          "agency_action": "1. Verify and register transaction in HIMS",
+          "fees": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Information / Admitting Clerk"
+        },
+        {
+          "client_step": "2. Present request at 2D Echo section",
+          "agency_action": "2. Verify schedule and encode charges",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "2D Echo Clerk"
+        },
+        {
+          "client_step": "3. Proceed to Billing/Cashier",
+          "agency_action": "3. Process stamping/payment and issue receipt",
+          "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+          "processing_time": "4 minutes",
+          "person_responsible": "Billing Clerk / Cash Clerk"
+        },
+        {
+          "client_step": "4. Undergo the procedure",
+          "agency_action": "4-5: Prepare instruments and perform 2D Echo",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "2D Echo Nurse"
+        },
+        {
+          "client_step": "5. Return for results as scheduled",
+          "agency_action": "6-7: Advise release date and release result via logbook",
+          "fees": "None",
+          "processing_time": "Inpatient: 3 days; OPD: 1 week",
+          "person_responsible": "2D Echo Clerk"
+        }
+      ],
+      "total": {
+        "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+        "processing_time": "Inpatient: 3 days 28 minutes; OPD: 1 week 28 minutes"
+      }
+    },
+    {
+      "service_name": "Availing of Diagnostics/ Laboratory Examination",
+      "image": "/assets/document_background/Availing of Diagnostics/ Laboratory Examination",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Lipeño and non-Lipeño patients",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card after registration (1 original copy)",
+          "source": "Lipa City Hospital System 1"
+        },
+        {
+          "requirement": "Laboratory Request (1 original copy)",
+          "source": "Requesting party"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present Patient Card at Information desk",
+          "agency_action": "1. Verify and register transaction in HIMS",
+          "fees": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Information / Admitting Clerk"
+        },
+        {
+          "client_step": "2. Present Request and Card at Laboratory",
+          "agency_action": "2. Check service availability and encode hospital charges",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Laboratory Clerk"
+        },
+        {
+          "client_step": "3. Proceed to Billing/Cashier for payment or stamping",
+          "agency_action": "3. Process payment or stamp 'Benefits of Lipeño'",
+          "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+          "processing_time": "4 minutes",
+          "person_responsible": "Billing Clerk / Cash Clerk"
+        },
+        {
+          "client_step": "4. Undergo specimen extraction at Laboratory",
+          "agency_action": "4-5: Verify stamps/receipt and receive/extract specimen",
+          "fees": "None",
+          "processing_time": "8 minutes",
+          "person_responsible": "Laboratory Clerk / MedTech"
+        },
+        {
+          "client_step": "5. Wait for and receive results",
+          "agency_action": "6-7: Process test and release result via logbook",
+          "fees": "None",
+          "processing_time": "ER: 2 hours; OPD: 1 day",
+          "person_responsible": "Medical Technologist / Lab Clerk"
+        }
+      ],
+      "total": {
+        "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+        "processing_time": "ER: 2 hours 16 minutes; OPD: 1 day 16 minutes"
+      }
+    },
+    {
+      "service_name": "Availing of Out-Patient Electrocardiography (ECG)",
+      "image": "/assets/document_background/Availing of Out-Patient Electrocardiography (ECG)",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card (1 original copy)",
+          "source": "Lipa City Hospital System 1 Information"
+        },
+        {
+          "requirement": "Request for ECG (1 original copy)",
+          "source": "Lipa City Hospital System 1 Physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present Patient Card at Information",
+          "agency_action": "1. Register transaction in HIMS",
+          "fees": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Information / Admitting Clerk"
+        },
+        {
+          "client_step": "2. Present request at ECG section",
+          "agency_action": "2. Encode charges (skip for Lipeño ER patients)",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "ECG Nurse"
+        },
+        {
+          "client_step": "3. Settle fees at Billing/Cashier",
+          "agency_action": "3. Issue receipt or Lipeño stamp",
+          "fees": "Non-Lipeño: Approved rates",
+          "processing_time": "4 minutes",
+          "person_responsible": "Billing Clerk / Cash Clerk"
+        },
+        {
+          "client_step": "4. Perform the ECG procedure",
+          "agency_action": "4-5: Prepare machine and perform procedure",
+          "fees": "None",
+          "processing_time": "11 minutes",
+          "person_responsible": "ECG Nurse"
+        },
+        {
+          "client_step": "5. Receive result",
+          "agency_action": "6. Release result (ER: immediate strip; OPD: 1 day)",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "ECG Nurse"
+        }
+      ],
+      "total": {
+        "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+        "processing_time": "ER: 20 minutes; OPD: 1 day"
+      }
+    },
+    {
+      "service_name": "Availing Ultrasound Procedure (OPD)",
+      "image": "/assets/document_background/Availing Ultrasound Procedure (OPD)",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card (1 original copy)",
+          "source": "Lipa City Hospital System 1 Information"
+        },
+        {
+          "requirement": "Request for Ultrasound (1 original copy)",
+          "source": "Lipa City Hospital System 1 Physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Verify schedule at Ultrasound and register at Information",
+          "agency_action": "1-2: Check schedule and register in HIMS",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Radiology Clerk / Information Clerk"
+        },
+        {
+          "client_step": "2. Encode charges at Ultrasound section",
+          "agency_action": "3. Encode HIMS charges; issue charge slips for Non-Lipeño",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Ultrasound Clerk"
+        },
+        {
+          "client_step": "3. Settle account at Billing/Cashier",
+          "agency_action": "4. Stamp request or process payment",
+          "fees": "Non-Lipeño: Approved rates",
+          "processing_time": "4 minutes",
+          "person_responsible": "Billing Clerk / Cash Clerk"
+        },
+        {
+          "client_step": "4. Undergo Ultrasound procedure",
+          "agency_action": "5-6: Prepare instruments and perform procedure",
+          "fees": "None",
+          "processing_time": "Varies",
+          "person_responsible": "Radiologist / Sonologist"
+        },
+        {
+          "client_step": "5. Claim official result as scheduled",
+          "agency_action": "7-8: Interpret images and release result",
+          "fees": "None",
+          "processing_time": "1 day",
+          "person_responsible": "Ultrasound Clerk / Radiology Clerk"
+        }
+      ],
+      "total": {
+        "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+        "processing_time": "1 day 15 minutes + procedure time"
+      }
+    },
+    {
+      "service_name": "Availing X-Ray Procedure (except Special Radiologic Procedure)",
+      "image": "/assets/document_background/Availing X-Ray Procedure (except Special Radiologic Procedure)",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card (1 original copy)",
+          "source": "Lipa City Hospital System 1 Information"
+        },
+        {
+          "requirement": "X-ray Request (1 original copy)",
+          "source": "Attending physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Register at Information and proceed to X-Ray",
+          "agency_action": "1-2: Register in HIMS and encode hospital charges",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Information Clerk / Radiology Clerk"
+        },
+        {
+          "client_step": "2. Proceed to Billing/Cashier",
+          "agency_action": "3. Process Lipeño stamp or payment",
+          "fees": "Non-Lipeño: Approved rates",
+          "processing_time": "4 minutes",
+          "person_responsible": "Billing/Cashier Clerk"
+        },
+        {
+          "client_step": "3. Perform X-Ray",
+          "agency_action": "4-5: Verify documents and perform procedure",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Radiology Clerk / RadTech"
+        },
+        {
+          "client_step": "4. Claim results",
+          "agency_action": "6-7: Interpret images and release reading",
+          "fees": "None",
+          "processing_time": "1 day (within day for ER)",
+          "person_responsible": "Radiologist / Radiology Clerk"
+        }
+      ],
+      "total": {
+        "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+        "processing_time": "1 day 28 minutes (Within day for ER)"
+      }
+    },
+    {
+      "service_name": "Emergency Room Consultation",
+      "image": "/assets/document_background/Emergency Room Consultation",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño patients",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card (1 original copy)",
+          "source": "Lipa City Hospital System 1 Information"
+        },
+        {
+          "requirement": "Admission Order (if applicable)",
+          "source": "Attending Physician"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Triage and registration",
+          "agency_action": "1. Quick assessment and vital signs check",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "ER Nurse on Duty"
+        },
+        {
+          "client_step": "2. Medical Assessment",
+          "agency_action": "2. History taking, physical assessment, and treatment plan",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "ER Physician"
+        },
+        {
+          "client_step": "3. Treatment and Interventions",
+          "agency_action": "3-4: Administer meds, perform procedures, and evaluate response",
+          "fees": "None",
+          "processing_time": "2 hours 5 minutes",
+          "person_responsible": "ER Physician / Nurse"
+        },
+        {
+          "client_step": "4. Billing and Discharge",
+          "agency_action": "5-7: Process bill, interview for Lipeño benefit (if applicable), and release gate pass",
+          "fees": "Non-Lipeño: Approved rates",
+          "processing_time": "12 minutes",
+          "person_responsible": "Billing/Cashier Clerk / Social Worker"
+        }
+      ],
+      "total": {
+        "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+        "processing_time": "2 hours 30 minutes (average)"
+      }
+    },
+    {
+      "service_name": "OPD Consultation (Lipeño)",
+      "image": "/assets/document_background/OPD Consultation (Lipeño)",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño patients",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card and Appointment Slip",
+          "source": "Lipa City Hospital System 1 Information"
+        },
+        {
+          "requirement": "Diagnostic results and Referral slip (if applicable)",
+          "source": "Lipa City Hospital or other labs"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Registration and initial assessment",
+          "agency_action": "1-3: Register in HIMS, identify service, and take vital signs",
+          "fees": "None",
+          "processing_time": "7 minutes",
+          "person_responsible": "Information Clerk / OPD Nurse"
+        },
+        {
+          "client_step": "2. Physician Check-up",
+          "agency_action": "4-6: Queue patient, conduct check-up, and evaluate diagnostics",
+          "fees": "None",
+          "processing_time": "40 minutes + queuing",
+          "person_responsible": "OPD Nurse / Physician"
+        },
+        {
+          "client_step": "3. Pharmacy/Diagnostics and Clearance",
+          "agency_action": "7-8: Process diagnostic results and stamp HIMS transaction 'Benefits of Lipeño'",
+          "fees": "None",
+          "processing_time": "4 hours 2 minutes",
+          "person_responsible": "Cashier Clerk"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "4 hours 49 minutes (average)"
+      }
+    },
+    {
+      "service_name": "OPD Consultation (Non-Lipeño)",
+      "image": "/assets/document_background/OPD Consultation (Non-Lipeño)",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Non-Lipeño patients",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card and Appointment Slip",
+          "source": "Lipa City Hospital System 1 Information"
+        },
+        {
+          "requirement": "Diagnostic results and Referral slip (if applicable)",
+          "source": "Lipa City Hospital or other labs"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Registration and vitals",
+          "agency_action": "1-3: Register in HIMS and take medical history",
+          "fees": "None",
+          "processing_time": "7 minutes",
+          "person_responsible": "Information Clerk / OPD Nurse"
+        },
+        {
+          "client_step": "2. Consultation and tests",
+          "agency_action": "4-7: Physician check-up, encoding charges, and processing diagnostic results",
+          "fees": "None",
+          "processing_time": "4 hours 40 minutes",
+          "person_responsible": "OPD Physician / Nurse"
+        },
+        {
+          "client_step": "3. Payment",
+          "agency_action": "8. Process payment and issue receipt",
+          "fees": "Based on approved rates",
+          "processing_time": "2 minutes",
+          "person_responsible": "Cashier Clerk"
+        }
+      ],
+      "total": {
+        "fees": "Based on approved rates",
+        "processing_time": "4 hours 49 minutes (average)"
+      }
+    },
+    {
+      "service_name": "Request for 2D Echocardiogram Schedule (OPD)",
+      "image": "/assets/document_background/Request for 2D Echocardiogram Schedule (OPD)",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card and Request for 2D Echo (1 original each)",
+          "source": "Lipa City Hospital System 1"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present documents and receive schedule",
+          "agency_action": "1-3: Validate docs, advise on preparation, and set appointment time",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "2D Echo Clerk"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "3 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Birth Certificate",
+      "image": "/assets/document_background/Request for Birth Certificate",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Marriage Certificate (1 photocopy)",
+          "source": "Lipa City Civil Registrar / PSA"
+        },
+        {
+          "requirement": "Both parents' ID or Birth Certificates",
+          "source": "Government agencies"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present requirements and interview",
+          "agency_action": "1. Check legality and completeness of Data form",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Medical Records Clerk"
+        },
+        {
+          "client_step": "2. Process and Validate",
+          "agency_action": "2-3: Process certificate and assist in content validation",
+          "fees": "None",
+          "processing_time": "18 minutes",
+          "person_responsible": "Medical Records Clerk"
+        },
+        {
+          "client_step": "3. Approval and Release",
+          "agency_action": "4-5: Forward for signing and release certificate via logbook",
+          "fees": "None",
+          "processing_time": "32 minutes",
+          "person_responsible": "Medical Records Clerk"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "55 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Certificate of Confinement",
+      "image": "/assets/document_background/Request for Certificate of Confinement",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card (1 original copy)",
+          "source": "Lipa City Hospital System 1 Information"
+        },
+        {
+          "requirement": "Authorization Letter and ID (if applicable)",
+          "source": "Patient or Next of Kin"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Request at Medical Records and sign logbook",
+          "agency_action": "1-2: Process and release Certificate of Confinement",
+          "fees": "None",
+          "processing_time": "16 minutes",
+          "person_responsible": "Medical Records Clerk"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "16 minutes"
+      }
+    },
+    {
+      "service_name": "Request for CT Scan Schedule (OPD)",
+      "image": "/assets/document_background/Request for CT Scan Schedule (OPD)",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card and Request for CT Scan (1 original each)",
+          "source": "Lipa City Hospital System 1"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present documents and receive appointment",
+          "agency_action": "1-3: Validate docs, provide prep instructions, and indicate schedule on request",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Radiology Technician"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "3 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Death Certificate",
+      "image": "/assets/document_background/Request for Death Certificate",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Valid ID and Birth Certificate of patient (1 photocopy each)",
+          "source": "Government agency / Lipa City Registrar"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present requirements at Medical Records",
+          "agency_action": "1. Interview relative and validate documents",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Medical Records Clerk"
+        },
+        {
+          "client_step": "2. Process and Validate content",
+          "agency_action": "2-3: Process certificate and assist in correcting errors",
+          "fees": "None",
+          "processing_time": "18 minutes",
+          "person_responsible": "Medical Records Clerk"
+        },
+        {
+          "client_step": "3. Approval and Release",
+          "agency_action": "4-5: Forward for signing and release via logbook",
+          "fees": "None",
+          "processing_time": "32 minutes",
+          "person_responsible": "Medical Records Clerk"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "55 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Dental Appointment",
+      "image": "/assets/document_background/Request for Dental Appointment",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card after registration (1 original copy)",
+          "source": "Lipa City Hospital System 1 Information"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present Patient Card at Information",
+          "agency_action": "1. Verify and register transaction in HIMS",
+          "fees": "None",
+          "processing_time": "1 minute",
+          "person_responsible": "Information / Admitting Clerk"
+        },
+        {
+          "client_step": "2. Proceed to Dental for interview and exam",
+          "agency_action": "2. Examine patient, encode charges, and advice on antigen test/appointment date",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Dentist / Dental Clerk"
+        },
+        {
+          "client_step": "3. Settle fees at Billing/Cashier",
+          "agency_action": "3. Stamp 'Benefits of Lipeño' or process payment and issue receipt",
+          "fees": "Non-Lipeño: Approved rates",
+          "processing_time": "4 minutes",
+          "person_responsible": "Billing Clerk / Cash Clerk"
+        },
+        {
+          "client_step": "4. Return to Dental with stamped request/receipt",
+          "agency_action": "4-5: Prepare equipment and perform the requested procedure",
+          "fees": "None",
+          "processing_time": "31 minutes",
+          "person_responsible": "Dentist / Dental Clerk"
+        }
+      ],
+      "total": {
+        "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+        "processing_time": "51 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Medical Abstract",
+      "image": "/assets/document_background/Request for Medical Abstract",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card; Request Form",
+          "source": "Lipa City Hospital System 1"
+        },
+        {
+          "requirement": "Authorization Letter and Valid ID (if representative)",
+          "source": "Patient / Next of kin"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Fill out and submit Medical Record Request form",
+          "agency_action": "1-2: Assist and validate legalities/completeness of forms",
+          "fees": "None",
+          "processing_time": "8 minutes",
+          "person_responsible": "Medical Records Clerk"
+        },
+        {
+          "client_step": "2. Wait for scheduled release and receive document",
+          "agency_action": "3-4: Prepare Medical Abstract and release via logbook",
+          "fees": "None",
+          "processing_time": "3 days 1 minute",
+          "person_responsible": "Attending Physician / Records Clerk"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "3 days and 9 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Medical Certificate",
+      "image": "/assets/document_background/Request for Medical Certificate",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card (1 original copy)",
+          "source": "Lipa City Hospital System 1 Information"
+        },
+        {
+          "requirement": "Authorization Letter and ID (if applicable)",
+          "source": "Patient / Next of kin"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Fill out Request form and present Patient Card",
+          "agency_action": "1-2: Validate form and encode charges to HIMS",
+          "fees": "None",
+          "processing_time": "7 minutes",
+          "person_responsible": "Medical Records Clerk"
+        },
+        {
+          "client_step": "2. Pay at Billing Office",
+          "agency_action": "3. Receive payment/process Lipeño benefit",
+          "fees": "Non-Lipeño: Approved rates",
+          "processing_time": "1 minute",
+          "person_responsible": "Cash Clerk"
+        },
+        {
+          "client_step": "3. Undertake OPD check-up (if applicable)",
+          "agency_action": "4. Prepare Medical Record Certificate",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "OPD Consultant"
+        },
+        {
+          "client_step": "4. Present receipt and claim certificate",
+          "agency_action": "5-6: Process, release, and record certificate in logbook",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "OPD Medical Records Clerk"
+        }
+      ],
+      "total": {
+        "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+        "processing_time": "41 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Medicines",
+      "image": "/assets/document_background/Request for Medicines",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card and Doctor's Prescription (1 original each)",
+          "source": "Lipa City Hospital System 1"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Register at Information and proceed to Pharmacy",
+          "agency_action": "1-2: Register in HIMS and check medicine availability",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Information Clerk / Pharmacist"
+        },
+        {
+          "client_step": "2. Settle account at Billing/Cashier",
+          "agency_action": "3. Stamp request or process payment",
+          "fees": "Non-Lipeño: Approved rates",
+          "processing_time": "4 minutes",
+          "person_responsible": "Billing Clerk / Cash Clerk"
+        },
+        {
+          "client_step": "3. Claim medicine at Pharmacy",
+          "agency_action": "4-5: Record rendering in HIMS and release medicine",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Pharmacist"
+        }
+      ],
+      "total": {
+        "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+        "processing_time": "10 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Patient's Card",
+      "image": "/assets/document_background/Request for Patient's Card",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Lipeño and non-Lipeño patients",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Govt-issued ID (Voter's, National ID, etc.) (1 photocopy)",
+          "source": "Applicable Govt Agency"
+        },
+        {
+          "requirement": "Other requirements per Ord. 527-2023",
+          "source": "Lipa City Ordinance"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Present ID at Front Desk and receive card",
+          "agency_action": "1-2: Verify ID, encode data to HIMS/Google Sheets, and issue card",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Front Desk Clerk"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "5 minutes"
+      }
+    },
+    {
+      "service_name": "Request for Ultrasound Schedule (OPD)",
+      "image": "/assets/document_background/Request for Ultrasound Schedule (OPD)",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Lipeño and non-Lipeño residents",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Patient Card and Request for Ultrasound (1 original each)",
+          "source": "Lipa City Hospital System 1"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit request and listen to instructions",
+          "agency_action": "1-3: Validate docs, schedule procedure, and advise on preparation",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Ultrasound Clerk"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "3 minutes"
+      }
+    },
+    {
+      "service_name": "Requesting Discharge of Patients",
+      "image": "/assets/document_background/Requesting Discharge of Patients",
+      "office": "Lipa City Hospital Systems Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizen",
+      "who_may_avail": "Lipeño and non-Lipeño patients",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Discharge Slip and Medical Certificate",
+          "source": "Nurses Station / Physician"
+        },
+        {
+          "requirement": "PhilHealth docs (Authorization, PMRF, etc. if applicable)",
+          "source": "PhilHealth / Member"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit PhilHealth documents and accomplish claim forms",
+          "agency_action": "1-2: Verify PhilHealth, print PBEF, and assist with claims",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Philhealth Coordinator"
+        },
+        {
+          "client_step": "2. Sign final Billing Statement",
+          "agency_action": "3. Audit HIMS charges and apply deductions/discounts",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Billing Clerk"
+        },
+        {
+          "client_step": "3. Settle remaining bill (for Non-Lipeño)",
+          "agency_action": "4. Process payment and sign gate pass",
+          "fees": "Non-Lipeño: Approved rates",
+          "processing_time": "2 minutes",
+          "person_responsible": "Cash Clerk"
+        },
+        {
+          "client_step": "4. Clear with Nurses Station and Admitting",
+          "agency_action": "5-6: Provide home instructions and record in logbook",
+          "fees": "None",
+          "processing_time": "19 minutes",
+          "person_responsible": "Nurse / Orderly / Admitting Clerk"
+        },
+        {
+          "client_step": "5. Security check and exit",
+          "agency_action": "7. Perform baggage check and record in discharge logbook",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Security Guard"
+        }
+      ],
+      "total": {
+        "fees": "Lipeño: None; Non-Lipeño: Approved rates",
+        "processing_time": "1 hour and 3 minutes (approx.)"
+      }
+    }
+  ]
+}

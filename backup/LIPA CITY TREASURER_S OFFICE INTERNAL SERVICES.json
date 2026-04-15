@@ -1,0 +1,76 @@
+{
+    "internal_services": [
+        {
+        "id": 1,
+        "office": "Lipa City Treasurer’s Office Internal Services",
+        "service_name": "Payment of Legal Claims of Job Order and Casual Employees (Check Payment)",
+        "image": "/assets/document_background/Payment of Legal Claims of Job Order and Casual Employees",
+        "department": "Lipa City Treasurer’s Office",
+        "classification": "Simple",
+        "type_of_transaction": "G2G – Government to Government",
+        "who_may_avail": "Job order and casual employees of the city government",
+        "checklist_of_requirements": [
+            {
+            "requirement": "Approved voucher (1 original copy)",
+            "source": "Accounting Department"
+            }
+        ],
+        "steps": [
+            {
+            "client_step": "1. Submit all the requirements",
+            "agency_action": "1.1 Receive the processed voucher and check for completeness; 1.2 Prepare the check; 1.3 Review and forward the check to the Administrative Division for ESRE encoding and signature of the City Treasurer",
+            "fees": "None",
+            "processing_time": "15 minutes",
+            "person_responsible": "Administrative Aide IV, Administrative Officer III, City Treasurer (Lipa City Treasurer’s Office)"
+            },
+            {
+            "client_step": "2. Receive check payment",
+            "agency_action": "2.1 Release check to claimant",
+            "fees": "None",
+            "processing_time": "5 minutes",
+            "person_responsible": "Administrative Aide IV, Administrative Officer III (Lipa City Treasurer’s Office)"
+            }
+        ],
+        "total": {
+            "fees": "None",
+            "processing_time": "20 minutes"
+        }
+        },
+        {
+        "id": 2,
+        "office": "Lipa City Treasurer’s Office Internal Services",
+        "service_name": "Payment of Legal Claims of Job Order and Casual Employees (Cash Payment)",
+        "image": "/assets/document_background/Payment of Legal Claims",
+        "department": "Lipa City Treasurer’s Office",
+        "classification": "Simple",
+        "type_of_transaction": "G2G – Government to Government",
+        "who_may_avail": "Job order and casual employees of the city government",
+        "checklist_of_requirements": [
+            {
+            "requirement": "Approved payroll (1 original copy)",
+            "source": "Accounting Department"
+            }
+        ],
+        "steps": [
+            {
+            "client_step": "1. Submit all the requirements",
+            "agency_action": "1. Receive the processed payroll and check for completeness",
+            "fees": "None",
+            "processing_time": "5 minutes",
+            "person_responsible": "Administrative Aide IV, Administrative Officer III (Lipa City Treasurer’s Office)"
+            },
+            {
+            "client_step": "2. Receive cash payment",
+            "agency_action": "2. Pay the claimant",
+            "fees": "None",
+            "processing_time": "5 minutes",
+            "person_responsible": "Administrative Aide IV, Administrative Officer III (Lipa City Treasurer’s Office)"
+            }
+        ],
+        "total": {
+            "fees": "None",
+            "processing_time": "10 minutes"
+        }
+        }
+    ]
+}

@@ -2,415 +2,512 @@
   "department": "Lipa City Assessor's Office",
   "external_services": [
     {
-      "id": 1,
       "service_name": "Application for Certification of Property Holdings/ No Property Holdings/ No Improvement",
-      "image": "/assets/document_background/Application for Certification of Property Holdings _No Property Holdings_ No",
+      "image": "/assets/document_background/Application for Certification of Property Holdings_ No Property Holdings_ No Improvement",
       "office": "Lipa City Assessor's Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": ["All property owners and all authorized representatives"],
+      "type_of_transaction": "G2C - Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "All property owners and all authorized representatives",
       "checklist_of_requirements": [
-        { "requirement": "Request Slip (1 original copy)", "source": "Lipa City Assessor's Office" },
-        { "requirement": "Official Receipt (1 original copy)", "source": "Lipa City Treasurer's Office" },
-        { "requirement": "Authorization Letter and Valid ID (if representative)", "source": "Owner" }
+        {
+          "requirement": "Transfer Certificate of Title (1 photocopy) OR Old tax declaration (1 photocopy)",
+          "source": "Property owner"
+        },
+        {
+          "requirement": "Valid Government ID of owner (1 photocopy) OR Corporate Secretary ID for corporations",
+          "source": "Any government agency / Property owner"
+        },
+        {
+          "requirement": "For Representatives: SPA or Authorization Letter (1 original) + Valid ID (1 photocopy)",
+          "source": "Notary Public / Property owner / Employer"
+        }
       ],
       "steps": [
         {
-          "client_step": "1. Submit the Request Slip and required documents",
-          "agency_action": "1. Evaluate documents and verify property records",
+          "client_step": "1. Proceed to assigned window, submit requisition slip and requirements",
+          "agency_action": "1.1. Receive slip and verify records; 1.2. Issue Order of Payment",
           "fees": "None",
-          "processing_time": "15 minutes",
-          "person_responsible": "Assessment Clerk"
+          "processing_time": "20 minutes",
+          "person_responsible": "Administrative Aide IV, Assessment Clerk II"
         },
         {
-          "client_step": "2. Pay the fee at the Treasurer's Office",
+          "client_step": "2. Present Order of Payment and pay at the Lipa City Treasurer's Office",
           "agency_action": "2. Receive payment and issue Official Receipt",
           "fees": "P50.00",
-          "processing_time": "10 minutes",
-          "person_responsible": "Revenue Collection Clerk"
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
         },
         {
-          "client_step": "3. Present receipt and sign the office file copy",
-          "agency_action": "3. Process and release the certification",
+          "client_step": "3. Present Official Receipt to the Assessor's Office",
+          "agency_action": "3.1. Verify data, prepare and print Certificate; 3.2. Review and sign certificate",
           "fees": "None",
-          "processing_time": "12 minutes",
-          "person_responsible": "Releasing Clerk"
+          "processing_time": "3 hours and 30 minutes",
+          "person_responsible": "Assessment Clerk II, Local Assessment Operations Officer II/III/IV"
+        },
+        {
+          "client_step": "4. Claim certification and sign logbook",
+          "agency_action": "4. Release Certificate",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Assessment Clerk II"
         }
       ],
-      "total": { "fees": "P50.00", "processing_time": "37 minutes" }
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "4 hours and 30 minutes"
+      }
     },
     {
-      "id": 2,
       "service_name": "Application for Transfer of Land Ownership (Consolidation and Subdivision)",
-      "image": "/assets/document_background/Application for Transfer of Land Ownership (Consolidation and",
+      "image": "/assets/document_background/Application for Transfer of Land Ownership (Consolidation and Subdivision)",
       "office": "Lipa City Assessor's Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": ["All property owners and all authorized representatives"],
+      "type_of_transaction": "G2C –Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "All property owners and all authorized representatives",
       "checklist_of_requirements": [
-        { "requirement": "Letter of Request", "source": "Owner" },
-        { "requirement": "Certified True Copy of Title", "source": "Registry of Deeds" },
-        { "requirement": "Approved Subdivision / Consolidation Plan", "source": "DENR/LRA" },
-        { "requirement": "Deed of Conveyance & CAR", "source": "BIR" },
-        { "requirement": "Transfer Tax Receipt and Clearance", "source": "City Treasurer's Office" }
+        {
+          "requirement": "Certified True Copy of TCT (1 original) or photocopy (present original)",
+          "source": "Register of Deeds / Property owner"
+        },
+        {
+          "requirement": "Deed of Sale/Extra-Judicial Settlement/Donation; Latest Realty Tax Receipt; CAR; Transfer Tax Receipt; Approved subdivision plan; Deed of Partition",
+          "source": "Register of Deeds / BIR / Treasurer's Office"
+        }
       ],
       "steps": [
         {
-          "client_step": "1. Submit requirements for evaluation",
-          "agency_action": "1. Verify records and prepare new Tax Declaration",
+          "client_step": "1. Fill-up requisition form and attach requirements",
+          "agency_action": "1.1 - 1.8: Validate docs, record, tax mapping, reflect subdivision, prepare and approve FAAS; 1.9 - 1.15: Encoding, printing PRF, assign ARP No., sign Tax Declaration, record and inform client",
           "fees": "None",
-          "processing_time": "3 hours",
-          "person_responsible": "Tax Mapper / Records Officer"
+          "processing_time": "2 days, 3 hours and 30 minutes",
+          "person_responsible": "Tax Mapper II/III/IV, Local Assessment Operations Officer II/III/IV, City Assessor"
         },
         {
-          "client_step": "2. Pay the fee at the Treasurer's Office",
-          "agency_action": "2. Issue Official Receipt",
+          "client_step": "2. Present Order of Payment and pay at the Treasurer's Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
           "fees": "P50.00",
-          "processing_time": "11 minutes",
-          "person_responsible": "Revenue Collection Clerk"
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
         },
         {
-          "client_step": "3. Receive the new Tax Declaration",
-          "agency_action": "3. Final approval and release",
+          "client_step": "3. Present Official Receipt and claim Tax Declaration",
+          "agency_action": "3. Release Tax Declaration",
           "fees": "None",
-          "processing_time": "1 hour",
-          "person_responsible": "City Assessor"
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide IV, Assessment Clerk II"
         }
       ],
-      "total": { "fees": "P50.00", "processing_time": "4 hours and 11 minutes" }
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "2 days and 4 hours"
+      }
     },
     {
-      "id": 3,
       "service_name": "Application for Transfer of Land Ownership (Simple)",
       "image": "/assets/document_background/Application for Transfer of Land Ownership (Simple)",
       "office": "Lipa City Assessor's Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": ["All property owners and all authorized representatives"],
+      "type_of_transaction": "G2C - Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "All property owners and all authorized representatives",
       "checklist_of_requirements": [
-        { "requirement": "Certified True Copy of Title", "source": "Registry of Deeds" },
-        { "requirement": "Deed of Absolute Sale", "source": "Notary Public" },
-        { "requirement": "eCAR", "source": "BIR" },
-        { "requirement": "Transfer Tax Receipt/Clearance", "source": "City Treasurer's Office" }
-      ],
-      "steps": [
         {
-          "client_step": "1. Submit requirements for evaluation",
-          "agency_action": "1. Verify records and encode data",
-          "fees": "None",
-          "processing_time": "2 hours",
-          "person_responsible": "Records Officer"
-        },
-        {
-          "client_step": "2. Pay required fees",
-          "agency_action": "2. Receive payment",
-          "fees": "P50.00",
-          "processing_time": "15 minutes",
-          "person_responsible": "Treasurer's Office Staff"
-        },
-        {
-          "client_step": "3. Claim owner's copy",
-          "agency_action": "3. Process and release Tax Declaration",
-          "fees": "None",
-          "processing_time": "1 hour and 36 minutes",
-          "person_responsible": "Releasing Clerk"
+          "requirement": "Certified True Copy of TCT; Deed of Sale/Donation/Settlement; Latest Realty Tax Receipt; CAR; Transfer Tax Receipt",
+          "source": "Register of Deeds / BIR / Treasurer's Office"
         }
       ],
-      "total": { "fees": "P50.00", "processing_time": "3 hours and 51 minutes" }
+      "steps": [
+        {
+          "client_step": "1. Fill-up requisition form and attach requirements",
+          "agency_action": "1.1 - 1.10: Validate, verify PRF, evaluate docs, encode, update PRF manually, check/sign/approve Tax Declaration, record and issue Order of Payment",
+          "fees": "None",
+          "processing_time": "1 day, 23 hours and 37 minutes",
+          "person_responsible": "Assessment Clerk II, Local Assessment Operations Officer I-IV, City Assessor"
+        },
+        {
+          "client_step": "2. Present Order of Payment and pay at Treasurer's Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees": "P50.00",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
+        },
+        {
+          "client_step": "3. Present Official Receipt and claim Tax Declaration",
+          "agency_action": "3. Release Tax Declaration",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Administrative Aide IV, Assessment Clerk II"
+        }
+      ],
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "2 days and 22 minutes"
+      }
     },
     {
-      "id": 4,
-      "service_name": "Request for Appraisal and Assessment (Cancelled Buildings/Dismantled Machineries)",
-      "image": "/assets/document_background/Request for Appraisal and Assessment of Real Property for Cancelled",
+      "service_name": "Request for Appraisal and Assessment of Real Property for Cancelled Buildings/ Dismantled Machineries",
+      "image": "/assets/document_background/Request for Appraisal and Assessment of Real Property for Cancelled Buildings_ Dismantled Machineries",
       "office": "Lipa City Assessor's Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": ["All property owners and all authorized representatives"],
+      "type_of_transaction": "G2C - Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "All property owners and all authorized representatives",
       "checklist_of_requirements": [
-        { "requirement": "Letter of Request & Sworn Statement", "source": "Owner" },
-        { "requirement": "Barangay Certification", "source": "Barangay Hall" },
-        { "requirement": "Demolition Permit", "source": "City Engineering Office" }
+        {
+          "requirement": "Tax declaration of building/machinery (1 original, 1 photocopy)",
+          "source": "Property owner / Assessor's Office"
+        },
+        {
+          "requirement": "Latest realty tax receipt (1 photocopy)",
+          "source": "Property owner / Treasurer's Office"
+        }
       ],
       "steps": [
         {
-          "client_step": "1. File the request",
-          "agency_action": "1. Receive and schedule inspection",
+          "client_step": "1. Fill-up requisition form and attach requirements",
+          "agency_action": "1. Receive documents, assign control number, forward for ocular inspection approval",
           "fees": "None",
           "processing_time": "30 minutes",
-          "person_responsible": "Administrative Staff"
+          "person_responsible": "Administrative Aide II, Assessment Clerk II, City Assessor"
         },
         {
-          "client_step": "2. Accompany the appraiser",
-          "agency_action": "2. Conduct field inspection",
+          "client_step": "2. Be present during ocular inspection",
+          "agency_action": "2.1 - 2.4: Conduct ocular inspection, prepare report, approve Notice of Cancellation, and forward to Treasurer's Office",
           "fees": "None",
-          "processing_time": "1 day",
-          "person_responsible": "Appraiser"
-        },
-        {
-          "client_step": "3. Receive notice of cancellation",
-          "agency_action": "3. Update assessment and release notice",
-          "fees": "None",
-          "processing_time": "42 minutes",
-          "person_responsible": "Assessment Division"
+          "processing_time": "2 days and 45 minutes",
+          "person_responsible": "Local Assessment Operations Officer IV, City Assessor"
         }
       ],
-      "total": { "fees": "None", "processing_time": "1 day and 12 minutes" }
+      "total": {
+        "fees": "None",
+        "processing_time": "2 days, 1 hour and 15 minutes"
+      }
     },
     {
-      "id": 5,
-      "service_name": "Request for Appraisal and Assessment (New Building/Machineries)",
-      "image": "/assets/document_background/Request for Appraisal and Assessment of Real Property with New Building",
+      "service_name": "Request for Appraisal and Assessment of Real Property for New Building and Improvement and Newly Acquired Machineries",
+      "image": "/assets/document_background/Request for Appraisal and Assessment of Real Property for New Building and Improvement and Newly Acquired Machineries",
       "office": "Lipa City Assessor's Office",
-      "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": ["All property owners and all authorized representatives"],
+      "classification": "Complex",
+      "type_of_transaction": "G2C - Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "All property owners and all authorized representatives",
       "checklist_of_requirements": [
-        { "requirement": "Building/Occupancy Permit", "source": "City Engineering Office" },
-        { "requirement": "Approved Building Plans", "source": "Owner" },
-        { "requirement": "Invoice/Receipt (for Machineries)", "source": "Supplier" }
+        {
+          "requirement": "Approved building plan; Certificate of Occupancy; Tax declaration of land; Latest tax receipt; Photo of building; Bill of Materials",
+          "source": "Engineering Office / Property Owner"
+        },
+        {
+          "requirement": "For Machineries: Sworn statement (acquisition cost, date, description)",
+          "source": "Lipa City Assessor's Office"
+        }
       ],
       "steps": [
         {
-          "client_step": "1. Submit request form",
-          "agency_action": "1. Schedule field inspection",
+          "client_step": "1. Proceed to Window 3, fill up requisition form and attach documents",
+          "agency_action": "1.1 - 1.7: Review docs, approve inspection, verify, conduct ocular inspection (4 days), prepare FAAS/PRF, encode, sign/approve tax declaration, and inform client",
           "fees": "None",
-          "processing_time": "1 hour",
-          "person_responsible": "Appraisal Division"
+          "processing_time": "6 days, 6 hours and 32 minutes",
+          "person_responsible": "City Assessor, Assessment Clerk II, Local Assessment Operations Officer II-IV"
         },
         {
-          "client_step": "2. Facilitate inspection",
-          "agency_action": "2. Conduct ocular visit and assessment",
-          "fees": "None",
-          "processing_time": "2 days",
-          "person_responsible": "Appraiser"
-        },
-        {
-          "client_step": "3. Pay processing fee and claim TD",
-          "agency_action": "3. Issue OR and release new Tax Declaration",
+          "client_step": "2. Present Order of Payment and pay at Treasurer's Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
           "fees": "P50.00",
-          "processing_time": "2 hours and 1 minute",
-          "person_responsible": "Releasing Clerk"
+          "processing_time": "30 minutes",
+          "person_responsible": "Local Revenue Collection Clerk II"
+        },
+        {
+          "client_step": "3. Present Official Receipt to Assessor's Office",
+          "agency_action": "3.1 - 3.2: Forward tax declaration to Records, record and assign new number",
+          "fees": "None",
+          "processing_time": "7 minutes",
+          "person_responsible": "Administrative Aide IV, Assessment Clerk II"
+        },
+        {
+          "client_step": "4. Claim new tax declaration at Releasing Window",
+          "agency_action": "4. Release owner's copy",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Assessment Clerk II"
         }
       ],
-      "total": { "fees": "P50.00", "processing_time": "2 days, 3 hours and 1 minute" }
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "6 days, 7 hours and 14 minutes"
+      }
     },
     {
-      "id": 6,
       "service_name": "Request for Certified True Copies of Tax Declaration",
       "image": "/assets/document_background/Request for Certified True Copies of Tax Declaration",
       "office": "Lipa City Assessor's Office",
-      "classification": "Complex",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": ["All property owners and all authorized representatives"],
-      "checklist_of_requirements": [
-        { "requirement": "Request Slip", "source": "Assessor's Office" },
-        { "requirement": "Updated RPT Receipt", "source": "Treasurer's Office" },
-        { "requirement": "Valid ID", "source": "Owner" }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit request slip",
-          "agency_action": "1. Verify record in digital database",
-          "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Records Clerk"
-        },
-        {
-          "client_step": "2. Pay certification fee",
-          "agency_action": "2. Receive payment",
-          "fees": "P50.00",
-          "processing_time": "10 minutes",
-          "person_responsible": "Treasurer's Office"
-        },
-        {
-          "client_step": "3. Receive CTC",
-          "agency_action": "3. Print and sign document",
-          "fees": "None",
-          "processing_time": "12 minutes (7 days if verification needed)",
-          "person_responsible": "City Assessor"
-        }
-      ],
-      "total": { "fees": "P50.00", "processing_time": "32 minutes / 7 days" }
-    },
-    {
-      "id": 7,
-      "service_name": "Request for Certified true Copy of Tax Declaration (Manual)",
-      "image": "/assets/document_background/Request for Certified true Copy of Tax Declaration (Manual)",
-      "office": "Lipa City Assessor's Office",
-      "classification": "Complex",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": ["All property owners and all authorized representatives"],
-      "checklist_of_requirements": [
-        { "requirement": "Request Slip", "source": "Assessor's Office" },
-        { "requirement": "Previous TD or Title", "source": "Owner" }
-      ],
-      "steps": [
-        {
-          "client_step": "1. Submit request for manual verification",
-          "agency_action": "1. Search property history in archives",
-          "fees": "None",
-          "processing_time": "2 days",
-          "person_responsible": "Archive Officer"
-        },
-        {
-          "client_step": "2. Pay necessary fees",
-          "agency_action": "2. Issue Official Receipt",
-          "fees": "P50.00",
-          "processing_time": "10 minutes",
-          "person_responsible": "Treasurer's Office"
-        },
-        {
-          "client_step": "3. Claim manual CTC",
-          "agency_action": "3. Transcribe and verify record",
-          "fees": "None",
-          "processing_time": "9 minutes",
-          "person_responsible": "Assessment Staff"
-        }
-      ],
-      "total": { "fees": "P50.00", "processing_time": "2 days and 19 minutes / 7 days" }
-    },
-    {
-      "id": 8,
-      "service_name": "Request for issuance of Photocopy/ Digital Pictures of Tax Map",
-      "image": "/assets/document_background/Request for issuance of Photocopy_Digital Pictures of Tax Map",
-      "office": "Lipa City Assessor's Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": ["All property owners and all authorized representatives"],
+      "type_of_transaction": "G2C - Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "All property owners and all authorized representatives",
       "checklist_of_requirements": [
-        { "requirement": "Request Slip", "source": "Assessor's Office" },
-        { "requirement": "Tax Declaration or Title", "source": "Owner" }
+        {
+          "requirement": "TCT or Real Property Tax Receipt; Owner's ID; (If representative: SPA/Authorization + ID)",
+          "source": "Property owner / Treasurer's Office"
+        }
       ],
       "steps": [
         {
-          "client_step": "1. Submit request with lot details",
-          "agency_action": "1. Locate property in Tax Mapping system",
+          "client_step": "1. Submit requisition slip and requirements",
+          "agency_action": "1.1. Receive and verify; 1.2. Issue Order of Payment",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Administrative Aide IV, Assessment Clerk II"
+        },
+        {
+          "client_step": "2. Present Order of Payment and pay at Treasurer's Office",
+          "agency_action": "2. Receive payment and Official Receipt",
+          "fees": "P50.00",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
+        },
+        {
+          "client_step": "3. Present Official Receipt to Assessor's Office",
+          "agency_action": "3.1. Prepare/Verify/Print Tax Declaration; 3.2. Review and sign",
+          "fees": "None",
+          "processing_time": "3 hours",
+          "person_responsible": "Assessment Clerk II, Local Assessment Operations Officer IV"
+        },
+        {
+          "client_step": "4. Receive Certified True Copy",
+          "agency_action": "4. Release tax declaration",
           "fees": "None",
           "processing_time": "15 minutes",
-          "person_responsible": "Tax Mapper"
-        },
-        {
-          "client_step": "2. Pay map reproduction fee",
-          "agency_action": "2. Receive payment",
-          "fees": "P50.00",
-          "processing_time": "10 minutes",
-          "person_responsible": "Treasurer's Office Staff"
-        },
-        {
-          "client_step": "3. Secure copy of map",
-          "agency_action": "3. Release map and log receipt",
-          "fees": "None",
-          "processing_time": "9 minutes",
-          "person_responsible": "Mapping Division"
+          "person_responsible": "Administrative Aide IV, Assessment Clerk II"
         }
       ],
-      "total": { "fees": "P50.00", "processing_time": "34 minutes" }
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "4 hours and 5 minutes"
+      }
     },
     {
-      "id": 9,
+      "service_name": "Request for Certified True Copy of Tax Declaration (Manual)",
+      "image": "/assets/document_background/Request for Certified True Copy of Tax Declaration (Manual)",
+      "office": "Lipa City Assessor's Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2C - Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "All property owners and all authorized representatives",
+      "checklist_of_requirements": [
+        {
+          "requirement": "TCT or Real Property Tax Receipt; Owner's ID; (If representative: SPA/Authorization + ID)",
+          "source": "Property owner / Treasurer's Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requisition slip and requirements",
+          "agency_action": "1.1. Receive and check; 1.2. Issue Order of Payment",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Administrative Aide IV, Assessment Clerk II"
+        },
+        {
+          "client_step": "2. Present Order of Payment and pay at Treasurer's Office",
+          "agency_action": "2. Receive payment and Official Receipt",
+          "fees": "P50.00",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
+        },
+        {
+          "client_step": "3. Present Official Receipt to Assessor's Office",
+          "agency_action": "3.1. Verify from archive and type manually (4 days); 3.2. Review and sign",
+          "fees": "None",
+          "processing_time": "4 days and 30 minutes",
+          "person_responsible": "Assessment Clerk II, Local Assessment Operations Officer III/IV"
+        },
+        {
+          "client_step": "4. Receive Certified True Copy",
+          "agency_action": "4. Release manual tax declaration",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Aide IV, Assessment Clerk II"
+        }
+      ],
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "4 days, 1 hour and 25 minutes"
+      }
+    },
+    {
       "service_name": "Request for Order of Payment for Cadastral Cost",
       "image": "/assets/document_background/Request for Order of Payment for Cadastral Cost",
       "office": "Lipa City Assessor's Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": ["All property owners and all authorized representatives"],
+      "type_of_transaction": "G2C –Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "All property owners and all authorized representatives",
       "checklist_of_requirements": [
-        { "requirement": "Tax Declaration", "source": "Owner" },
-        { "requirement": "Title or Survey Plan", "source": "Registry of Deeds" }
+        {
+          "requirement": "Transfer Certificate of Title (1 photocopy); Tax Declaration (1 photocopy)",
+          "source": "Property owner"
+        }
       ],
       "steps": [
         {
-          "client_step": "1. Present property details",
-          "agency_action": "1. Verify cadastral cost cost",
+          "client_step": "1. Submit requisition slip at Tax Mapping Division",
+          "agency_action": "1.1. Receive slip; 1.2. Verify claimants; 1.3. Compute cost; 1.4. Issue Order of Payment",
           "fees": "None",
-          "processing_time": "10 minutes",
-          "person_responsible": "Assessment Staff"
-        },
-        {
-          "client_step": "2. Receive Order of Payment",
-          "agency_action": "2. Compute and issue order",
-          "fees": "None",
-          "processing_time": "14 minutes",
-          "person_responsible": "Billing Clerk"
+          "processing_time": "25 minutes",
+          "person_responsible": "Administrative Aide IV, Draftsman II, Tax Mapper II"
         }
       ],
-      "total": { "fees": "None", "processing_time": "24 minutes" }
+      "total": {
+        "fees": "None",
+        "processing_time": "25 minutes"
+      }
     },
     {
-      "id": 10,
+      "service_name": "Request for Photocopy/ Digital Pictures of Tax Map",
+      "image": "/assets/document_background/Request for Photocopy_ Digital Pictures of Tax Map",
+      "office": "Lipa City Assessor's Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2C –Government to Citizen, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "All property owners and all authorized representatives",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Transfer Certificate of Title (1 photocopy); Tax Declaration (1 photocopy)",
+          "source": "Property owner / Assessor's Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requisition slip at Tax Mapping Division",
+          "agency_action": "1.1. Receive slip; 1.2. Issue Order of Payment",
+          "fees": "None",
+          "processing_time": "12 minutes",
+          "person_responsible": "Administrative Aide IV, Draftsman II, Tax Mapper II"
+        },
+        {
+          "client_step": "2. Present Order of Payment and pay at Treasurer's Office",
+          "agency_action": "2. Receive payment and official receipt",
+          "fees": "P50.00",
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
+        },
+        {
+          "client_step": "3. Present official receipt to Assessor's Office",
+          "agency_action": "3.1. Verify tax map (location and boundaries)",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Assessment Clerk II, Draftsman II, Tax Mapper II"
+        },
+        {
+          "client_step": "4. Claim photocopied tax map/digital photo",
+          "agency_action": "4. Release tax map/photo",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Assessment Clerk II, Draftsman II, Tax Mapper II"
+        }
+      ],
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "1 hour and 17 minutes"
+      }
+    },
+    {
       "service_name": "Request for Reclassification of Lot for Taxation Purposes",
       "image": "/assets/document_background/Request for Reclassification of Lot for Taxation Purposes",
       "office": "Lipa City Assessor's Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": ["All property owners and all authorized representatives"],
+      "type_of_transaction": "G2C - Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "All property owners and all authorized representatives",
       "checklist_of_requirements": [
-        { "requirement": "Zoning Certification", "source": "City Planning Office" },
-        { "requirement": "Reclassification Ordinance", "source": "Sangguniang Panlungsod" },
-        { "requirement": "Updated Tax Receipt", "source": "Treasurer's Office" }
+        {
+          "requirement": "Approved Special Ordinance - 1 photocopy",
+          "source": "Sangguniang Panlungsod"
+        },
+        {
+          "requirement": "Latest tax receipt – 1 photocopy",
+          "source": "Lipa City Treasurer's Office or Property owner"
+        },
+        {
+          "requirement": "Reclassification fee – 1 photocopy",
+          "source": "Property owner"
+        }
       ],
       "steps": [
         {
-          "client_step": "1. Submit requirements",
-          "agency_action": "1. Validate Zoning and Ordinance",
+          "client_step": "1. Proceed to the Administrative Section and submit the complete requirements to the person-in-charge",
+          "agency_action": "1.1. Receive and record; 1.2. Assess and evaluate; 1.3. Detach the PRF; 1.4. Forward to Tax Mapping; 1.5. Encode data on FAAS; 1.6. Approve FAAS; 1.7. Forward to Appraisal; 1.8. Encode/prepare FAAS and PRF manually; 1.9. Check, sign and approve; 1.10. Forward to Records; 1.11. Record in Records of Assessment; 1.12. Issue Order of Payment",
           "fees": "None",
-          "processing_time": "1 hour",
-          "person_responsible": "Tax Mapper"
+          "processing_time": "13 hours and 22 minutes",
+          "person_responsible": "City Assessor, Asst. City Assessor, Tax Mapper II/III/IV, Assessment Clerk II, Administrative Aide IV"
         },
         {
-          "client_step": "2. Pay processing fee",
-          "agency_action": "2. Issue Official Receipt",
+          "client_step": "2. Present the Order of Payment and pay the corresponding fee at the Lipa City Treasurer's Office",
+          "agency_action": "2. Receive payment and issue Official Receipt",
           "fees": "P50.00",
-          "processing_time": "15 minutes",
-          "person_responsible": "Treasurer's Office"
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
         },
         {
-          "client_step": "3. Receive updated TD",
-          "agency_action": "3. Adjust assessment in system",
+          "client_step": "3. Present the Official Receipt to the Lipa City Assessor's Office and claim the Tax Declaration",
+          "agency_action": "3. Release the tax declaration",
           "fees": "None",
-          "processing_time": "54 minutes",
-          "person_responsible": "City Assessor"
+          "processing_time": "2 minutes",
+          "person_responsible": "Assessment Clerk II"
         }
       ],
-      "total": { "fees": "P50.00", "processing_time": "2 hours and 9 minutes" }
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "1 day, 5 hours and 52 minutes"
+      }
     },
     {
-      "id": 11,
       "service_name": "Request for Tax Mapping Certification",
       "image": "/assets/document_background/Request for Tax Mapping Certification",
       "office": "Lipa City Assessor's Office",
       "classification": "Simple",
-      "type_of_transaction": "G2C – Government to Citizens",
-      "who_may_avail": ["All property owners and all authorized representatives"],
+      "type_of_transaction": "G2C –Government to Citizens, G2B – Government to Business, G2G – Government to Government",
+      "who_may_avail": "All property owners and all authorized representatives",
       "checklist_of_requirements": [
-        { "requirement": "Request Slip", "source": "Assessor's Office" },
-        { "requirement": "Latest Tax Declaration", "source": "Owner" },
-        { "requirement": "Certified Survey Plan", "source": "LRA/DENR" }
+        {
+          "requirement": "Transfer Certificate of Title – 1 photocopy",
+          "source": "Property owner"
+        },
+        {
+          "requirement": "Tax Declaration – 1 photocopy",
+          "source": "Property owner or City Assessor's Office"
+        },
+        {
+          "requirement": "Latest Realty Tax Receipt – 1 photocopy",
+          "source": "Property owner or Lipa City Treasurer's Office"
+        }
       ],
       "steps": [
         {
-          "client_step": "1. Submit request to Mapping division",
-          "agency_action": "1. Verify boundaries and adjacent owners",
+          "client_step": "1. Proceed to the Tax Mapping Division, submit the accomplished requisition slip with the complete requirements",
+          "agency_action": "1.1. Receive slip; 1.2. Issue Order of Payment",
           "fees": "None",
           "processing_time": "25 minutes",
-          "person_responsible": "Tax Mapper"
+          "person_responsible": "Administrative Aide IV, Draftsman II, Tax Mapper II"
         },
         {
-          "client_step": "2. Pay certification fee",
-          "agency_action": "2. Issue Official Receipt",
+          "client_step": "2. Present the Order of Payment and pay the corresponding fee at the Lipa City Treasurer's Office",
+          "agency_action": "2. Receive payment and official receipt",
           "fees": "P50.00",
-          "processing_time": "12 minutes",
-          "person_responsible": "Treasurer's Office Staff"
+          "processing_time": "30 minutes",
+          "person_responsible": "Revenue Collection Clerk II"
         },
         {
-          "client_step": "3. Claim certification",
-          "agency_action": "3. Release and sign log",
+          "client_step": "3. Present the official receipt to the Lipa City Assessor's Office",
+          "agency_action": "3.1. Prepare tax map certification; 3.2. Review and sign",
+          "fees": "None",
+          "processing_time": "2 hours and 20 minutes",
+          "person_responsible": "Assessment Clerk II, Draftsman II, Tax Mapper II/III/IV"
+        },
+        {
+          "client_step": "4. Claim the tax map certification",
+          "agency_action": "4. Release the tax map certification",
           "fees": "None",
           "processing_time": "10 minutes",
-          "person_responsible": "Mapping Clerk"
+          "person_responsible": "Assessment Clerk II, Draftsman II, Tax Mapper II"
         }
       ],
-      "total": { "fees": "P50.00", "processing_time": "47 minutes" }
+      "total": {
+        "fees": "P50.00",
+        "processing_time": "3 hours and 25 minutes"
+      }
     }
   ]
 }

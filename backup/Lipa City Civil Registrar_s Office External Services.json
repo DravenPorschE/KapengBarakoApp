@@ -1,0 +1,1177 @@
+{
+  "department": "Lipa City Civil Registrar's Office",
+  "external_services": [
+    {
+      "id": 1,
+      "service_name": "Application for Late Registration of Birth",
+      "office": "Lipa City Civil Registrar's Office",
+      "image": "/assets/document_background/Application for Late Registration of Birth",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Parents, Document owner",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Negative Certificate of Birth – 1 original copy",
+          "source": "Philippine Statistics Authority"
+        },
+        {
+          "requirement": "Parents' Marriage Certificate for legitimate child – 1 certified true copy",
+          "source": "Philippine Statistics Authority or Civil Registrar's Office where the marriage was registered"
+        },
+        {
+          "requirement": "Baptismal Certificate – 1 certified true copy",
+          "source": "Church where the child was baptized"
+        },
+        {
+          "requirement": "Any government-issued ID",
+          "source": "Any government agency (PSA, Comelec, LTO, PhilPost, GSIS, SSS, etc.)"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements. For unmarried parents: Make sure to secure the Order of Payment that will be issued",
+          "agency_action": "1.1. Verify the record and receive the requirements",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Aide VI (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements. For unmarried parents: Make sure to secure the Order of Payment that will be issued",
+          "agency_action": "1.2. Interview the applicant",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements. For unmarried parents: Make sure to secure the Order of Payment that will be issued",
+          "agency_action": "1.3. For unmarried parents, issue Order of Payment",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide VI (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Proceed to the Lipa City Treasurer's Office and pay the corresponding amount. *Make sure to secure the Official Receipt that will be issued upon payment",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees": "P200.00 (if unmarried parents)",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Civil Registrar's Office",
+          "agency_action": "3.1. Issue claim stub indicating the date and time of release",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide VI (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Civil Registrar's Office",
+          "agency_action": "3.2. Prepare Municipal Form (MF) No. 102",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Administrative Aide VI (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Civil Registrar's Office",
+          "agency_action": "3.3. Prepare and post notice of application",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Aide VI (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Civil Registrar's Office",
+          "agency_action": "3.4. Assign registry number and sign the document",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "4. Return on the given date of release and claim the birth certificate",
+          "agency_action": "4. Release the birth certificate after 10 days of posting",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total": {
+        "fees": "P200.00 (if unmarried parents)",  
+        "processing_time": "1 hour and 5 minutes with 10 days posting period"
+      }
+    },
+    {
+      "id": 2,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Application for Late Registration of Death",
+      "image": "/assets/document_background/Application for Late Registration of Death",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses",
+      "who_may_avail": "Immediate family members of the deceased",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Certificate of Death duly accomplished and signed by proper parties – 4 copies",
+          "source": "Lipa City Health Office or hospitals, clinics where the death took place"
+        },
+        {
+          "requirement": "PSA Negative Result – 1 original copy",
+          "source": "Philippine Statistics Office"
+        },
+        {
+          "requirement": "Certificate of burial, cremation, or of other means of corpse disposal – 1 authenticated copy",
+          "source": "Funeral Service Provider"
+        },
+        {
+          "requirement": "Burial Certificate",
+          "source": "Lipa City Health Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements",
+          "agency_action": "1.1. Verify the record",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements",
+          "agency_action": "1.2. Receive and review the submitted requirements",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements",
+          "agency_action": "1.3. Issue claim stub indicating the date and time of release",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements",
+          "agency_action": "1.4. Prepare and post notice of application",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements",
+          "agency_action": "1.5. Assign registry number and sign the document",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Return on the given date of release and claim the death certificate",
+          "agency_action": "2.1. Release the death certificate after 10 days of posting",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "None",
+      "total_processing_time": "38 minutes with 10 days posting period"
+    },
+    {
+      "id": 3,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Application for Late Registration of Marriage",
+      "image": "/assets/document_background/Application for Late Registration of Marriage",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses",
+      "who_may_avail": "Married couples who failed to register their marriage",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Certificate of Marriage – 4 copies",
+          "source": "Parish or trial courts where the wedding was held, Lipa City Civil Registrar's Office for marriages solemnized by the City Mayor"
+        },
+        {
+          "requirement": "Negative Certificate of Marriage",
+          "source": "Philippine Statistics Authority (PSA)"
+        },
+        {
+          "requirement": "Birth certificate of children – 1 original copy each child",
+          "source": "Philippine Statistics Authority (PSA)"
+        },
+        {
+          "requirement": "Land titles, insurances and other documents declaring the spouses as husband and wife",
+          "source": "Register of Deeds, Insurance companies, Other agencies concerned"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements",
+          "agency_action": "1.1. Receive and check the completeness of requirements",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements",
+          "agency_action": "1.2. Verify the record, validate the submitted requirements",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements",
+          "agency_action": "1.3. Prepare Municipal Form (MF) No. 97",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements",
+          "agency_action": "1.4. Issue claim stub indicating the date and time of release",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements",
+          "agency_action": "1.5. Prepare and post notice of application",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information slip and submit requirements",
+          "agency_action": "1.6. Assign registry number and sign the document",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Return on the given date of release and claim the marriage certificate",
+          "agency_action": "2.1. Release the marriage certificate after 10 days of posting",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "None",
+      "total_processing_time": "50 minutes with 10 days posting period"
+    },
+    {
+      "id": 4,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Application for Legitimation of Children under RA No. 9858",
+      "image": "/assets/document_background/Application for Legitimation of Children under RA No. 9858",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Document owners, parents who were below marrying age during the conception of their children",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Birth certificate of the child for legitimation – 1 certified true copy",
+          "source": "Lipa City Civil Registrar, Philippine Statistics Authority"
+        },
+        {
+          "requirement": "Parents' marriage contract – 1 certified true copy",
+          "source": "Lipa City Civil Registrar, Philippine Statistics Authority"
+        },
+        {
+          "requirement": "CENOMAR of both parents – 1 original copy",
+          "source": "Philippine Statistics Authority"
+        },
+        {
+          "requirement": "Valid IDs of parents",
+          "source": "Document owner, Any government agency (PSA, Comelec, LTO, PhilPost, GSIS, SSS, etc.)"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements for legitimation. *Make sure to secure the Order of Payment that will be issued",
+          "agency_action": "1.1. Review and evaluate the submitted requirements and assign number at the legal instrument",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Submit requirements for legitimation. *Make sure to secure the Order of Payment that will be issued",
+          "agency_action": "1.2. Issue Order of Payment",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Present the Order of Payment and pay the corresponding fee at the Lipa City Treasurer's Office. *Make sure to secure the Official Receipt that will be issued upon payment",
+          "agency_action": "2. Receive payment and issue Official Receipt",
+          "fees": "P152.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Civil Registrar's Office and claim a copy of the birth certificate with annotation",
+          "agency_action": "3.1. Review and cause annotation",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Civil Registrar's Office and claim a copy of the birth certificate with annotation",
+          "agency_action": "3.2. Release a copy of the birth certificate with annotation",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P152.00",
+      "total_processing_time": "47 minutes"
+    },
+    {
+      "id": 5,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Application for Marriage License",
+      "image": "/assets/document_background/Application for Marriage License",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Male and female, 18 years old and above, resident of Lipa City (at least 1 of the contracting parties)",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Birth certificate of contracting parties – 1 certified true copy each",
+          "source": "Lipa City Civil Registrar's Office, Philippine Statistics Authority"
+        },
+        {
+          "requirement": "Certificate of No Marriage (CENOMAR) of contracting parties – 1 original copy each",
+          "source": "Philippine Statistics Authority"
+        },
+        {
+          "requirement": "Advice/ Consent of Parents for applicants below 25 years of age",
+          "source": "Lipa City Civil Registrar's Office"
+        },
+        {
+          "requirement": "Any government issued ID of applicants and parents – 1 photocopy each",
+          "source": "Any government agency (PSA, Comelec, LTO, PhilPost, GSIS, SSS, etc.)"
+        },
+        {
+          "requirement": "Legal Capacity to Marry, if foreign applicant – 1 original copy",
+          "source": "Embassy where the foreign applicant is a citizen at the time of marriage application"
+        },
+        {
+          "requirement": "Judicial Decree of Annulment of Marriage, for applicant with first marriage – 1 original copy",
+          "source": "Court where the decision granting annulment of marriage was rendered"
+        },
+        {
+          "requirement": "Death Certificate of death spouse for applicant with first marriage – 1 certified true copy",
+          "source": "Lipa City Civil Registrar's Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Personally submit the requirements for evaluation",
+          "agency_action": "1.1. Receive requirements and interview the applicants",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV / Administrative Aide IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Personally submit the requirements for evaluation",
+          "agency_action": "1.2. Prepare application form and other pertinent documents",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Administrative Assistant IV / Administrative Aide IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Sign the application forms in front of the Lipa City Civil Registrar together with the parents. *Make sure to secure the Order of Payment that will be issued",
+          "agency_action": "2.1. Issue Order of Payment",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "3. Present the Order of Payment and pay the corresponding fee at the Lipa City Treasurer's Office. *Make sure to secure the Official Receipt that will be issued upon payment",
+          "agency_action": "3.1. Receive payment and issue Official Receipt",
+          "fees": "P200.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "4. Present the Official Receipt to the Lipa City Civil Registrar's Office",
+          "agency_action": "4.1. Receive the application and refer the engaged couple to the LSWD and CHO for counseling",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "4. Present the Official Receipt to the Lipa City Civil Registrar's Office",
+          "agency_action": "4.2. Prepare and post notice of application",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "4. Present the Official Receipt to the Lipa City Civil Registrar's Office",
+          "agency_action": "4.3. Check and sign the application",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "5. Claim the marriage license",
+          "agency_action": "5.1. Release the marriage license after 10 days of posting",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P200.00",
+      "total_processing_time": "1 hour and 25 minutes (with 10 days posting)"
+    },
+    {
+      "id": 6,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Application for Timely Registration of Birth",
+      "image": "/assets/document_background/Application for Timely Registration of Birth",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2G – Government to Businesses",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Accomplished Certificate of Live Birth (Form 102) – 4 copies",
+          "source": "Hospitals, clinics or other institutions where the child was born"
+        },
+        {
+          "requirement": "Authority to Use the Surname of the father (for illegitimate child, if applicable)",
+          "source": "Lipa City Civil Registrar's Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Accomplish the information sheet",
+          "agency_action": "1.1. Receive, review and interview the registering person",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information sheet",
+          "agency_action": "1.2. Prepare Municipal Form (MF) No. 102",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Accomplish the information sheet",
+          "agency_action": "1.3. Enter information on the registry book, assign registry number and sign the document",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Claim the birth certificate",
+          "agency_action": "2.1. Release birth certificate",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "None",
+      "total_processing_time": "35 minutes"
+    },
+    {
+      "id": 7,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Application for Timely Registration of Death",
+      "image": "/assets/document_background/Application for Timely Registration of Death",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2G – Government to Businesses",
+      "who_may_avail": "Immediate family members of the deceased",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Duly accomplished Form 103 (Death Form)",
+          "source": "Hospitals, clinics where death occurred or Lipa City Health Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the accomplished Death Certificate",
+          "agency_action": "1.1. Receive and review the document",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant I (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Submit the accomplished Death Certificate",
+          "agency_action": "1.2. Assign registry number and sign the document",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Claim the death certificate",
+          "agency_action": "2.1. Release death certificate",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant I (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "None",
+      "total_processing_time": "15 minutes"
+    },
+    {
+      "id": 8,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Application for Timely Registration of Marriage",
+      "image": "/assets/document_background/Application for Timely Registration of Marriage",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Accomplished Certificate of Marriage – 4 copies",
+          "source": "Parish or Trial Court where the wedding took place, or City Civil Registrar"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the accomplished Marriage Certificate",
+          "agency_action": "1.1. Receive and review the document",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant I (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Submit the accomplished Marriage Certificate",
+          "agency_action": "1.2. Assign registry number and sign the document",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Claim the marriage certificate",
+          "agency_action": "2.1. Release marriage certificate",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Assistant I (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "None",
+      "total_processing_time": "10 minutes"
+    },
+    {
+      "id": 9,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Application for Transfer of Records as per Memorandum Circular No. 91-6",
+      "image": "/assets/document_background/Application for Transfer of Records per Memorandum Circular No. 91-6",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2G – Government to Government",
+      "who_may_avail": "Parents, document owner seeking proper registration",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Transmittal letter – 1 original copy",
+          "source": "Local Civil Registrar where document was registered"
+        },
+        {
+          "requirement": "Birth certificate – 1 original copy",
+          "source": "Philippine Statistics Authority"
+        },
+        {
+          "requirement": "Marriage certificate – 1 original copy",
+          "source": "Philippine Statistics Authority"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the transmittal letter with the wrongly registered document. *Make sure to secure the Order of Payment",
+          "agency_action": "1.1. Receive and check completeness of entries",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Admin Assistant I / IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Submit the transmittal letter with the wrongly registered document. *Make sure to secure the Order of Payment",
+          "agency_action": "1.2. Issue Order of Payment",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Admin Assistant I / IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Present the Order of Payment and pay the corresponding fee at the Lipa City Treasurer's Office",
+          "agency_action": "2.1. Receive payment and issue Official Receipt",
+          "fees": "P100.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Civil Registrar's Office",
+          "agency_action": "3.1. Approve and annotate the civil registry documents",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "3. Present the Official Receipt to the Lipa City Civil Registrar's Office",
+          "agency_action": "3.2. Process the document for endorsement",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Admin Assistant I / IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P100.00",
+      "total_processing_time": "55 minutes"
+    },
+    {
+      "id": 10,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Petition for Acknowledgement of Paternity",
+      "image": "/assets/document_background/Petition for Acknowledgement of Paternity",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Parents, document owner",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Birth certificate – 1 certified true copy",
+          "source": "Lipa City Civil Registrar's Office"
+        },
+        {
+          "requirement": "Affidavit of Acknowledgement – 1 original copy",
+          "source": "Notary Public"
+        },
+        {
+          "requirement": "Father's government issued ID card – 1 photocopy",
+          "source": "Any government agency"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements and secure the Order of Payment",
+          "agency_action": "1.1. Receive and check completeness of documents",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Submit requirements and secure the Order of Payment",
+          "agency_action": "1.2. Retrieve original file and assign legal instrument number",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Submit requirements and secure the Order of Payment",
+          "agency_action": "1.3. Issue Order of Payment",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Pay the fee at the Lipa City Treasurer's Office",
+          "agency_action": "2.1. Receive payment and issue Official Receipt",
+          "fees": "P200.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present Official Receipt and claim the annotated birth certificate",
+          "agency_action": "3.1. Review and annotate the civil registry document",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "3. Present Official Receipt and claim the annotated birth certificate",
+          "agency_action": "3.2. Prepare and issue the annotated birth certificate",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P200.00",
+      "total_processing_time": "1 hour and 5 minutes"
+    },
+    {
+      "id": 11,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Petition for Authority to Use the Surname of the Father for Children (RA 9255)",
+      "image": "/assets/document_background/Petition for Authority to Use the Surname of the Father for Children (RA",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Father, mother, person himself if of age, or guardian",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Certificate of Live Birth – 1 certified true copy",
+          "source": "Lipa City Civil Registrar's Office"
+        },
+        {
+          "requirement": "Notarized Affidavit to Use the Surname of the Father – 1 original copy",
+          "source": "Notary Public"
+        },
+        {
+          "requirement": "Government issued IDs of the parents – 1 photocopy",
+          "source": "Any government agency"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements and secure Order of Payment",
+          "agency_action": "1.1. Evaluate completeness/correctness of entries",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Submit requirements and secure Order of Payment",
+          "agency_action": "1.2. Retrieve record, assign number and issue Order of Payment",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Pay the fee at the Lipa City Treasurer's Office",
+          "agency_action": "2.1. Receive payment and issue Official Receipt",
+          "fees": "P200.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present Official Receipt to the Registrar",
+          "agency_action": "3.1. Review and annotate the COLB and Register of Birth",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "4. Claim the annotated birth certificate",
+          "agency_action": "4.1. Prepare and release the certified copies with annotation",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P200.00",
+      "total_processing_time": "55 minutes"
+    },
+    {
+      "id": 12,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Petition for Change of Entries in the Birth Certificate (RA No. 10172)",
+      "image": "/assets/document_background/Petition for Change of Entries in the Birth Certificate (RA No. 10172)",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Document owner, spouse, children, immediate family or authorized representative",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Birth Certificate, School records (Form 137), Baptismal certificate, NBI/Police Clearance",
+          "source": "LCR/PSA, Schools, Parish, NBI, PNP"
+        },
+        {
+          "requirement": "Medical records/certificate (for correction of sex)",
+          "source": "Hospital, Lipa City Health Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements and secure Order of Payment",
+          "agency_action": "1.1. Check completeness and issue Order of Payment",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Pay fee at the Treasurer's Office",
+          "agency_action": "2.1. Receive payment and issue Official Receipt",
+          "fees": "P3,000.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Sign Petition and Notice of Posting",
+          "agency_action": "3.1. Prepare form and advise on publication",
+          "fees": "None",
+          "processing_time": "25 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "4. Publish notice for 2 weeks and submit clippings",
+          "agency_action": "4.1. Decide on petition and transmit to PSA-OCRG",
+          "fees": "None",
+          "processing_time": "5 days",
+          "person_responsible": "City Civil Registrar (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "5. Claim annotated birth certificate",
+          "agency_action": "5.1. Release the annotated document",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P3,000.00",
+      "total_processing_time": "5 days, 1 hour and 10 minutes (excluding waiting time for PSA)"
+    },
+    {
+      "id": 13,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Petition for Change of First Name or Nickname (RA No. 9048)",
+      "image": "/assets/document_background/Petition for Change of First Name or Nickname (RA No. 9048)",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "Any person with direct interest",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Birth/Baptismal certificates, Voter's cert, School/Employment records, NBI/Police Clearance",
+          "source": "PSA, Parish, COMELEC, Employer, Schools, NBI, Police"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements and secure Order of Payment",
+          "agency_action": "1.1. Check completeness and issue Order of Payment",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Pay fee at Treasurer's Office",
+          "agency_action": "2.1. Receive payment and issue Official Receipt",
+          "fees": "P3,000.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Officer II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Sign Petition form",
+          "agency_action": "3.1. Prepare petition and issue claim stub",
+          "fees": "None",
+          "processing_time": "25 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "4. Publish notice for 2 weeks and submit clippings",
+          "agency_action": "4.1. Decide and transmit to PSA-OCRG",
+          "fees": "None",
+          "processing_time": "5 days",
+          "person_responsible": "City Civil Registrar (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "5. Return on release date and claim document",
+          "agency_action": "5.1. Release annotated document",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P3,000.00",
+      "total_processing_time": "5 days, 1 hour and 5 minutes (excluding waiting time for PSA)"
+    },
+    {
+      "id": 14,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Petition for Correction of Clerical or Typographical Error in the Civil Register (RA No. 9048)",
+      "image": "/assets/document_background/Petition for Correction of Clerical or Typographical Error in the Civil",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2C – Government to Citizens, G2G – Government to Government",
+      "who_may_avail": "Document owners, authorized representatives",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Birth/Baptismal certificates, Voter's cert, Employment/School/Medical records",
+          "source": "PSA, Parish, COMELEC, Schools, Health Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements and secure Order of Payment",
+          "agency_action": "1.1. Check completeness and issue Order of Payment",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Pay fee at Treasurer's Office",
+          "agency_action": "2.1. Receive payment and issue Official Receipt",
+          "fees": "P1,000.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Officer II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Sign Petition form",
+          "agency_action": "3.1. Prepare petition and issue claim stub",
+          "fees": "None",
+          "processing_time": "25 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "4. Publish notice for 2 weeks and submit clippings",
+          "agency_action": "4.1. Decide and transmit to PSA-OCRG",
+          "fees": "None",
+          "processing_time": "5 days",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "5. Return on release date and claim document",
+          "agency_action": "5.1. Release annotated document",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P1,000.00",
+      "total_processing_time": "5 days, 1 hour and 5 minutes (excluding waiting time for PSA)"
+    },
+    {
+      "id": 15,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Request for Certifications and Certified True Copies of Civil Registry Documents",
+      "image": "/assets/document_background/Request for Certification and Certified True Copies of Civil Registry",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2B – Government to Businesses",
+      "who_may_avail": "Document owner, kin, or authorized representative",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Government-issued ID of owner, Authorization letter (if representative)",
+          "source": "Owner, Any government agency"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Fill up requisition slip and secure Order of Payment",
+          "agency_action": "1.1. Locate record and issue Order of Payment",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Pay fee at Treasurer's Office",
+          "agency_action": "2.1. Receive payment and issue Official Receipt",
+          "fees": "Local - P50.00, Abroad – P100.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present Official Receipt and wait for release",
+          "agency_action": "3.1. Prepare and certify the document",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Administrative Assistant I (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "3. Present Official Receipt and wait for release",
+          "agency_action": "3.2. Sign and release the document",
+          "fees": "None",
+          "processing_time": "4 minutes",
+          "person_responsible": "City Civil Registrar (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "Local - P50.00, Abroad – P100.00",
+      "total_processing_time": "44 minutes"
+    },
+    {
+      "id": 16,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Request for Correction of Entries in the Geographic Statistical Portion and/or Registry Documents",
+      "image": "/assets/document_background/Request for Correction in the Geographic Statistical Portion",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All interested individuals",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Letter of request, Birth/Marriage/Death certificates, Baptismal/School records",
+          "source": "Petitioner, PSA, Parish, School"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit letter and requirements, secure Order of Payment",
+          "agency_action": "1.1. Check completeness and evaluate documents",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Pay fee at Treasurer's Office",
+          "agency_action": "2.1. Receive payment and issue Official Receipt",
+          "fees": "P100.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present Official Receipt to Registrar",
+          "agency_action": "3.1. Approve, annotate and process for endorsement",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P100.00",
+      "total_processing_time": "1 hour and 10 minutes"
+    },
+    {
+      "id": 17,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Request for Endorsement to PSA",
+      "image": "/assets/document_background/Request for Endorsement to PSA",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2G – Government to Government",
+      "who_may_avail": "Individuals with negative certification from PSA",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Negative certification (Birth/Marriage/Death), Certified copy from LCR",
+          "source": "PSA, Lipa City Civil Registrar's Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements and secure Order of Payment",
+          "agency_action": "1.1. Check completeness and evaluate documents",
+          "fees": "None",
+          "processing_time": "25 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Pay fee at Treasurer's Office",
+          "agency_action": "2.1. Receive payment and issue Official Receipt",
+          "fees": "P100.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present Official Receipt and wait for approval",
+          "agency_action": "3.1. Process and approve endorsement",
+          "fees": "None",
+          "processing_time": "25 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "4. Claim the endorsement",
+          "agency_action": "4.1. Release the endorsement",
+          "fees": "None",
+          "processing_time": "5 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P100.00",
+      "total_processing_time": "1 hour and 5 minutes"
+    },
+    {
+      "id": 18,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Request for Inclusion of Entries in the Civil Registry Documents",
+      "image": "/assets/document_background/Request for Inclusion of Entries in the Civil Registry Documents",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens",
+      "who_may_avail": "All interested individuals",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Birth/Marriage/Death certificate (PSA), Affidavit of Supplemental Report, Parents' Marriage cert",
+          "source": "PSA, Notary Public"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements and secure Order of Payment",
+          "agency_action": "1.1. Receive, verify and issue Order of Payment",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Administrative Assistant IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Pay fee at Treasurer's Office",
+          "agency_action": "2.1. Receive payment and issue Official Receipt",
+          "fees": "P100.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present Official Receipt and wait for annotated document",
+          "agency_action": "3.1. Prepare forms and annotate documents",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "3. Present Official Receipt and wait for annotated document",
+          "agency_action": "3.2. Prepare and issue annotated certificate",
+          "fees": "None",
+          "processing_time": "20 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P100.00",
+      "total_processing_time": "1 hour and 5 minutes"
+    },
+    {
+      "id": 19,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Request for Piecemeal Submission of Civil Registry Documents to PSA",
+      "image": "/assets/document_background/Request for Piecemeal Submission of Civil Registry Documents to PSA",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2G – Government to Government",
+      "who_may_avail": "All interested individuals",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Negative Cert, Supporting docs, Marriage cert, Baptismal cert, ID, LCR copies",
+          "source": "PSA, LCR Office, Parish, Government agencies"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements and secure Order of Payment",
+          "agency_action": "1.1. Receive, verify and issue Order of Payment",
+          "fees": "None",
+          "processing_time": "10 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Pay fee at Treasurer's Office",
+          "agency_action": "2.1. Receive payment and issue Official Receipt",
+          "fees": "P100.00",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present Official Receipt and claim endorsement",
+          "agency_action": "3.1. Process document and approve endorsement",
+          "fees": "None",
+          "processing_time": "30 minutes",
+          "person_responsible": "Registration Officer IV (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P100.00",
+      "total_processing_time": "50 minutes"
+    },
+    {
+      "id": 20,
+      "office": "Lipa City Civil Registrar's Office",
+      "service_name": "Request for Registration of Court Decrees and Orders",
+      "image": "/assets/document_background/Request for Registration of Court Decrees and Orders",
+      "classification": "Simple",
+      "type_of_transaction": "G2C – Government to Citizens, G2G – Government to Government",
+      "who_may_avail": "Document owner, spouse, children, kin or authorized person",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Court Decree/Order, Certificate of Finality, Entry of Judgment, Certificate of Authenticity",
+          "source": "Court where decision was rendered, Lipa City Civil Registrar's Office"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit requirements and secure Order of Payment",
+          "agency_action": "1.1. Check completeness and request Authenticity from court",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "Registration Officer II (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "1. Submit requirements and secure Order of Payment",
+          "agency_action": "1.2. Review/approve registration and issue Order of Payment",
+          "fees": "None",
+          "processing_time": "15 minutes",
+          "person_responsible": "City Civil Registrar (Lipa City Civil Registrar's Office)"
+        },
+        {
+          "client_step": "2. Pay fee at Treasurer's Office",
+          "agency_action": "2.1. Receive payment and issue Official Receipt",
+          "fees": "P202.00 (Birth) / P400.00 (Marriage)",
+          "processing_time": "10 minutes",
+          "person_responsible": "Revenue Collection Clerk II (Lipa City Treasurer's Office)"
+        },
+        {
+          "client_step": "3. Present Official Receipt to Registrar",
+          "agency_action": "3.1. Register decree, cause annotation and endorse to PSA",
+          "fees": "None",
+          "processing_time": "50 minutes",
+          "person_responsible": "Registration Officer IV / II (Lipa City Civil Registrar's Office)"
+        }
+      ],
+      "total_fees": "P202.00 for birth / P400.00 for marriage",
+      "total_processing_time": "1 hour and 30 minutes"
+    }
+  ]
+}

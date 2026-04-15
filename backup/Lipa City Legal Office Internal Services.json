@@ -1,0 +1,367 @@
+{
+  "internal_services": [
+    {
+      "id": 1,
+      "service_name": "Appearance at the Office of the Sangguniang Panlungsod Hearings/ Sessions",
+      "image": "/assets/document_background/Appearance at the Office of the Sangguniang Panlungsod Hearings",
+      "office": "Lipa City Legal Office",
+      "classification": "Simple",
+      "type_of_transaction": "G2G – Government to Government",
+      "who_may_avail": "Lipa City Mayor’s Office and other LGU offices",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Legal documents related to the matter to be heard before the Office of the Sangguniang Panlungsod",
+          "source": "Lipa City Mayor’s Office and other government offices involved in the matter for consideration of the Office of the Sangguniang Panlungsod"
+        },
+        {
+          "requirement": "Notice of Committee Hearing/ Session",
+          "source": "Office of the Sangguniang Panlungsod"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit all relevant documents and other pieces of object evidence, as may be applicable, for consideration of the Office of the Sangguniang Panlungsod",
+          "agency_action": "1.1. Accept documents",
+          "fees_to_be_paid": "None",
+          "processing_time": "N/A",
+          "person_responsible": "Supervising Administrative Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit all relevant documents and other pieces of object evidence, as may be applicable, for consideration of the Office of the Sangguniang Panlungsod",
+          "agency_action": "1.2. Send clarificatory questions when necessary",
+          "fees_to_be_paid": "None",
+          "processing_time": "N/A",
+          "person_responsible": "Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit all relevant documents and other pieces of object evidence, as may be applicable, for consideration of the Office of the Sangguniang Panlungsod",
+          "agency_action": "1.3. Research on the legal issues",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day",
+          "person_responsible": "Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit all relevant documents and other pieces of object evidence, as may be applicable, for consideration of the Office of the Sangguniang Panlungsod",
+          "agency_action": "1.4. Attend the hearing and engage in the deliberation",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 hours",
+          "person_responsible": "Acting Assistant City Legal Officer / City Legal Officer (Lipa City Legal Office)"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "2 days and 2 hours"
+      }
+    },
+    {
+      "id": 2,
+      "service_name": "Request for Drafting of Legal Document",
+      "image": "/assets/document_background/Request for Drafting of Legal Document",
+      "office": "Lipa City Legal Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2G – Government to Government",
+      "who_may_avail": "City Mayor’s Office, Office of the Sangguniang Panlungsod",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Legal documents the client desires to incorporate in the legal instruments to be drafted – 1 original copy",
+          "source": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit legal concerns/ issues and present relevant documents to be incorporated in the legal instruments, such as ordinances, contracts, bonds, leases to be drafted",
+          "agency_action": "1.1. Accept documents",
+          "fees_to_be_paid": "None",
+          "processing_time": "N/A",
+          "person_responsible": "Administrative Officer V (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit legal concerns/ issues and present relevant documents to be incorporated in the legal instruments, such as ordinances, contracts, bonds, leases to be drafted",
+          "agency_action": "1.2. Send clarificatory questions when necessary",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit legal concerns/ issues and present relevant documents to be incorporated in the legal instruments, such as ordinances, contracts, bonds, leases to be drafted",
+          "agency_action": "1.3. Research on the legal issues",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 days",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit legal concerns/ issues and present relevant documents to be incorporated in the legal instruments, such as ordinances, contracts, bonds, leases to be drafted",
+          "agency_action": "1.4. Draft the legal document",
+          "fees_to_be_paid": "None",
+          "processing_time": "N/A",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit legal concerns/ issues and present relevant documents to be incorporated in the legal instruments, such as ordinances, contracts, bonds, leases to be drafted",
+          "agency_action": "1.5. Review and approve the legal document drafted",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day",
+          "person_responsible": "City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "2. Acknowledge receipt",
+          "agency_action": "2. Ask client to acknowledge receipt",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City Legal Office)"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "5 days and 2 minutes"
+      }
+    },
+    {
+      "id": 3,
+      "service_name": "Request for Legal Opinion",
+      "image": "/assets/document_background/Request for Legal Opinion",
+      "office": "Lipa City Legal Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2G – Government to Government",
+      "who_may_avail": "Lipa City Mayor’s Office, Office of the Sangguniang Panlungsod, other government offices upon endorsement of the City Mayor",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Legal documents for review – 1 original copy",
+          "source": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod or other government offices upon endorsement of the City Mayor"
+        },
+        {
+          "requirement": "Endorsement letter – 1 original copy",
+          "source": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit all relevant documents for consideration",
+          "agency_action": "1.1. Accept documents",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day",
+          "person_responsible": "Administrative Officer V (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit all relevant documents for consideration",
+          "agency_action": "1.2. Send clarificatory questions when necessary",
+          "fees_to_be_paid": "None",
+          "processing_time": "N/A",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit all relevant documents for consideration",
+          "agency_action": "1.3. Research on the legal issues",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 days",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit all relevant documents for consideration",
+          "agency_action": "1.4. Draft the comment to the legal document",
+          "fees_to_be_paid": "None",
+          "processing_time": "N/A",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit all relevant documents for consideration",
+          "agency_action": "1.5. Review and approve the legal document",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day",
+          "person_responsible": "City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "2. Acknowledge receipt",
+          "agency_action": "2. Ask client to acknowledge receipt",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City Legal Office)"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "5 days and 2 minutes"
+      }
+    },
+    {
+      "id": 4,
+      "service_name": "Request for Legal Representation",
+      "image": "/assets/document_background/Request for Legal Representation",
+      "office": "Lipa City Legal Office",
+      "classification": "Highly technical",
+      "type_of_transaction": "G2G – Government to Government",
+      "who_may_avail": "City Government of Lipa, City Government Official involved in any civil action/ special proceedings in his/ her official capacity",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Legal documents related to the case (Documentary, object evidence)",
+          "source": "Lipa City Mayor’s Office or Offices concerned in civil action/ special proceedings"
+        },
+        {
+          "requirement": "Endorsement letter",
+          "source": "Lipa City Mayor’s Office"
+        },
+        {
+          "requirement": "Court (tribunal) notices",
+          "source": "Courts"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit all relevant documents and other pieces of object evidence, as may be applicable, for consideration in the case build up",
+          "agency_action": "1.1. Accept documents",
+          "fees_to_be_paid": "None",
+          "processing_time": "N/A",
+          "person_responsible": "Administrative Officer V (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit all relevant documents and other pieces of object evidence, as may be applicable, for consideration in the case build up",
+          "agency_action": "1.2. Send clarificatory questions when necessary",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit all relevant documents and other pieces of object evidence, as may be applicable, for consideration in the case build up",
+          "agency_action": "1.3. Research on the legal issues",
+          "fees_to_be_paid": "None",
+          "processing_time": "5 days",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit all relevant documents and other pieces of object evidence, as may be applicable, for consideration in the case build up",
+          "agency_action": "1.4. Draft the comment to the legal document",
+          "fees_to_be_paid": "None",
+          "processing_time": "N/A",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit all relevant documents and other pieces of object evidence, as may be applicable, for consideration in the case build up",
+          "agency_action": "1.5. Review and approve the legal document",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 days",
+          "person_responsible": "City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "2. Acknowledge receipt",
+          "agency_action": "2.1. Ask client to acknowledge receipt",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 hour",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "2. Acknowledge receipt",
+          "agency_action": "2.2. Submit pleadings/ motions to courts/ tribunals",
+          "fees_to_be_paid": "Fees to be paid to courts/ tribunals",
+          "processing_time": "1 hour",
+          "person_responsible": "Administrative Aide IV (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "2. Acknowledge receipt",
+          "agency_action": "2.3. Serve copies to other parties to the case",
+          "fees_to_be_paid": "N/A",
+          "processing_time": "N/A",
+          "person_responsible": "Administrative Aide IV (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "3. Attend hearings",
+          "agency_action": "3.1. Attend hearings",
+          "fees_to_be_paid": "None",
+          "processing_time": "Average of 2 hours per hearing",
+          "person_responsible": "City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "3. Attend hearings",
+          "agency_action": "3.2. Draft additional pleadings and motions as the case progress may require",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 days",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer / City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "3. Attend hearings",
+          "agency_action": "3.3. Review the pleadings/ motions",
+          "fees_to_be_paid": "None",
+          "processing_time": "N/A",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer / City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "3. Attend hearings",
+          "agency_action": "3.4. Serve copies to other parties to the case",
+          "fees_to_be_paid": "None",
+          "processing_time": "N/A",
+          "person_responsible": "Administrative Aide VI (Lipa City Legal Office)"
+        }
+      ],
+      "total": {
+        "fees": "Fees to be paid to courts/ tribunals",
+        "processing_time": "11 days and 2 hours (plus average of 2 hours per hearing)"
+      }
+    },
+    {
+      "id": 5,
+      "service_name": "Request for Review of Legal Document",
+      "image": "/assets/document_background/Request for Review of Legal Document",
+      "office": "Lipa City Legal Office",
+      "classification": "Complex",
+      "type_of_transaction": "G2G – Government to Government",
+      "who_may_avail": "Lipa City Mayor’s Office, Office of the Sangguniang Panlungsod, other government offices upon endorsement of the City Mayor or the Office of the Sangguniang Panlungsod",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Legal documents for review – 1 original copy",
+          "source": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod or other government offices upon endorsement of the City Mayor"
+        },
+        {
+          "requirement": "Endorsement letter – 1 original copy",
+          "source": "Lipa City Mayor’s Office or Office of the Sangguniang Panlungsod"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit the legal document to be reviewed, together with the endorsement letter from the Lipa City Mayor’s Office as may be applicable",
+          "agency_action": "1.1. Accept documents",
+          "fees_to_be_paid": "None",
+          "processing_time": "N/A",
+          "person_responsible": "Administrative Officer V (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit the legal document to be reviewed, together with the endorsement letter from the Lipa City Mayor’s Office as may be applicable",
+          "agency_action": "1.2. Send clarificatory questions when necessary",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit the legal document to be reviewed, together with the endorsement letter from the Lipa City Mayor’s Office as may be applicable",
+          "agency_action": "1.3. Research on the legal issues",
+          "fees_to_be_paid": "None",
+          "processing_time": "3 days",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit the legal document to be reviewed, together with the endorsement letter from the Lipa City Mayor’s Office as may be applicable",
+          "agency_action": "1.4. Draft the comment to the legal document",
+          "fees_to_be_paid": "None",
+          "processing_time": "N/A",
+          "person_responsible": "Supervising Administrative Officer / Acting Assistant City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "1. Submit the legal document to be reviewed, together with the endorsement letter from the Lipa City Mayor’s Office as may be applicable",
+          "agency_action": "1.5. Review and approve the legal document",
+          "fees_to_be_paid": "None",
+          "processing_time": "1 day",
+          "person_responsible": "City Legal Officer (Lipa City Legal Office)"
+        },
+        {
+          "client_step": "2. Acknowledge receipt",
+          "agency_action": "2. Ask client to acknowledge receipt",
+          "fees_to_be_paid": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Aide IV (Lipa City Legal Office)"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "5 days and 2 minutes"
+      }
+    }
+  ]
+}
