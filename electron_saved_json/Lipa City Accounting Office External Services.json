@@ -1,0 +1,46 @@
+{
+  "department": "Lipa City Accounting Office",
+  "external_services": [
+    {
+      "service_name": "Review and Approval of Barangay Disbursement Vouchers",
+      "image": "/assets/document_background/Review and Approval of Barangay Disbursement Vouchers",
+      "office": "Lipa City Accounting Office",
+      "classification": "Simplessdsds",
+      "type_of_transaction": "G2G – Government to Government",
+      "who_may_avail": "Barangay Treasurers/ Functionaries",
+      "checklist_of_requirements": [
+        {
+          "requirement": "Disbursement Vouchers and supporting documents – 1 original and 2 photocopies",
+          "source": "Respective barangays"
+        }
+      ],
+      "steps": [
+        {
+          "client_step": "1. Submit complete requirements to the City Accounting Office – Barangay Division for review and approval",
+          "agency_action": "1.1. Receive and check submitted documents for completeness and acknowledge receipt",
+          "fees": "None",
+          "processing_time": "3 minutes",
+          "person_responsible": "Administrative Assistant III (Lipa City Accounting Office)"
+        },
+        {
+          "client_step": "N/A",
+          "agency_action": "1.2. Conduct pre-audit of documents: a. If with incomplete information, return to the bearer; b. If with complete information, sign as preparer and as approver in the Disbursement Voucher",
+          "fees": "None",
+          "processing_time": "2 days",
+          "person_responsible": "Administrative Aide VI, Accountant III (Lipa City Accounting Office)"
+        },
+        {
+          "client_step": "2. Claim the Disbursement Voucher and supporting documents",
+          "agency_action": "2. Release the signed documents",
+          "fees": "None",
+          "processing_time": "2 minutes",
+          "person_responsible": "Administrative Assistant III (Lipa City Accounting Office)"
+        }
+      ],
+      "total": {
+        "fees": "None",
+        "processing_time": "2 days and 5 minutes"
+      }
+    }
+  ]
+}
