@@ -131,34 +131,105 @@ body {
 }
 
 .main {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    padding: 48px 44px;
 }
-.credits {
-    z-index: 1;
 
-    overflow-y: auto;
+.section-label {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin: 0 0 6px;
 }
-.credit-container {
+
+.section-title {
+    font-family: 'RussoOne', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--text);
+    margin: 0 0 40px;
+}
+
+.credits-grid {
     display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: repeat(1, 1fr);
-    gap: 8px;
-
-    padding: 10px;
-
-    background-color: #810000;
-    border: 2px solid var(--gold);
-    border-radius: 13px;
-
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
 }
-.creator-image {
-    grid-column-start: 1;
-    justify-self: center;
+
+.credit-card {
+    background: linear-gradient(160deg, rgba(129,0,0,0.55) 0%, rgba(80,0,0,0.7) 100%);
+    border: 1px solid rgba(200,169,110,0.35);
+    border-radius: 16px;
+    padding: 32px 28px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.25s, transform 0.25s;
 }
-.creator-info {
-    grid-column-start: 2;
-    
+
+.credit-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #c8a96e, transparent);
+    opacity: 0.6;
+}
+
+.credit-card:hover {
+    border-color: rgba(200,169,110,0.7);
+    transform: translateY(-3px);
+}
+
+.card-number {
+    position: absolute;
+    top: 24px; right: 24px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    color: rgba(200,169,110,0.4);
+}
+
+.avatar {
+    width: 64px; height: 64px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #8a0000, #c8a96e);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; font-weight: 700; color: #fff;
+    margin-bottom: 20px;
+    border: 2px solid rgba(200,169,110,0.4);
+    letter-spacing: 0.02em;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.creator-name {
+    font-family: 'RussoOne', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text);
+    margin: 0 0 4px;
+    line-height: 1.2;
+}
+
+.creator-role {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin: 0 0 16px;
+}
+
+.card-divider {
+    height: 1px;
+    background: rgba(200,169,110,0.2);
+    margin-bottom: 16px;
+}
+
+.creator-bio {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13.5px;
+    line-height: 1.65;
+    color: rgba(232,228,220,0.8);
+    margin: 0;
 }

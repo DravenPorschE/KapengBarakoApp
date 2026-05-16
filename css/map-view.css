@@ -437,6 +437,110 @@ html, body {
 }
 
 
+/* Replace your existing .main-keyboard-container */
+.main-keyboard-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.main-keyboard-container.keyboard-visible {
+    transform: translateY(0);
+}
+
+.keyboard-container {
+    width: 100%;
+    background: #3a0000;
+    border-top: 2px solid #c8a96e;
+    padding: 20px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+}
+
+.keyboard-rows {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyboard-keys {
+    background: #1a0000;
+    border: 1px solid #6e0000;
+    border-bottom: 3px solid #000;
+    border-radius: 8px;
+    color: #e8e4dc;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 72px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.1s, transform 0.08s, border-bottom-width 0.08s;
+    user-select: none;
+}
+
+.keyboard-keys:hover {
+    background: #2a0000;
+    border-color: #b10000;
+}
+
+.keyboard-keys:active {
+    transform: translateY(2px);
+    border-bottom-width: 1px;
+    background: #500000;
+}
+
+.action-keys {
+    background: #4a0000;
+    border-color: #c8a96e;
+    border-bottom-color: #1a0000;
+    color: #c8a96e;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 100px;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#keyboard-search {
+    background: #b10000;
+    border-color: #c8a96e;
+    border-bottom-color: #3a0000;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    width: 160px;
+    flex-direction: row;
+    gap: 8px;
+}
+
+#keyboard-search:hover { background: #cc0000; }
+#keyboard-search:active { background: #e00000; }
+
+.space-key {
+    width: 380px;
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgba(200, 169, 110, 0.6);
+    background: #1a0000;
+    border-color: #4a0000;
+    border-bottom-color: #000;
+}
+
 
 @keyframes pulseFill {
   0% {

@@ -3,7 +3,7 @@
   "external_services": [
     {
       "service_name": "Application for Mayor's Clearance",
-      "image": "/assets/document_background/Application for Mayor's Clearance",
+      "image": "/assets/document_background/Application for Mayor’s Clearance",
       "office": "Lipa City Administrators' Office",
       "classification": "Simple",
       "type_of_transaction": "G2C – Government to Citizens",
